@@ -137,6 +137,7 @@ They all come from [Tatoeba](https://tatoeba.org) (CC-BY 2.0 FR), except for one
 |---|---|
 | `benchmark_v0.csv` | **Source of truth.** One row per English source with six Hindi cells. Edit this file and nothing else. |
 | `benchmark_v0_long.csv` | Generated. One row per (item, cell), with pro-drop form, compatible cells and agreement tokens. |
+| `validation/validation_sheet.xlsx` | Shivamm's validation sheet: a verdict for each of the 372 Hindi cells and a source check for each English sentence. |
 | `sources/tatoeba_candidate_pool.tsv` | The 38,658 filtered Tatoeba candidates (the seed pool). |
 | `scripts/build_dataset.py` | Checks the CSV and generates the long CSV. |
 | `scripts/normalize.py` | `normalize_hindi()`: makes spelling variants identical before matching or scoring. |
