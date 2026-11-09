@@ -1,4 +1,4 @@
-# Register × Gender benchmark for English→Hindi (v0)
+# Register × Gender benchmark for English→Hindi (v1)
 
 English leaves the addressee's **register** and **gender** unspecified; Hindi must mark both. This
 benchmark gives every English source sentence all six Hindi translations on the 3 × 2 grid:
@@ -13,15 +13,18 @@ benchmark gives every English source sentence all six Hindi translations on the 
 
 | | core | H2 probe | total |
 |---|---:|---:|---:|
-| English sources | 50 | 12 | 62 |
-| Hindi references (×6) | 300 | 72 | 372 |
-| Generated pro-drop variants | 300 | 72 | 372 |
+| English sources | 138 | 12 | 150 |
+| Hindi references (×6) | 828 | 72 | 900 |
+| Generated pro-drop variants | 828 | 72 | 900 |
 
-Sources: 57 verbatim Tatoeba sentences, 2 adapted from Tatoeba, 3 authored.
+Sources: 133 verbatim Tatoeba sentences, 2 adapted from Tatoeba, 15 authored.
 
 The Hindi references were drafted with an LLM (Claude), and every one is checked by the three
 authors, all native Hindi speakers. `scripts/build_dataset.py` also checks every cell automatically:
 pronoun, agreement endings, minimal pairs and spelling.
+
+Version 0 (the first 62 items) is in the git history at commit `209fe84`. Version 1 keeps those items
+unchanged and adds 88.
 
 ---
 
@@ -35,24 +38,46 @@ The finite element decides the profile:
 
 | profile | core items | register is marked on | gender is marked on | distinct forms without the pronoun | तुम · F example |
 |---|---:|---|---|---:|---|
-| **FUT** (future) | 16 | the verb ending (-एगा / -ओगे / -एँगे) | the **same** ending (-गा / -गी) | 6 of 6 (5 for होना) | जाओगी |
-| **PAST** (perfective, past copula, past progressive/habitual/perfect) | 17 | **number only** (sg vs pl), on the participle | the **same** suffix | **4 of 6** | गई थी |
-| **PRES** (present progressive/habitual/perfect, adjective + copula, सकना) | 17 | the auxiliary है / हो / हैं | the participle or adjective | 6 of 6 | जा रही हो |
+| **FUT** (future; presumptive *must be* with होगा) | 44 | the verb ending (-एगा / -ओगे / -एँगे) | the **same** ending (-गा / -गी) | 6 of 6 (5 for होना and the presumptive) | जाओगी, थक गई होगी |
+| **PAST** (perfective, past copula, past progressive/habitual/perfect, counterfactual) | 48 | **number only** (sg vs pl), on the participle | the **same** suffix | **4 of 6** | गई थी |
+| **PRES** (present progressive/habitual/perfect, adjective + copula, सकना, *about to* with -ने वाला) | 46 | the auxiliary है / हो / हैं | the participle or adjective | 6 of 6 | जा रही हो |
 
 So the profiles differ in exactly the property H3 is about:
 
 - **FUT**: both attributes sit in one synthetic verb form, and every cell stays distinct.
 - **PAST**: both attributes sit in one suffix that carries no person. Without the pronoun, the six
-  cells collapse into four: {तू·M}, {तू·F, तुम·F}, {तुम·M, आप·M}, {आप·F}.
+  cells collapse into four: {तू·M}, {तू·F, तुम·F}, {तुम·M, आप·M}, {आप·F}. Counterfactuals
+  (*अगर तुम वहाँ होती*) have no auxiliary but agree the same way.
 - **PRES**: the attributes sit on different words. For a female addressee the participle (रही, जाती,
   भूखी) is identical in all three registers, and only the auxiliary changes.
 
 The prediction H3 makes is that steering register should hurt gender accuracy more in FUT and PAST
 than in PRES, and most of all for female addressees in PAST, where गई vs गईं is only a nasal.
 
-Core constructions: future 16; perfective 8, past copula 4, past perfect 2, past progressive 2, past
-habitual 1; present progressive 5, present habitual 5, predicate adjective 3, present perfect 2,
-modal सकना 2. The core has 37 questions and 13 statements, and 3 items are negated.
+Core constructions: future 36, presumptive 8; perfective 15, past copula 8, past habitual 8, past
+progressive 8, past perfect 7, counterfactual 2; present habitual 9, present progressive 9, predicate
+adjective 8, present perfect 8, modal सकना 8, prospective 4. The core has 89 questions and 49
+statements, and 16 items are negated.
+
+### Variety beyond the profiles
+
+The items also vary in ways that real MT output does, so that an extractor built on them has to read
+agreement rather than rely on surface habits. The `tags` column marks these features:
+
+| tag | core items | what it means | example |
+|---|---:|---|---|
+| `multi_clause` | 21 | two or more clauses | जब बारिश शुरू हुई, तब क्या तुम घर पर थी? |
+| `multi_site` | 16 | the addressee's agreement sits on two or more separate stretches of words | तुम सोमवार को **आई** और अगले ही दिन फिर **चली गई** |
+| `distractor` | 23 | another word agrees with someone or something else | क्या तुम उस लड़की से मिले जो कल **आई थी**? |
+| `conditional` | 7 | an *if* clause | अगर तुम थकी हुई हो, तो सो सकती हो। |
+| `request` | 6 | a request or invitation | क्या तुम थोड़ा धीरे बोल सकती हो? |
+| `tag_question` | 4 | a statement turned into a question with न | तुम आज आ रही हो न? |
+
+`build_dataset.py` computes `multi_site` from the cells and rejects a wrong tag. In `distractor` items
+a gendered ending that does not belong to the addressee appears in every cell, for example the
+feminine आई थी in a masculine cell. Three items (FUT-31, FUT-34, PST-35) also mark register on a
+possessive or oblique pronoun (तुम्हारी, तुम्हें), so register survives pro-drop there. English sources
+are 2–13 words long (mean 5.4); 26 have 8 words or more.
 
 ### H2 probe: controlled lexical variation
 
@@ -79,16 +104,18 @@ An English source is kept only if its Hindi translation **must** mark both attri
 
 - **"you" is the agreeing subject, and it is singular and unnamed.** Excluded: *you guys*, *both of you*,
   vocatives, names.
-- **No cue to gender or register.** Excluded: *sir, madam, mom, bro*, *he/she*, family terms. H2 cues
-  appear only in the probe.
+- **No cue to the addressee's gender or register.** Excluded: *sir, madam, mom, bro* and other
+  forms of address. H2 cues appear only in the probe. A third person (*he*, *the girl*, *your sister*)
+  is allowed, because it says nothing about the addressee.
 - **No first-person subject.** *I went* would add the speaker's gender as a third attribute.
+  First-person objects (*for me*, *with us*) carry no gender and are allowed.
 - **Nominative agreement survives in Hindi.** The following are excluded because they carry no
   addressee gender:
   - transitive perfectives with ने: *तुमने खाना खाया* agrees with खाना
   - dative subjects: *तुम्हें भूख लगी है*, *तुम्हें पसंद है*, *तुम्हें जाना चाहिए*
   - imperatives: *जाओ*
   - the present copula with an invariant adjective: *तुम तैयार / खुश / सही हो*
-- **Short and conversational:** 2–10 words.
+- **Conversational:** 2–13 words.
 
 Some items still allow a natural Hindi translation that avoids agreement, such as *Are you hungry?* →
 *क्या तुम्हें भूख लगी है?* These items are listed in the `escape_route` column. An MT system that takes
@@ -96,36 +123,46 @@ this route has made a real choice (neutralisation), and the extractor should lab
 
 ### Where the English sentences come from
 
-They all come from [Tatoeba](https://tatoeba.org) (CC-BY 2.0 FR), except for one authored frame.
+They all come from [Tatoeba](https://tatoeba.org) (CC-BY 2.0 FR), except for 15 authored items.
 
-1. `scripts/select_sources.py` filtered all 2,039,120 English sentences in the 2026-10-19 export using
-   the criteria above. That produced **38,658 candidates**, sorted into buckets by profile, in
-   `sources/tatoeba_candidate_pool.tsv`.
-2. Items were then picked by hand from the pool to fill the profile quotas.
-3. Of the 62 items, 59 are in the pool: 57 verbatim and 2 adapted H2 versions. The 3 authored items
-   are frame fr6, because Tatoeba has no profession sentence with agreement.
+1. **v0 (62 items).** `scripts/select_sources.py` filtered all 2,039,120 English sentences in the
+   2026-10-19 export using the criteria above. That produced **38,658 candidates**, sorted into
+   buckets by profile, in `sources/tatoeba_candidate_pool.tsv`. Items were picked by hand from the
+   pool to fill the profile quotas. 59 of the 62 are in the pool (57 verbatim, 2 adapted H2 versions);
+   the 3 authored items are frame fr6, because Tatoeba has no profession sentence with agreement.
+2. **v1 (88 added items, 2026-11-09).** The pool filter is deliberately strict: it drops sentences with
+   *must*, *seem* or *know*, any third person, and anything over 10 words. The new items came from
+   targeted searches of the full English export of 2026-11-09 for the constructions and features above.
+   76 are verbatim Tatoeba sentences; 12 were authored, mostly to get a third person whose agreement
+   differs from the addressee's.
+
+Every Tatoeba item keeps its sentence id in `source_id`.
 
 ---
 
 ## Conventions in the Hindi references
 
-- **Minimal pairs.** The six cells differ only in the pronoun and the agreement endings. Vocabulary
-  stays identical, so there is no added जी and no politer verb for आप. `build_dataset.py` enforces this.
-- **Overt pronoun in every reference.** Pro-drop variants are generated, not written.
+- **Minimal pairs.** The six cells differ only in forms of the pronoun (तू / तुम / आप, and तेरी /
+  तुम्हारी / आपकी where a possessive appears) and the agreement endings. Vocabulary stays identical,
+  so there is no added जी and no politer verb for आप. `build_dataset.py` enforces this.
+- **Exactly one overt subject pronoun per reference.** A second clause drops it, as Hindi normally
+  does (अगर तुम थकी हुई हो, तो सो सकती हो). Pro-drop variants are generated, not written.
 - **Yes/no questions start with क्या.**
 - **Orthography:**
   - गए / गई, not गये / गयी.
   - Chandrabindu where no vowel sign rises above the line (कहाँ, जाएँगे), and anusvara otherwise
     (हैं, नहीं, थीं, गईं).
   - Nukta only on ज़ and फ़.
-  - Feminine plural nasalisation appears once, on the last element: **आप गई थीं**, not गईं थीं.
+  - Feminine plural nasalisation appears once per verb group, on its last element: **आप गई थीं**,
+    not गईं थीं; **आप आईं और चली गईं**.
   - Other spellings, such as आएंगे with a dot, गये, or ज्यादा without a nukta, are equally correct.
     `scripts/normalize.py` treats them as identical, so they never count as errors (see
     [Notes for the extractor](#notes-for-the-extractor)).
 - **तुम + female addressee in PAST items is the one real variation point.**
   - The references use the colloquial **गई / थी**. Tatoeba's own human translation of *Were you
     drinking?* is also *तुम पी रही थी?*
-  - The prescriptive **गईं / थीं** is kept in `tum_f_alt`. It is always the आप · F form with तुम.
+  - The prescriptive **गईं / थीं** is kept in `tum_f_alt`. It is the तुम · F sentence with the
+    आप · F endings.
   - Both forms count as correct.
 - **Everyday Hindustani.** Use common loanwords where they are the everyday word (ट्रेन, जिम, कैशियर).
 
@@ -135,25 +172,26 @@ They all come from [Tatoeba](https://tatoeba.org) (CC-BY 2.0 FR), except for one
 
 | path | what |
 |---|---|
-| `benchmark_v0.csv` | **Source of truth.** One row per English source with six Hindi cells. Edit this file and nothing else. |
-| `benchmark_v0_long.csv` | Generated. One row per (item, cell), with pro-drop form, compatible cells and agreement tokens. |
-| `validation/validation_sheet.xlsx` | Shivamm's validation sheet: a verdict for each of the 372 Hindi cells and a source check for each English sentence. |
-| `sources/tatoeba_candidate_pool.tsv` | The 38,658 filtered Tatoeba candidates (the seed pool). |
+| `benchmark_v1.csv` | **Source of truth.** One row per English source with six Hindi cells. Edit this file and nothing else. |
+| `benchmark_v1_long.csv` | Generated. One row per (item, cell), with pro-drop form, compatible cells and agreement tokens. |
+| `validation/validation_sheet.xlsx` | Shivamm's validation sheet: a verdict for each of the 900 Hindi cells and a source check for each English sentence. Bold marks the words that change across an item's six versions. |
+| `sources/tatoeba_candidate_pool.tsv` | The 38,658 filtered Tatoeba candidates (the v0 seed pool). |
 | `scripts/build_dataset.py` | Checks the CSV and generates the long CSV. |
 | `scripts/normalize.py` | `normalize_hindi()`: makes spelling variants identical before matching or scoring. |
-| `tests/test_normalize.py` | Unit tests for the normaliser. |
+| `tests/` | Unit tests for the normaliser and for the checks in `build_dataset.py`. |
 | `scripts/select_sources.py` | Builds the candidate pool from a Tatoeba export. |
 | `scripts/cocoa_check.py` | Counts CoCoA-MT's register and gender coverage (see [Related data](#related-data)). |
 
-### Schema of `benchmark_v0.csv`
+### Schema of `benchmark_v1.csv`
 
 | column | values |
 |---|---|
 | `id` | `FUT-01`…, `PST-01`…, `PRS-01`… (core); `H2-1F`, `H2-1M`… (probe) |
 | `split` | `core`, `h2_probe` |
 | `profile` / `construction` | `FUT` / `PAST` / `PRES`, and the construction within it (see counts above) |
-| `sentence_type`, `polarity` | `question` / `statement`; `affirmative` / `negative` |
+| `sentence_type`, `polarity` | `question` / `statement`; `affirmative` / `negative` (of the addressee's predicate) |
 | `frame_id`, `cue` | `fr1`–`fr6`; `none` (not in a frame), `neutral`, `fem_stereotype`, `masc_stereotype` |
+| `tags` | any of `multi_clause`, `multi_site`, `distractor`, `conditional`, `request`, `tag_question`, separated by `\|` |
 | `english`, `source`, `source_id` | the source; `tatoeba` / `tatoeba_adapted` / `authored`; Tatoeba sentence id |
 | `tu_m` … `aap_f` | the six Hindi cells |
 | `tum_f_alt` | prescriptive तुम · F form (PAST items only) |
@@ -161,29 +199,29 @@ They all come from [Tatoeba](https://tatoeba.org) (CC-BY 2.0 FR), except for one
 | `tatoeba_existing_hi` | human Hindi translations already on Tatoeba (a "human prior"), if any |
 | `notes` | remarks on the item, such as equally good alternative wordings |
 
-The long file adds the following columns:
+The long file repeats the item columns up to `english` (including `tags`) and adds:
 
 | column | contents |
 |---|---|
 | `cell`, `register`, `gender` | which of the six cells this row is |
 | `hindi` | the reference |
 | `hindi_alt` | the accepted alternative, if any |
-| `hindi_prodrop` | the reference with the pronoun removed |
+| `hindi_prodrop` | the reference with the subject pronoun removed |
 | `prodrop_compatible_cells` | every cell that could have produced that pro-drop string. Example: `tu_f\|tum_f` |
-| `agreement_tokens` | the tokens that vary across cells. Example: `रही\|हो` |
+| `agreement_tokens` | the tokens that vary across cells, excluding forms of the pronoun. Example: `रही\|हो` |
 
 ---
 
 ## Changing and checking the data
 
-- Edit `benchmark_v0.csv` in a text editor such as VS Code, not in Excel: Excel can corrupt Hindi
+- Edit `benchmark_v1.csv` in a text editor such as VS Code, not in Excel: Excel can corrupt Hindi
   text when it saves a CSV.
 - Then run the checks below from this folder until they report 0 errors. They catch typos and
-  regenerate `benchmark_v0_long.csv`. Python 3.9 or newer is enough; there is nothing to install.
+  regenerate `benchmark_v1_long.csv`. Python 3.9 or newer is enough; there is nothing to install.
 
 ```bash
 python3 scripts/build_dataset.py                  # check the data + regenerate the long CSV
-python3 -m unittest discover -s tests             # test the spelling normaliser
+python3 -m unittest discover -s tests             # test the normaliser and the checks
 ```
 
 ---
@@ -191,8 +229,8 @@ python3 -m unittest discover -s tests             # test the spelling normaliser
 ## Notes for the extractor
 
 - **Free gold labels.**
-  - 372 sentences with an overt pronoun.
-  - 372 pro-drop variants, each with `prodrop_compatible_cells`.
+  - 900 sentences with an overt pronoun.
+  - 900 pro-drop variants, each with `prodrop_compatible_cells`.
   - Score the pro-drop tier against that **set**. For a syncretic form such as *क्या ठीक से सोए?*
     (तुम·M or आप·M), the right output is "masculine, register ambiguous between तुम and आप". Guessing
     one register is wrong.
@@ -200,6 +238,12 @@ python3 -m unittest discover -s tests             # test the spelling normaliser
   - `unmarked`: the system took an escape route (dative, genitive or imperative).
   - `mixed`: the register is inconsistent, for example *आप … हो*. This happens in real data. Tatoeba's
     human translations include *आप बाद में समझोगे*.
+- **Only the addressee's agreement counts.** In `distractor` items another word agrees with someone
+  else (जो कल आई थी, अपनी बहन, इतनी देर). The tokens in `agreement_tokens` are the addressee's;
+  a feminine ending elsewhere in a masculine cell is not an error.
+- **Dropped auxiliary.** After नहीं, Hindi (and MT) often drops the present auxiliary
+  (… नहीं रुक सकती). Register is then marked only by number, as in PAST. `notes` flags the items
+  where this is likely.
 - **Normalise spelling first.** Run `normalize_hindi()` from `scripts/normalize.py` on **both** the MT
   output and the references before matching or scoring.
   - It makes these identical: dot and chandrabindu (आएंगे / आएँगे), गये / गए, nukta (ज़्यादा / ज्यादा),
@@ -207,6 +251,8 @@ python3 -m unittest discover -s tests             # test the spelling normaliser
   - It never merges forms that differ in grammar (गई / गईं, है / हैं).
   - `tests/test_normalize.py` tests it, and `build_dataset.py` checks that it never merges two cells
     or two pro-drop forms of any item.
+- **Splitting for training.** Keep all six cells and pro-drop variants of an item on the same side of
+  a train/test split; otherwise the test set contains near-copies of training sentences.
 - **External test set.** CoCoA-MT's en-hi test split has 272 segments with masculine and feminine
   references for तुम / आप. In about 4 in 10 of them the feminine version changes the *speaker's*
   gender, so keep only those where it changes the addressee's (see the next section).
@@ -235,9 +281,11 @@ in 59: a human reference point for the default register (H1).
 
 ## Limitations
 
-- **Small analysis cells.** The 50 core items give 16–17 per profile, which shows only large
-  differences between profiles. Most constructions have 1–5 items, so analyse by profile, not by
-  construction.
+- **Analysis cells.** The 138 core items give 44–48 per profile, so a proportion measured on one
+  profile is accurate to about ±14 points (95% confidence). Constructions have 2–36 items, so analyse
+  by profile, not by construction.
+- **Distractor items name a third person** (a girl, your sister). That could nudge an MT system's
+  choice of addressee gender. The `distractor` tag lets analyses exclude them.
 - **Two genders only.** Hindi grammatical gender is binary. A non-binary addressee has no
   grammaticalised form, which is outside the scope of this benchmark.
 - **Standard Hindi only.** Register use varies by region. Examples: आप + हो in Mumbai, and तू between

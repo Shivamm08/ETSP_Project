@@ -28,14 +28,25 @@ REGISTERS = ("tu", "tum", "aap")
 GENDERS = ("m", "f")
 CELLS = tuple(f"{r}_{g}" for r in REGISTERS for g in GENDERS)
 PRONOUN = {"tu": "तू", "tum": "तुम", "aap": "आप"}
+# Every form of the second-person pronoun that marks register (subject, ergative, oblique, possessive).
+PRONOUN_FORMS = {
+    "tu": {"तू", "तूने", "तुझे", "तुझको", "तुझसे", "तुझपर", "तेरा", "तेरी", "तेरे"},
+    "tum": {"तुम", "तुमने", "तुम्हें", "तुमको", "तुमसे", "तुमपर", "तुम्हारा", "तुम्हारी", "तुम्हारे"},
+    "aap": {"आप", "आपने", "आपको", "आपसे", "आपपर", "आपका", "आपकी", "आपके"},
+}
 
 PROFILES = {"FUT", "PAST", "PRES"}
 CONSTRUCTIONS = {
-    "FUT": {"future"},
-    "PAST": {"perfective", "past_perfect", "past_copula", "past_progressive", "past_habitual"},
-    "PRES": {"present_progressive", "present_habitual", "present_perfect", "predicate_adjective", "modal_sakna"},
+    "FUT": {"future", "presumptive"},
+    "PAST": {"perfective", "past_perfect", "past_copula", "past_progressive", "past_habitual", "counterfactual"},
+    "PRES": {"present_progressive", "present_habitual", "present_perfect", "predicate_adjective", "modal_sakna",
+             "prospective"},
 }
 CUES = {"none", "neutral", "fem_stereotype", "masc_stereotype"}
+SENTENCE_TYPES = {"question", "statement"}
+POLARITIES = {"affirmative", "negative"}
+SOURCES = {"tatoeba", "tatoeba_adapted", "authored"}
+TAGS = {"conditional", "multi_clause", "multi_site", "distractor", "request", "tag_question"}
 REQUIRED = ["id", "split", "profile", "construction", "sentence_type", "polarity", "cue", "english", "source", *CELLS]
 
 PUNCT = "?।!.,"
@@ -119,17 +130,23 @@ def check_schema(item: dict[str, str], rep: Report) -> None:
         rep.error(iid, f"unknown cue {item['cue']}")
     if item["cue"] != "none" and not item.get("frame_id"):
         rep.error(iid, "cued item without frame_id")
+    for col, allowed in (("sentence_type", SENTENCE_TYPES), ("polarity", POLARITIES), ("source", SOURCES)):
+        if item[col] not in allowed:
+            rep.error(iid, f"unknown {col} {item[col]}")
+    if item["source"] != "authored" and not item.get("source_id"):
+        rep.error(iid, "Tatoeba item without source_id")
 
 
 def check_pronouns(item: dict[str, str], rep: Report) -> None:
     for cell in CELLS:
         toks = tokens(item[cell])
-        own = PRONOUN[cell.split("_")[0]]
-        others = [p for p in PRONOUN.values() if p != own and p in toks]
+        reg = cell.split("_")[0]
+        own = PRONOUN[reg]
+        others = [t for t in toks if any(t in PRONOUN_FORMS[r] for r in REGISTERS if r != reg)]
         if toks.count(own) != 1:
             rep.error(item["id"], f"{cell}: expected exactly one overt '{own}', got {toks.count(own)}")
         if others:
-            rep.error(item["id"], f"{cell}: contains other register pronoun(s) {others}")
+            rep.error(item["id"], f"{cell}: contains another register's pronoun form(s) {others}")
 
 
 def check_minimal_pairs(item: dict[str, str], rep: Report) -> None:
@@ -143,25 +160,32 @@ def check_minimal_pairs(item: dict[str, str], rep: Report) -> None:
         column = {c: toks[c][i] for c in CELLS}
         if len(set(column.values())) == 1:
             continue
-        if set(column.values()) <= set(PRONOUN.values()):
+        if all(column[c] in PRONOUN_FORMS[c.split("_")[0]] for c in CELLS):
             continue
         if len({stem(t) for t in column.values()}) != 1:
             rep.error(item["id"], f"position {i} differs beyond agreement morphology: {sorted(set(column.values()))}")
 
 
 def check_paradigm(item: dict[str, str], rep: Report) -> None:
-    """Check the rightmost agreeing token against the expected paradigm for the profile."""
+    """Check the last agreeing token (the addressee's finite element) against the paradigm for the profile.
+
+    Agreeing tokens are the ones that vary across the six cells, so a third person's verb after the
+    addressee's (… जो कल आई थी) or a tag (… हो न?) does not count.
+    """
     prof, iid = item["profile"], item["id"]
+    if len({len(tokens(item[c])) for c in CELLS}) != 1:
+        return  # reported by check_minimal_pairs
+    pos = agreement_positions(item)
+    if not pos:
+        rep.error(iid, "nothing but the pronoun varies across the cells")
+        return
     for cell in CELLS:
         reg, gen = cell.split("_")
         toks = tokens(item[cell])
-        if not toks:
-            continue
-        last = toks[-1]
+        last = toks[pos[-1]]
         if prof == "FUT":
-            fut = [t for t in toks if t.endswith(("गा", "गी", "गे"))]
-            if not fut or not fut[-1].endswith(FUT_ENDINGS[cell]):
-                rep.error(iid, f"{cell}: future verb {fut[-1:] or '-'} does not end in {FUT_ENDINGS[cell]}")
+            if not last.endswith(FUT_ENDINGS[cell]):
+                rep.error(iid, f"{cell}: future verb '{last}' does not end in {FUT_ENDINGS[cell]}")
         elif prof == "PAST":
             ok = {
                 "tu_m": is_masc_sg(last), "tu_f": is_fem(last) and not is_fem_pl(last),
@@ -170,14 +194,15 @@ def check_paradigm(item: dict[str, str], rep: Report) -> None:
             }[cell]
             if not ok:
                 rep.error(iid, f"{cell}: final agreeing token '{last}' has the wrong ending")
-            # Feminine plural nasalisation surfaces once, on the last element only (गई थीं, not गईं थीं).
-            if is_fem_pl(last) and len(toks) > 1 and is_fem_pl(toks[-2]) and toks[-2] not in NASAL_INVARIANT:
-                rep.error(iid, f"{cell}: nasalisation doubled on '{toks[-2]} {last}'")
+            # Feminine plural nasalisation surfaces once per verb group, on its last element (गई थीं, not गईं थीं).
+            for a, b in zip(pos, pos[1:]):
+                if b == a + 1 and is_fem_pl(toks[a]) and is_fem_pl(toks[b]) and toks[a] not in NASAL_INVARIANT:
+                    rep.error(iid, f"{cell}: nasalisation doubled on '{toks[a]} {toks[b]}'")
         elif prof == "PRES":
             if last != PRES_AUX[reg]:
                 rep.error(iid, f"{cell}: auxiliary '{last}' should be '{PRES_AUX[reg]}'")
-            if len(toks) >= 2:
-                part = toks[-2]
+            if len(pos) >= 2:
+                part = toks[pos[-2]]
                 ok = is_fem(part) if gen == "f" else (is_masc_sg(part) if reg == "tu" else is_masc_pl(part))
                 if not ok:
                     rep.error(iid, f"{cell}: participle/adjective '{part}' does not agree")
@@ -185,10 +210,49 @@ def check_paradigm(item: dict[str, str], rep: Report) -> None:
     if prof == "PAST":
         if not alt:
             rep.warn(iid, "PAST item without tum_f_alt (prescriptive गईं/थीं form)")
-        elif alt.replace("तुम", "आप", 1) != item["aap_f"]:
-            rep.error(iid, "tum_f_alt should equal aap_f with आप -> तुम")
+        else:
+            agr = set(pos)
+            tum_f, aap_f = tokens(item["tum_f"]), tokens(item["aap_f"])
+            want = [aap_f[i] if i in agr else t for i, t in enumerate(tum_f)]
+            if tokens(alt) != want or alt[-1:] != item["tum_f"][-1:]:
+                rep.error(iid, "tum_f_alt should be tum_f with the आप · F agreement endings")
     elif alt:
         rep.warn(iid, "tum_f_alt is only expected for PAST items")
+
+
+def check_agreement(item: dict[str, str], rep: Report) -> None:
+    """Every agreeing token must fit its cell: an auxiliary the cell's register (है / हो / हैं), anything else
+    the cell's gender (and number, if masculine).
+
+    Only आप · F has the nasalised plural (गईं, थीं); तू · F and the primary तुम · F use गई, थी.
+    """
+    pos = agreement_positions(item)
+    for cell in CELLS:
+        reg, gen = cell.split("_")
+        toks = tokens(item[cell])
+        for i in pos:
+            t = toks[i]
+            if t in PRES_AUX.values():
+                if t != PRES_AUX[reg]:
+                    rep.error(item["id"], f"{cell}: auxiliary '{t}' should be '{PRES_AUX[reg]}'")
+                continue
+            if gen == "f":
+                ok = (is_fem(t) or is_fem_pl(t)) and not (reg != "aap" and is_fem_pl(t))
+            else:
+                ok = is_masc_sg(t) if reg == "tu" else is_masc_pl(t)
+            if not ok:
+                rep.error(item["id"], f"{cell}: agreeing token '{t}' does not fit {cell}")
+
+
+def check_tags(item: dict[str, str], rep: Report) -> None:
+    tags = {t for t in item.get("tags", "").split("|") if t}
+    if tags - TAGS:
+        rep.error(item["id"], f"unknown tag(s) {sorted(tags - TAGS)}")
+    pos = agreement_positions(item)
+    stretches = sum(1 for k, i in enumerate(pos) if k == 0 or i != pos[k - 1] + 1)
+    if (stretches >= 2) != ("multi_site" in tags):
+        rep.error(item["id"], f"agreement sits in {stretches} separate stretch(es) of words: "
+                              f"multi_site must be tagged exactly when there are two or more")
 
 
 def check_orthography(item: dict[str, str], rep: Report) -> None:
@@ -237,14 +301,21 @@ def prodrop(sentence: str, pronoun: str) -> str:
     return " ".join(out)
 
 
-def agreement_tokens(item: dict[str, str]) -> dict[str, list[str]]:
-    """Tokens (excluding the pronoun) that vary across the six cells, i.e. carry agreement."""
+def agreement_positions(item: dict[str, str]) -> list[int]:
+    """Token positions that vary across the six cells and are not a form of the pronoun (तुम्हारी, आपको ...)."""
     toks = {c: tokens(item[c]) for c in CELLS}
     n = len(toks["tu_m"])
     if any(len(t) != n for t in toks.values()):
-        return {c: [] for c in CELLS}
-    varying = [i for i in range(n) if len({toks[c][i] for c in CELLS}) > 1 and toks["tu_m"][i] != PRONOUN["tu"]]
-    return {c: [toks[c][i] for i in varying] for c in CELLS}
+        return []
+    return [i for i in range(n)
+            if len({toks[c][i] for c in CELLS}) > 1
+            and not all(toks[c][i] in PRONOUN_FORMS[c.split("_")[0]] for c in CELLS)]
+
+
+def agreement_tokens(item: dict[str, str]) -> dict[str, list[str]]:
+    """Tokens (excluding forms of the pronoun) that vary across the six cells, i.e. carry agreement."""
+    pos = agreement_positions(item)
+    return {c: [tokens(item[c])[i] for i in pos] for c in CELLS}
 
 
 def compatible_cells(item: dict[str, str]) -> dict[str, str]:
@@ -262,7 +333,7 @@ def compatible_cells(item: dict[str, str]) -> dict[str, str]:
 
 
 def write_long(items: list[dict[str, str]], path: Path) -> None:
-    meta = ["id", "split", "profile", "construction", "sentence_type", "polarity", "frame_id", "cue", "english"]
+    meta = ["id", "split", "profile", "construction", "sentence_type", "polarity", "frame_id", "cue", "tags", "english"]
     with path.open("w", encoding="utf-8", newline="") as fh:
         w = csv.writer(fh)
         w.writerow([*meta, "cell", "register", "gender", "hindi", "hindi_alt", "hindi_prodrop",
@@ -282,7 +353,10 @@ def summarize(items: list[dict[str, str]]) -> str:
     c_prof = Counter((it["split"], it["profile"]) for it in items)
     c_cons = Counter(it["construction"] for it in items if it["split"] == "core")
     c_type = Counter(it["sentence_type"] for it in items if it["split"] == "core")
+    c_pol = Counter(it["polarity"] for it in items if it["split"] == "core")
+    c_tags = Counter(t for it in items if it["split"] == "core" for t in it.get("tags", "").split("|") if t)
     c_src = Counter(it["source"] for it in items)
+    words = [len(it["english"].split()) for it in items]
     distinct = defaultdict(list)
     for it in items:
         distinct[it["profile"]].append(len({prodrop(it[c], PRONOUN[c.split("_")[0]]) for c in CELLS}))
@@ -290,7 +364,10 @@ def summarize(items: list[dict[str, str]]) -> str:
         f"items: {len(items)} {dict(c_split)}  ->  Hindi cells: {len(items) * 6}",
         "core by profile: " + ", ".join(f"{p}={c_prof[('core', p)]}" for p in ("FUT", "PAST", "PRES")),
         "core constructions: " + ", ".join(f"{k}={v}" for k, v in sorted(c_cons.items())),
-        f"core sentence types: {dict(c_type)}   sources: {dict(c_src)}",
+        f"core sentence types: {dict(c_type)}   polarity: {dict(c_pol)}   sources: {dict(c_src)}",
+        "core tags: " + ", ".join(f"{k}={v}" for k, v in sorted(c_tags.items())),
+        f"English length: {min(words)}-{max(words)} words, mean {sum(words) / len(words):.1f}, "
+        f"{sum(w >= 8 for w in words)} items with 8 or more",
         "distinct pro-drop surface forms per item (6 = no syncretism): "
         + ", ".join(f"{p}: {Counter(v).most_common()}" for p, v in sorted(distinct.items())),
     ]
@@ -300,7 +377,7 @@ def summarize(items: list[dict[str, str]]) -> str:
 def main(argv: list[str] | None = None) -> int:
     root = Path(__file__).resolve().parent.parent
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--input", type=Path, default=root / "benchmark_v0.csv")
+    ap.add_argument("--input", type=Path, default=root / "benchmark_v1.csv")
     ap.add_argument("--long-output", type=Path, default=None)
     ap.add_argument("--check-only", action="store_true")
     args = ap.parse_args(argv)
@@ -316,6 +393,8 @@ def main(argv: list[str] | None = None) -> int:
         check_pronouns(it, rep)
         check_minimal_pairs(it, rep)
         check_paradigm(it, rep)
+        check_agreement(it, rep)
+        check_tags(it, rep)
         check_orthography(it, rep)
         check_normalisation(it, rep)
     check_frames(items, rep)

@@ -1,0 +1,901 @@
+id,split,profile,construction,sentence_type,polarity,frame_id,cue,tags,english,cell,register,gender,hindi,hindi_alt,hindi_prodrop,prodrop_compatible_cells,agreement_tokens
+FUT-01,core,FUT,future,question,affirmative,,none,,When will you come back?,tu_m,tu,M,तू कब वापस आएगा?,,कब वापस आएगा?,tu_m,आएगा
+FUT-01,core,FUT,future,question,affirmative,,none,,When will you come back?,tu_f,tu,F,तू कब वापस आएगी?,,कब वापस आएगी?,tu_f,आएगी
+FUT-01,core,FUT,future,question,affirmative,,none,,When will you come back?,tum_m,tum,M,तुम कब वापस आओगे?,,कब वापस आओगे?,tum_m,आओगे
+FUT-01,core,FUT,future,question,affirmative,,none,,When will you come back?,tum_f,tum,F,तुम कब वापस आओगी?,,कब वापस आओगी?,tum_f,आओगी
+FUT-01,core,FUT,future,question,affirmative,,none,,When will you come back?,aap_m,aap,M,आप कब वापस आएँगे?,,कब वापस आएँगे?,aap_m,आएँगे
+FUT-01,core,FUT,future,question,affirmative,,none,,When will you come back?,aap_f,aap,F,आप कब वापस आएँगी?,,कब वापस आएँगी?,aap_f,आएँगी
+FUT-02,core,FUT,future,question,affirmative,,none,,Where will you sleep?,tu_m,tu,M,तू कहाँ सोएगा?,,कहाँ सोएगा?,tu_m,सोएगा
+FUT-02,core,FUT,future,question,affirmative,,none,,Where will you sleep?,tu_f,tu,F,तू कहाँ सोएगी?,,कहाँ सोएगी?,tu_f,सोएगी
+FUT-02,core,FUT,future,question,affirmative,,none,,Where will you sleep?,tum_m,tum,M,तुम कहाँ सोओगे?,,कहाँ सोओगे?,tum_m,सोओगे
+FUT-02,core,FUT,future,question,affirmative,,none,,Where will you sleep?,tum_f,tum,F,तुम कहाँ सोओगी?,,कहाँ सोओगी?,tum_f,सोओगी
+FUT-02,core,FUT,future,question,affirmative,,none,,Where will you sleep?,aap_m,aap,M,आप कहाँ सोएँगे?,,कहाँ सोएँगे?,aap_m,सोएँगे
+FUT-02,core,FUT,future,question,affirmative,,none,,Where will you sleep?,aap_f,aap,F,आप कहाँ सोएँगी?,,कहाँ सोएँगी?,aap_f,सोएँगी
+FUT-03,core,FUT,future,question,affirmative,,none,,Will you go by train?,tu_m,tu,M,क्या तू ट्रेन से जाएगा?,,क्या ट्रेन से जाएगा?,tu_m,जाएगा
+FUT-03,core,FUT,future,question,affirmative,,none,,Will you go by train?,tu_f,tu,F,क्या तू ट्रेन से जाएगी?,,क्या ट्रेन से जाएगी?,tu_f,जाएगी
+FUT-03,core,FUT,future,question,affirmative,,none,,Will you go by train?,tum_m,tum,M,क्या तुम ट्रेन से जाओगे?,,क्या ट्रेन से जाओगे?,tum_m,जाओगे
+FUT-03,core,FUT,future,question,affirmative,,none,,Will you go by train?,tum_f,tum,F,क्या तुम ट्रेन से जाओगी?,,क्या ट्रेन से जाओगी?,tum_f,जाओगी
+FUT-03,core,FUT,future,question,affirmative,,none,,Will you go by train?,aap_m,aap,M,क्या आप ट्रेन से जाएँगे?,,क्या ट्रेन से जाएँगे?,aap_m,जाएँगे
+FUT-03,core,FUT,future,question,affirmative,,none,,Will you go by train?,aap_f,aap,F,क्या आप ट्रेन से जाएँगी?,,क्या ट्रेन से जाएँगी?,aap_f,जाएँगी
+FUT-04,core,FUT,future,question,affirmative,,none,,What will you do now?,tu_m,tu,M,अब तू क्या करेगा?,,अब क्या करेगा?,tu_m,करेगा
+FUT-04,core,FUT,future,question,affirmative,,none,,What will you do now?,tu_f,tu,F,अब तू क्या करेगी?,,अब क्या करेगी?,tu_f,करेगी
+FUT-04,core,FUT,future,question,affirmative,,none,,What will you do now?,tum_m,tum,M,अब तुम क्या करोगे?,,अब क्या करोगे?,tum_m,करोगे
+FUT-04,core,FUT,future,question,affirmative,,none,,What will you do now?,tum_f,tum,F,अब तुम क्या करोगी?,,अब क्या करोगी?,tum_f,करोगी
+FUT-04,core,FUT,future,question,affirmative,,none,,What will you do now?,aap_m,aap,M,अब आप क्या करेंगे?,,अब क्या करेंगे?,aap_m,करेंगे
+FUT-04,core,FUT,future,question,affirmative,,none,,What will you do now?,aap_f,aap,F,अब आप क्या करेंगी?,,अब क्या करेंगी?,aap_f,करेंगी
+FUT-05,core,FUT,future,question,affirmative,,none,,Where will you go?,tu_m,tu,M,तू कहाँ जाएगा?,,कहाँ जाएगा?,tu_m,जाएगा
+FUT-05,core,FUT,future,question,affirmative,,none,,Where will you go?,tu_f,tu,F,तू कहाँ जाएगी?,,कहाँ जाएगी?,tu_f,जाएगी
+FUT-05,core,FUT,future,question,affirmative,,none,,Where will you go?,tum_m,tum,M,तुम कहाँ जाओगे?,,कहाँ जाओगे?,tum_m,जाओगे
+FUT-05,core,FUT,future,question,affirmative,,none,,Where will you go?,tum_f,tum,F,तुम कहाँ जाओगी?,,कहाँ जाओगी?,tum_f,जाओगी
+FUT-05,core,FUT,future,question,affirmative,,none,,Where will you go?,aap_m,aap,M,आप कहाँ जाएँगे?,,कहाँ जाएँगे?,aap_m,जाएँगे
+FUT-05,core,FUT,future,question,affirmative,,none,,Where will you go?,aap_f,aap,F,आप कहाँ जाएँगी?,,कहाँ जाएँगी?,aap_f,जाएँगी
+FUT-06,core,FUT,future,statement,affirmative,,none,,You'll understand later.,tu_m,tu,M,तू बाद में समझेगा।,,बाद में समझेगा।,tu_m,समझेगा
+FUT-06,core,FUT,future,statement,affirmative,,none,,You'll understand later.,tu_f,tu,F,तू बाद में समझेगी।,,बाद में समझेगी।,tu_f,समझेगी
+FUT-06,core,FUT,future,statement,affirmative,,none,,You'll understand later.,tum_m,tum,M,तुम बाद में समझोगे।,,बाद में समझोगे।,tum_m,समझोगे
+FUT-06,core,FUT,future,statement,affirmative,,none,,You'll understand later.,tum_f,tum,F,तुम बाद में समझोगी।,,बाद में समझोगी।,tum_f,समझोगी
+FUT-06,core,FUT,future,statement,affirmative,,none,,You'll understand later.,aap_m,aap,M,आप बाद में समझेंगे।,,बाद में समझेंगे।,aap_m,समझेंगे
+FUT-06,core,FUT,future,statement,affirmative,,none,,You'll understand later.,aap_f,aap,F,आप बाद में समझेंगी।,,बाद में समझेंगी।,aap_f,समझेंगी
+FUT-07,core,FUT,future,statement,affirmative,,none,,You'll learn a lot.,tu_m,tu,M,तू बहुत कुछ सीखेगा।,,बहुत कुछ सीखेगा।,tu_m,सीखेगा
+FUT-07,core,FUT,future,statement,affirmative,,none,,You'll learn a lot.,tu_f,tu,F,तू बहुत कुछ सीखेगी।,,बहुत कुछ सीखेगी।,tu_f,सीखेगी
+FUT-07,core,FUT,future,statement,affirmative,,none,,You'll learn a lot.,tum_m,tum,M,तुम बहुत कुछ सीखोगे।,,बहुत कुछ सीखोगे।,tum_m,सीखोगे
+FUT-07,core,FUT,future,statement,affirmative,,none,,You'll learn a lot.,tum_f,tum,F,तुम बहुत कुछ सीखोगी।,,बहुत कुछ सीखोगी।,tum_f,सीखोगी
+FUT-07,core,FUT,future,statement,affirmative,,none,,You'll learn a lot.,aap_m,aap,M,आप बहुत कुछ सीखेंगे।,,बहुत कुछ सीखेंगे।,aap_m,सीखेंगे
+FUT-07,core,FUT,future,statement,affirmative,,none,,You'll learn a lot.,aap_f,aap,F,आप बहुत कुछ सीखेंगी।,,बहुत कुछ सीखेंगी।,aap_f,सीखेंगी
+FUT-08,core,FUT,future,question,affirmative,,none,,How long will you stay here?,tu_m,tu,M,तू यहाँ कब तक रहेगा?,,यहाँ कब तक रहेगा?,tu_m,रहेगा
+FUT-08,core,FUT,future,question,affirmative,,none,,How long will you stay here?,tu_f,tu,F,तू यहाँ कब तक रहेगी?,,यहाँ कब तक रहेगी?,tu_f,रहेगी
+FUT-08,core,FUT,future,question,affirmative,,none,,How long will you stay here?,tum_m,tum,M,तुम यहाँ कब तक रहोगे?,,यहाँ कब तक रहोगे?,tum_m,रहोगे
+FUT-08,core,FUT,future,question,affirmative,,none,,How long will you stay here?,tum_f,tum,F,तुम यहाँ कब तक रहोगी?,,यहाँ कब तक रहोगी?,tum_f,रहोगी
+FUT-08,core,FUT,future,question,affirmative,,none,,How long will you stay here?,aap_m,aap,M,आप यहाँ कब तक रहेंगे?,,यहाँ कब तक रहेंगे?,aap_m,रहेंगे
+FUT-08,core,FUT,future,question,affirmative,,none,,How long will you stay here?,aap_f,aap,F,आप यहाँ कब तक रहेंगी?,,यहाँ कब तक रहेंगी?,aap_f,रहेंगी
+FUT-09,core,FUT,future,question,affirmative,,none,,Will you be home tonight?,tu_m,tu,M,क्या तू आज रात घर पर होगा?,,क्या आज रात घर पर होगा?,tu_m,होगा
+FUT-09,core,FUT,future,question,affirmative,,none,,Will you be home tonight?,tu_f,tu,F,क्या तू आज रात घर पर होगी?,,क्या आज रात घर पर होगी?,tu_f|tum_f,होगी
+FUT-09,core,FUT,future,question,affirmative,,none,,Will you be home tonight?,tum_m,tum,M,क्या तुम आज रात घर पर होगे?,,क्या आज रात घर पर होगे?,tum_m,होगे
+FUT-09,core,FUT,future,question,affirmative,,none,,Will you be home tonight?,tum_f,tum,F,क्या तुम आज रात घर पर होगी?,,क्या आज रात घर पर होगी?,tu_f|tum_f,होगी
+FUT-09,core,FUT,future,question,affirmative,,none,,Will you be home tonight?,aap_m,aap,M,क्या आप आज रात घर पर होंगे?,,क्या आज रात घर पर होंगे?,aap_m,होंगे
+FUT-09,core,FUT,future,question,affirmative,,none,,Will you be home tonight?,aap_f,aap,F,क्या आप आज रात घर पर होंगी?,,क्या आज रात घर पर होंगी?,aap_f,होंगी
+FUT-10,core,FUT,future,question,affirmative,,none,request,Will you help me?,tu_m,tu,M,क्या तू मेरी मदद करेगा?,,क्या मेरी मदद करेगा?,tu_m,करेगा
+FUT-10,core,FUT,future,question,affirmative,,none,request,Will you help me?,tu_f,tu,F,क्या तू मेरी मदद करेगी?,,क्या मेरी मदद करेगी?,tu_f,करेगी
+FUT-10,core,FUT,future,question,affirmative,,none,request,Will you help me?,tum_m,tum,M,क्या तुम मेरी मदद करोगे?,,क्या मेरी मदद करोगे?,tum_m,करोगे
+FUT-10,core,FUT,future,question,affirmative,,none,request,Will you help me?,tum_f,tum,F,क्या तुम मेरी मदद करोगी?,,क्या मेरी मदद करोगी?,tum_f,करोगी
+FUT-10,core,FUT,future,question,affirmative,,none,request,Will you help me?,aap_m,aap,M,क्या आप मेरी मदद करेंगे?,,क्या मेरी मदद करेंगे?,aap_m,करेंगे
+FUT-10,core,FUT,future,question,affirmative,,none,request,Will you help me?,aap_f,aap,F,क्या आप मेरी मदद करेंगी?,,क्या मेरी मदद करेंगी?,aap_f,करेंगी
+FUT-11,core,FUT,future,question,affirmative,,none,,What time will you leave?,tu_m,tu,M,तू कितने बजे निकलेगा?,,कितने बजे निकलेगा?,tu_m,निकलेगा
+FUT-11,core,FUT,future,question,affirmative,,none,,What time will you leave?,tu_f,tu,F,तू कितने बजे निकलेगी?,,कितने बजे निकलेगी?,tu_f,निकलेगी
+FUT-11,core,FUT,future,question,affirmative,,none,,What time will you leave?,tum_m,tum,M,तुम कितने बजे निकलोगे?,,कितने बजे निकलोगे?,tum_m,निकलोगे
+FUT-11,core,FUT,future,question,affirmative,,none,,What time will you leave?,tum_f,tum,F,तुम कितने बजे निकलोगी?,,कितने बजे निकलोगी?,tum_f,निकलोगी
+FUT-11,core,FUT,future,question,affirmative,,none,,What time will you leave?,aap_m,aap,M,आप कितने बजे निकलेंगे?,,कितने बजे निकलेंगे?,aap_m,निकलेंगे
+FUT-11,core,FUT,future,question,affirmative,,none,,What time will you leave?,aap_f,aap,F,आप कितने बजे निकलेंगी?,,कितने बजे निकलेंगी?,aap_f,निकलेंगी
+FUT-12,core,FUT,future,question,negative,,none,request,Won't you come with us?,tu_m,tu,M,क्या तू हमारे साथ नहीं चलेगा?,,क्या हमारे साथ नहीं चलेगा?,tu_m,चलेगा
+FUT-12,core,FUT,future,question,negative,,none,request,Won't you come with us?,tu_f,tu,F,क्या तू हमारे साथ नहीं चलेगी?,,क्या हमारे साथ नहीं चलेगी?,tu_f,चलेगी
+FUT-12,core,FUT,future,question,negative,,none,request,Won't you come with us?,tum_m,tum,M,क्या तुम हमारे साथ नहीं चलोगे?,,क्या हमारे साथ नहीं चलोगे?,tum_m,चलोगे
+FUT-12,core,FUT,future,question,negative,,none,request,Won't you come with us?,tum_f,tum,F,क्या तुम हमारे साथ नहीं चलोगी?,,क्या हमारे साथ नहीं चलोगी?,tum_f,चलोगी
+FUT-12,core,FUT,future,question,negative,,none,request,Won't you come with us?,aap_m,aap,M,क्या आप हमारे साथ नहीं चलेंगे?,,क्या हमारे साथ नहीं चलेंगे?,aap_m,चलेंगे
+FUT-12,core,FUT,future,question,negative,,none,request,Won't you come with us?,aap_f,aap,F,क्या आप हमारे साथ नहीं चलेंगी?,,क्या हमारे साथ नहीं चलेंगी?,aap_f,चलेंगी
+FUT-13,core,FUT,future,statement,affirmative,,none,,You'll get tired.,tu_m,tu,M,तू थक जाएगा।,,थक जाएगा।,tu_m,जाएगा
+FUT-13,core,FUT,future,statement,affirmative,,none,,You'll get tired.,tu_f,tu,F,तू थक जाएगी।,,थक जाएगी।,tu_f,जाएगी
+FUT-13,core,FUT,future,statement,affirmative,,none,,You'll get tired.,tum_m,tum,M,तुम थक जाओगे।,,थक जाओगे।,tum_m,जाओगे
+FUT-13,core,FUT,future,statement,affirmative,,none,,You'll get tired.,tum_f,tum,F,तुम थक जाओगी।,,थक जाओगी।,tum_f,जाओगी
+FUT-13,core,FUT,future,statement,affirmative,,none,,You'll get tired.,aap_m,aap,M,आप थक जाएँगे।,,थक जाएँगे।,aap_m,जाएँगे
+FUT-13,core,FUT,future,statement,affirmative,,none,,You'll get tired.,aap_f,aap,F,आप थक जाएँगी।,,थक जाएँगी।,aap_f,जाएँगी
+FUT-14,core,FUT,future,statement,negative,,none,,You won't win.,tu_m,tu,M,तू नहीं जीतेगा।,,नहीं जीतेगा।,tu_m,जीतेगा
+FUT-14,core,FUT,future,statement,negative,,none,,You won't win.,tu_f,tu,F,तू नहीं जीतेगी।,,नहीं जीतेगी।,tu_f,जीतेगी
+FUT-14,core,FUT,future,statement,negative,,none,,You won't win.,tum_m,tum,M,तुम नहीं जीतोगे।,,नहीं जीतोगे।,tum_m,जीतोगे
+FUT-14,core,FUT,future,statement,negative,,none,,You won't win.,tum_f,tum,F,तुम नहीं जीतोगी।,,नहीं जीतोगी।,tum_f,जीतोगी
+FUT-14,core,FUT,future,statement,negative,,none,,You won't win.,aap_m,aap,M,आप नहीं जीतेंगे।,,नहीं जीतेंगे।,aap_m,जीतेंगे
+FUT-14,core,FUT,future,statement,negative,,none,,You won't win.,aap_f,aap,F,आप नहीं जीतेंगी।,,नहीं जीतेंगी।,aap_f,जीतेंगी
+FUT-15,core,FUT,future,question,affirmative,fr1,neutral,,Will you swim?,tu_m,tu,M,क्या तू तैरेगा?,,क्या तैरेगा?,tu_m,तैरेगा
+FUT-15,core,FUT,future,question,affirmative,fr1,neutral,,Will you swim?,tu_f,tu,F,क्या तू तैरेगी?,,क्या तैरेगी?,tu_f,तैरेगी
+FUT-15,core,FUT,future,question,affirmative,fr1,neutral,,Will you swim?,tum_m,tum,M,क्या तुम तैरोगे?,,क्या तैरोगे?,tum_m,तैरोगे
+FUT-15,core,FUT,future,question,affirmative,fr1,neutral,,Will you swim?,tum_f,tum,F,क्या तुम तैरोगी?,,क्या तैरोगी?,tum_f,तैरोगी
+FUT-15,core,FUT,future,question,affirmative,fr1,neutral,,Will you swim?,aap_m,aap,M,क्या आप तैरेंगे?,,क्या तैरेंगे?,aap_m,तैरेंगे
+FUT-15,core,FUT,future,question,affirmative,fr1,neutral,,Will you swim?,aap_f,aap,F,क्या आप तैरेंगी?,,क्या तैरेंगी?,aap_f,तैरेंगी
+FUT-16,core,FUT,future,question,affirmative,fr6,neutral,,Will you work as a cashier?,tu_m,tu,M,क्या तू कैशियर का काम करेगा?,,क्या कैशियर का काम करेगा?,tu_m,करेगा
+FUT-16,core,FUT,future,question,affirmative,fr6,neutral,,Will you work as a cashier?,tu_f,tu,F,क्या तू कैशियर का काम करेगी?,,क्या कैशियर का काम करेगी?,tu_f,करेगी
+FUT-16,core,FUT,future,question,affirmative,fr6,neutral,,Will you work as a cashier?,tum_m,tum,M,क्या तुम कैशियर का काम करोगे?,,क्या कैशियर का काम करोगे?,tum_m,करोगे
+FUT-16,core,FUT,future,question,affirmative,fr6,neutral,,Will you work as a cashier?,tum_f,tum,F,क्या तुम कैशियर का काम करोगी?,,क्या कैशियर का काम करोगी?,tum_f,करोगी
+FUT-16,core,FUT,future,question,affirmative,fr6,neutral,,Will you work as a cashier?,aap_m,aap,M,क्या आप कैशियर का काम करेंगे?,,क्या कैशियर का काम करेंगे?,aap_m,करेंगे
+FUT-16,core,FUT,future,question,affirmative,fr6,neutral,,Will you work as a cashier?,aap_f,aap,F,क्या आप कैशियर का काम करेंगी?,,क्या कैशियर का काम करेंगी?,aap_f,करेंगी
+FUT-17,core,FUT,future,statement,affirmative,,none,conditional|multi_clause|multi_site,"If you leave now, you'll get there on time.",tu_m,tu,M,"अगर तू अभी निकलेगा, तो समय पर पहुँच जाएगा।",,"अगर अभी निकलेगा, तो समय पर पहुँच जाएगा।",tu_m,निकलेगा|जाएगा
+FUT-17,core,FUT,future,statement,affirmative,,none,conditional|multi_clause|multi_site,"If you leave now, you'll get there on time.",tu_f,tu,F,"अगर तू अभी निकलेगी, तो समय पर पहुँच जाएगी।",,"अगर अभी निकलेगी, तो समय पर पहुँच जाएगी।",tu_f,निकलेगी|जाएगी
+FUT-17,core,FUT,future,statement,affirmative,,none,conditional|multi_clause|multi_site,"If you leave now, you'll get there on time.",tum_m,tum,M,"अगर तुम अभी निकलोगे, तो समय पर पहुँच जाओगे।",,"अगर अभी निकलोगे, तो समय पर पहुँच जाओगे।",tum_m,निकलोगे|जाओगे
+FUT-17,core,FUT,future,statement,affirmative,,none,conditional|multi_clause|multi_site,"If you leave now, you'll get there on time.",tum_f,tum,F,"अगर तुम अभी निकलोगी, तो समय पर पहुँच जाओगी।",,"अगर अभी निकलोगी, तो समय पर पहुँच जाओगी।",tum_f,निकलोगी|जाओगी
+FUT-17,core,FUT,future,statement,affirmative,,none,conditional|multi_clause|multi_site,"If you leave now, you'll get there on time.",aap_m,aap,M,"अगर आप अभी निकलेंगे, तो समय पर पहुँच जाएँगे।",,"अगर अभी निकलेंगे, तो समय पर पहुँच जाएँगे।",aap_m,निकलेंगे|जाएँगे
+FUT-17,core,FUT,future,statement,affirmative,,none,conditional|multi_clause|multi_site,"If you leave now, you'll get there on time.",aap_f,aap,F,"अगर आप अभी निकलेंगी, तो समय पर पहुँच जाएँगी।",,"अगर अभी निकलेंगी, तो समय पर पहुँच जाएँगी।",aap_f,निकलेंगी|जाएँगी
+FUT-18,core,FUT,future,statement,affirmative,,none,,You'll feel better in the morning.,tu_m,tu,M,तू सुबह तक बेहतर महसूस करेगा।,,सुबह तक बेहतर महसूस करेगा।,tu_m,करेगा
+FUT-18,core,FUT,future,statement,affirmative,,none,,You'll feel better in the morning.,tu_f,tu,F,तू सुबह तक बेहतर महसूस करेगी।,,सुबह तक बेहतर महसूस करेगी।,tu_f,करेगी
+FUT-18,core,FUT,future,statement,affirmative,,none,,You'll feel better in the morning.,tum_m,tum,M,तुम सुबह तक बेहतर महसूस करोगे।,,सुबह तक बेहतर महसूस करोगे।,tum_m,करोगे
+FUT-18,core,FUT,future,statement,affirmative,,none,,You'll feel better in the morning.,tum_f,tum,F,तुम सुबह तक बेहतर महसूस करोगी।,,सुबह तक बेहतर महसूस करोगी।,tum_f,करोगी
+FUT-18,core,FUT,future,statement,affirmative,,none,,You'll feel better in the morning.,aap_m,aap,M,आप सुबह तक बेहतर महसूस करेंगे।,,सुबह तक बेहतर महसूस करेंगे।,aap_m,करेंगे
+FUT-18,core,FUT,future,statement,affirmative,,none,,You'll feel better in the morning.,aap_f,aap,F,आप सुबह तक बेहतर महसूस करेंगी।,,सुबह तक बेहतर महसूस करेंगी।,aap_f,करेंगी
+FUT-19,core,FUT,future,question,affirmative,,none,multi_clause|multi_site,Where will you stay when you go to Boston?,tu_m,tu,M,"जब तू बोस्टन जाएगा, तब कहाँ रुकेगा?",,"जब बोस्टन जाएगा, तब कहाँ रुकेगा?",tu_m,जाएगा|रुकेगा
+FUT-19,core,FUT,future,question,affirmative,,none,multi_clause|multi_site,Where will you stay when you go to Boston?,tu_f,tu,F,"जब तू बोस्टन जाएगी, तब कहाँ रुकेगी?",,"जब बोस्टन जाएगी, तब कहाँ रुकेगी?",tu_f,जाएगी|रुकेगी
+FUT-19,core,FUT,future,question,affirmative,,none,multi_clause|multi_site,Where will you stay when you go to Boston?,tum_m,tum,M,"जब तुम बोस्टन जाओगे, तब कहाँ रुकोगे?",,"जब बोस्टन जाओगे, तब कहाँ रुकोगे?",tum_m,जाओगे|रुकोगे
+FUT-19,core,FUT,future,question,affirmative,,none,multi_clause|multi_site,Where will you stay when you go to Boston?,tum_f,tum,F,"जब तुम बोस्टन जाओगी, तब कहाँ रुकोगी?",,"जब बोस्टन जाओगी, तब कहाँ रुकोगी?",tum_f,जाओगी|रुकोगी
+FUT-19,core,FUT,future,question,affirmative,,none,multi_clause|multi_site,Where will you stay when you go to Boston?,aap_m,aap,M,"जब आप बोस्टन जाएँगे, तब कहाँ रुकेंगे?",,"जब बोस्टन जाएँगे, तब कहाँ रुकेंगे?",aap_m,जाएँगे|रुकेंगे
+FUT-19,core,FUT,future,question,affirmative,,none,multi_clause|multi_site,Where will you stay when you go to Boston?,aap_f,aap,F,"जब आप बोस्टन जाएँगी, तब कहाँ रुकेंगी?",,"जब बोस्टन जाएँगी, तब कहाँ रुकेंगी?",aap_f,जाएँगी|रुकेंगी
+FUT-20,core,FUT,future,statement,negative,,none,,You won't regret it.,tu_m,tu,M,तू पछताएगा नहीं।,,पछताएगा नहीं।,tu_m,पछताएगा
+FUT-20,core,FUT,future,statement,negative,,none,,You won't regret it.,tu_f,tu,F,तू पछताएगी नहीं।,,पछताएगी नहीं।,tu_f,पछताएगी
+FUT-20,core,FUT,future,statement,negative,,none,,You won't regret it.,tum_m,tum,M,तुम पछताओगे नहीं।,,पछताओगे नहीं।,tum_m,पछताओगे
+FUT-20,core,FUT,future,statement,negative,,none,,You won't regret it.,tum_f,tum,F,तुम पछताओगी नहीं।,,पछताओगी नहीं।,tum_f,पछताओगी
+FUT-20,core,FUT,future,statement,negative,,none,,You won't regret it.,aap_m,aap,M,आप पछताएँगे नहीं।,,पछताएँगे नहीं।,aap_m,पछताएँगे
+FUT-20,core,FUT,future,statement,negative,,none,,You won't regret it.,aap_f,aap,F,आप पछताएँगी नहीं।,,पछताएँगी नहीं।,aap_f,पछताएँगी
+FUT-21,core,FUT,future,question,affirmative,,none,tag_question,"You'll be home this evening, won't you?",tu_m,tu,M,तू आज शाम घर पर होगा न?,,आज शाम घर पर होगा न?,tu_m,होगा
+FUT-21,core,FUT,future,question,affirmative,,none,tag_question,"You'll be home this evening, won't you?",tu_f,tu,F,तू आज शाम घर पर होगी न?,,आज शाम घर पर होगी न?,tu_f|tum_f,होगी
+FUT-21,core,FUT,future,question,affirmative,,none,tag_question,"You'll be home this evening, won't you?",tum_m,tum,M,तुम आज शाम घर पर होगे न?,,आज शाम घर पर होगे न?,tum_m,होगे
+FUT-21,core,FUT,future,question,affirmative,,none,tag_question,"You'll be home this evening, won't you?",tum_f,tum,F,तुम आज शाम घर पर होगी न?,,आज शाम घर पर होगी न?,tu_f|tum_f,होगी
+FUT-21,core,FUT,future,question,affirmative,,none,tag_question,"You'll be home this evening, won't you?",aap_m,aap,M,आप आज शाम घर पर होंगे न?,,आज शाम घर पर होंगे न?,aap_m,होंगे
+FUT-21,core,FUT,future,question,affirmative,,none,tag_question,"You'll be home this evening, won't you?",aap_f,aap,F,आप आज शाम घर पर होंगी न?,,आज शाम घर पर होंगी न?,aap_f,होंगी
+FUT-22,core,FUT,future,question,affirmative,,none,,How long will you wait?,tu_m,tu,M,तू कब तक इंतज़ार करेगा?,,कब तक इंतज़ार करेगा?,tu_m,करेगा
+FUT-22,core,FUT,future,question,affirmative,,none,,How long will you wait?,tu_f,tu,F,तू कब तक इंतज़ार करेगी?,,कब तक इंतज़ार करेगी?,tu_f,करेगी
+FUT-22,core,FUT,future,question,affirmative,,none,,How long will you wait?,tum_m,tum,M,तुम कब तक इंतज़ार करोगे?,,कब तक इंतज़ार करोगे?,tum_m,करोगे
+FUT-22,core,FUT,future,question,affirmative,,none,,How long will you wait?,tum_f,tum,F,तुम कब तक इंतज़ार करोगी?,,कब तक इंतज़ार करोगी?,tum_f,करोगी
+FUT-22,core,FUT,future,question,affirmative,,none,,How long will you wait?,aap_m,aap,M,आप कब तक इंतज़ार करेंगे?,,कब तक इंतज़ार करेंगे?,aap_m,करेंगे
+FUT-22,core,FUT,future,question,affirmative,,none,,How long will you wait?,aap_f,aap,F,आप कब तक इंतज़ार करेंगी?,,कब तक इंतज़ार करेंगी?,aap_f,करेंगी
+FUT-23,core,FUT,future,statement,negative,,none,multi_site,You won't be alone.,tu_m,tu,M,तू अकेला नहीं रहेगा।,,अकेला नहीं रहेगा।,tu_m,अकेला|रहेगा
+FUT-23,core,FUT,future,statement,negative,,none,multi_site,You won't be alone.,tu_f,tu,F,तू अकेली नहीं रहेगी।,,अकेली नहीं रहेगी।,tu_f,अकेली|रहेगी
+FUT-23,core,FUT,future,statement,negative,,none,multi_site,You won't be alone.,tum_m,tum,M,तुम अकेले नहीं रहोगे।,,अकेले नहीं रहोगे।,tum_m,अकेले|रहोगे
+FUT-23,core,FUT,future,statement,negative,,none,multi_site,You won't be alone.,tum_f,tum,F,तुम अकेली नहीं रहोगी।,,अकेली नहीं रहोगी।,tum_f,अकेली|रहोगी
+FUT-23,core,FUT,future,statement,negative,,none,multi_site,You won't be alone.,aap_m,aap,M,आप अकेले नहीं रहेंगे।,,अकेले नहीं रहेंगे।,aap_m,अकेले|रहेंगे
+FUT-23,core,FUT,future,statement,negative,,none,multi_site,You won't be alone.,aap_f,aap,F,आप अकेली नहीं रहेंगी।,,अकेली नहीं रहेंगी।,aap_f,अकेली|रहेंगी
+FUT-24,core,FUT,future,statement,affirmative,,none,,You'll be fine.,tu_m,tu,M,तू ठीक रहेगा।,,ठीक रहेगा।,tu_m,रहेगा
+FUT-24,core,FUT,future,statement,affirmative,,none,,You'll be fine.,tu_f,tu,F,तू ठीक रहेगी।,,ठीक रहेगी।,tu_f,रहेगी
+FUT-24,core,FUT,future,statement,affirmative,,none,,You'll be fine.,tum_m,tum,M,तुम ठीक रहोगे।,,ठीक रहोगे।,tum_m,रहोगे
+FUT-24,core,FUT,future,statement,affirmative,,none,,You'll be fine.,tum_f,tum,F,तुम ठीक रहोगी।,,ठीक रहोगी।,tum_f,रहोगी
+FUT-24,core,FUT,future,statement,affirmative,,none,,You'll be fine.,aap_m,aap,M,आप ठीक रहेंगे।,,ठीक रहेंगे।,aap_m,रहेंगे
+FUT-24,core,FUT,future,statement,affirmative,,none,,You'll be fine.,aap_f,aap,F,आप ठीक रहेंगी।,,ठीक रहेंगी।,aap_f,रहेंगी
+FUT-25,core,FUT,future,question,affirmative,,none,,How will you pay for this?,tu_m,tu,M,तू इसके पैसे कैसे देगा?,,इसके पैसे कैसे देगा?,tu_m,देगा
+FUT-25,core,FUT,future,question,affirmative,,none,,How will you pay for this?,tu_f,tu,F,तू इसके पैसे कैसे देगी?,,इसके पैसे कैसे देगी?,tu_f,देगी
+FUT-25,core,FUT,future,question,affirmative,,none,,How will you pay for this?,tum_m,tum,M,तुम इसके पैसे कैसे दोगे?,,इसके पैसे कैसे दोगे?,tum_m,दोगे
+FUT-25,core,FUT,future,question,affirmative,,none,,How will you pay for this?,tum_f,tum,F,तुम इसके पैसे कैसे दोगी?,,इसके पैसे कैसे दोगी?,tum_f,दोगी
+FUT-25,core,FUT,future,question,affirmative,,none,,How will you pay for this?,aap_m,aap,M,आप इसके पैसे कैसे देंगे?,,इसके पैसे कैसे देंगे?,aap_m,देंगे
+FUT-25,core,FUT,future,question,affirmative,,none,,How will you pay for this?,aap_f,aap,F,आप इसके पैसे कैसे देंगी?,,इसके पैसे कैसे देंगी?,aap_f,देंगी
+FUT-26,core,FUT,future,statement,negative,,none,multi_clause|distractor,You'll never guess what happened.,tu_m,tu,M,तू कभी अंदाज़ा नहीं लगा पाएगा कि क्या हुआ।,,कभी अंदाज़ा नहीं लगा पाएगा कि क्या हुआ।,tu_m,पाएगा
+FUT-26,core,FUT,future,statement,negative,,none,multi_clause|distractor,You'll never guess what happened.,tu_f,tu,F,तू कभी अंदाज़ा नहीं लगा पाएगी कि क्या हुआ।,,कभी अंदाज़ा नहीं लगा पाएगी कि क्या हुआ।,tu_f,पाएगी
+FUT-26,core,FUT,future,statement,negative,,none,multi_clause|distractor,You'll never guess what happened.,tum_m,tum,M,तुम कभी अंदाज़ा नहीं लगा पाओगे कि क्या हुआ।,,कभी अंदाज़ा नहीं लगा पाओगे कि क्या हुआ।,tum_m,पाओगे
+FUT-26,core,FUT,future,statement,negative,,none,multi_clause|distractor,You'll never guess what happened.,tum_f,tum,F,तुम कभी अंदाज़ा नहीं लगा पाओगी कि क्या हुआ।,,कभी अंदाज़ा नहीं लगा पाओगी कि क्या हुआ।,tum_f,पाओगी
+FUT-26,core,FUT,future,statement,negative,,none,multi_clause|distractor,You'll never guess what happened.,aap_m,aap,M,आप कभी अंदाज़ा नहीं लगा पाएँगे कि क्या हुआ।,,कभी अंदाज़ा नहीं लगा पाएँगे कि क्या हुआ।,aap_m,पाएँगे
+FUT-26,core,FUT,future,statement,negative,,none,multi_clause|distractor,You'll never guess what happened.,aap_f,aap,F,आप कभी अंदाज़ा नहीं लगा पाएँगी कि क्या हुआ।,,कभी अंदाज़ा नहीं लगा पाएँगी कि क्या हुआ।,aap_f,पाएँगी
+FUT-27,core,FUT,future,question,affirmative,,none,,Will you be able to come tomorrow?,tu_m,tu,M,क्या तू कल आ पाएगा?,,क्या कल आ पाएगा?,tu_m,पाएगा
+FUT-27,core,FUT,future,question,affirmative,,none,,Will you be able to come tomorrow?,tu_f,tu,F,क्या तू कल आ पाएगी?,,क्या कल आ पाएगी?,tu_f,पाएगी
+FUT-27,core,FUT,future,question,affirmative,,none,,Will you be able to come tomorrow?,tum_m,tum,M,क्या तुम कल आ पाओगे?,,क्या कल आ पाओगे?,tum_m,पाओगे
+FUT-27,core,FUT,future,question,affirmative,,none,,Will you be able to come tomorrow?,tum_f,tum,F,क्या तुम कल आ पाओगी?,,क्या कल आ पाओगी?,tum_f,पाओगी
+FUT-27,core,FUT,future,question,affirmative,,none,,Will you be able to come tomorrow?,aap_m,aap,M,क्या आप कल आ पाएँगे?,,क्या कल आ पाएँगे?,aap_m,पाएँगे
+FUT-27,core,FUT,future,question,affirmative,,none,,Will you be able to come tomorrow?,aap_f,aap,F,क्या आप कल आ पाएँगी?,,क्या कल आ पाएँगी?,aap_f,पाएँगी
+FUT-28,core,FUT,future,statement,negative,,none,multi_clause,"You won't be able to sleep outdoors, it's cold.",tu_m,tu,M,"तू बाहर नहीं सो पाएगा, ठंड है।",,"बाहर नहीं सो पाएगा, ठंड है।",tu_m,पाएगा
+FUT-28,core,FUT,future,statement,negative,,none,multi_clause,"You won't be able to sleep outdoors, it's cold.",tu_f,tu,F,"तू बाहर नहीं सो पाएगी, ठंड है।",,"बाहर नहीं सो पाएगी, ठंड है।",tu_f,पाएगी
+FUT-28,core,FUT,future,statement,negative,,none,multi_clause,"You won't be able to sleep outdoors, it's cold.",tum_m,tum,M,"तुम बाहर नहीं सो पाओगे, ठंड है।",,"बाहर नहीं सो पाओगे, ठंड है।",tum_m,पाओगे
+FUT-28,core,FUT,future,statement,negative,,none,multi_clause,"You won't be able to sleep outdoors, it's cold.",tum_f,tum,F,"तुम बाहर नहीं सो पाओगी, ठंड है।",,"बाहर नहीं सो पाओगी, ठंड है।",tum_f,पाओगी
+FUT-28,core,FUT,future,statement,negative,,none,multi_clause,"You won't be able to sleep outdoors, it's cold.",aap_m,aap,M,"आप बाहर नहीं सो पाएँगे, ठंड है।",,"बाहर नहीं सो पाएँगे, ठंड है।",aap_m,पाएँगे
+FUT-28,core,FUT,future,statement,negative,,none,multi_clause,"You won't be able to sleep outdoors, it's cold.",aap_f,aap,F,"आप बाहर नहीं सो पाएँगी, ठंड है।",,"बाहर नहीं सो पाएँगी, ठंड है।",aap_f,पाएँगी
+FUT-29,core,FUT,future,question,affirmative,,none,,When will you be able to finish that job?,tu_m,tu,M,तू वह काम कब तक पूरा कर पाएगा?,,वह काम कब तक पूरा कर पाएगा?,tu_m,पाएगा
+FUT-29,core,FUT,future,question,affirmative,,none,,When will you be able to finish that job?,tu_f,tu,F,तू वह काम कब तक पूरा कर पाएगी?,,वह काम कब तक पूरा कर पाएगी?,tu_f,पाएगी
+FUT-29,core,FUT,future,question,affirmative,,none,,When will you be able to finish that job?,tum_m,tum,M,तुम वह काम कब तक पूरा कर पाओगे?,,वह काम कब तक पूरा कर पाओगे?,tum_m,पाओगे
+FUT-29,core,FUT,future,question,affirmative,,none,,When will you be able to finish that job?,tum_f,tum,F,तुम वह काम कब तक पूरा कर पाओगी?,,वह काम कब तक पूरा कर पाओगी?,tum_f,पाओगी
+FUT-29,core,FUT,future,question,affirmative,,none,,When will you be able to finish that job?,aap_m,aap,M,आप वह काम कब तक पूरा कर पाएँगे?,,वह काम कब तक पूरा कर पाएँगे?,aap_m,पाएँगे
+FUT-29,core,FUT,future,question,affirmative,,none,,When will you be able to finish that job?,aap_f,aap,F,आप वह काम कब तक पूरा कर पाएँगी?,,वह काम कब तक पूरा कर पाएँगी?,aap_f,पाएँगी
+FUT-30,core,FUT,future,question,affirmative,,none,conditional|multi_clause|distractor,What will you do if he doesn't come?,tu_m,tu,M,"अगर वह नहीं आया, तो तू क्या करेगा?",,"अगर वह नहीं आया, तो क्या करेगा?",tu_m,करेगा
+FUT-30,core,FUT,future,question,affirmative,,none,conditional|multi_clause|distractor,What will you do if he doesn't come?,tu_f,tu,F,"अगर वह नहीं आया, तो तू क्या करेगी?",,"अगर वह नहीं आया, तो क्या करेगी?",tu_f,करेगी
+FUT-30,core,FUT,future,question,affirmative,,none,conditional|multi_clause|distractor,What will you do if he doesn't come?,tum_m,tum,M,"अगर वह नहीं आया, तो तुम क्या करोगे?",,"अगर वह नहीं आया, तो क्या करोगे?",tum_m,करोगे
+FUT-30,core,FUT,future,question,affirmative,,none,conditional|multi_clause|distractor,What will you do if he doesn't come?,tum_f,tum,F,"अगर वह नहीं आया, तो तुम क्या करोगी?",,"अगर वह नहीं आया, तो क्या करोगी?",tum_f,करोगी
+FUT-30,core,FUT,future,question,affirmative,,none,conditional|multi_clause|distractor,What will you do if he doesn't come?,aap_m,aap,M,"अगर वह नहीं आया, तो आप क्या करेंगे?",,"अगर वह नहीं आया, तो क्या करेंगे?",aap_m,करेंगे
+FUT-30,core,FUT,future,question,affirmative,,none,conditional|multi_clause|distractor,What will you do if he doesn't come?,aap_f,aap,F,"अगर वह नहीं आया, तो आप क्या करेंगी?",,"अगर वह नहीं आया, तो क्या करेंगी?",aap_f,करेंगी
+FUT-31,core,FUT,future,statement,affirmative,,none,conditional|multi_clause|distractor,You'll get there on time if you make the train.,tu_m,tu,M,"अगर तुझे ट्रेन मिल गई, तो तू समय पर पहुँच जाएगा।",,"अगर तुझे ट्रेन मिल गई, तो समय पर पहुँच जाएगा।",tu_m,जाएगा
+FUT-31,core,FUT,future,statement,affirmative,,none,conditional|multi_clause|distractor,You'll get there on time if you make the train.,tu_f,tu,F,"अगर तुझे ट्रेन मिल गई, तो तू समय पर पहुँच जाएगी।",,"अगर तुझे ट्रेन मिल गई, तो समय पर पहुँच जाएगी।",tu_f,जाएगी
+FUT-31,core,FUT,future,statement,affirmative,,none,conditional|multi_clause|distractor,You'll get there on time if you make the train.,tum_m,tum,M,"अगर तुम्हें ट्रेन मिल गई, तो तुम समय पर पहुँच जाओगे।",,"अगर तुम्हें ट्रेन मिल गई, तो समय पर पहुँच जाओगे।",tum_m,जाओगे
+FUT-31,core,FUT,future,statement,affirmative,,none,conditional|multi_clause|distractor,You'll get there on time if you make the train.,tum_f,tum,F,"अगर तुम्हें ट्रेन मिल गई, तो तुम समय पर पहुँच जाओगी।",,"अगर तुम्हें ट्रेन मिल गई, तो समय पर पहुँच जाओगी।",tum_f,जाओगी
+FUT-31,core,FUT,future,statement,affirmative,,none,conditional|multi_clause|distractor,You'll get there on time if you make the train.,aap_m,aap,M,"अगर आपको ट्रेन मिल गई, तो आप समय पर पहुँच जाएँगे।",,"अगर आपको ट्रेन मिल गई, तो समय पर पहुँच जाएँगे।",aap_m,जाएँगे
+FUT-31,core,FUT,future,statement,affirmative,,none,conditional|multi_clause|distractor,You'll get there on time if you make the train.,aap_f,aap,F,"अगर आपको ट्रेन मिल गई, तो आप समय पर पहुँच जाएँगी।",,"अगर आपको ट्रेन मिल गई, तो समय पर पहुँच जाएँगी।",aap_f,जाएँगी
+FUT-32,core,FUT,future,question,affirmative,,none,,What will you wear tonight?,tu_m,tu,M,तू आज रात क्या पहनेगा?,,आज रात क्या पहनेगा?,tu_m,पहनेगा
+FUT-32,core,FUT,future,question,affirmative,,none,,What will you wear tonight?,tu_f,tu,F,तू आज रात क्या पहनेगी?,,आज रात क्या पहनेगी?,tu_f,पहनेगी
+FUT-32,core,FUT,future,question,affirmative,,none,,What will you wear tonight?,tum_m,tum,M,तुम आज रात क्या पहनोगे?,,आज रात क्या पहनोगे?,tum_m,पहनोगे
+FUT-32,core,FUT,future,question,affirmative,,none,,What will you wear tonight?,tum_f,tum,F,तुम आज रात क्या पहनोगी?,,आज रात क्या पहनोगी?,tum_f,पहनोगी
+FUT-32,core,FUT,future,question,affirmative,,none,,What will you wear tonight?,aap_m,aap,M,आप आज रात क्या पहनेंगे?,,आज रात क्या पहनेंगे?,aap_m,पहनेंगे
+FUT-32,core,FUT,future,question,affirmative,,none,,What will you wear tonight?,aap_f,aap,F,आप आज रात क्या पहनेंगी?,,आज रात क्या पहनेंगी?,aap_f,पहनेंगी
+FUT-33,core,FUT,future,question,affirmative,,none,,When will you be back from holiday?,tu_m,tu,M,तू छुट्टी से कब लौटेगा?,,छुट्टी से कब लौटेगा?,tu_m,लौटेगा
+FUT-33,core,FUT,future,question,affirmative,,none,,When will you be back from holiday?,tu_f,tu,F,तू छुट्टी से कब लौटेगी?,,छुट्टी से कब लौटेगी?,tu_f,लौटेगी
+FUT-33,core,FUT,future,question,affirmative,,none,,When will you be back from holiday?,tum_m,tum,M,तुम छुट्टी से कब लौटोगे?,,छुट्टी से कब लौटोगे?,tum_m,लौटोगे
+FUT-33,core,FUT,future,question,affirmative,,none,,When will you be back from holiday?,tum_f,tum,F,तुम छुट्टी से कब लौटोगी?,,छुट्टी से कब लौटोगी?,tum_f,लौटोगी
+FUT-33,core,FUT,future,question,affirmative,,none,,When will you be back from holiday?,aap_m,aap,M,आप छुट्टी से कब लौटेंगे?,,छुट्टी से कब लौटेंगे?,aap_m,लौटेंगे
+FUT-33,core,FUT,future,question,affirmative,,none,,When will you be back from holiday?,aap_f,aap,F,आप छुट्टी से कब लौटेंगी?,,छुट्टी से कब लौटेंगी?,aap_f,लौटेंगी
+FUT-34,core,FUT,future,question,affirmative,,none,conditional|multi_clause|distractor,"If your friends come, will you stay?",tu_m,tu,M,"अगर तेरे दोस्त आएँगे, तो क्या तू रुकेगा?",,"अगर तेरे दोस्त आएँगे, तो क्या रुकेगा?",tu_m,रुकेगा
+FUT-34,core,FUT,future,question,affirmative,,none,conditional|multi_clause|distractor,"If your friends come, will you stay?",tu_f,tu,F,"अगर तेरे दोस्त आएँगे, तो क्या तू रुकेगी?",,"अगर तेरे दोस्त आएँगे, तो क्या रुकेगी?",tu_f,रुकेगी
+FUT-34,core,FUT,future,question,affirmative,,none,conditional|multi_clause|distractor,"If your friends come, will you stay?",tum_m,tum,M,"अगर तुम्हारे दोस्त आएँगे, तो क्या तुम रुकोगे?",,"अगर तुम्हारे दोस्त आएँगे, तो क्या रुकोगे?",tum_m,रुकोगे
+FUT-34,core,FUT,future,question,affirmative,,none,conditional|multi_clause|distractor,"If your friends come, will you stay?",tum_f,tum,F,"अगर तुम्हारे दोस्त आएँगे, तो क्या तुम रुकोगी?",,"अगर तुम्हारे दोस्त आएँगे, तो क्या रुकोगी?",tum_f,रुकोगी
+FUT-34,core,FUT,future,question,affirmative,,none,conditional|multi_clause|distractor,"If your friends come, will you stay?",aap_m,aap,M,"अगर आपके दोस्त आएँगे, तो क्या आप रुकेंगे?",,"अगर आपके दोस्त आएँगे, तो क्या रुकेंगे?",aap_m,रुकेंगे
+FUT-34,core,FUT,future,question,affirmative,,none,conditional|multi_clause|distractor,"If your friends come, will you stay?",aap_f,aap,F,"अगर आपके दोस्त आएँगे, तो क्या आप रुकेंगी?",,"अगर आपके दोस्त आएँगे, तो क्या रुकेंगी?",aap_f,रुकेंगी
+FUT-35,core,FUT,future,question,affirmative,,none,distractor,Will you go with your sister?,tu_m,tu,M,क्या तू अपनी बहन के साथ जाएगा?,,क्या अपनी बहन के साथ जाएगा?,tu_m,जाएगा
+FUT-35,core,FUT,future,question,affirmative,,none,distractor,Will you go with your sister?,tu_f,tu,F,क्या तू अपनी बहन के साथ जाएगी?,,क्या अपनी बहन के साथ जाएगी?,tu_f,जाएगी
+FUT-35,core,FUT,future,question,affirmative,,none,distractor,Will you go with your sister?,tum_m,tum,M,क्या तुम अपनी बहन के साथ जाओगे?,,क्या अपनी बहन के साथ जाओगे?,tum_m,जाओगे
+FUT-35,core,FUT,future,question,affirmative,,none,distractor,Will you go with your sister?,tum_f,tum,F,क्या तुम अपनी बहन के साथ जाओगी?,,क्या अपनी बहन के साथ जाओगी?,tum_f,जाओगी
+FUT-35,core,FUT,future,question,affirmative,,none,distractor,Will you go with your sister?,aap_m,aap,M,क्या आप अपनी बहन के साथ जाएँगे?,,क्या अपनी बहन के साथ जाएँगे?,aap_m,जाएँगे
+FUT-35,core,FUT,future,question,affirmative,,none,distractor,Will you go with your sister?,aap_f,aap,F,क्या आप अपनी बहन के साथ जाएँगी?,,क्या अपनी बहन के साथ जाएँगी?,aap_f,जाएँगी
+FUT-36,core,FUT,future,question,affirmative,,none,multi_clause|multi_site|request,Will you come next week and stay for a few days?,tu_m,tu,M,क्या तू अगले हफ़्ते आएगा और कुछ दिन रुकेगा?,,क्या अगले हफ़्ते आएगा और कुछ दिन रुकेगा?,tu_m,आएगा|रुकेगा
+FUT-36,core,FUT,future,question,affirmative,,none,multi_clause|multi_site|request,Will you come next week and stay for a few days?,tu_f,tu,F,क्या तू अगले हफ़्ते आएगी और कुछ दिन रुकेगी?,,क्या अगले हफ़्ते आएगी और कुछ दिन रुकेगी?,tu_f,आएगी|रुकेगी
+FUT-36,core,FUT,future,question,affirmative,,none,multi_clause|multi_site|request,Will you come next week and stay for a few days?,tum_m,tum,M,क्या तुम अगले हफ़्ते आओगे और कुछ दिन रुकोगे?,,क्या अगले हफ़्ते आओगे और कुछ दिन रुकोगे?,tum_m,आओगे|रुकोगे
+FUT-36,core,FUT,future,question,affirmative,,none,multi_clause|multi_site|request,Will you come next week and stay for a few days?,tum_f,tum,F,क्या तुम अगले हफ़्ते आओगी और कुछ दिन रुकोगी?,,क्या अगले हफ़्ते आओगी और कुछ दिन रुकोगी?,tum_f,आओगी|रुकोगी
+FUT-36,core,FUT,future,question,affirmative,,none,multi_clause|multi_site|request,Will you come next week and stay for a few days?,aap_m,aap,M,क्या आप अगले हफ़्ते आएँगे और कुछ दिन रुकेंगे?,,क्या अगले हफ़्ते आएँगे और कुछ दिन रुकेंगे?,aap_m,आएँगे|रुकेंगे
+FUT-36,core,FUT,future,question,affirmative,,none,multi_clause|multi_site|request,Will you come next week and stay for a few days?,aap_f,aap,F,क्या आप अगले हफ़्ते आएँगी और कुछ दिन रुकेंगी?,,क्या अगले हफ़्ते आएँगी और कुछ दिन रुकेंगी?,aap_f,आएँगी|रुकेंगी
+FUT-37,core,FUT,presumptive,statement,affirmative,,none,distractor,You must be tired after such a long trip.,tu_m,tu,M,इतनी लंबी यात्रा के बाद तू थक गया होगा।,,इतनी लंबी यात्रा के बाद थक गया होगा।,tu_m,गया|होगा
+FUT-37,core,FUT,presumptive,statement,affirmative,,none,distractor,You must be tired after such a long trip.,tu_f,tu,F,इतनी लंबी यात्रा के बाद तू थक गई होगी।,,इतनी लंबी यात्रा के बाद थक गई होगी।,tu_f|tum_f,गई|होगी
+FUT-37,core,FUT,presumptive,statement,affirmative,,none,distractor,You must be tired after such a long trip.,tum_m,tum,M,इतनी लंबी यात्रा के बाद तुम थक गए होगे।,,इतनी लंबी यात्रा के बाद थक गए होगे।,tum_m,गए|होगे
+FUT-37,core,FUT,presumptive,statement,affirmative,,none,distractor,You must be tired after such a long trip.,tum_f,tum,F,इतनी लंबी यात्रा के बाद तुम थक गई होगी।,,इतनी लंबी यात्रा के बाद थक गई होगी।,tu_f|tum_f,गई|होगी
+FUT-37,core,FUT,presumptive,statement,affirmative,,none,distractor,You must be tired after such a long trip.,aap_m,aap,M,इतनी लंबी यात्रा के बाद आप थक गए होंगे।,,इतनी लंबी यात्रा के बाद थक गए होंगे।,aap_m,गए|होंगे
+FUT-37,core,FUT,presumptive,statement,affirmative,,none,distractor,You must be tired after such a long trip.,aap_f,aap,F,इतनी लंबी यात्रा के बाद आप थक गई होंगी।,,इतनी लंबी यात्रा के बाद थक गई होंगी।,aap_f,गई|होंगी
+FUT-38,core,FUT,presumptive,statement,affirmative,,none,,You must be hungry.,tu_m,tu,M,तू भूखा होगा।,,भूखा होगा।,tu_m,भूखा|होगा
+FUT-38,core,FUT,presumptive,statement,affirmative,,none,,You must be hungry.,tu_f,tu,F,तू भूखी होगी।,,भूखी होगी।,tu_f|tum_f,भूखी|होगी
+FUT-38,core,FUT,presumptive,statement,affirmative,,none,,You must be hungry.,tum_m,tum,M,तुम भूखे होगे।,,भूखे होगे।,tum_m,भूखे|होगे
+FUT-38,core,FUT,presumptive,statement,affirmative,,none,,You must be hungry.,tum_f,tum,F,तुम भूखी होगी।,,भूखी होगी।,tu_f|tum_f,भूखी|होगी
+FUT-38,core,FUT,presumptive,statement,affirmative,,none,,You must be hungry.,aap_m,aap,M,आप भूखे होंगे।,,भूखे होंगे।,aap_m,भूखे|होंगे
+FUT-38,core,FUT,presumptive,statement,affirmative,,none,,You must be hungry.,aap_f,aap,F,आप भूखी होंगी।,,भूखी होंगी।,aap_f,भूखी|होंगी
+FUT-39,core,FUT,presumptive,statement,affirmative,,none,,You must have been scared.,tu_m,tu,M,तू डर गया होगा।,,डर गया होगा।,tu_m,गया|होगा
+FUT-39,core,FUT,presumptive,statement,affirmative,,none,,You must have been scared.,tu_f,tu,F,तू डर गई होगी।,,डर गई होगी।,tu_f|tum_f,गई|होगी
+FUT-39,core,FUT,presumptive,statement,affirmative,,none,,You must have been scared.,tum_m,tum,M,तुम डर गए होगे।,,डर गए होगे।,tum_m,गए|होगे
+FUT-39,core,FUT,presumptive,statement,affirmative,,none,,You must have been scared.,tum_f,tum,F,तुम डर गई होगी।,,डर गई होगी।,tu_f|tum_f,गई|होगी
+FUT-39,core,FUT,presumptive,statement,affirmative,,none,,You must have been scared.,aap_m,aap,M,आप डर गए होंगे।,,डर गए होंगे।,aap_m,गए|होंगे
+FUT-39,core,FUT,presumptive,statement,affirmative,,none,,You must have been scared.,aap_f,aap,F,आप डर गई होंगी।,,डर गई होंगी।,aap_f,गई|होंगी
+FUT-40,core,FUT,presumptive,statement,affirmative,,none,,You must be feeling better.,tu_m,tu,M,तू बेहतर महसूस कर रहा होगा।,,बेहतर महसूस कर रहा होगा।,tu_m,रहा|होगा
+FUT-40,core,FUT,presumptive,statement,affirmative,,none,,You must be feeling better.,tu_f,tu,F,तू बेहतर महसूस कर रही होगी।,,बेहतर महसूस कर रही होगी।,tu_f|tum_f,रही|होगी
+FUT-40,core,FUT,presumptive,statement,affirmative,,none,,You must be feeling better.,tum_m,tum,M,तुम बेहतर महसूस कर रहे होगे।,,बेहतर महसूस कर रहे होगे।,tum_m,रहे|होगे
+FUT-40,core,FUT,presumptive,statement,affirmative,,none,,You must be feeling better.,tum_f,tum,F,तुम बेहतर महसूस कर रही होगी।,,बेहतर महसूस कर रही होगी।,tu_f|tum_f,रही|होगी
+FUT-40,core,FUT,presumptive,statement,affirmative,,none,,You must be feeling better.,aap_m,aap,M,आप बेहतर महसूस कर रहे होंगे।,,बेहतर महसूस कर रहे होंगे।,aap_m,रहे|होंगे
+FUT-40,core,FUT,presumptive,statement,affirmative,,none,,You must be feeling better.,aap_f,aap,F,आप बेहतर महसूस कर रही होंगी।,,बेहतर महसूस कर रही होंगी।,aap_f,रही|होंगी
+FUT-41,core,FUT,presumptive,statement,affirmative,,none,distractor,You must have been surprised to meet your teacher in such a place.,tu_m,tu,M,ऐसी जगह पर अपने टीचर से मिलकर तू हैरान रह गया होगा।,,ऐसी जगह पर अपने टीचर से मिलकर हैरान रह गया होगा।,tu_m,गया|होगा
+FUT-41,core,FUT,presumptive,statement,affirmative,,none,distractor,You must have been surprised to meet your teacher in such a place.,tu_f,tu,F,ऐसी जगह पर अपने टीचर से मिलकर तू हैरान रह गई होगी।,,ऐसी जगह पर अपने टीचर से मिलकर हैरान रह गई होगी।,tu_f|tum_f,गई|होगी
+FUT-41,core,FUT,presumptive,statement,affirmative,,none,distractor,You must have been surprised to meet your teacher in such a place.,tum_m,tum,M,ऐसी जगह पर अपने टीचर से मिलकर तुम हैरान रह गए होगे।,,ऐसी जगह पर अपने टीचर से मिलकर हैरान रह गए होगे।,tum_m,गए|होगे
+FUT-41,core,FUT,presumptive,statement,affirmative,,none,distractor,You must have been surprised to meet your teacher in such a place.,tum_f,tum,F,ऐसी जगह पर अपने टीचर से मिलकर तुम हैरान रह गई होगी।,,ऐसी जगह पर अपने टीचर से मिलकर हैरान रह गई होगी।,tu_f|tum_f,गई|होगी
+FUT-41,core,FUT,presumptive,statement,affirmative,,none,distractor,You must have been surprised to meet your teacher in such a place.,aap_m,aap,M,ऐसी जगह पर अपने टीचर से मिलकर आप हैरान रह गए होंगे।,,ऐसी जगह पर अपने टीचर से मिलकर हैरान रह गए होंगे।,aap_m,गए|होंगे
+FUT-41,core,FUT,presumptive,statement,affirmative,,none,distractor,You must have been surprised to meet your teacher in such a place.,aap_f,aap,F,ऐसी जगह पर अपने टीचर से मिलकर आप हैरान रह गई होंगी।,,ऐसी जगह पर अपने टीचर से मिलकर हैरान रह गई होंगी।,aap_f,गई|होंगी
+FUT-42,core,FUT,presumptive,statement,affirmative,,none,,You must be thirsty.,tu_m,tu,M,तू प्यासा होगा।,,प्यासा होगा।,tu_m,प्यासा|होगा
+FUT-42,core,FUT,presumptive,statement,affirmative,,none,,You must be thirsty.,tu_f,tu,F,तू प्यासी होगी।,,प्यासी होगी।,tu_f|tum_f,प्यासी|होगी
+FUT-42,core,FUT,presumptive,statement,affirmative,,none,,You must be thirsty.,tum_m,tum,M,तुम प्यासे होगे।,,प्यासे होगे।,tum_m,प्यासे|होगे
+FUT-42,core,FUT,presumptive,statement,affirmative,,none,,You must be thirsty.,tum_f,tum,F,तुम प्यासी होगी।,,प्यासी होगी।,tu_f|tum_f,प्यासी|होगी
+FUT-42,core,FUT,presumptive,statement,affirmative,,none,,You must be thirsty.,aap_m,aap,M,आप प्यासे होंगे।,,प्यासे होंगे।,aap_m,प्यासे|होंगे
+FUT-42,core,FUT,presumptive,statement,affirmative,,none,,You must be thirsty.,aap_f,aap,F,आप प्यासी होंगी।,,प्यासी होंगी।,aap_f,प्यासी|होंगी
+FUT-43,core,FUT,presumptive,statement,affirmative,,none,,You must have forgotten them at the office.,tu_m,tu,M,तू उन्हें ऑफ़िस में भूल गया होगा।,,उन्हें ऑफ़िस में भूल गया होगा।,tu_m,गया|होगा
+FUT-43,core,FUT,presumptive,statement,affirmative,,none,,You must have forgotten them at the office.,tu_f,tu,F,तू उन्हें ऑफ़िस में भूल गई होगी।,,उन्हें ऑफ़िस में भूल गई होगी।,tu_f|tum_f,गई|होगी
+FUT-43,core,FUT,presumptive,statement,affirmative,,none,,You must have forgotten them at the office.,tum_m,tum,M,तुम उन्हें ऑफ़िस में भूल गए होगे।,,उन्हें ऑफ़िस में भूल गए होगे।,tum_m,गए|होगे
+FUT-43,core,FUT,presumptive,statement,affirmative,,none,,You must have forgotten them at the office.,tum_f,tum,F,तुम उन्हें ऑफ़िस में भूल गई होगी।,,उन्हें ऑफ़िस में भूल गई होगी।,tu_f|tum_f,गई|होगी
+FUT-43,core,FUT,presumptive,statement,affirmative,,none,,You must have forgotten them at the office.,aap_m,aap,M,आप उन्हें ऑफ़िस में भूल गए होंगे।,,उन्हें ऑफ़िस में भूल गए होंगे।,aap_m,गए|होंगे
+FUT-43,core,FUT,presumptive,statement,affirmative,,none,,You must have forgotten them at the office.,aap_f,aap,F,आप उन्हें ऑफ़िस में भूल गई होंगी।,,उन्हें ऑफ़िस में भूल गई होंगी।,aap_f,गई|होंगी
+FUT-44,core,FUT,presumptive,statement,affirmative,,none,,You must be very busy.,tu_m,tu,M,तू बहुत व्यस्त होगा।,,बहुत व्यस्त होगा।,tu_m,होगा
+FUT-44,core,FUT,presumptive,statement,affirmative,,none,,You must be very busy.,tu_f,tu,F,तू बहुत व्यस्त होगी।,,बहुत व्यस्त होगी।,tu_f|tum_f,होगी
+FUT-44,core,FUT,presumptive,statement,affirmative,,none,,You must be very busy.,tum_m,tum,M,तुम बहुत व्यस्त होगे।,,बहुत व्यस्त होगे।,tum_m,होगे
+FUT-44,core,FUT,presumptive,statement,affirmative,,none,,You must be very busy.,tum_f,tum,F,तुम बहुत व्यस्त होगी।,,बहुत व्यस्त होगी।,tu_f|tum_f,होगी
+FUT-44,core,FUT,presumptive,statement,affirmative,,none,,You must be very busy.,aap_m,aap,M,आप बहुत व्यस्त होंगे।,,बहुत व्यस्त होंगे।,aap_m,होंगे
+FUT-44,core,FUT,presumptive,statement,affirmative,,none,,You must be very busy.,aap_f,aap,F,आप बहुत व्यस्त होंगी।,,बहुत व्यस्त होंगी।,aap_f,होंगी
+PST-01,core,PAST,past_copula,question,affirmative,,none,,Where were you yesterday?,tu_m,tu,M,तू कल कहाँ था?,,कल कहाँ था?,tu_m,था
+PST-01,core,PAST,past_copula,question,affirmative,,none,,Where were you yesterday?,tu_f,tu,F,तू कल कहाँ थी?,,कल कहाँ थी?,tu_f|tum_f,थी
+PST-01,core,PAST,past_copula,question,affirmative,,none,,Where were you yesterday?,tum_m,tum,M,तुम कल कहाँ थे?,,कल कहाँ थे?,tum_m|aap_m,थे
+PST-01,core,PAST,past_copula,question,affirmative,,none,,Where were you yesterday?,tum_f,tum,F,तुम कल कहाँ थी?,तुम कल कहाँ थीं?,कल कहाँ थी?,tu_f|tum_f,थी
+PST-01,core,PAST,past_copula,question,affirmative,,none,,Where were you yesterday?,aap_m,aap,M,आप कल कहाँ थे?,,कल कहाँ थे?,tum_m|aap_m,थे
+PST-01,core,PAST,past_copula,question,affirmative,,none,,Where were you yesterday?,aap_f,aap,F,आप कल कहाँ थीं?,,कल कहाँ थीं?,tum_f|aap_f,थीं
+PST-02,core,PAST,past_copula,question,affirmative,,none,,Were you at home last night?,tu_m,tu,M,क्या तू कल रात घर पर था?,,क्या कल रात घर पर था?,tu_m,था
+PST-02,core,PAST,past_copula,question,affirmative,,none,,Were you at home last night?,tu_f,tu,F,क्या तू कल रात घर पर थी?,,क्या कल रात घर पर थी?,tu_f|tum_f,थी
+PST-02,core,PAST,past_copula,question,affirmative,,none,,Were you at home last night?,tum_m,tum,M,क्या तुम कल रात घर पर थे?,,क्या कल रात घर पर थे?,tum_m|aap_m,थे
+PST-02,core,PAST,past_copula,question,affirmative,,none,,Were you at home last night?,tum_f,tum,F,क्या तुम कल रात घर पर थी?,क्या तुम कल रात घर पर थीं?,क्या कल रात घर पर थी?,tu_f|tum_f,थी
+PST-02,core,PAST,past_copula,question,affirmative,,none,,Were you at home last night?,aap_m,aap,M,क्या आप कल रात घर पर थे?,,क्या कल रात घर पर थे?,tum_m|aap_m,थे
+PST-02,core,PAST,past_copula,question,affirmative,,none,,Were you at home last night?,aap_f,aap,F,क्या आप कल रात घर पर थीं?,,क्या कल रात घर पर थीं?,tum_f|aap_f,थीं
+PST-03,core,PAST,perfective,question,affirmative,,none,,Did you sleep well?,tu_m,tu,M,क्या तू ठीक से सोया?,,क्या ठीक से सोया?,tu_m,सोया
+PST-03,core,PAST,perfective,question,affirmative,,none,,Did you sleep well?,tu_f,tu,F,क्या तू ठीक से सोई?,,क्या ठीक से सोई?,tu_f|tum_f,सोई
+PST-03,core,PAST,perfective,question,affirmative,,none,,Did you sleep well?,tum_m,tum,M,क्या तुम ठीक से सोए?,,क्या ठीक से सोए?,tum_m|aap_m,सोए
+PST-03,core,PAST,perfective,question,affirmative,,none,,Did you sleep well?,tum_f,tum,F,क्या तुम ठीक से सोई?,क्या तुम ठीक से सोईं?,क्या ठीक से सोई?,tu_f|tum_f,सोई
+PST-03,core,PAST,perfective,question,affirmative,,none,,Did you sleep well?,aap_m,aap,M,क्या आप ठीक से सोए?,,क्या ठीक से सोए?,tum_m|aap_m,सोए
+PST-03,core,PAST,perfective,question,affirmative,,none,,Did you sleep well?,aap_f,aap,F,क्या आप ठीक से सोईं?,,क्या ठीक से सोईं?,tum_f|aap_f,सोईं
+PST-04,core,PAST,perfective,question,affirmative,,none,,When did you arrive?,tu_m,tu,M,तू कब पहुँचा?,,कब पहुँचा?,tu_m,पहुँचा
+PST-04,core,PAST,perfective,question,affirmative,,none,,When did you arrive?,tu_f,tu,F,तू कब पहुँची?,,कब पहुँची?,tu_f|tum_f,पहुँची
+PST-04,core,PAST,perfective,question,affirmative,,none,,When did you arrive?,tum_m,tum,M,तुम कब पहुँचे?,,कब पहुँचे?,tum_m|aap_m,पहुँचे
+PST-04,core,PAST,perfective,question,affirmative,,none,,When did you arrive?,tum_f,tum,F,तुम कब पहुँची?,तुम कब पहुँचीं?,कब पहुँची?,tu_f|tum_f,पहुँची
+PST-04,core,PAST,perfective,question,affirmative,,none,,When did you arrive?,aap_m,aap,M,आप कब पहुँचे?,,कब पहुँचे?,tum_m|aap_m,पहुँचे
+PST-04,core,PAST,perfective,question,affirmative,,none,,When did you arrive?,aap_f,aap,F,आप कब पहुँचीं?,,कब पहुँचीं?,tum_f|aap_f,पहुँचीं
+PST-05,core,PAST,past_perfect,question,affirmative,,none,,Where did you go?,tu_m,tu,M,तू कहाँ गया था?,,कहाँ गया था?,tu_m,गया|था
+PST-05,core,PAST,past_perfect,question,affirmative,,none,,Where did you go?,tu_f,tu,F,तू कहाँ गई थी?,,कहाँ गई थी?,tu_f|tum_f,गई|थी
+PST-05,core,PAST,past_perfect,question,affirmative,,none,,Where did you go?,tum_m,tum,M,तुम कहाँ गए थे?,,कहाँ गए थे?,tum_m|aap_m,गए|थे
+PST-05,core,PAST,past_perfect,question,affirmative,,none,,Where did you go?,tum_f,tum,F,तुम कहाँ गई थी?,तुम कहाँ गई थीं?,कहाँ गई थी?,tu_f|tum_f,गई|थी
+PST-05,core,PAST,past_perfect,question,affirmative,,none,,Where did you go?,aap_m,aap,M,आप कहाँ गए थे?,,कहाँ गए थे?,tum_m|aap_m,गए|थे
+PST-05,core,PAST,past_perfect,question,affirmative,,none,,Where did you go?,aap_f,aap,F,आप कहाँ गई थीं?,,कहाँ गई थीं?,tum_f|aap_f,गई|थीं
+PST-06,core,PAST,perfective,question,affirmative,,none,,Did you come alone?,tu_m,tu,M,क्या तू अकेला आया?,,क्या अकेला आया?,tu_m,अकेला|आया
+PST-06,core,PAST,perfective,question,affirmative,,none,,Did you come alone?,tu_f,tu,F,क्या तू अकेली आई?,,क्या अकेली आई?,tu_f|tum_f,अकेली|आई
+PST-06,core,PAST,perfective,question,affirmative,,none,,Did you come alone?,tum_m,tum,M,क्या तुम अकेले आए?,,क्या अकेले आए?,tum_m|aap_m,अकेले|आए
+PST-06,core,PAST,perfective,question,affirmative,,none,,Did you come alone?,tum_f,tum,F,क्या तुम अकेली आई?,क्या तुम अकेली आईं?,क्या अकेली आई?,tu_f|tum_f,अकेली|आई
+PST-06,core,PAST,perfective,question,affirmative,,none,,Did you come alone?,aap_m,aap,M,क्या आप अकेले आए?,,क्या अकेले आए?,tum_m|aap_m,अकेले|आए
+PST-06,core,PAST,perfective,question,affirmative,,none,,Did you come alone?,aap_f,aap,F,क्या आप अकेली आईं?,,क्या अकेली आईं?,tum_f|aap_f,अकेली|आईं
+PST-07,core,PAST,perfective,question,affirmative,,none,,Where did you grow up?,tu_m,tu,M,तू कहाँ बड़ा हुआ?,,कहाँ बड़ा हुआ?,tu_m,बड़ा|हुआ
+PST-07,core,PAST,perfective,question,affirmative,,none,,Where did you grow up?,tu_f,tu,F,तू कहाँ बड़ी हुई?,,कहाँ बड़ी हुई?,tu_f|tum_f,बड़ी|हुई
+PST-07,core,PAST,perfective,question,affirmative,,none,,Where did you grow up?,tum_m,tum,M,तुम कहाँ बड़े हुए?,,कहाँ बड़े हुए?,tum_m|aap_m,बड़े|हुए
+PST-07,core,PAST,perfective,question,affirmative,,none,,Where did you grow up?,tum_f,tum,F,तुम कहाँ बड़ी हुई?,तुम कहाँ बड़ी हुईं?,कहाँ बड़ी हुई?,tu_f|tum_f,बड़ी|हुई
+PST-07,core,PAST,perfective,question,affirmative,,none,,Where did you grow up?,aap_m,aap,M,आप कहाँ बड़े हुए?,,कहाँ बड़े हुए?,tum_m|aap_m,बड़े|हुए
+PST-07,core,PAST,perfective,question,affirmative,,none,,Where did you grow up?,aap_f,aap,F,आप कहाँ बड़ी हुईं?,,कहाँ बड़ी हुईं?,tum_f|aap_f,बड़ी|हुईं
+PST-08,core,PAST,past_habitual,question,affirmative,,none,,Did you use to live here?,tu_m,tu,M,क्या तू पहले यहाँ रहता था?,,क्या पहले यहाँ रहता था?,tu_m,रहता|था
+PST-08,core,PAST,past_habitual,question,affirmative,,none,,Did you use to live here?,tu_f,tu,F,क्या तू पहले यहाँ रहती थी?,,क्या पहले यहाँ रहती थी?,tu_f|tum_f,रहती|थी
+PST-08,core,PAST,past_habitual,question,affirmative,,none,,Did you use to live here?,tum_m,tum,M,क्या तुम पहले यहाँ रहते थे?,,क्या पहले यहाँ रहते थे?,tum_m|aap_m,रहते|थे
+PST-08,core,PAST,past_habitual,question,affirmative,,none,,Did you use to live here?,tum_f,tum,F,क्या तुम पहले यहाँ रहती थी?,क्या तुम पहले यहाँ रहती थीं?,क्या पहले यहाँ रहती थी?,tu_f|tum_f,रहती|थी
+PST-08,core,PAST,past_habitual,question,affirmative,,none,,Did you use to live here?,aap_m,aap,M,क्या आप पहले यहाँ रहते थे?,,क्या पहले यहाँ रहते थे?,tum_m|aap_m,रहते|थे
+PST-08,core,PAST,past_habitual,question,affirmative,,none,,Did you use to live here?,aap_f,aap,F,क्या आप पहले यहाँ रहती थीं?,,क्या पहले यहाँ रहती थीं?,tum_f|aap_f,रहती|थीं
+PST-09,core,PAST,perfective,question,negative,,none,,Why didn't you come yesterday?,tu_m,tu,M,तू कल क्यों नहीं आया?,,कल क्यों नहीं आया?,tu_m,आया
+PST-09,core,PAST,perfective,question,negative,,none,,Why didn't you come yesterday?,tu_f,tu,F,तू कल क्यों नहीं आई?,,कल क्यों नहीं आई?,tu_f|tum_f,आई
+PST-09,core,PAST,perfective,question,negative,,none,,Why didn't you come yesterday?,tum_m,tum,M,तुम कल क्यों नहीं आए?,,कल क्यों नहीं आए?,tum_m|aap_m,आए
+PST-09,core,PAST,perfective,question,negative,,none,,Why didn't you come yesterday?,tum_f,tum,F,तुम कल क्यों नहीं आई?,तुम कल क्यों नहीं आईं?,कल क्यों नहीं आई?,tu_f|tum_f,आई
+PST-09,core,PAST,perfective,question,negative,,none,,Why didn't you come yesterday?,aap_m,aap,M,आप कल क्यों नहीं आए?,,कल क्यों नहीं आए?,tum_m|aap_m,आए
+PST-09,core,PAST,perfective,question,negative,,none,,Why didn't you come yesterday?,aap_f,aap,F,आप कल क्यों नहीं आईं?,,कल क्यों नहीं आईं?,tum_f|aap_f,आईं
+PST-10,core,PAST,perfective,question,affirmative,,none,,Did you get lost?,tu_m,tu,M,क्या तू रास्ता भटक गया?,,क्या रास्ता भटक गया?,tu_m,गया
+PST-10,core,PAST,perfective,question,affirmative,,none,,Did you get lost?,tu_f,tu,F,क्या तू रास्ता भटक गई?,,क्या रास्ता भटक गई?,tu_f|tum_f,गई
+PST-10,core,PAST,perfective,question,affirmative,,none,,Did you get lost?,tum_m,tum,M,क्या तुम रास्ता भटक गए?,,क्या रास्ता भटक गए?,tum_m|aap_m,गए
+PST-10,core,PAST,perfective,question,affirmative,,none,,Did you get lost?,tum_f,tum,F,क्या तुम रास्ता भटक गई?,क्या तुम रास्ता भटक गईं?,क्या रास्ता भटक गई?,tu_f|tum_f,गई
+PST-10,core,PAST,perfective,question,affirmative,,none,,Did you get lost?,aap_m,aap,M,क्या आप रास्ता भटक गए?,,क्या रास्ता भटक गए?,tum_m|aap_m,गए
+PST-10,core,PAST,perfective,question,affirmative,,none,,Did you get lost?,aap_f,aap,F,क्या आप रास्ता भटक गईं?,,क्या रास्ता भटक गईं?,tum_f|aap_f,गईं
+PST-11,core,PAST,past_progressive,question,affirmative,,none,,What were you doing?,tu_m,tu,M,तू क्या कर रहा था?,,क्या कर रहा था?,tu_m,रहा|था
+PST-11,core,PAST,past_progressive,question,affirmative,,none,,What were you doing?,tu_f,tu,F,तू क्या कर रही थी?,,क्या कर रही थी?,tu_f|tum_f,रही|थी
+PST-11,core,PAST,past_progressive,question,affirmative,,none,,What were you doing?,tum_m,tum,M,तुम क्या कर रहे थे?,,क्या कर रहे थे?,tum_m|aap_m,रहे|थे
+PST-11,core,PAST,past_progressive,question,affirmative,,none,,What were you doing?,tum_f,tum,F,तुम क्या कर रही थी?,तुम क्या कर रही थीं?,क्या कर रही थी?,tu_f|tum_f,रही|थी
+PST-11,core,PAST,past_progressive,question,affirmative,,none,,What were you doing?,aap_m,aap,M,आप क्या कर रहे थे?,,क्या कर रहे थे?,tum_m|aap_m,रहे|थे
+PST-11,core,PAST,past_progressive,question,affirmative,,none,,What were you doing?,aap_f,aap,F,आप क्या कर रही थीं?,,क्या कर रही थीं?,tum_f|aap_f,रही|थीं
+PST-12,core,PAST,past_copula,statement,affirmative,,none,,You were right.,tu_m,tu,M,तू सही था।,,सही था।,tu_m,था
+PST-12,core,PAST,past_copula,statement,affirmative,,none,,You were right.,tu_f,tu,F,तू सही थी।,,सही थी।,tu_f|tum_f,थी
+PST-12,core,PAST,past_copula,statement,affirmative,,none,,You were right.,tum_m,tum,M,तुम सही थे।,,सही थे।,tum_m|aap_m,थे
+PST-12,core,PAST,past_copula,statement,affirmative,,none,,You were right.,tum_f,tum,F,तुम सही थी।,तुम सही थीं।,सही थी।,tu_f|tum_f,थी
+PST-12,core,PAST,past_copula,statement,affirmative,,none,,You were right.,aap_m,aap,M,आप सही थे।,,सही थे।,tum_m|aap_m,थे
+PST-12,core,PAST,past_copula,statement,affirmative,,none,,You were right.,aap_f,aap,F,आप सही थीं।,,सही थीं।,tum_f|aap_f,थीं
+PST-13,core,PAST,past_copula,statement,affirmative,,none,,You were very lucky.,tu_m,tu,M,तू बहुत खुशकिस्मत था।,,बहुत खुशकिस्मत था।,tu_m,था
+PST-13,core,PAST,past_copula,statement,affirmative,,none,,You were very lucky.,tu_f,tu,F,तू बहुत खुशकिस्मत थी।,,बहुत खुशकिस्मत थी।,tu_f|tum_f,थी
+PST-13,core,PAST,past_copula,statement,affirmative,,none,,You were very lucky.,tum_m,tum,M,तुम बहुत खुशकिस्मत थे।,,बहुत खुशकिस्मत थे।,tum_m|aap_m,थे
+PST-13,core,PAST,past_copula,statement,affirmative,,none,,You were very lucky.,tum_f,tum,F,तुम बहुत खुशकिस्मत थी।,तुम बहुत खुशकिस्मत थीं।,बहुत खुशकिस्मत थी।,tu_f|tum_f,थी
+PST-13,core,PAST,past_copula,statement,affirmative,,none,,You were very lucky.,aap_m,aap,M,आप बहुत खुशकिस्मत थे।,,बहुत खुशकिस्मत थे।,tum_m|aap_m,थे
+PST-13,core,PAST,past_copula,statement,affirmative,,none,,You were very lucky.,aap_f,aap,F,आप बहुत खुशकिस्मत थीं।,,बहुत खुशकिस्मत थीं।,tum_f|aap_f,थीं
+PST-14,core,PAST,perfective,statement,affirmative,,none,,You came back.,tu_m,tu,M,तू वापस आ गया।,,वापस आ गया।,tu_m,गया
+PST-14,core,PAST,perfective,statement,affirmative,,none,,You came back.,tu_f,tu,F,तू वापस आ गई।,,वापस आ गई।,tu_f|tum_f,गई
+PST-14,core,PAST,perfective,statement,affirmative,,none,,You came back.,tum_m,tum,M,तुम वापस आ गए।,,वापस आ गए।,tum_m|aap_m,गए
+PST-14,core,PAST,perfective,statement,affirmative,,none,,You came back.,tum_f,tum,F,तुम वापस आ गई।,तुम वापस आ गईं।,वापस आ गई।,tu_f|tum_f,गई
+PST-14,core,PAST,perfective,statement,affirmative,,none,,You came back.,aap_m,aap,M,आप वापस आ गए।,,वापस आ गए।,tum_m|aap_m,गए
+PST-14,core,PAST,perfective,statement,affirmative,,none,,You came back.,aap_f,aap,F,आप वापस आ गईं।,,वापस आ गईं।,tum_f|aap_f,गईं
+PST-15,core,PAST,perfective,statement,affirmative,,none,,You lost.,tu_m,tu,M,तू हार गया।,,हार गया।,tu_m,गया
+PST-15,core,PAST,perfective,statement,affirmative,,none,,You lost.,tu_f,tu,F,तू हार गई।,,हार गई।,tu_f|tum_f,गई
+PST-15,core,PAST,perfective,statement,affirmative,,none,,You lost.,tum_m,tum,M,तुम हार गए।,,हार गए।,tum_m|aap_m,गए
+PST-15,core,PAST,perfective,statement,affirmative,,none,,You lost.,tum_f,tum,F,तुम हार गई।,तुम हार गईं।,हार गई।,tu_f|tum_f,गई
+PST-15,core,PAST,perfective,statement,affirmative,,none,,You lost.,aap_m,aap,M,आप हार गए।,,हार गए।,tum_m|aap_m,गए
+PST-15,core,PAST,perfective,statement,affirmative,,none,,You lost.,aap_f,aap,F,आप हार गईं।,,हार गईं।,tum_f|aap_f,गईं
+PST-16,core,PAST,past_progressive,question,affirmative,fr3,neutral,,Were you sleeping?,tu_m,tu,M,क्या तू सो रहा था?,,क्या सो रहा था?,tu_m,रहा|था
+PST-16,core,PAST,past_progressive,question,affirmative,fr3,neutral,,Were you sleeping?,tu_f,tu,F,क्या तू सो रही थी?,,क्या सो रही थी?,tu_f|tum_f,रही|थी
+PST-16,core,PAST,past_progressive,question,affirmative,fr3,neutral,,Were you sleeping?,tum_m,tum,M,क्या तुम सो रहे थे?,,क्या सो रहे थे?,tum_m|aap_m,रहे|थे
+PST-16,core,PAST,past_progressive,question,affirmative,fr3,neutral,,Were you sleeping?,tum_f,tum,F,क्या तुम सो रही थी?,क्या तुम सो रही थीं?,क्या सो रही थी?,tu_f|tum_f,रही|थी
+PST-16,core,PAST,past_progressive,question,affirmative,fr3,neutral,,Were you sleeping?,aap_m,aap,M,क्या आप सो रहे थे?,,क्या सो रहे थे?,tum_m|aap_m,रहे|थे
+PST-16,core,PAST,past_progressive,question,affirmative,fr3,neutral,,Were you sleeping?,aap_f,aap,F,क्या आप सो रही थीं?,,क्या सो रही थीं?,tum_f|aap_f,रही|थीं
+PST-17,core,PAST,past_perfect,question,affirmative,fr5,neutral,,Did you go to the post office?,tu_m,tu,M,क्या तू डाकघर गया था?,,क्या डाकघर गया था?,tu_m,गया|था
+PST-17,core,PAST,past_perfect,question,affirmative,fr5,neutral,,Did you go to the post office?,tu_f,tu,F,क्या तू डाकघर गई थी?,,क्या डाकघर गई थी?,tu_f|tum_f,गई|थी
+PST-17,core,PAST,past_perfect,question,affirmative,fr5,neutral,,Did you go to the post office?,tum_m,tum,M,क्या तुम डाकघर गए थे?,,क्या डाकघर गए थे?,tum_m|aap_m,गए|थे
+PST-17,core,PAST,past_perfect,question,affirmative,fr5,neutral,,Did you go to the post office?,tum_f,tum,F,क्या तुम डाकघर गई थी?,क्या तुम डाकघर गई थीं?,क्या डाकघर गई थी?,tu_f|tum_f,गई|थी
+PST-17,core,PAST,past_perfect,question,affirmative,fr5,neutral,,Did you go to the post office?,aap_m,aap,M,क्या आप डाकघर गए थे?,,क्या डाकघर गए थे?,tum_m|aap_m,गए|थे
+PST-17,core,PAST,past_perfect,question,affirmative,fr5,neutral,,Did you go to the post office?,aap_f,aap,F,क्या आप डाकघर गई थीं?,,क्या डाकघर गई थीं?,tum_f|aap_f,गई|थीं
+PST-18,core,PAST,perfective,statement,affirmative,,none,multi_clause|multi_site,You came on Monday and left again the next day.,tu_m,tu,M,तू सोमवार को आया और अगले ही दिन फिर चला गया।,,सोमवार को आया और अगले ही दिन फिर चला गया।,tu_m,आया|चला|गया
+PST-18,core,PAST,perfective,statement,affirmative,,none,multi_clause|multi_site,You came on Monday and left again the next day.,tu_f,tu,F,तू सोमवार को आई और अगले ही दिन फिर चली गई।,,सोमवार को आई और अगले ही दिन फिर चली गई।,tu_f|tum_f,आई|चली|गई
+PST-18,core,PAST,perfective,statement,affirmative,,none,multi_clause|multi_site,You came on Monday and left again the next day.,tum_m,tum,M,तुम सोमवार को आए और अगले ही दिन फिर चले गए।,,सोमवार को आए और अगले ही दिन फिर चले गए।,tum_m|aap_m,आए|चले|गए
+PST-18,core,PAST,perfective,statement,affirmative,,none,multi_clause|multi_site,You came on Monday and left again the next day.,tum_f,tum,F,तुम सोमवार को आई और अगले ही दिन फिर चली गई।,तुम सोमवार को आईं और अगले ही दिन फिर चली गईं।,सोमवार को आई और अगले ही दिन फिर चली गई।,tu_f|tum_f,आई|चली|गई
+PST-18,core,PAST,perfective,statement,affirmative,,none,multi_clause|multi_site,You came on Monday and left again the next day.,aap_m,aap,M,आप सोमवार को आए और अगले ही दिन फिर चले गए।,,सोमवार को आए और अगले ही दिन फिर चले गए।,tum_m|aap_m,आए|चले|गए
+PST-18,core,PAST,perfective,statement,affirmative,,none,multi_clause|multi_site,You came on Monday and left again the next day.,aap_f,aap,F,आप सोमवार को आईं और अगले ही दिन फिर चली गईं।,,सोमवार को आईं और अगले ही दिन फिर चली गईं।,tum_f|aap_f,आईं|चली|गईं
+PST-19,core,PAST,perfective,question,affirmative,,none,multi_clause|distractor,Did you meet the girl who came yesterday?,tu_m,tu,M,क्या तू उस लड़की से मिला जो कल आई थी?,,क्या उस लड़की से मिला जो कल आई थी?,tu_m,मिला
+PST-19,core,PAST,perfective,question,affirmative,,none,multi_clause|distractor,Did you meet the girl who came yesterday?,tu_f,tu,F,क्या तू उस लड़की से मिली जो कल आई थी?,,क्या उस लड़की से मिली जो कल आई थी?,tu_f|tum_f,मिली
+PST-19,core,PAST,perfective,question,affirmative,,none,multi_clause|distractor,Did you meet the girl who came yesterday?,tum_m,tum,M,क्या तुम उस लड़की से मिले जो कल आई थी?,,क्या उस लड़की से मिले जो कल आई थी?,tum_m|aap_m,मिले
+PST-19,core,PAST,perfective,question,affirmative,,none,multi_clause|distractor,Did you meet the girl who came yesterday?,tum_f,tum,F,क्या तुम उस लड़की से मिली जो कल आई थी?,क्या तुम उस लड़की से मिलीं जो कल आई थी?,क्या उस लड़की से मिली जो कल आई थी?,tu_f|tum_f,मिली
+PST-19,core,PAST,perfective,question,affirmative,,none,multi_clause|distractor,Did you meet the girl who came yesterday?,aap_m,aap,M,क्या आप उस लड़की से मिले जो कल आई थी?,,क्या उस लड़की से मिले जो कल आई थी?,tum_m|aap_m,मिले
+PST-19,core,PAST,perfective,question,affirmative,,none,multi_clause|distractor,Did you meet the girl who came yesterday?,aap_f,aap,F,क्या आप उस लड़की से मिलीं जो कल आई थी?,,क्या उस लड़की से मिलीं जो कल आई थी?,tum_f|aap_f,मिलीं
+PST-20,core,PAST,perfective,question,affirmative,,none,,Did you manage to sleep?,tu_m,tu,M,क्या तू सो पाया?,,क्या सो पाया?,tu_m,पाया
+PST-20,core,PAST,perfective,question,affirmative,,none,,Did you manage to sleep?,tu_f,tu,F,क्या तू सो पाई?,,क्या सो पाई?,tu_f|tum_f,पाई
+PST-20,core,PAST,perfective,question,affirmative,,none,,Did you manage to sleep?,tum_m,tum,M,क्या तुम सो पाए?,,क्या सो पाए?,tum_m|aap_m,पाए
+PST-20,core,PAST,perfective,question,affirmative,,none,,Did you manage to sleep?,tum_f,tum,F,क्या तुम सो पाई?,क्या तुम सो पाईं?,क्या सो पाई?,tu_f|tum_f,पाई
+PST-20,core,PAST,perfective,question,affirmative,,none,,Did you manage to sleep?,aap_m,aap,M,क्या आप सो पाए?,,क्या सो पाए?,tum_m|aap_m,पाए
+PST-20,core,PAST,perfective,question,affirmative,,none,,Did you manage to sleep?,aap_f,aap,F,क्या आप सो पाईं?,,क्या सो पाईं?,tum_f|aap_f,पाईं
+PST-21,core,PAST,perfective,question,negative,,none,,Why didn't you wait for me?,tu_m,tu,M,तू मेरे लिए क्यों नहीं रुका?,,मेरे लिए क्यों नहीं रुका?,tu_m,रुका
+PST-21,core,PAST,perfective,question,negative,,none,,Why didn't you wait for me?,tu_f,tu,F,तू मेरे लिए क्यों नहीं रुकी?,,मेरे लिए क्यों नहीं रुकी?,tu_f|tum_f,रुकी
+PST-21,core,PAST,perfective,question,negative,,none,,Why didn't you wait for me?,tum_m,tum,M,तुम मेरे लिए क्यों नहीं रुके?,,मेरे लिए क्यों नहीं रुके?,tum_m|aap_m,रुके
+PST-21,core,PAST,perfective,question,negative,,none,,Why didn't you wait for me?,tum_f,tum,F,तुम मेरे लिए क्यों नहीं रुकी?,तुम मेरे लिए क्यों नहीं रुकीं?,मेरे लिए क्यों नहीं रुकी?,tu_f|tum_f,रुकी
+PST-21,core,PAST,perfective,question,negative,,none,,Why didn't you wait for me?,aap_m,aap,M,आप मेरे लिए क्यों नहीं रुके?,,मेरे लिए क्यों नहीं रुके?,tum_m|aap_m,रुके
+PST-21,core,PAST,perfective,question,negative,,none,,Why didn't you wait for me?,aap_f,aap,F,आप मेरे लिए क्यों नहीं रुकीं?,,मेरे लिए क्यों नहीं रुकीं?,tum_f|aap_f,रुकीं
+PST-22,core,PAST,perfective,question,affirmative,,none,distractor,When did you get back from your trip?,tu_m,tu,M,तू अपनी यात्रा से कब लौटा?,,अपनी यात्रा से कब लौटा?,tu_m,लौटा
+PST-22,core,PAST,perfective,question,affirmative,,none,distractor,When did you get back from your trip?,tu_f,tu,F,तू अपनी यात्रा से कब लौटी?,,अपनी यात्रा से कब लौटी?,tu_f|tum_f,लौटी
+PST-22,core,PAST,perfective,question,affirmative,,none,distractor,When did you get back from your trip?,tum_m,tum,M,तुम अपनी यात्रा से कब लौटे?,,अपनी यात्रा से कब लौटे?,tum_m|aap_m,लौटे
+PST-22,core,PAST,perfective,question,affirmative,,none,distractor,When did you get back from your trip?,tum_f,tum,F,तुम अपनी यात्रा से कब लौटी?,तुम अपनी यात्रा से कब लौटीं?,अपनी यात्रा से कब लौटी?,tu_f|tum_f,लौटी
+PST-22,core,PAST,perfective,question,affirmative,,none,distractor,When did you get back from your trip?,aap_m,aap,M,आप अपनी यात्रा से कब लौटे?,,अपनी यात्रा से कब लौटे?,tum_m|aap_m,लौटे
+PST-22,core,PAST,perfective,question,affirmative,,none,distractor,When did you get back from your trip?,aap_f,aap,F,आप अपनी यात्रा से कब लौटीं?,,अपनी यात्रा से कब लौटीं?,tum_f|aap_f,लौटीं
+PST-23,core,PAST,perfective,statement,affirmative,,none,multi_clause|distractor,"When you arrived, the ceremony had already happened.",tu_m,tu,M,"जब तू पहुँचा, तब तक समारोह हो चुका था।",,"जब पहुँचा, तब तक समारोह हो चुका था।",tu_m,पहुँचा
+PST-23,core,PAST,perfective,statement,affirmative,,none,multi_clause|distractor,"When you arrived, the ceremony had already happened.",tu_f,tu,F,"जब तू पहुँची, तब तक समारोह हो चुका था।",,"जब पहुँची, तब तक समारोह हो चुका था।",tu_f|tum_f,पहुँची
+PST-23,core,PAST,perfective,statement,affirmative,,none,multi_clause|distractor,"When you arrived, the ceremony had already happened.",tum_m,tum,M,"जब तुम पहुँचे, तब तक समारोह हो चुका था।",,"जब पहुँचे, तब तक समारोह हो चुका था।",tum_m|aap_m,पहुँचे
+PST-23,core,PAST,perfective,statement,affirmative,,none,multi_clause|distractor,"When you arrived, the ceremony had already happened.",tum_f,tum,F,"जब तुम पहुँची, तब तक समारोह हो चुका था।","जब तुम पहुँचीं, तब तक समारोह हो चुका था।","जब पहुँची, तब तक समारोह हो चुका था।",tu_f|tum_f,पहुँची
+PST-23,core,PAST,perfective,statement,affirmative,,none,multi_clause|distractor,"When you arrived, the ceremony had already happened.",aap_m,aap,M,"जब आप पहुँचे, तब तक समारोह हो चुका था।",,"जब पहुँचे, तब तक समारोह हो चुका था।",tum_m|aap_m,पहुँचे
+PST-23,core,PAST,perfective,statement,affirmative,,none,multi_clause|distractor,"When you arrived, the ceremony had already happened.",aap_f,aap,F,"जब आप पहुँचीं, तब तक समारोह हो चुका था।",,"जब पहुँचीं, तब तक समारोह हो चुका था।",tum_f|aap_f,पहुँचीं
+PST-24,core,PAST,perfective,question,affirmative,,none,distractor,Did you come with your parents?,tu_m,tu,M,क्या तू अपने माता-पिता के साथ आया?,,क्या अपने माता-पिता के साथ आया?,tu_m,आया
+PST-24,core,PAST,perfective,question,affirmative,,none,distractor,Did you come with your parents?,tu_f,tu,F,क्या तू अपने माता-पिता के साथ आई?,,क्या अपने माता-पिता के साथ आई?,tu_f|tum_f,आई
+PST-24,core,PAST,perfective,question,affirmative,,none,distractor,Did you come with your parents?,tum_m,tum,M,क्या तुम अपने माता-पिता के साथ आए?,,क्या अपने माता-पिता के साथ आए?,tum_m|aap_m,आए
+PST-24,core,PAST,perfective,question,affirmative,,none,distractor,Did you come with your parents?,tum_f,tum,F,क्या तुम अपने माता-पिता के साथ आई?,क्या तुम अपने माता-पिता के साथ आईं?,क्या अपने माता-पिता के साथ आई?,tu_f|tum_f,आई
+PST-24,core,PAST,perfective,question,affirmative,,none,distractor,Did you come with your parents?,aap_m,aap,M,क्या आप अपने माता-पिता के साथ आए?,,क्या अपने माता-पिता के साथ आए?,tum_m|aap_m,आए
+PST-24,core,PAST,perfective,question,affirmative,,none,distractor,Did you come with your parents?,aap_f,aap,F,क्या आप अपने माता-पिता के साथ आईं?,,क्या अपने माता-पिता के साथ आईं?,tum_f|aap_f,आईं
+PST-25,core,PAST,past_copula,question,affirmative,,none,,Were you busy yesterday?,tu_m,tu,M,क्या तू कल व्यस्त था?,,क्या कल व्यस्त था?,tu_m,था
+PST-25,core,PAST,past_copula,question,affirmative,,none,,Were you busy yesterday?,tu_f,tu,F,क्या तू कल व्यस्त थी?,,क्या कल व्यस्त थी?,tu_f|tum_f,थी
+PST-25,core,PAST,past_copula,question,affirmative,,none,,Were you busy yesterday?,tum_m,tum,M,क्या तुम कल व्यस्त थे?,,क्या कल व्यस्त थे?,tum_m|aap_m,थे
+PST-25,core,PAST,past_copula,question,affirmative,,none,,Were you busy yesterday?,tum_f,tum,F,क्या तुम कल व्यस्त थी?,क्या तुम कल व्यस्त थीं?,क्या कल व्यस्त थी?,tu_f|tum_f,थी
+PST-25,core,PAST,past_copula,question,affirmative,,none,,Were you busy yesterday?,aap_m,aap,M,क्या आप कल व्यस्त थे?,,क्या कल व्यस्त थे?,tum_m|aap_m,थे
+PST-25,core,PAST,past_copula,question,affirmative,,none,,Were you busy yesterday?,aap_f,aap,F,क्या आप कल व्यस्त थीं?,,क्या कल व्यस्त थीं?,tum_f|aap_f,थीं
+PST-26,core,PAST,past_copula,question,affirmative,,none,multi_site,Why were you so angry?,tu_m,tu,M,तू इतना नाराज़ क्यों था?,,इतना नाराज़ क्यों था?,tu_m,इतना|था
+PST-26,core,PAST,past_copula,question,affirmative,,none,multi_site,Why were you so angry?,tu_f,tu,F,तू इतनी नाराज़ क्यों थी?,,इतनी नाराज़ क्यों थी?,tu_f|tum_f,इतनी|थी
+PST-26,core,PAST,past_copula,question,affirmative,,none,multi_site,Why were you so angry?,tum_m,tum,M,तुम इतने नाराज़ क्यों थे?,,इतने नाराज़ क्यों थे?,tum_m|aap_m,इतने|थे
+PST-26,core,PAST,past_copula,question,affirmative,,none,multi_site,Why were you so angry?,tum_f,tum,F,तुम इतनी नाराज़ क्यों थी?,तुम इतनी नाराज़ क्यों थीं?,इतनी नाराज़ क्यों थी?,tu_f|tum_f,इतनी|थी
+PST-26,core,PAST,past_copula,question,affirmative,,none,multi_site,Why were you so angry?,aap_m,aap,M,आप इतने नाराज़ क्यों थे?,,इतने नाराज़ क्यों थे?,tum_m|aap_m,इतने|थे
+PST-26,core,PAST,past_copula,question,affirmative,,none,multi_site,Why were you so angry?,aap_f,aap,F,आप इतनी नाराज़ क्यों थीं?,,इतनी नाराज़ क्यों थीं?,tum_f|aap_f,इतनी|थीं
+PST-27,core,PAST,past_copula,question,affirmative,,none,multi_clause|distractor,Were you at home when it started raining?,tu_m,tu,M,"जब बारिश शुरू हुई, तब क्या तू घर पर था?",,"जब बारिश शुरू हुई, तब क्या घर पर था?",tu_m,था
+PST-27,core,PAST,past_copula,question,affirmative,,none,multi_clause|distractor,Were you at home when it started raining?,tu_f,tu,F,"जब बारिश शुरू हुई, तब क्या तू घर पर थी?",,"जब बारिश शुरू हुई, तब क्या घर पर थी?",tu_f|tum_f,थी
+PST-27,core,PAST,past_copula,question,affirmative,,none,multi_clause|distractor,Were you at home when it started raining?,tum_m,tum,M,"जब बारिश शुरू हुई, तब क्या तुम घर पर थे?",,"जब बारिश शुरू हुई, तब क्या घर पर थे?",tum_m|aap_m,थे
+PST-27,core,PAST,past_copula,question,affirmative,,none,multi_clause|distractor,Were you at home when it started raining?,tum_f,tum,F,"जब बारिश शुरू हुई, तब क्या तुम घर पर थी?","जब बारिश शुरू हुई, तब क्या तुम घर पर थीं?","जब बारिश शुरू हुई, तब क्या घर पर थी?",tu_f|tum_f,थी
+PST-27,core,PAST,past_copula,question,affirmative,,none,multi_clause|distractor,Were you at home when it started raining?,aap_m,aap,M,"जब बारिश शुरू हुई, तब क्या आप घर पर थे?",,"जब बारिश शुरू हुई, तब क्या घर पर थे?",tum_m|aap_m,थे
+PST-27,core,PAST,past_copula,question,affirmative,,none,multi_clause|distractor,Were you at home when it started raining?,aap_f,aap,F,"जब बारिश शुरू हुई, तब क्या आप घर पर थीं?",,"जब बारिश शुरू हुई, तब क्या घर पर थीं?",tum_f|aap_f,थीं
+PST-28,core,PAST,past_copula,question,negative,,none,multi_site,Weren't you tired?,tu_m,tu,M,क्या तू थका हुआ नहीं था?,,क्या थका हुआ नहीं था?,tu_m,थका|हुआ|था
+PST-28,core,PAST,past_copula,question,negative,,none,multi_site,Weren't you tired?,tu_f,tu,F,क्या तू थकी हुई नहीं थी?,,क्या थकी हुई नहीं थी?,tu_f|tum_f,थकी|हुई|थी
+PST-28,core,PAST,past_copula,question,negative,,none,multi_site,Weren't you tired?,tum_m,tum,M,क्या तुम थके हुए नहीं थे?,,क्या थके हुए नहीं थे?,tum_m|aap_m,थके|हुए|थे
+PST-28,core,PAST,past_copula,question,negative,,none,multi_site,Weren't you tired?,tum_f,tum,F,क्या तुम थकी हुई नहीं थी?,क्या तुम थकी हुई नहीं थीं?,क्या थकी हुई नहीं थी?,tu_f|tum_f,थकी|हुई|थी
+PST-28,core,PAST,past_copula,question,negative,,none,multi_site,Weren't you tired?,aap_m,aap,M,क्या आप थके हुए नहीं थे?,,क्या थके हुए नहीं थे?,tum_m|aap_m,थके|हुए|थे
+PST-28,core,PAST,past_copula,question,negative,,none,multi_site,Weren't you tired?,aap_f,aap,F,क्या आप थकी हुई नहीं थीं?,,क्या थकी हुई नहीं थीं?,tum_f|aap_f,थकी|हुई|थीं
+PST-29,core,PAST,past_perfect,question,affirmative,,none,multi_clause|distractor,Had you already left when he called?,tu_m,tu,M,"जब उसका फ़ोन आया, तब क्या तू निकल चुका था?",,"जब उसका फ़ोन आया, तब क्या निकल चुका था?",tu_m,चुका|था
+PST-29,core,PAST,past_perfect,question,affirmative,,none,multi_clause|distractor,Had you already left when he called?,tu_f,tu,F,"जब उसका फ़ोन आया, तब क्या तू निकल चुकी थी?",,"जब उसका फ़ोन आया, तब क्या निकल चुकी थी?",tu_f|tum_f,चुकी|थी
+PST-29,core,PAST,past_perfect,question,affirmative,,none,multi_clause|distractor,Had you already left when he called?,tum_m,tum,M,"जब उसका फ़ोन आया, तब क्या तुम निकल चुके थे?",,"जब उसका फ़ोन आया, तब क्या निकल चुके थे?",tum_m|aap_m,चुके|थे
+PST-29,core,PAST,past_perfect,question,affirmative,,none,multi_clause|distractor,Had you already left when he called?,tum_f,tum,F,"जब उसका फ़ोन आया, तब क्या तुम निकल चुकी थी?","जब उसका फ़ोन आया, तब क्या तुम निकल चुकी थीं?","जब उसका फ़ोन आया, तब क्या निकल चुकी थी?",tu_f|tum_f,चुकी|थी
+PST-29,core,PAST,past_perfect,question,affirmative,,none,multi_clause|distractor,Had you already left when he called?,aap_m,aap,M,"जब उसका फ़ोन आया, तब क्या आप निकल चुके थे?",,"जब उसका फ़ोन आया, तब क्या निकल चुके थे?",tum_m|aap_m,चुके|थे
+PST-29,core,PAST,past_perfect,question,affirmative,,none,multi_clause|distractor,Had you already left when he called?,aap_f,aap,F,"जब उसका फ़ोन आया, तब क्या आप निकल चुकी थीं?",,"जब उसका फ़ोन आया, तब क्या निकल चुकी थीं?",tum_f|aap_f,चुकी|थीं
+PST-30,core,PAST,past_perfect,statement,affirmative,,none,multi_clause|distractor,Nobody came while you were away.,tu_m,tu,M,"जब तू बाहर गया हुआ था, तब कोई नहीं आया।",,"जब बाहर गया हुआ था, तब कोई नहीं आया।",tu_m,गया|हुआ|था
+PST-30,core,PAST,past_perfect,statement,affirmative,,none,multi_clause|distractor,Nobody came while you were away.,tu_f,tu,F,"जब तू बाहर गई हुई थी, तब कोई नहीं आया।",,"जब बाहर गई हुई थी, तब कोई नहीं आया।",tu_f|tum_f,गई|हुई|थी
+PST-30,core,PAST,past_perfect,statement,affirmative,,none,multi_clause|distractor,Nobody came while you were away.,tum_m,tum,M,"जब तुम बाहर गए हुए थे, तब कोई नहीं आया।",,"जब बाहर गए हुए थे, तब कोई नहीं आया।",tum_m|aap_m,गए|हुए|थे
+PST-30,core,PAST,past_perfect,statement,affirmative,,none,multi_clause|distractor,Nobody came while you were away.,tum_f,tum,F,"जब तुम बाहर गई हुई थी, तब कोई नहीं आया।","जब तुम बाहर गई हुई थीं, तब कोई नहीं आया।","जब बाहर गई हुई थी, तब कोई नहीं आया।",tu_f|tum_f,गई|हुई|थी
+PST-30,core,PAST,past_perfect,statement,affirmative,,none,multi_clause|distractor,Nobody came while you were away.,aap_m,aap,M,"जब आप बाहर गए हुए थे, तब कोई नहीं आया।",,"जब बाहर गए हुए थे, तब कोई नहीं आया।",tum_m|aap_m,गए|हुए|थे
+PST-30,core,PAST,past_perfect,statement,affirmative,,none,multi_clause|distractor,Nobody came while you were away.,aap_f,aap,F,"जब आप बाहर गई हुई थीं, तब कोई नहीं आया।",,"जब बाहर गई हुई थीं, तब कोई नहीं आया।",tum_f|aap_f,गई|हुई|थीं
+PST-31,core,PAST,past_perfect,statement,affirmative,,none,multi_clause|distractor,"By the time the guests arrived, you had already gone to sleep.",tu_m,tu,M,"जब तक मेहमान पहुँचे, तब तक तू सो चुका था।",,"जब तक मेहमान पहुँचे, तब तक सो चुका था।",tu_m,चुका|था
+PST-31,core,PAST,past_perfect,statement,affirmative,,none,multi_clause|distractor,"By the time the guests arrived, you had already gone to sleep.",tu_f,tu,F,"जब तक मेहमान पहुँचे, तब तक तू सो चुकी थी।",,"जब तक मेहमान पहुँचे, तब तक सो चुकी थी।",tu_f|tum_f,चुकी|थी
+PST-31,core,PAST,past_perfect,statement,affirmative,,none,multi_clause|distractor,"By the time the guests arrived, you had already gone to sleep.",tum_m,tum,M,"जब तक मेहमान पहुँचे, तब तक तुम सो चुके थे।",,"जब तक मेहमान पहुँचे, तब तक सो चुके थे।",tum_m|aap_m,चुके|थे
+PST-31,core,PAST,past_perfect,statement,affirmative,,none,multi_clause|distractor,"By the time the guests arrived, you had already gone to sleep.",tum_f,tum,F,"जब तक मेहमान पहुँचे, तब तक तुम सो चुकी थी।","जब तक मेहमान पहुँचे, तब तक तुम सो चुकी थीं।","जब तक मेहमान पहुँचे, तब तक सो चुकी थी।",tu_f|tum_f,चुकी|थी
+PST-31,core,PAST,past_perfect,statement,affirmative,,none,multi_clause|distractor,"By the time the guests arrived, you had already gone to sleep.",aap_m,aap,M,"जब तक मेहमान पहुँचे, तब तक आप सो चुके थे।",,"जब तक मेहमान पहुँचे, तब तक सो चुके थे।",tum_m|aap_m,चुके|थे
+PST-31,core,PAST,past_perfect,statement,affirmative,,none,multi_clause|distractor,"By the time the guests arrived, you had already gone to sleep.",aap_f,aap,F,"जब तक मेहमान पहुँचे, तब तक आप सो चुकी थीं।",,"जब तक मेहमान पहुँचे, तब तक सो चुकी थीं।",tum_f|aap_f,चुकी|थीं
+PST-32,core,PAST,past_perfect,question,affirmative,,none,multi_clause|distractor,Had you already taken your seat when the film started?,tu_m,tu,M,"जब फ़िल्म शुरू हुई, तब तक क्या तू अपनी सीट पर बैठ चुका था?",,"जब फ़िल्म शुरू हुई, तब तक क्या अपनी सीट पर बैठ चुका था?",tu_m,चुका|था
+PST-32,core,PAST,past_perfect,question,affirmative,,none,multi_clause|distractor,Had you already taken your seat when the film started?,tu_f,tu,F,"जब फ़िल्म शुरू हुई, तब तक क्या तू अपनी सीट पर बैठ चुकी थी?",,"जब फ़िल्म शुरू हुई, तब तक क्या अपनी सीट पर बैठ चुकी थी?",tu_f|tum_f,चुकी|थी
+PST-32,core,PAST,past_perfect,question,affirmative,,none,multi_clause|distractor,Had you already taken your seat when the film started?,tum_m,tum,M,"जब फ़िल्म शुरू हुई, तब तक क्या तुम अपनी सीट पर बैठ चुके थे?",,"जब फ़िल्म शुरू हुई, तब तक क्या अपनी सीट पर बैठ चुके थे?",tum_m|aap_m,चुके|थे
+PST-32,core,PAST,past_perfect,question,affirmative,,none,multi_clause|distractor,Had you already taken your seat when the film started?,tum_f,tum,F,"जब फ़िल्म शुरू हुई, तब तक क्या तुम अपनी सीट पर बैठ चुकी थी?","जब फ़िल्म शुरू हुई, तब तक क्या तुम अपनी सीट पर बैठ चुकी थीं?","जब फ़िल्म शुरू हुई, तब तक क्या अपनी सीट पर बैठ चुकी थी?",tu_f|tum_f,चुकी|थी
+PST-32,core,PAST,past_perfect,question,affirmative,,none,multi_clause|distractor,Had you already taken your seat when the film started?,aap_m,aap,M,"जब फ़िल्म शुरू हुई, तब तक क्या आप अपनी सीट पर बैठ चुके थे?",,"जब फ़िल्म शुरू हुई, तब तक क्या अपनी सीट पर बैठ चुके थे?",tum_m|aap_m,चुके|थे
+PST-32,core,PAST,past_perfect,question,affirmative,,none,multi_clause|distractor,Had you already taken your seat when the film started?,aap_f,aap,F,"जब फ़िल्म शुरू हुई, तब तक क्या आप अपनी सीट पर बैठ चुकी थीं?",,"जब फ़िल्म शुरू हुई, तब तक क्या अपनी सीट पर बैठ चुकी थीं?",tum_f|aap_f,चुकी|थीं
+PST-33,core,PAST,past_perfect,statement,negative,,none,,You had never been there before that trip.,tu_m,tu,M,उस सफ़र से पहले तू कभी वहाँ नहीं गया था।,,उस सफ़र से पहले कभी वहाँ नहीं गया था।,tu_m,गया|था
+PST-33,core,PAST,past_perfect,statement,negative,,none,,You had never been there before that trip.,tu_f,tu,F,उस सफ़र से पहले तू कभी वहाँ नहीं गई थी।,,उस सफ़र से पहले कभी वहाँ नहीं गई थी।,tu_f|tum_f,गई|थी
+PST-33,core,PAST,past_perfect,statement,negative,,none,,You had never been there before that trip.,tum_m,tum,M,उस सफ़र से पहले तुम कभी वहाँ नहीं गए थे।,,उस सफ़र से पहले कभी वहाँ नहीं गए थे।,tum_m|aap_m,गए|थे
+PST-33,core,PAST,past_perfect,statement,negative,,none,,You had never been there before that trip.,tum_f,tum,F,उस सफ़र से पहले तुम कभी वहाँ नहीं गई थी।,उस सफ़र से पहले तुम कभी वहाँ नहीं गई थीं।,उस सफ़र से पहले कभी वहाँ नहीं गई थी।,tu_f|tum_f,गई|थी
+PST-33,core,PAST,past_perfect,statement,negative,,none,,You had never been there before that trip.,aap_m,aap,M,उस सफ़र से पहले आप कभी वहाँ नहीं गए थे।,,उस सफ़र से पहले कभी वहाँ नहीं गए थे।,tum_m|aap_m,गए|थे
+PST-33,core,PAST,past_perfect,statement,negative,,none,,You had never been there before that trip.,aap_f,aap,F,उस सफ़र से पहले आप कभी वहाँ नहीं गई थीं।,,उस सफ़र से पहले कभी वहाँ नहीं गई थीं।,tum_f|aap_f,गई|थीं
+PST-34,core,PAST,past_progressive,question,affirmative,,none,,What were you thinking?,tu_m,tu,M,तू क्या सोच रहा था?,,क्या सोच रहा था?,tu_m,रहा|था
+PST-34,core,PAST,past_progressive,question,affirmative,,none,,What were you thinking?,tu_f,tu,F,तू क्या सोच रही थी?,,क्या सोच रही थी?,tu_f|tum_f,रही|थी
+PST-34,core,PAST,past_progressive,question,affirmative,,none,,What were you thinking?,tum_m,tum,M,तुम क्या सोच रहे थे?,,क्या सोच रहे थे?,tum_m|aap_m,रहे|थे
+PST-34,core,PAST,past_progressive,question,affirmative,,none,,What were you thinking?,tum_f,tum,F,तुम क्या सोच रही थी?,तुम क्या सोच रही थीं?,क्या सोच रही थी?,tu_f|tum_f,रही|थी
+PST-34,core,PAST,past_progressive,question,affirmative,,none,,What were you thinking?,aap_m,aap,M,आप क्या सोच रहे थे?,,क्या सोच रहे थे?,tum_m|aap_m,रहे|थे
+PST-34,core,PAST,past_progressive,question,affirmative,,none,,What were you thinking?,aap_f,aap,F,आप क्या सोच रही थीं?,,क्या सोच रही थीं?,tum_f|aap_f,रही|थीं
+PST-35,core,PAST,past_progressive,statement,affirmative,,none,multi_clause|distractor,Your mother called while you were sleeping.,tu_m,tu,M,"जब तू सो रहा था, तब तेरी माँ का फ़ोन आया था।",,"जब सो रहा था, तब तेरी माँ का फ़ोन आया था।",tu_m,रहा|था
+PST-35,core,PAST,past_progressive,statement,affirmative,,none,multi_clause|distractor,Your mother called while you were sleeping.,tu_f,tu,F,"जब तू सो रही थी, तब तेरी माँ का फ़ोन आया था।",,"जब सो रही थी, तब तेरी माँ का फ़ोन आया था।",tu_f,रही|थी
+PST-35,core,PAST,past_progressive,statement,affirmative,,none,multi_clause|distractor,Your mother called while you were sleeping.,tum_m,tum,M,"जब तुम सो रहे थे, तब तुम्हारी माँ का फ़ोन आया था।",,"जब सो रहे थे, तब तुम्हारी माँ का फ़ोन आया था।",tum_m,रहे|थे
+PST-35,core,PAST,past_progressive,statement,affirmative,,none,multi_clause|distractor,Your mother called while you were sleeping.,tum_f,tum,F,"जब तुम सो रही थी, तब तुम्हारी माँ का फ़ोन आया था।","जब तुम सो रही थीं, तब तुम्हारी माँ का फ़ोन आया था।","जब सो रही थी, तब तुम्हारी माँ का फ़ोन आया था।",tum_f,रही|थी
+PST-35,core,PAST,past_progressive,statement,affirmative,,none,multi_clause|distractor,Your mother called while you were sleeping.,aap_m,aap,M,"जब आप सो रहे थे, तब आपकी माँ का फ़ोन आया था।",,"जब सो रहे थे, तब आपकी माँ का फ़ोन आया था।",aap_m,रहे|थे
+PST-35,core,PAST,past_progressive,statement,affirmative,,none,multi_clause|distractor,Your mother called while you were sleeping.,aap_f,aap,F,"जब आप सो रही थीं, तब आपकी माँ का फ़ोन आया था।",,"जब सो रही थीं, तब आपकी माँ का फ़ोन आया था।",aap_f,रही|थीं
+PST-36,core,PAST,past_progressive,question,affirmative,,none,,Were you talking to me?,tu_m,tu,M,क्या तू मुझसे बात कर रहा था?,,क्या मुझसे बात कर रहा था?,tu_m,रहा|था
+PST-36,core,PAST,past_progressive,question,affirmative,,none,,Were you talking to me?,tu_f,tu,F,क्या तू मुझसे बात कर रही थी?,,क्या मुझसे बात कर रही थी?,tu_f|tum_f,रही|थी
+PST-36,core,PAST,past_progressive,question,affirmative,,none,,Were you talking to me?,tum_m,tum,M,क्या तुम मुझसे बात कर रहे थे?,,क्या मुझसे बात कर रहे थे?,tum_m|aap_m,रहे|थे
+PST-36,core,PAST,past_progressive,question,affirmative,,none,,Were you talking to me?,tum_f,tum,F,क्या तुम मुझसे बात कर रही थी?,क्या तुम मुझसे बात कर रही थीं?,क्या मुझसे बात कर रही थी?,tu_f|tum_f,रही|थी
+PST-36,core,PAST,past_progressive,question,affirmative,,none,,Were you talking to me?,aap_m,aap,M,क्या आप मुझसे बात कर रहे थे?,,क्या मुझसे बात कर रहे थे?,tum_m|aap_m,रहे|थे
+PST-36,core,PAST,past_progressive,question,affirmative,,none,,Were you talking to me?,aap_f,aap,F,क्या आप मुझसे बात कर रही थीं?,,क्या मुझसे बात कर रही थीं?,tum_f|aap_f,रही|थीं
+PST-37,core,PAST,past_progressive,question,affirmative,,none,tag_question,"You were sleeping, weren't you?",tu_m,tu,M,तू सो रहा था न?,,सो रहा था न?,tu_m,रहा|था
+PST-37,core,PAST,past_progressive,question,affirmative,,none,tag_question,"You were sleeping, weren't you?",tu_f,tu,F,तू सो रही थी न?,,सो रही थी न?,tu_f|tum_f,रही|थी
+PST-37,core,PAST,past_progressive,question,affirmative,,none,tag_question,"You were sleeping, weren't you?",tum_m,tum,M,तुम सो रहे थे न?,,सो रहे थे न?,tum_m|aap_m,रहे|थे
+PST-37,core,PAST,past_progressive,question,affirmative,,none,tag_question,"You were sleeping, weren't you?",tum_f,tum,F,तुम सो रही थी न?,तुम सो रही थीं न?,सो रही थी न?,tu_f|tum_f,रही|थी
+PST-37,core,PAST,past_progressive,question,affirmative,,none,tag_question,"You were sleeping, weren't you?",aap_m,aap,M,आप सो रहे थे न?,,सो रहे थे न?,tum_m|aap_m,रहे|थे
+PST-37,core,PAST,past_progressive,question,affirmative,,none,tag_question,"You were sleeping, weren't you?",aap_f,aap,F,आप सो रही थीं न?,,सो रही थीं न?,tum_f|aap_f,रही|थीं
+PST-38,core,PAST,past_progressive,question,affirmative,,none,,Who were you waiting for at the station?,tu_m,tu,M,तू स्टेशन पर किसका इंतज़ार कर रहा था?,,स्टेशन पर किसका इंतज़ार कर रहा था?,tu_m,रहा|था
+PST-38,core,PAST,past_progressive,question,affirmative,,none,,Who were you waiting for at the station?,tu_f,tu,F,तू स्टेशन पर किसका इंतज़ार कर रही थी?,,स्टेशन पर किसका इंतज़ार कर रही थी?,tu_f|tum_f,रही|थी
+PST-38,core,PAST,past_progressive,question,affirmative,,none,,Who were you waiting for at the station?,tum_m,tum,M,तुम स्टेशन पर किसका इंतज़ार कर रहे थे?,,स्टेशन पर किसका इंतज़ार कर रहे थे?,tum_m|aap_m,रहे|थे
+PST-38,core,PAST,past_progressive,question,affirmative,,none,,Who were you waiting for at the station?,tum_f,tum,F,तुम स्टेशन पर किसका इंतज़ार कर रही थी?,तुम स्टेशन पर किसका इंतज़ार कर रही थीं?,स्टेशन पर किसका इंतज़ार कर रही थी?,tu_f|tum_f,रही|थी
+PST-38,core,PAST,past_progressive,question,affirmative,,none,,Who were you waiting for at the station?,aap_m,aap,M,आप स्टेशन पर किसका इंतज़ार कर रहे थे?,,स्टेशन पर किसका इंतज़ार कर रहे थे?,tum_m|aap_m,रहे|थे
+PST-38,core,PAST,past_progressive,question,affirmative,,none,,Who were you waiting for at the station?,aap_f,aap,F,आप स्टेशन पर किसका इंतज़ार कर रही थीं?,,स्टेशन पर किसका इंतज़ार कर रही थीं?,tum_f|aap_f,रही|थीं
+PST-39,core,PAST,past_progressive,question,affirmative,,none,,Were you working last night?,tu_m,tu,M,क्या तू कल रात काम कर रहा था?,,क्या कल रात काम कर रहा था?,tu_m,रहा|था
+PST-39,core,PAST,past_progressive,question,affirmative,,none,,Were you working last night?,tu_f,tu,F,क्या तू कल रात काम कर रही थी?,,क्या कल रात काम कर रही थी?,tu_f|tum_f,रही|थी
+PST-39,core,PAST,past_progressive,question,affirmative,,none,,Were you working last night?,tum_m,tum,M,क्या तुम कल रात काम कर रहे थे?,,क्या कल रात काम कर रहे थे?,tum_m|aap_m,रहे|थे
+PST-39,core,PAST,past_progressive,question,affirmative,,none,,Were you working last night?,tum_f,tum,F,क्या तुम कल रात काम कर रही थी?,क्या तुम कल रात काम कर रही थीं?,क्या कल रात काम कर रही थी?,tu_f|tum_f,रही|थी
+PST-39,core,PAST,past_progressive,question,affirmative,,none,,Were you working last night?,aap_m,aap,M,क्या आप कल रात काम कर रहे थे?,,क्या कल रात काम कर रहे थे?,tum_m|aap_m,रहे|थे
+PST-39,core,PAST,past_progressive,question,affirmative,,none,,Were you working last night?,aap_f,aap,F,क्या आप कल रात काम कर रही थीं?,,क्या कल रात काम कर रही थीं?,tum_f|aap_f,रही|थीं
+PST-40,core,PAST,past_habitual,question,affirmative,,none,,Where did you use to live?,tu_m,tu,M,तू पहले कहाँ रहता था?,,पहले कहाँ रहता था?,tu_m,रहता|था
+PST-40,core,PAST,past_habitual,question,affirmative,,none,,Where did you use to live?,tu_f,tu,F,तू पहले कहाँ रहती थी?,,पहले कहाँ रहती थी?,tu_f|tum_f,रहती|थी
+PST-40,core,PAST,past_habitual,question,affirmative,,none,,Where did you use to live?,tum_m,tum,M,तुम पहले कहाँ रहते थे?,,पहले कहाँ रहते थे?,tum_m|aap_m,रहते|थे
+PST-40,core,PAST,past_habitual,question,affirmative,,none,,Where did you use to live?,tum_f,tum,F,तुम पहले कहाँ रहती थी?,तुम पहले कहाँ रहती थीं?,पहले कहाँ रहती थी?,tu_f|tum_f,रहती|थी
+PST-40,core,PAST,past_habitual,question,affirmative,,none,,Where did you use to live?,aap_m,aap,M,आप पहले कहाँ रहते थे?,,पहले कहाँ रहते थे?,tum_m|aap_m,रहते|थे
+PST-40,core,PAST,past_habitual,question,affirmative,,none,,Where did you use to live?,aap_f,aap,F,आप पहले कहाँ रहती थीं?,,पहले कहाँ रहती थीं?,tum_f|aap_f,रहती|थीं
+PST-41,core,PAST,past_habitual,statement,negative,,none,,You never used to do things like this.,tu_m,tu,M,तू पहले कभी ऐसे काम नहीं करता था।,,पहले कभी ऐसे काम नहीं करता था।,tu_m,करता|था
+PST-41,core,PAST,past_habitual,statement,negative,,none,,You never used to do things like this.,tu_f,tu,F,तू पहले कभी ऐसे काम नहीं करती थी।,,पहले कभी ऐसे काम नहीं करती थी।,tu_f|tum_f,करती|थी
+PST-41,core,PAST,past_habitual,statement,negative,,none,,You never used to do things like this.,tum_m,tum,M,तुम पहले कभी ऐसे काम नहीं करते थे।,,पहले कभी ऐसे काम नहीं करते थे।,tum_m|aap_m,करते|थे
+PST-41,core,PAST,past_habitual,statement,negative,,none,,You never used to do things like this.,tum_f,tum,F,तुम पहले कभी ऐसे काम नहीं करती थी।,तुम पहले कभी ऐसे काम नहीं करती थीं।,पहले कभी ऐसे काम नहीं करती थी।,tu_f|tum_f,करती|थी
+PST-41,core,PAST,past_habitual,statement,negative,,none,,You never used to do things like this.,aap_m,aap,M,आप पहले कभी ऐसे काम नहीं करते थे।,,पहले कभी ऐसे काम नहीं करते थे।,tum_m|aap_m,करते|थे
+PST-41,core,PAST,past_habitual,statement,negative,,none,,You never used to do things like this.,aap_f,aap,F,आप पहले कभी ऐसे काम नहीं करती थीं।,,पहले कभी ऐसे काम नहीं करती थीं।,tum_f|aap_f,करती|थीं
+PST-42,core,PAST,past_habitual,statement,affirmative,,none,,You used to draw.,tu_m,tu,M,तू पहले चित्र बनाता था।,,पहले चित्र बनाता था।,tu_m,बनाता|था
+PST-42,core,PAST,past_habitual,statement,affirmative,,none,,You used to draw.,tu_f,tu,F,तू पहले चित्र बनाती थी।,,पहले चित्र बनाती थी।,tu_f|tum_f,बनाती|थी
+PST-42,core,PAST,past_habitual,statement,affirmative,,none,,You used to draw.,tum_m,tum,M,तुम पहले चित्र बनाते थे।,,पहले चित्र बनाते थे।,tum_m|aap_m,बनाते|थे
+PST-42,core,PAST,past_habitual,statement,affirmative,,none,,You used to draw.,tum_f,tum,F,तुम पहले चित्र बनाती थी।,तुम पहले चित्र बनाती थीं।,पहले चित्र बनाती थी।,tu_f|tum_f,बनाती|थी
+PST-42,core,PAST,past_habitual,statement,affirmative,,none,,You used to draw.,aap_m,aap,M,आप पहले चित्र बनाते थे।,,पहले चित्र बनाते थे।,tum_m|aap_m,बनाते|थे
+PST-42,core,PAST,past_habitual,statement,affirmative,,none,,You used to draw.,aap_f,aap,F,आप पहले चित्र बनाती थीं।,,पहले चित्र बनाती थीं।,tum_f|aap_f,बनाती|थीं
+PST-43,core,PAST,past_habitual,statement,affirmative,,none,multi_clause|multi_site,"When you were a kid, you wanted to be a doctor.",tu_m,tu,M,"जब तू बच्चा था, तब डॉक्टर बनना चाहता था।",,"जब बच्चा था, तब डॉक्टर बनना चाहता था।",tu_m,बच्चा|था|चाहता|था
+PST-43,core,PAST,past_habitual,statement,affirmative,,none,multi_clause|multi_site,"When you were a kid, you wanted to be a doctor.",tu_f,tu,F,"जब तू बच्ची थी, तब डॉक्टर बनना चाहती थी।",,"जब बच्ची थी, तब डॉक्टर बनना चाहती थी।",tu_f|tum_f,बच्ची|थी|चाहती|थी
+PST-43,core,PAST,past_habitual,statement,affirmative,,none,multi_clause|multi_site,"When you were a kid, you wanted to be a doctor.",tum_m,tum,M,"जब तुम बच्चे थे, तब डॉक्टर बनना चाहते थे।",,"जब बच्चे थे, तब डॉक्टर बनना चाहते थे।",tum_m|aap_m,बच्चे|थे|चाहते|थे
+PST-43,core,PAST,past_habitual,statement,affirmative,,none,multi_clause|multi_site,"When you were a kid, you wanted to be a doctor.",tum_f,tum,F,"जब तुम बच्ची थी, तब डॉक्टर बनना चाहती थी।","जब तुम बच्ची थीं, तब डॉक्टर बनना चाहती थीं।","जब बच्ची थी, तब डॉक्टर बनना चाहती थी।",tu_f|tum_f,बच्ची|थी|चाहती|थी
+PST-43,core,PAST,past_habitual,statement,affirmative,,none,multi_clause|multi_site,"When you were a kid, you wanted to be a doctor.",aap_m,aap,M,"जब आप बच्चे थे, तब डॉक्टर बनना चाहते थे।",,"जब बच्चे थे, तब डॉक्टर बनना चाहते थे।",tum_m|aap_m,बच्चे|थे|चाहते|थे
+PST-43,core,PAST,past_habitual,statement,affirmative,,none,multi_clause|multi_site,"When you were a kid, you wanted to be a doctor.",aap_f,aap,F,"जब आप बच्ची थीं, तब डॉक्टर बनना चाहती थीं।",,"जब बच्ची थीं, तब डॉक्टर बनना चाहती थीं।",tum_f|aap_f,बच्ची|थीं|चाहती|थीं
+PST-44,core,PAST,past_habitual,question,affirmative,,none,,Did you walk to school as a child?,tu_m,tu,M,बचपन में क्या तू पैदल स्कूल जाता था?,,बचपन में क्या पैदल स्कूल जाता था?,tu_m,जाता|था
+PST-44,core,PAST,past_habitual,question,affirmative,,none,,Did you walk to school as a child?,tu_f,tu,F,बचपन में क्या तू पैदल स्कूल जाती थी?,,बचपन में क्या पैदल स्कूल जाती थी?,tu_f|tum_f,जाती|थी
+PST-44,core,PAST,past_habitual,question,affirmative,,none,,Did you walk to school as a child?,tum_m,tum,M,बचपन में क्या तुम पैदल स्कूल जाते थे?,,बचपन में क्या पैदल स्कूल जाते थे?,tum_m|aap_m,जाते|थे
+PST-44,core,PAST,past_habitual,question,affirmative,,none,,Did you walk to school as a child?,tum_f,tum,F,बचपन में क्या तुम पैदल स्कूल जाती थी?,बचपन में क्या तुम पैदल स्कूल जाती थीं?,बचपन में क्या पैदल स्कूल जाती थी?,tu_f|tum_f,जाती|थी
+PST-44,core,PAST,past_habitual,question,affirmative,,none,,Did you walk to school as a child?,aap_m,aap,M,बचपन में क्या आप पैदल स्कूल जाते थे?,,बचपन में क्या पैदल स्कूल जाते थे?,tum_m|aap_m,जाते|थे
+PST-44,core,PAST,past_habitual,question,affirmative,,none,,Did you walk to school as a child?,aap_f,aap,F,बचपन में क्या आप पैदल स्कूल जाती थीं?,,बचपन में क्या पैदल स्कूल जाती थीं?,tum_f|aap_f,जाती|थीं
+PST-45,core,PAST,past_habitual,question,affirmative,,none,distractor,Did you use to come here with your brother?,tu_m,tu,M,क्या तू पहले अपने भाई के साथ यहाँ आता था?,,क्या पहले अपने भाई के साथ यहाँ आता था?,tu_m,आता|था
+PST-45,core,PAST,past_habitual,question,affirmative,,none,distractor,Did you use to come here with your brother?,tu_f,tu,F,क्या तू पहले अपने भाई के साथ यहाँ आती थी?,,क्या पहले अपने भाई के साथ यहाँ आती थी?,tu_f|tum_f,आती|थी
+PST-45,core,PAST,past_habitual,question,affirmative,,none,distractor,Did you use to come here with your brother?,tum_m,tum,M,क्या तुम पहले अपने भाई के साथ यहाँ आते थे?,,क्या पहले अपने भाई के साथ यहाँ आते थे?,tum_m|aap_m,आते|थे
+PST-45,core,PAST,past_habitual,question,affirmative,,none,distractor,Did you use to come here with your brother?,tum_f,tum,F,क्या तुम पहले अपने भाई के साथ यहाँ आती थी?,क्या तुम पहले अपने भाई के साथ यहाँ आती थीं?,क्या पहले अपने भाई के साथ यहाँ आती थी?,tu_f|tum_f,आती|थी
+PST-45,core,PAST,past_habitual,question,affirmative,,none,distractor,Did you use to come here with your brother?,aap_m,aap,M,क्या आप पहले अपने भाई के साथ यहाँ आते थे?,,क्या पहले अपने भाई के साथ यहाँ आते थे?,tum_m|aap_m,आते|थे
+PST-45,core,PAST,past_habitual,question,affirmative,,none,distractor,Did you use to come here with your brother?,aap_f,aap,F,क्या आप पहले अपने भाई के साथ यहाँ आती थीं?,,क्या पहले अपने भाई के साथ यहाँ आती थीं?,tum_f|aap_f,आती|थीं
+PST-46,core,PAST,past_habitual,question,affirmative,,none,,Did you use to wear glasses?,tu_m,tu,M,क्या तू पहले चश्मा पहनता था?,,क्या पहले चश्मा पहनता था?,tu_m,पहनता|था
+PST-46,core,PAST,past_habitual,question,affirmative,,none,,Did you use to wear glasses?,tu_f,tu,F,क्या तू पहले चश्मा पहनती थी?,,क्या पहले चश्मा पहनती थी?,tu_f|tum_f,पहनती|थी
+PST-46,core,PAST,past_habitual,question,affirmative,,none,,Did you use to wear glasses?,tum_m,tum,M,क्या तुम पहले चश्मा पहनते थे?,,क्या पहले चश्मा पहनते थे?,tum_m|aap_m,पहनते|थे
+PST-46,core,PAST,past_habitual,question,affirmative,,none,,Did you use to wear glasses?,tum_f,tum,F,क्या तुम पहले चश्मा पहनती थी?,क्या तुम पहले चश्मा पहनती थीं?,क्या पहले चश्मा पहनती थी?,tu_f|tum_f,पहनती|थी
+PST-46,core,PAST,past_habitual,question,affirmative,,none,,Did you use to wear glasses?,aap_m,aap,M,क्या आप पहले चश्मा पहनते थे?,,क्या पहले चश्मा पहनते थे?,tum_m|aap_m,पहनते|थे
+PST-46,core,PAST,past_habitual,question,affirmative,,none,,Did you use to wear glasses?,aap_f,aap,F,क्या आप पहले चश्मा पहनती थीं?,,क्या पहले चश्मा पहनती थीं?,tum_f|aap_f,पहनती|थीं
+PST-47,core,PAST,counterfactual,statement,affirmative,,none,conditional|multi_clause|multi_site,"Had you been there, you would understand.",tu_m,tu,M,"अगर तू वहाँ होता, तो समझ जाता।",,"अगर वहाँ होता, तो समझ जाता।",tu_m,होता|जाता
+PST-47,core,PAST,counterfactual,statement,affirmative,,none,conditional|multi_clause|multi_site,"Had you been there, you would understand.",tu_f,tu,F,"अगर तू वहाँ होती, तो समझ जाती।",,"अगर वहाँ होती, तो समझ जाती।",tu_f|tum_f,होती|जाती
+PST-47,core,PAST,counterfactual,statement,affirmative,,none,conditional|multi_clause|multi_site,"Had you been there, you would understand.",tum_m,tum,M,"अगर तुम वहाँ होते, तो समझ जाते।",,"अगर वहाँ होते, तो समझ जाते।",tum_m|aap_m,होते|जाते
+PST-47,core,PAST,counterfactual,statement,affirmative,,none,conditional|multi_clause|multi_site,"Had you been there, you would understand.",tum_f,tum,F,"अगर तुम वहाँ होती, तो समझ जाती।","अगर तुम वहाँ होतीं, तो समझ जातीं।","अगर वहाँ होती, तो समझ जाती।",tu_f|tum_f,होती|जाती
+PST-47,core,PAST,counterfactual,statement,affirmative,,none,conditional|multi_clause|multi_site,"Had you been there, you would understand.",aap_m,aap,M,"अगर आप वहाँ होते, तो समझ जाते।",,"अगर वहाँ होते, तो समझ जाते।",tum_m|aap_m,होते|जाते
+PST-47,core,PAST,counterfactual,statement,affirmative,,none,conditional|multi_clause|multi_site,"Had you been there, you would understand.",aap_f,aap,F,"अगर आप वहाँ होतीं, तो समझ जातीं।",,"अगर वहाँ होतीं, तो समझ जातीं।",tum_f|aap_f,होतीं|जातीं
+PST-48,core,PAST,counterfactual,statement,affirmative,,none,conditional|multi_clause|multi_site,"Had you come a little earlier, you could have met her.",tu_m,tu,M,"अगर तू थोड़ा पहले आता, तो उससे मिल सकता था।",,"अगर थोड़ा पहले आता, तो उससे मिल सकता था।",tu_m,आता|सकता|था
+PST-48,core,PAST,counterfactual,statement,affirmative,,none,conditional|multi_clause|multi_site,"Had you come a little earlier, you could have met her.",tu_f,tu,F,"अगर तू थोड़ा पहले आती, तो उससे मिल सकती थी।",,"अगर थोड़ा पहले आती, तो उससे मिल सकती थी।",tu_f|tum_f,आती|सकती|थी
+PST-48,core,PAST,counterfactual,statement,affirmative,,none,conditional|multi_clause|multi_site,"Had you come a little earlier, you could have met her.",tum_m,tum,M,"अगर तुम थोड़ा पहले आते, तो उससे मिल सकते थे।",,"अगर थोड़ा पहले आते, तो उससे मिल सकते थे।",tum_m|aap_m,आते|सकते|थे
+PST-48,core,PAST,counterfactual,statement,affirmative,,none,conditional|multi_clause|multi_site,"Had you come a little earlier, you could have met her.",tum_f,tum,F,"अगर तुम थोड़ा पहले आती, तो उससे मिल सकती थी।","अगर तुम थोड़ा पहले आतीं, तो उससे मिल सकती थीं।","अगर थोड़ा पहले आती, तो उससे मिल सकती थी।",tu_f|tum_f,आती|सकती|थी
+PST-48,core,PAST,counterfactual,statement,affirmative,,none,conditional|multi_clause|multi_site,"Had you come a little earlier, you could have met her.",aap_m,aap,M,"अगर आप थोड़ा पहले आते, तो उससे मिल सकते थे।",,"अगर थोड़ा पहले आते, तो उससे मिल सकते थे।",tum_m|aap_m,आते|सकते|थे
+PST-48,core,PAST,counterfactual,statement,affirmative,,none,conditional|multi_clause|multi_site,"Had you come a little earlier, you could have met her.",aap_f,aap,F,"अगर आप थोड़ा पहले आतीं, तो उससे मिल सकती थीं।",,"अगर थोड़ा पहले आतीं, तो उससे मिल सकती थीं।",tum_f|aap_f,आतीं|सकती|थीं
+PRS-01,core,PRES,present_progressive,question,affirmative,,none,,Where are you going?,tu_m,tu,M,तू कहाँ जा रहा है?,,कहाँ जा रहा है?,tu_m,रहा|है
+PRS-01,core,PRES,present_progressive,question,affirmative,,none,,Where are you going?,tu_f,tu,F,तू कहाँ जा रही है?,,कहाँ जा रही है?,tu_f,रही|है
+PRS-01,core,PRES,present_progressive,question,affirmative,,none,,Where are you going?,tum_m,tum,M,तुम कहाँ जा रहे हो?,,कहाँ जा रहे हो?,tum_m,रहे|हो
+PRS-01,core,PRES,present_progressive,question,affirmative,,none,,Where are you going?,tum_f,tum,F,तुम कहाँ जा रही हो?,,कहाँ जा रही हो?,tum_f,रही|हो
+PRS-01,core,PRES,present_progressive,question,affirmative,,none,,Where are you going?,aap_m,aap,M,आप कहाँ जा रहे हैं?,,कहाँ जा रहे हैं?,aap_m,रहे|हैं
+PRS-01,core,PRES,present_progressive,question,affirmative,,none,,Where are you going?,aap_f,aap,F,आप कहाँ जा रही हैं?,,कहाँ जा रही हैं?,aap_f,रही|हैं
+PRS-02,core,PRES,present_progressive,question,affirmative,,none,,What are you doing?,tu_m,tu,M,तू क्या कर रहा है?,,क्या कर रहा है?,tu_m,रहा|है
+PRS-02,core,PRES,present_progressive,question,affirmative,,none,,What are you doing?,tu_f,tu,F,तू क्या कर रही है?,,क्या कर रही है?,tu_f,रही|है
+PRS-02,core,PRES,present_progressive,question,affirmative,,none,,What are you doing?,tum_m,tum,M,तुम क्या कर रहे हो?,,क्या कर रहे हो?,tum_m,रहे|हो
+PRS-02,core,PRES,present_progressive,question,affirmative,,none,,What are you doing?,tum_f,tum,F,तुम क्या कर रही हो?,,क्या कर रही हो?,tum_f,रही|हो
+PRS-02,core,PRES,present_progressive,question,affirmative,,none,,What are you doing?,aap_m,aap,M,आप क्या कर रहे हैं?,,क्या कर रहे हैं?,aap_m,रहे|हैं
+PRS-02,core,PRES,present_progressive,question,affirmative,,none,,What are you doing?,aap_f,aap,F,आप क्या कर रही हैं?,,क्या कर रही हैं?,aap_f,रही|हैं
+PRS-03,core,PRES,present_progressive,question,affirmative,,none,,Why are you laughing?,tu_m,tu,M,तू क्यों हँस रहा है?,,क्यों हँस रहा है?,tu_m,रहा|है
+PRS-03,core,PRES,present_progressive,question,affirmative,,none,,Why are you laughing?,tu_f,tu,F,तू क्यों हँस रही है?,,क्यों हँस रही है?,tu_f,रही|है
+PRS-03,core,PRES,present_progressive,question,affirmative,,none,,Why are you laughing?,tum_m,tum,M,तुम क्यों हँस रहे हो?,,क्यों हँस रहे हो?,tum_m,रहे|हो
+PRS-03,core,PRES,present_progressive,question,affirmative,,none,,Why are you laughing?,tum_f,tum,F,तुम क्यों हँस रही हो?,,क्यों हँस रही हो?,tum_f,रही|हो
+PRS-03,core,PRES,present_progressive,question,affirmative,,none,,Why are you laughing?,aap_m,aap,M,आप क्यों हँस रहे हैं?,,क्यों हँस रहे हैं?,aap_m,रहे|हैं
+PRS-03,core,PRES,present_progressive,question,affirmative,,none,,Why are you laughing?,aap_f,aap,F,आप क्यों हँस रही हैं?,,क्यों हँस रही हैं?,aap_f,रही|हैं
+PRS-04,core,PRES,present_progressive,statement,affirmative,,none,,You're working too hard.,tu_m,tu,M,तू बहुत ज़्यादा मेहनत कर रहा है।,,बहुत ज़्यादा मेहनत कर रहा है।,tu_m,रहा|है
+PRS-04,core,PRES,present_progressive,statement,affirmative,,none,,You're working too hard.,tu_f,tu,F,तू बहुत ज़्यादा मेहनत कर रही है।,,बहुत ज़्यादा मेहनत कर रही है।,tu_f,रही|है
+PRS-04,core,PRES,present_progressive,statement,affirmative,,none,,You're working too hard.,tum_m,tum,M,तुम बहुत ज़्यादा मेहनत कर रहे हो।,,बहुत ज़्यादा मेहनत कर रहे हो।,tum_m,रहे|हो
+PRS-04,core,PRES,present_progressive,statement,affirmative,,none,,You're working too hard.,tum_f,tum,F,तुम बहुत ज़्यादा मेहनत कर रही हो।,,बहुत ज़्यादा मेहनत कर रही हो।,tum_f,रही|हो
+PRS-04,core,PRES,present_progressive,statement,affirmative,,none,,You're working too hard.,aap_m,aap,M,आप बहुत ज़्यादा मेहनत कर रहे हैं।,,बहुत ज़्यादा मेहनत कर रहे हैं।,aap_m,रहे|हैं
+PRS-04,core,PRES,present_progressive,statement,affirmative,,none,,You're working too hard.,aap_f,aap,F,आप बहुत ज़्यादा मेहनत कर रही हैं।,,बहुत ज़्यादा मेहनत कर रही हैं।,aap_f,रही|हैं
+PRS-05,core,PRES,present_habitual,question,affirmative,,none,,Where do you live?,tu_m,tu,M,तू कहाँ रहता है?,,कहाँ रहता है?,tu_m,रहता|है
+PRS-05,core,PRES,present_habitual,question,affirmative,,none,,Where do you live?,tu_f,tu,F,तू कहाँ रहती है?,,कहाँ रहती है?,tu_f,रहती|है
+PRS-05,core,PRES,present_habitual,question,affirmative,,none,,Where do you live?,tum_m,tum,M,तुम कहाँ रहते हो?,,कहाँ रहते हो?,tum_m,रहते|हो
+PRS-05,core,PRES,present_habitual,question,affirmative,,none,,Where do you live?,tum_f,tum,F,तुम कहाँ रहती हो?,,कहाँ रहती हो?,tum_f,रहती|हो
+PRS-05,core,PRES,present_habitual,question,affirmative,,none,,Where do you live?,aap_m,aap,M,आप कहाँ रहते हैं?,,कहाँ रहते हैं?,aap_m,रहते|हैं
+PRS-05,core,PRES,present_habitual,question,affirmative,,none,,Where do you live?,aap_f,aap,F,आप कहाँ रहती हैं?,,कहाँ रहती हैं?,aap_f,रहती|हैं
+PRS-06,core,PRES,present_habitual,question,affirmative,,none,,What do you do?,tu_m,tu,M,तू क्या करता है?,,क्या करता है?,tu_m,करता|है
+PRS-06,core,PRES,present_habitual,question,affirmative,,none,,What do you do?,tu_f,tu,F,तू क्या करती है?,,क्या करती है?,tu_f,करती|है
+PRS-06,core,PRES,present_habitual,question,affirmative,,none,,What do you do?,tum_m,tum,M,तुम क्या करते हो?,,क्या करते हो?,tum_m,करते|हो
+PRS-06,core,PRES,present_habitual,question,affirmative,,none,,What do you do?,tum_f,tum,F,तुम क्या करती हो?,,क्या करती हो?,tum_f,करती|हो
+PRS-06,core,PRES,present_habitual,question,affirmative,,none,,What do you do?,aap_m,aap,M,आप क्या करते हैं?,,क्या करते हैं?,aap_m,करते|हैं
+PRS-06,core,PRES,present_habitual,question,affirmative,,none,,What do you do?,aap_f,aap,F,आप क्या करती हैं?,,क्या करती हैं?,aap_f,करती|हैं
+PRS-07,core,PRES,present_habitual,question,affirmative,,none,,Do you drink tea?,tu_m,tu,M,क्या तू चाय पीता है?,,क्या चाय पीता है?,tu_m,पीता|है
+PRS-07,core,PRES,present_habitual,question,affirmative,,none,,Do you drink tea?,tu_f,tu,F,क्या तू चाय पीती है?,,क्या चाय पीती है?,tu_f,पीती|है
+PRS-07,core,PRES,present_habitual,question,affirmative,,none,,Do you drink tea?,tum_m,tum,M,क्या तुम चाय पीते हो?,,क्या चाय पीते हो?,tum_m,पीते|हो
+PRS-07,core,PRES,present_habitual,question,affirmative,,none,,Do you drink tea?,tum_f,tum,F,क्या तुम चाय पीती हो?,,क्या चाय पीती हो?,tum_f,पीती|हो
+PRS-07,core,PRES,present_habitual,question,affirmative,,none,,Do you drink tea?,aap_m,aap,M,क्या आप चाय पीते हैं?,,क्या चाय पीते हैं?,aap_m,पीते|हैं
+PRS-07,core,PRES,present_habitual,question,affirmative,,none,,Do you drink tea?,aap_f,aap,F,क्या आप चाय पीती हैं?,,क्या चाय पीती हैं?,aap_f,पीती|हैं
+PRS-08,core,PRES,present_habitual,statement,affirmative,,none,,You sing well.,tu_m,tu,M,तू अच्छा गाता है।,,अच्छा गाता है।,tu_m,गाता|है
+PRS-08,core,PRES,present_habitual,statement,affirmative,,none,,You sing well.,tu_f,tu,F,तू अच्छा गाती है।,,अच्छा गाती है।,tu_f,गाती|है
+PRS-08,core,PRES,present_habitual,statement,affirmative,,none,,You sing well.,tum_m,tum,M,तुम अच्छा गाते हो।,,अच्छा गाते हो।,tum_m,गाते|हो
+PRS-08,core,PRES,present_habitual,statement,affirmative,,none,,You sing well.,tum_f,tum,F,तुम अच्छा गाती हो।,,अच्छा गाती हो।,tum_f,गाती|हो
+PRS-08,core,PRES,present_habitual,statement,affirmative,,none,,You sing well.,aap_m,aap,M,आप अच्छा गाते हैं।,,अच्छा गाते हैं।,aap_m,गाते|हैं
+PRS-08,core,PRES,present_habitual,statement,affirmative,,none,,You sing well.,aap_f,aap,F,आप अच्छा गाती हैं।,,अच्छा गाती हैं।,aap_f,गाती|हैं
+PRS-09,core,PRES,present_perfect,question,affirmative,,none,,Have you ever been abroad?,tu_m,tu,M,क्या तू कभी विदेश गया है?,,क्या कभी विदेश गया है?,tu_m,गया|है
+PRS-09,core,PRES,present_perfect,question,affirmative,,none,,Have you ever been abroad?,tu_f,tu,F,क्या तू कभी विदेश गई है?,,क्या कभी विदेश गई है?,tu_f,गई|है
+PRS-09,core,PRES,present_perfect,question,affirmative,,none,,Have you ever been abroad?,tum_m,tum,M,क्या तुम कभी विदेश गए हो?,,क्या कभी विदेश गए हो?,tum_m,गए|हो
+PRS-09,core,PRES,present_perfect,question,affirmative,,none,,Have you ever been abroad?,tum_f,tum,F,क्या तुम कभी विदेश गई हो?,,क्या कभी विदेश गई हो?,tum_f,गई|हो
+PRS-09,core,PRES,present_perfect,question,affirmative,,none,,Have you ever been abroad?,aap_m,aap,M,क्या आप कभी विदेश गए हैं?,,क्या कभी विदेश गए हैं?,aap_m,गए|हैं
+PRS-09,core,PRES,present_perfect,question,affirmative,,none,,Have you ever been abroad?,aap_f,aap,F,क्या आप कभी विदेश गई हैं?,,क्या कभी विदेश गई हैं?,aap_f,गई|हैं
+PRS-10,core,PRES,present_perfect,statement,affirmative,,none,,You've changed.,tu_m,tu,M,तू बदल गया है।,,बदल गया है।,tu_m,गया|है
+PRS-10,core,PRES,present_perfect,statement,affirmative,,none,,You've changed.,tu_f,tu,F,तू बदल गई है।,,बदल गई है।,tu_f,गई|है
+PRS-10,core,PRES,present_perfect,statement,affirmative,,none,,You've changed.,tum_m,tum,M,तुम बदल गए हो।,,बदल गए हो।,tum_m,गए|हो
+PRS-10,core,PRES,present_perfect,statement,affirmative,,none,,You've changed.,tum_f,tum,F,तुम बदल गई हो।,,बदल गई हो।,tum_f,गई|हो
+PRS-10,core,PRES,present_perfect,statement,affirmative,,none,,You've changed.,aap_m,aap,M,आप बदल गए हैं।,,बदल गए हैं।,aap_m,गए|हैं
+PRS-10,core,PRES,present_perfect,statement,affirmative,,none,,You've changed.,aap_f,aap,F,आप बदल गई हैं।,,बदल गई हैं।,aap_f,गई|हैं
+PRS-11,core,PRES,predicate_adjective,question,affirmative,,none,,Are you hungry?,tu_m,tu,M,क्या तू भूखा है?,,क्या भूखा है?,tu_m,भूखा|है
+PRS-11,core,PRES,predicate_adjective,question,affirmative,,none,,Are you hungry?,tu_f,tu,F,क्या तू भूखी है?,,क्या भूखी है?,tu_f,भूखी|है
+PRS-11,core,PRES,predicate_adjective,question,affirmative,,none,,Are you hungry?,tum_m,tum,M,क्या तुम भूखे हो?,,क्या भूखे हो?,tum_m,भूखे|हो
+PRS-11,core,PRES,predicate_adjective,question,affirmative,,none,,Are you hungry?,tum_f,tum,F,क्या तुम भूखी हो?,,क्या भूखी हो?,tum_f,भूखी|हो
+PRS-11,core,PRES,predicate_adjective,question,affirmative,,none,,Are you hungry?,aap_m,aap,M,क्या आप भूखे हैं?,,क्या भूखे हैं?,aap_m,भूखे|हैं
+PRS-11,core,PRES,predicate_adjective,question,affirmative,,none,,Are you hungry?,aap_f,aap,F,क्या आप भूखी हैं?,,क्या भूखी हैं?,aap_f,भूखी|हैं
+PRS-12,core,PRES,predicate_adjective,question,affirmative,,none,,Are you alone?,tu_m,tu,M,क्या तू अकेला है?,,क्या अकेला है?,tu_m,अकेला|है
+PRS-12,core,PRES,predicate_adjective,question,affirmative,,none,,Are you alone?,tu_f,tu,F,क्या तू अकेली है?,,क्या अकेली है?,tu_f,अकेली|है
+PRS-12,core,PRES,predicate_adjective,question,affirmative,,none,,Are you alone?,tum_m,tum,M,क्या तुम अकेले हो?,,क्या अकेले हो?,tum_m,अकेले|हो
+PRS-12,core,PRES,predicate_adjective,question,affirmative,,none,,Are you alone?,tum_f,tum,F,क्या तुम अकेली हो?,,क्या अकेली हो?,tum_f,अकेली|हो
+PRS-12,core,PRES,predicate_adjective,question,affirmative,,none,,Are you alone?,aap_m,aap,M,क्या आप अकेले हैं?,,क्या अकेले हैं?,aap_m,अकेले|हैं
+PRS-12,core,PRES,predicate_adjective,question,affirmative,,none,,Are you alone?,aap_f,aap,F,क्या आप अकेली हैं?,,क्या अकेली हैं?,aap_f,अकेली|हैं
+PRS-13,core,PRES,predicate_adjective,statement,affirmative,,none,multi_site,You look tired.,tu_m,tu,M,तू थका हुआ लग रहा है।,,थका हुआ लग रहा है।,tu_m,थका|हुआ|रहा|है
+PRS-13,core,PRES,predicate_adjective,statement,affirmative,,none,multi_site,You look tired.,tu_f,tu,F,तू थकी हुई लग रही है।,,थकी हुई लग रही है।,tu_f,थकी|हुई|रही|है
+PRS-13,core,PRES,predicate_adjective,statement,affirmative,,none,multi_site,You look tired.,tum_m,tum,M,तुम थके हुए लग रहे हो।,,थके हुए लग रहे हो।,tum_m,थके|हुए|रहे|हो
+PRS-13,core,PRES,predicate_adjective,statement,affirmative,,none,multi_site,You look tired.,tum_f,tum,F,तुम थकी हुई लग रही हो।,,थकी हुई लग रही हो।,tum_f,थकी|हुई|रही|हो
+PRS-13,core,PRES,predicate_adjective,statement,affirmative,,none,multi_site,You look tired.,aap_m,aap,M,आप थके हुए लग रहे हैं।,,थके हुए लग रहे हैं।,aap_m,थके|हुए|रहे|हैं
+PRS-13,core,PRES,predicate_adjective,statement,affirmative,,none,multi_site,You look tired.,aap_f,aap,F,आप थकी हुई लग रही हैं।,,थकी हुई लग रही हैं।,aap_f,थकी|हुई|रही|हैं
+PRS-14,core,PRES,modal_sakna,question,affirmative,,none,request,Can you come tomorrow?,tu_m,tu,M,क्या तू कल आ सकता है?,,क्या कल आ सकता है?,tu_m,सकता|है
+PRS-14,core,PRES,modal_sakna,question,affirmative,,none,request,Can you come tomorrow?,tu_f,tu,F,क्या तू कल आ सकती है?,,क्या कल आ सकती है?,tu_f,सकती|है
+PRS-14,core,PRES,modal_sakna,question,affirmative,,none,request,Can you come tomorrow?,tum_m,tum,M,क्या तुम कल आ सकते हो?,,क्या कल आ सकते हो?,tum_m,सकते|हो
+PRS-14,core,PRES,modal_sakna,question,affirmative,,none,request,Can you come tomorrow?,tum_f,tum,F,क्या तुम कल आ सकती हो?,,क्या कल आ सकती हो?,tum_f,सकती|हो
+PRS-14,core,PRES,modal_sakna,question,affirmative,,none,request,Can you come tomorrow?,aap_m,aap,M,क्या आप कल आ सकते हैं?,,क्या कल आ सकते हैं?,aap_m,सकते|हैं
+PRS-14,core,PRES,modal_sakna,question,affirmative,,none,request,Can you come tomorrow?,aap_f,aap,F,क्या आप कल आ सकती हैं?,,क्या कल आ सकती हैं?,aap_f,सकती|हैं
+PRS-15,core,PRES,modal_sakna,statement,affirmative,,none,,You can sit here.,tu_m,tu,M,तू यहाँ बैठ सकता है।,,यहाँ बैठ सकता है।,tu_m,सकता|है
+PRS-15,core,PRES,modal_sakna,statement,affirmative,,none,,You can sit here.,tu_f,tu,F,तू यहाँ बैठ सकती है।,,यहाँ बैठ सकती है।,tu_f,सकती|है
+PRS-15,core,PRES,modal_sakna,statement,affirmative,,none,,You can sit here.,tum_m,tum,M,तुम यहाँ बैठ सकते हो।,,यहाँ बैठ सकते हो।,tum_m,सकते|हो
+PRS-15,core,PRES,modal_sakna,statement,affirmative,,none,,You can sit here.,tum_f,tum,F,तुम यहाँ बैठ सकती हो।,,यहाँ बैठ सकती हो।,tum_f,सकती|हो
+PRS-15,core,PRES,modal_sakna,statement,affirmative,,none,,You can sit here.,aap_m,aap,M,आप यहाँ बैठ सकते हैं।,,यहाँ बैठ सकते हैं।,aap_m,सकते|हैं
+PRS-15,core,PRES,modal_sakna,statement,affirmative,,none,,You can sit here.,aap_f,aap,F,आप यहाँ बैठ सकती हैं।,,यहाँ बैठ सकती हैं।,aap_f,सकती|हैं
+PRS-16,core,PRES,present_progressive,question,affirmative,fr2,neutral,,Are you going to the market today?,tu_m,tu,M,क्या तू आज बाज़ार जा रहा है?,,क्या आज बाज़ार जा रहा है?,tu_m,रहा|है
+PRS-16,core,PRES,present_progressive,question,affirmative,fr2,neutral,,Are you going to the market today?,tu_f,tu,F,क्या तू आज बाज़ार जा रही है?,,क्या आज बाज़ार जा रही है?,tu_f,रही|है
+PRS-16,core,PRES,present_progressive,question,affirmative,fr2,neutral,,Are you going to the market today?,tum_m,tum,M,क्या तुम आज बाज़ार जा रहे हो?,,क्या आज बाज़ार जा रहे हो?,tum_m,रहे|हो
+PRS-16,core,PRES,present_progressive,question,affirmative,fr2,neutral,,Are you going to the market today?,tum_f,tum,F,क्या तुम आज बाज़ार जा रही हो?,,क्या आज बाज़ार जा रही हो?,tum_f,रही|हो
+PRS-16,core,PRES,present_progressive,question,affirmative,fr2,neutral,,Are you going to the market today?,aap_m,aap,M,क्या आप आज बाज़ार जा रहे हैं?,,क्या आज बाज़ार जा रहे हैं?,aap_m,रहे|हैं
+PRS-16,core,PRES,present_progressive,question,affirmative,fr2,neutral,,Are you going to the market today?,aap_f,aap,F,क्या आप आज बाज़ार जा रही हैं?,,क्या आज बाज़ार जा रही हैं?,aap_f,रही|हैं
+PRS-17,core,PRES,present_habitual,question,affirmative,fr4,neutral,,Do you play chess?,tu_m,tu,M,क्या तू शतरंज खेलता है?,,क्या शतरंज खेलता है?,tu_m,खेलता|है
+PRS-17,core,PRES,present_habitual,question,affirmative,fr4,neutral,,Do you play chess?,tu_f,tu,F,क्या तू शतरंज खेलती है?,,क्या शतरंज खेलती है?,tu_f,खेलती|है
+PRS-17,core,PRES,present_habitual,question,affirmative,fr4,neutral,,Do you play chess?,tum_m,tum,M,क्या तुम शतरंज खेलते हो?,,क्या शतरंज खेलते हो?,tum_m,खेलते|हो
+PRS-17,core,PRES,present_habitual,question,affirmative,fr4,neutral,,Do you play chess?,tum_f,tum,F,क्या तुम शतरंज खेलती हो?,,क्या शतरंज खेलती हो?,tum_f,खेलती|हो
+PRS-17,core,PRES,present_habitual,question,affirmative,fr4,neutral,,Do you play chess?,aap_m,aap,M,क्या आप शतरंज खेलते हैं?,,क्या शतरंज खेलते हैं?,aap_m,खेलते|हैं
+PRS-17,core,PRES,present_habitual,question,affirmative,fr4,neutral,,Do you play chess?,aap_f,aap,F,क्या आप शतरंज खेलती हैं?,,क्या शतरंज खेलती हैं?,aap_f,खेलती|हैं
+PRS-18,core,PRES,present_progressive,question,affirmative,,none,tag_question,"You're coming today, aren't you?",tu_m,tu,M,तू आज आ रहा है न?,,आज आ रहा है न?,tu_m,रहा|है
+PRS-18,core,PRES,present_progressive,question,affirmative,,none,tag_question,"You're coming today, aren't you?",tu_f,tu,F,तू आज आ रही है न?,,आज आ रही है न?,tu_f,रही|है
+PRS-18,core,PRES,present_progressive,question,affirmative,,none,tag_question,"You're coming today, aren't you?",tum_m,tum,M,तुम आज आ रहे हो न?,,आज आ रहे हो न?,tum_m,रहे|हो
+PRS-18,core,PRES,present_progressive,question,affirmative,,none,tag_question,"You're coming today, aren't you?",tum_f,tum,F,तुम आज आ रही हो न?,,आज आ रही हो न?,tum_f,रही|हो
+PRS-18,core,PRES,present_progressive,question,affirmative,,none,tag_question,"You're coming today, aren't you?",aap_m,aap,M,आप आज आ रहे हैं न?,,आज आ रहे हैं न?,aap_m,रहे|हैं
+PRS-18,core,PRES,present_progressive,question,affirmative,,none,tag_question,"You're coming today, aren't you?",aap_f,aap,F,आप आज आ रही हैं न?,,आज आ रही हैं न?,aap_f,रही|हैं
+PRS-19,core,PRES,present_progressive,question,affirmative,,none,,Why are you looking at me like that?,tu_m,tu,M,तू मुझे ऐसे क्यों देख रहा है?,,मुझे ऐसे क्यों देख रहा है?,tu_m,रहा|है
+PRS-19,core,PRES,present_progressive,question,affirmative,,none,,Why are you looking at me like that?,tu_f,tu,F,तू मुझे ऐसे क्यों देख रही है?,,मुझे ऐसे क्यों देख रही है?,tu_f,रही|है
+PRS-19,core,PRES,present_progressive,question,affirmative,,none,,Why are you looking at me like that?,tum_m,tum,M,तुम मुझे ऐसे क्यों देख रहे हो?,,मुझे ऐसे क्यों देख रहे हो?,tum_m,रहे|हो
+PRS-19,core,PRES,present_progressive,question,affirmative,,none,,Why are you looking at me like that?,tum_f,tum,F,तुम मुझे ऐसे क्यों देख रही हो?,,मुझे ऐसे क्यों देख रही हो?,tum_f,रही|हो
+PRS-19,core,PRES,present_progressive,question,affirmative,,none,,Why are you looking at me like that?,aap_m,aap,M,आप मुझे ऐसे क्यों देख रहे हैं?,,मुझे ऐसे क्यों देख रहे हैं?,aap_m,रहे|हैं
+PRS-19,core,PRES,present_progressive,question,affirmative,,none,,Why are you looking at me like that?,aap_f,aap,F,आप मुझे ऐसे क्यों देख रही हैं?,,मुझे ऐसे क्यों देख रही हैं?,aap_f,रही|हैं
+PRS-20,core,PRES,present_progressive,question,affirmative,,none,,Where are you calling from?,tu_m,tu,M,तू कहाँ से फ़ोन कर रहा है?,,कहाँ से फ़ोन कर रहा है?,tu_m,रहा|है
+PRS-20,core,PRES,present_progressive,question,affirmative,,none,,Where are you calling from?,tu_f,tu,F,तू कहाँ से फ़ोन कर रही है?,,कहाँ से फ़ोन कर रही है?,tu_f,रही|है
+PRS-20,core,PRES,present_progressive,question,affirmative,,none,,Where are you calling from?,tum_m,tum,M,तुम कहाँ से फ़ोन कर रहे हो?,,कहाँ से फ़ोन कर रहे हो?,tum_m,रहे|हो
+PRS-20,core,PRES,present_progressive,question,affirmative,,none,,Where are you calling from?,tum_f,tum,F,तुम कहाँ से फ़ोन कर रही हो?,,कहाँ से फ़ोन कर रही हो?,tum_f,रही|हो
+PRS-20,core,PRES,present_progressive,question,affirmative,,none,,Where are you calling from?,aap_m,aap,M,आप कहाँ से फ़ोन कर रहे हैं?,,कहाँ से फ़ोन कर रहे हैं?,aap_m,रहे|हैं
+PRS-20,core,PRES,present_progressive,question,affirmative,,none,,Where are you calling from?,aap_f,aap,F,आप कहाँ से फ़ोन कर रही हैं?,,कहाँ से फ़ोन कर रही हैं?,aap_f,रही|हैं
+PRS-21,core,PRES,present_progressive,question,affirmative,,none,,Are you listening?,tu_m,tu,M,क्या तू सुन रहा है?,,क्या सुन रहा है?,tu_m,रहा|है
+PRS-21,core,PRES,present_progressive,question,affirmative,,none,,Are you listening?,tu_f,tu,F,क्या तू सुन रही है?,,क्या सुन रही है?,tu_f,रही|है
+PRS-21,core,PRES,present_progressive,question,affirmative,,none,,Are you listening?,tum_m,tum,M,क्या तुम सुन रहे हो?,,क्या सुन रहे हो?,tum_m,रहे|हो
+PRS-21,core,PRES,present_progressive,question,affirmative,,none,,Are you listening?,tum_f,tum,F,क्या तुम सुन रही हो?,,क्या सुन रही हो?,tum_f,रही|हो
+PRS-21,core,PRES,present_progressive,question,affirmative,,none,,Are you listening?,aap_m,aap,M,क्या आप सुन रहे हैं?,,क्या सुन रहे हैं?,aap_m,रहे|हैं
+PRS-21,core,PRES,present_progressive,question,affirmative,,none,,Are you listening?,aap_f,aap,F,क्या आप सुन रही हैं?,,क्या सुन रही हैं?,aap_f,रही|हैं
+PRS-22,core,PRES,present_habitual,question,affirmative,,none,,Do you speak French?,tu_m,tu,M,क्या तू फ़्रेंच बोलता है?,,क्या फ़्रेंच बोलता है?,tu_m,बोलता|है
+PRS-22,core,PRES,present_habitual,question,affirmative,,none,,Do you speak French?,tu_f,tu,F,क्या तू फ़्रेंच बोलती है?,,क्या फ़्रेंच बोलती है?,tu_f,बोलती|है
+PRS-22,core,PRES,present_habitual,question,affirmative,,none,,Do you speak French?,tum_m,tum,M,क्या तुम फ़्रेंच बोलते हो?,,क्या फ़्रेंच बोलते हो?,tum_m,बोलते|हो
+PRS-22,core,PRES,present_habitual,question,affirmative,,none,,Do you speak French?,tum_f,tum,F,क्या तुम फ़्रेंच बोलती हो?,,क्या फ़्रेंच बोलती हो?,tum_f,बोलती|हो
+PRS-22,core,PRES,present_habitual,question,affirmative,,none,,Do you speak French?,aap_m,aap,M,क्या आप फ़्रेंच बोलते हैं?,,क्या फ़्रेंच बोलते हैं?,aap_m,बोलते|हैं
+PRS-22,core,PRES,present_habitual,question,affirmative,,none,,Do you speak French?,aap_f,aap,F,क्या आप फ़्रेंच बोलती हैं?,,क्या फ़्रेंच बोलती हैं?,aap_f,बोलती|हैं
+PRS-23,core,PRES,present_habitual,question,negative,,none,multi_site,Don't you ever get tired?,tu_m,tu,M,क्या तू कभी थकता नहीं है?,,क्या कभी थकता नहीं है?,tu_m,थकता|है
+PRS-23,core,PRES,present_habitual,question,negative,,none,multi_site,Don't you ever get tired?,tu_f,tu,F,क्या तू कभी थकती नहीं है?,,क्या कभी थकती नहीं है?,tu_f,थकती|है
+PRS-23,core,PRES,present_habitual,question,negative,,none,multi_site,Don't you ever get tired?,tum_m,tum,M,क्या तुम कभी थकते नहीं हो?,,क्या कभी थकते नहीं हो?,tum_m,थकते|हो
+PRS-23,core,PRES,present_habitual,question,negative,,none,multi_site,Don't you ever get tired?,tum_f,tum,F,क्या तुम कभी थकती नहीं हो?,,क्या कभी थकती नहीं हो?,tum_f,थकती|हो
+PRS-23,core,PRES,present_habitual,question,negative,,none,multi_site,Don't you ever get tired?,aap_m,aap,M,क्या आप कभी थकते नहीं हैं?,,क्या कभी थकते नहीं हैं?,aap_m,थकते|हैं
+PRS-23,core,PRES,present_habitual,question,negative,,none,multi_site,Don't you ever get tired?,aap_f,aap,F,क्या आप कभी थकती नहीं हैं?,,क्या कभी थकती नहीं हैं?,aap_f,थकती|हैं
+PRS-24,core,PRES,present_habitual,statement,affirmative,,none,distractor,You look like your mother.,tu_m,tu,M,तू अपनी माँ जैसा दिखता है।,,अपनी माँ जैसा दिखता है।,tu_m,जैसा|दिखता|है
+PRS-24,core,PRES,present_habitual,statement,affirmative,,none,distractor,You look like your mother.,tu_f,tu,F,तू अपनी माँ जैसी दिखती है।,,अपनी माँ जैसी दिखती है।,tu_f,जैसी|दिखती|है
+PRS-24,core,PRES,present_habitual,statement,affirmative,,none,distractor,You look like your mother.,tum_m,tum,M,तुम अपनी माँ जैसे दिखते हो।,,अपनी माँ जैसे दिखते हो।,tum_m,जैसे|दिखते|हो
+PRS-24,core,PRES,present_habitual,statement,affirmative,,none,distractor,You look like your mother.,tum_f,tum,F,तुम अपनी माँ जैसी दिखती हो।,,अपनी माँ जैसी दिखती हो।,tum_f,जैसी|दिखती|हो
+PRS-24,core,PRES,present_habitual,statement,affirmative,,none,distractor,You look like your mother.,aap_m,aap,M,आप अपनी माँ जैसे दिखते हैं।,,अपनी माँ जैसे दिखते हैं।,aap_m,जैसे|दिखते|हैं
+PRS-24,core,PRES,present_habitual,statement,affirmative,,none,distractor,You look like your mother.,aap_f,aap,F,आप अपनी माँ जैसी दिखती हैं।,,अपनी माँ जैसी दिखती हैं।,aap_f,जैसी|दिखती|हैं
+PRS-25,core,PRES,present_habitual,question,affirmative,,none,distractor,Do you live with your parents?,tu_m,tu,M,क्या तू अपने मम्मी-पापा के साथ रहता है?,,क्या अपने मम्मी-पापा के साथ रहता है?,tu_m,रहता|है
+PRS-25,core,PRES,present_habitual,question,affirmative,,none,distractor,Do you live with your parents?,tu_f,tu,F,क्या तू अपने मम्मी-पापा के साथ रहती है?,,क्या अपने मम्मी-पापा के साथ रहती है?,tu_f,रहती|है
+PRS-25,core,PRES,present_habitual,question,affirmative,,none,distractor,Do you live with your parents?,tum_m,tum,M,क्या तुम अपने मम्मी-पापा के साथ रहते हो?,,क्या अपने मम्मी-पापा के साथ रहते हो?,tum_m,रहते|हो
+PRS-25,core,PRES,present_habitual,question,affirmative,,none,distractor,Do you live with your parents?,tum_f,tum,F,क्या तुम अपने मम्मी-पापा के साथ रहती हो?,,क्या अपने मम्मी-पापा के साथ रहती हो?,tum_f,रहती|हो
+PRS-25,core,PRES,present_habitual,question,affirmative,,none,distractor,Do you live with your parents?,aap_m,aap,M,क्या आप अपने मम्मी-पापा के साथ रहते हैं?,,क्या अपने मम्मी-पापा के साथ रहते हैं?,aap_m,रहते|हैं
+PRS-25,core,PRES,present_habitual,question,affirmative,,none,distractor,Do you live with your parents?,aap_f,aap,F,क्या आप अपने मम्मी-पापा के साथ रहती हैं?,,क्या अपने मम्मी-पापा के साथ रहती हैं?,aap_f,रहती|हैं
+PRS-26,core,PRES,present_perfect,question,affirmative,,none,multi_site|tag_question,"You've lost weight, haven't you?",tu_m,tu,M,तू दुबला हो गया है न?,,दुबला हो गया है न?,tu_m,दुबला|गया|है
+PRS-26,core,PRES,present_perfect,question,affirmative,,none,multi_site|tag_question,"You've lost weight, haven't you?",tu_f,tu,F,तू दुबली हो गई है न?,,दुबली हो गई है न?,tu_f,दुबली|गई|है
+PRS-26,core,PRES,present_perfect,question,affirmative,,none,multi_site|tag_question,"You've lost weight, haven't you?",tum_m,tum,M,तुम दुबले हो गए हो न?,,दुबले हो गए हो न?,tum_m,दुबले|गए|हो
+PRS-26,core,PRES,present_perfect,question,affirmative,,none,multi_site|tag_question,"You've lost weight, haven't you?",tum_f,tum,F,तुम दुबली हो गई हो न?,,दुबली हो गई हो न?,tum_f,दुबली|गई|हो
+PRS-26,core,PRES,present_perfect,question,affirmative,,none,multi_site|tag_question,"You've lost weight, haven't you?",aap_m,aap,M,आप दुबले हो गए हैं न?,,दुबले हो गए हैं न?,aap_m,दुबले|गए|हैं
+PRS-26,core,PRES,present_perfect,question,affirmative,,none,multi_site|tag_question,"You've lost weight, haven't you?",aap_f,aap,F,आप दुबली हो गई हैं न?,,दुबली हो गई हैं न?,aap_f,दुबली|गई|हैं
+PRS-27,core,PRES,present_perfect,question,affirmative,,none,,Have you already eaten?,tu_m,tu,M,क्या तू खाना खा चुका है?,,क्या खाना खा चुका है?,tu_m,चुका|है
+PRS-27,core,PRES,present_perfect,question,affirmative,,none,,Have you already eaten?,tu_f,tu,F,क्या तू खाना खा चुकी है?,,क्या खाना खा चुकी है?,tu_f,चुकी|है
+PRS-27,core,PRES,present_perfect,question,affirmative,,none,,Have you already eaten?,tum_m,tum,M,क्या तुम खाना खा चुके हो?,,क्या खाना खा चुके हो?,tum_m,चुके|हो
+PRS-27,core,PRES,present_perfect,question,affirmative,,none,,Have you already eaten?,tum_f,tum,F,क्या तुम खाना खा चुकी हो?,,क्या खाना खा चुकी हो?,tum_f,चुकी|हो
+PRS-27,core,PRES,present_perfect,question,affirmative,,none,,Have you already eaten?,aap_m,aap,M,क्या आप खाना खा चुके हैं?,,क्या खाना खा चुके हैं?,aap_m,चुके|हैं
+PRS-27,core,PRES,present_perfect,question,affirmative,,none,,Have you already eaten?,aap_f,aap,F,क्या आप खाना खा चुकी हैं?,,क्या खाना खा चुकी हैं?,aap_f,चुकी|हैं
+PRS-28,core,PRES,present_perfect,question,affirmative,,none,,Have you just arrived?,tu_m,tu,M,क्या तू अभी-अभी पहुँचा है?,,क्या अभी-अभी पहुँचा है?,tu_m,पहुँचा|है
+PRS-28,core,PRES,present_perfect,question,affirmative,,none,,Have you just arrived?,tu_f,tu,F,क्या तू अभी-अभी पहुँची है?,,क्या अभी-अभी पहुँची है?,tu_f,पहुँची|है
+PRS-28,core,PRES,present_perfect,question,affirmative,,none,,Have you just arrived?,tum_m,tum,M,क्या तुम अभी-अभी पहुँचे हो?,,क्या अभी-अभी पहुँचे हो?,tum_m,पहुँचे|हो
+PRS-28,core,PRES,present_perfect,question,affirmative,,none,,Have you just arrived?,tum_f,tum,F,क्या तुम अभी-अभी पहुँची हो?,,क्या अभी-अभी पहुँची हो?,tum_f,पहुँची|हो
+PRS-28,core,PRES,present_perfect,question,affirmative,,none,,Have you just arrived?,aap_m,aap,M,क्या आप अभी-अभी पहुँचे हैं?,,क्या अभी-अभी पहुँचे हैं?,aap_m,पहुँचे|हैं
+PRS-28,core,PRES,present_perfect,question,affirmative,,none,,Have you just arrived?,aap_f,aap,F,क्या आप अभी-अभी पहुँची हैं?,,क्या अभी-अभी पहुँची हैं?,aap_f,पहुँची|हैं
+PRS-29,core,PRES,present_perfect,question,affirmative,,none,distractor,Why have you come so late?,tu_m,tu,M,तू इतनी देर से क्यों आया है?,,इतनी देर से क्यों आया है?,tu_m,आया|है
+PRS-29,core,PRES,present_perfect,question,affirmative,,none,distractor,Why have you come so late?,tu_f,tu,F,तू इतनी देर से क्यों आई है?,,इतनी देर से क्यों आई है?,tu_f,आई|है
+PRS-29,core,PRES,present_perfect,question,affirmative,,none,distractor,Why have you come so late?,tum_m,tum,M,तुम इतनी देर से क्यों आए हो?,,इतनी देर से क्यों आए हो?,tum_m,आए|हो
+PRS-29,core,PRES,present_perfect,question,affirmative,,none,distractor,Why have you come so late?,tum_f,tum,F,तुम इतनी देर से क्यों आई हो?,,इतनी देर से क्यों आई हो?,tum_f,आई|हो
+PRS-29,core,PRES,present_perfect,question,affirmative,,none,distractor,Why have you come so late?,aap_m,aap,M,आप इतनी देर से क्यों आए हैं?,,इतनी देर से क्यों आए हैं?,aap_m,आए|हैं
+PRS-29,core,PRES,present_perfect,question,affirmative,,none,distractor,Why have you come so late?,aap_f,aap,F,आप इतनी देर से क्यों आई हैं?,,इतनी देर से क्यों आई हैं?,aap_f,आई|हैं
+PRS-30,core,PRES,present_perfect,statement,affirmative,,none,,You've become lazy.,tu_m,tu,M,तू आलसी हो गया है।,,आलसी हो गया है।,tu_m,गया|है
+PRS-30,core,PRES,present_perfect,statement,affirmative,,none,,You've become lazy.,tu_f,tu,F,तू आलसी हो गई है।,,आलसी हो गई है।,tu_f,गई|है
+PRS-30,core,PRES,present_perfect,statement,affirmative,,none,,You've become lazy.,tum_m,tum,M,तुम आलसी हो गए हो।,,आलसी हो गए हो।,tum_m,गए|हो
+PRS-30,core,PRES,present_perfect,statement,affirmative,,none,,You've become lazy.,tum_f,tum,F,तुम आलसी हो गई हो।,,आलसी हो गई हो।,tum_f,गई|हो
+PRS-30,core,PRES,present_perfect,statement,affirmative,,none,,You've become lazy.,aap_m,aap,M,आप आलसी हो गए हैं।,,आलसी हो गए हैं।,aap_m,गए|हैं
+PRS-30,core,PRES,present_perfect,statement,affirmative,,none,,You've become lazy.,aap_f,aap,F,आप आलसी हो गई हैं।,,आलसी हो गई हैं।,aap_f,गई|हैं
+PRS-31,core,PRES,present_perfect,statement,negative,,none,,You haven't left yet.,tu_m,tu,M,तू अभी तक नहीं निकला है।,,अभी तक नहीं निकला है।,tu_m,निकला|है
+PRS-31,core,PRES,present_perfect,statement,negative,,none,,You haven't left yet.,tu_f,tu,F,तू अभी तक नहीं निकली है।,,अभी तक नहीं निकली है।,tu_f,निकली|है
+PRS-31,core,PRES,present_perfect,statement,negative,,none,,You haven't left yet.,tum_m,tum,M,तुम अभी तक नहीं निकले हो।,,अभी तक नहीं निकले हो।,tum_m,निकले|हो
+PRS-31,core,PRES,present_perfect,statement,negative,,none,,You haven't left yet.,tum_f,tum,F,तुम अभी तक नहीं निकली हो।,,अभी तक नहीं निकली हो।,tum_f,निकली|हो
+PRS-31,core,PRES,present_perfect,statement,negative,,none,,You haven't left yet.,aap_m,aap,M,आप अभी तक नहीं निकले हैं।,,अभी तक नहीं निकले हैं।,aap_m,निकले|हैं
+PRS-31,core,PRES,present_perfect,statement,negative,,none,,You haven't left yet.,aap_f,aap,F,आप अभी तक नहीं निकली हैं।,,अभी तक नहीं निकली हैं।,aap_f,निकली|हैं
+PRS-32,core,PRES,predicate_adjective,question,affirmative,,none,,Are you scared?,tu_m,tu,M,क्या तू डरा हुआ है?,,क्या डरा हुआ है?,tu_m,डरा|हुआ|है
+PRS-32,core,PRES,predicate_adjective,question,affirmative,,none,,Are you scared?,tu_f,tu,F,क्या तू डरी हुई है?,,क्या डरी हुई है?,tu_f,डरी|हुई|है
+PRS-32,core,PRES,predicate_adjective,question,affirmative,,none,,Are you scared?,tum_m,tum,M,क्या तुम डरे हुए हो?,,क्या डरे हुए हो?,tum_m,डरे|हुए|हो
+PRS-32,core,PRES,predicate_adjective,question,affirmative,,none,,Are you scared?,tum_f,tum,F,क्या तुम डरी हुई हो?,,क्या डरी हुई हो?,tum_f,डरी|हुई|हो
+PRS-32,core,PRES,predicate_adjective,question,affirmative,,none,,Are you scared?,aap_m,aap,M,क्या आप डरे हुए हैं?,,क्या डरे हुए हैं?,aap_m,डरे|हुए|हैं
+PRS-32,core,PRES,predicate_adjective,question,affirmative,,none,,Are you scared?,aap_f,aap,F,क्या आप डरी हुई हैं?,,क्या डरी हुई हैं?,aap_f,डरी|हुई|हैं
+PRS-33,core,PRES,predicate_adjective,question,affirmative,,none,multi_site,Why are you so quiet?,tu_m,tu,M,तू इतना चुप क्यों है?,,इतना चुप क्यों है?,tu_m,इतना|है
+PRS-33,core,PRES,predicate_adjective,question,affirmative,,none,multi_site,Why are you so quiet?,tu_f,tu,F,तू इतनी चुप क्यों है?,,इतनी चुप क्यों है?,tu_f,इतनी|है
+PRS-33,core,PRES,predicate_adjective,question,affirmative,,none,multi_site,Why are you so quiet?,tum_m,tum,M,तुम इतने चुप क्यों हो?,,इतने चुप क्यों हो?,tum_m,इतने|हो
+PRS-33,core,PRES,predicate_adjective,question,affirmative,,none,multi_site,Why are you so quiet?,tum_f,tum,F,तुम इतनी चुप क्यों हो?,,इतनी चुप क्यों हो?,tum_f,इतनी|हो
+PRS-33,core,PRES,predicate_adjective,question,affirmative,,none,multi_site,Why are you so quiet?,aap_m,aap,M,आप इतने चुप क्यों हैं?,,इतने चुप क्यों हैं?,aap_m,इतने|हैं
+PRS-33,core,PRES,predicate_adjective,question,affirmative,,none,multi_site,Why are you so quiet?,aap_f,aap,F,आप इतनी चुप क्यों हैं?,,इतनी चुप क्यों हैं?,aap_f,इतनी|हैं
+PRS-34,core,PRES,predicate_adjective,statement,affirmative,,none,,You're taller than him.,tu_m,tu,M,तू उससे लंबा है।,,उससे लंबा है।,tu_m,लंबा|है
+PRS-34,core,PRES,predicate_adjective,statement,affirmative,,none,,You're taller than him.,tu_f,tu,F,तू उससे लंबी है।,,उससे लंबी है।,tu_f,लंबी|है
+PRS-34,core,PRES,predicate_adjective,statement,affirmative,,none,,You're taller than him.,tum_m,tum,M,तुम उससे लंबे हो।,,उससे लंबे हो।,tum_m,लंबे|हो
+PRS-34,core,PRES,predicate_adjective,statement,affirmative,,none,,You're taller than him.,tum_f,tum,F,तुम उससे लंबी हो।,,उससे लंबी हो।,tum_f,लंबी|हो
+PRS-34,core,PRES,predicate_adjective,statement,affirmative,,none,,You're taller than him.,aap_m,aap,M,आप उससे लंबे हैं।,,उससे लंबे हैं।,aap_m,लंबे|हैं
+PRS-34,core,PRES,predicate_adjective,statement,affirmative,,none,,You're taller than him.,aap_f,aap,F,आप उससे लंबी हैं।,,उससे लंबी हैं।,aap_f,लंबी|हैं
+PRS-35,core,PRES,predicate_adjective,question,negative,,none,multi_site,Aren't you thirsty?,tu_m,tu,M,क्या तू प्यासा नहीं है?,,क्या प्यासा नहीं है?,tu_m,प्यासा|है
+PRS-35,core,PRES,predicate_adjective,question,negative,,none,multi_site,Aren't you thirsty?,tu_f,tu,F,क्या तू प्यासी नहीं है?,,क्या प्यासी नहीं है?,tu_f,प्यासी|है
+PRS-35,core,PRES,predicate_adjective,question,negative,,none,multi_site,Aren't you thirsty?,tum_m,tum,M,क्या तुम प्यासे नहीं हो?,,क्या प्यासे नहीं हो?,tum_m,प्यासे|हो
+PRS-35,core,PRES,predicate_adjective,question,negative,,none,multi_site,Aren't you thirsty?,tum_f,tum,F,क्या तुम प्यासी नहीं हो?,,क्या प्यासी नहीं हो?,tum_f,प्यासी|हो
+PRS-35,core,PRES,predicate_adjective,question,negative,,none,multi_site,Aren't you thirsty?,aap_m,aap,M,क्या आप प्यासे नहीं हैं?,,क्या प्यासे नहीं हैं?,aap_m,प्यासे|हैं
+PRS-35,core,PRES,predicate_adjective,question,negative,,none,multi_site,Aren't you thirsty?,aap_f,aap,F,क्या आप प्यासी नहीं हैं?,,क्या प्यासी नहीं हैं?,aap_f,प्यासी|हैं
+PRS-36,core,PRES,predicate_adjective,statement,affirmative,,none,,You seem worried.,tu_m,tu,M,तू परेशान लग रहा है।,,परेशान लग रहा है।,tu_m,रहा|है
+PRS-36,core,PRES,predicate_adjective,statement,affirmative,,none,,You seem worried.,tu_f,tu,F,तू परेशान लग रही है।,,परेशान लग रही है।,tu_f,रही|है
+PRS-36,core,PRES,predicate_adjective,statement,affirmative,,none,,You seem worried.,tum_m,tum,M,तुम परेशान लग रहे हो।,,परेशान लग रहे हो।,tum_m,रहे|हो
+PRS-36,core,PRES,predicate_adjective,statement,affirmative,,none,,You seem worried.,tum_f,tum,F,तुम परेशान लग रही हो।,,परेशान लग रही हो।,tum_f,रही|हो
+PRS-36,core,PRES,predicate_adjective,statement,affirmative,,none,,You seem worried.,aap_m,aap,M,आप परेशान लग रहे हैं।,,परेशान लग रहे हैं।,aap_m,रहे|हैं
+PRS-36,core,PRES,predicate_adjective,statement,affirmative,,none,,You seem worried.,aap_f,aap,F,आप परेशान लग रही हैं।,,परेशान लग रही हैं।,aap_f,रही|हैं
+PRS-37,core,PRES,modal_sakna,question,negative,,none,,Can't you hear it?,tu_m,tu,M,क्या तू इसे सुन नहीं सकता है?,,क्या इसे सुन नहीं सकता है?,tu_m,सकता|है
+PRS-37,core,PRES,modal_sakna,question,negative,,none,,Can't you hear it?,tu_f,tu,F,क्या तू इसे सुन नहीं सकती है?,,क्या इसे सुन नहीं सकती है?,tu_f,सकती|है
+PRS-37,core,PRES,modal_sakna,question,negative,,none,,Can't you hear it?,tum_m,tum,M,क्या तुम इसे सुन नहीं सकते हो?,,क्या इसे सुन नहीं सकते हो?,tum_m,सकते|हो
+PRS-37,core,PRES,modal_sakna,question,negative,,none,,Can't you hear it?,tum_f,tum,F,क्या तुम इसे सुन नहीं सकती हो?,,क्या इसे सुन नहीं सकती हो?,tum_f,सकती|हो
+PRS-37,core,PRES,modal_sakna,question,negative,,none,,Can't you hear it?,aap_m,aap,M,क्या आप इसे सुन नहीं सकते हैं?,,क्या इसे सुन नहीं सकते हैं?,aap_m,सकते|हैं
+PRS-37,core,PRES,modal_sakna,question,negative,,none,,Can't you hear it?,aap_f,aap,F,क्या आप इसे सुन नहीं सकती हैं?,,क्या इसे सुन नहीं सकती हैं?,aap_f,सकती|हैं
+PRS-38,core,PRES,modal_sakna,question,affirmative,,none,request,Could you speak more slowly?,tu_m,tu,M,क्या तू थोड़ा धीरे बोल सकता है?,,क्या थोड़ा धीरे बोल सकता है?,tu_m,सकता|है
+PRS-38,core,PRES,modal_sakna,question,affirmative,,none,request,Could you speak more slowly?,tu_f,tu,F,क्या तू थोड़ा धीरे बोल सकती है?,,क्या थोड़ा धीरे बोल सकती है?,tu_f,सकती|है
+PRS-38,core,PRES,modal_sakna,question,affirmative,,none,request,Could you speak more slowly?,tum_m,tum,M,क्या तुम थोड़ा धीरे बोल सकते हो?,,क्या थोड़ा धीरे बोल सकते हो?,tum_m,सकते|हो
+PRS-38,core,PRES,modal_sakna,question,affirmative,,none,request,Could you speak more slowly?,tum_f,tum,F,क्या तुम थोड़ा धीरे बोल सकती हो?,,क्या थोड़ा धीरे बोल सकती हो?,tum_f,सकती|हो
+PRS-38,core,PRES,modal_sakna,question,affirmative,,none,request,Could you speak more slowly?,aap_m,aap,M,क्या आप थोड़ा धीरे बोल सकते हैं?,,क्या थोड़ा धीरे बोल सकते हैं?,aap_m,सकते|हैं
+PRS-38,core,PRES,modal_sakna,question,affirmative,,none,request,Could you speak more slowly?,aap_f,aap,F,क्या आप थोड़ा धीरे बोल सकती हैं?,,क्या थोड़ा धीरे बोल सकती हैं?,aap_f,सकती|हैं
+PRS-39,core,PRES,modal_sakna,question,affirmative,,none,distractor|request,Can you help me carry these boxes?,tu_m,tu,M,क्या तू ये डिब्बे उठाने में मेरी मदद कर सकता है?,,क्या ये डिब्बे उठाने में मेरी मदद कर सकता है?,tu_m,सकता|है
+PRS-39,core,PRES,modal_sakna,question,affirmative,,none,distractor|request,Can you help me carry these boxes?,tu_f,tu,F,क्या तू ये डिब्बे उठाने में मेरी मदद कर सकती है?,,क्या ये डिब्बे उठाने में मेरी मदद कर सकती है?,tu_f,सकती|है
+PRS-39,core,PRES,modal_sakna,question,affirmative,,none,distractor|request,Can you help me carry these boxes?,tum_m,tum,M,क्या तुम ये डिब्बे उठाने में मेरी मदद कर सकते हो?,,क्या ये डिब्बे उठाने में मेरी मदद कर सकते हो?,tum_m,सकते|हो
+PRS-39,core,PRES,modal_sakna,question,affirmative,,none,distractor|request,Can you help me carry these boxes?,tum_f,tum,F,क्या तुम ये डिब्बे उठाने में मेरी मदद कर सकती हो?,,क्या ये डिब्बे उठाने में मेरी मदद कर सकती हो?,tum_f,सकती|हो
+PRS-39,core,PRES,modal_sakna,question,affirmative,,none,distractor|request,Can you help me carry these boxes?,aap_m,aap,M,क्या आप ये डिब्बे उठाने में मेरी मदद कर सकते हैं?,,क्या ये डिब्बे उठाने में मेरी मदद कर सकते हैं?,aap_m,सकते|हैं
+PRS-39,core,PRES,modal_sakna,question,affirmative,,none,distractor|request,Can you help me carry these boxes?,aap_f,aap,F,क्या आप ये डिब्बे उठाने में मेरी मदद कर सकती हैं?,,क्या ये डिब्बे उठाने में मेरी मदद कर सकती हैं?,aap_f,सकती|हैं
+PRS-40,core,PRES,modal_sakna,statement,negative,,none,,You can't stay here tonight.,tu_m,tu,M,तू आज रात यहाँ नहीं रुक सकता है।,,आज रात यहाँ नहीं रुक सकता है।,tu_m,सकता|है
+PRS-40,core,PRES,modal_sakna,statement,negative,,none,,You can't stay here tonight.,tu_f,tu,F,तू आज रात यहाँ नहीं रुक सकती है।,,आज रात यहाँ नहीं रुक सकती है।,tu_f,सकती|है
+PRS-40,core,PRES,modal_sakna,statement,negative,,none,,You can't stay here tonight.,tum_m,tum,M,तुम आज रात यहाँ नहीं रुक सकते हो।,,आज रात यहाँ नहीं रुक सकते हो।,tum_m,सकते|हो
+PRS-40,core,PRES,modal_sakna,statement,negative,,none,,You can't stay here tonight.,tum_f,tum,F,तुम आज रात यहाँ नहीं रुक सकती हो।,,आज रात यहाँ नहीं रुक सकती हो।,tum_f,सकती|हो
+PRS-40,core,PRES,modal_sakna,statement,negative,,none,,You can't stay here tonight.,aap_m,aap,M,आप आज रात यहाँ नहीं रुक सकते हैं।,,आज रात यहाँ नहीं रुक सकते हैं।,aap_m,सकते|हैं
+PRS-40,core,PRES,modal_sakna,statement,negative,,none,,You can't stay here tonight.,aap_f,aap,F,आप आज रात यहाँ नहीं रुक सकती हैं।,,आज रात यहाँ नहीं रुक सकती हैं।,aap_f,सकती|हैं
+PRS-41,core,PRES,modal_sakna,statement,affirmative,,none,conditional|multi_clause|multi_site,"If you're tired, you can sleep.",tu_m,tu,M,"अगर तू थका हुआ है, तो सो सकता है।",,"अगर थका हुआ है, तो सो सकता है।",tu_m,थका|हुआ|है|सकता|है
+PRS-41,core,PRES,modal_sakna,statement,affirmative,,none,conditional|multi_clause|multi_site,"If you're tired, you can sleep.",tu_f,tu,F,"अगर तू थकी हुई है, तो सो सकती है।",,"अगर थकी हुई है, तो सो सकती है।",tu_f,थकी|हुई|है|सकती|है
+PRS-41,core,PRES,modal_sakna,statement,affirmative,,none,conditional|multi_clause|multi_site,"If you're tired, you can sleep.",tum_m,tum,M,"अगर तुम थके हुए हो, तो सो सकते हो।",,"अगर थके हुए हो, तो सो सकते हो।",tum_m,थके|हुए|हो|सकते|हो
+PRS-41,core,PRES,modal_sakna,statement,affirmative,,none,conditional|multi_clause|multi_site,"If you're tired, you can sleep.",tum_f,tum,F,"अगर तुम थकी हुई हो, तो सो सकती हो।",,"अगर थकी हुई हो, तो सो सकती हो।",tum_f,थकी|हुई|हो|सकती|हो
+PRS-41,core,PRES,modal_sakna,statement,affirmative,,none,conditional|multi_clause|multi_site,"If you're tired, you can sleep.",aap_m,aap,M,"अगर आप थके हुए हैं, तो सो सकते हैं।",,"अगर थके हुए हैं, तो सो सकते हैं।",aap_m,थके|हुए|हैं|सकते|हैं
+PRS-41,core,PRES,modal_sakna,statement,affirmative,,none,conditional|multi_clause|multi_site,"If you're tired, you can sleep.",aap_f,aap,F,"अगर आप थकी हुई हैं, तो सो सकती हैं।",,"अगर थकी हुई हैं, तो सो सकती हैं।",aap_f,थकी|हुई|हैं|सकती|हैं
+PRS-42,core,PRES,modal_sakna,statement,affirmative,,none,,You can stay with us tonight.,tu_m,tu,M,तू आज रात हमारे साथ रुक सकता है।,,आज रात हमारे साथ रुक सकता है।,tu_m,सकता|है
+PRS-42,core,PRES,modal_sakna,statement,affirmative,,none,,You can stay with us tonight.,tu_f,tu,F,तू आज रात हमारे साथ रुक सकती है।,,आज रात हमारे साथ रुक सकती है।,tu_f,सकती|है
+PRS-42,core,PRES,modal_sakna,statement,affirmative,,none,,You can stay with us tonight.,tum_m,tum,M,तुम आज रात हमारे साथ रुक सकते हो।,,आज रात हमारे साथ रुक सकते हो।,tum_m,सकते|हो
+PRS-42,core,PRES,modal_sakna,statement,affirmative,,none,,You can stay with us tonight.,tum_f,tum,F,तुम आज रात हमारे साथ रुक सकती हो।,,आज रात हमारे साथ रुक सकती हो।,tum_f,सकती|हो
+PRS-42,core,PRES,modal_sakna,statement,affirmative,,none,,You can stay with us tonight.,aap_m,aap,M,आप आज रात हमारे साथ रुक सकते हैं।,,आज रात हमारे साथ रुक सकते हैं।,aap_m,सकते|हैं
+PRS-42,core,PRES,modal_sakna,statement,affirmative,,none,,You can stay with us tonight.,aap_f,aap,F,आप आज रात हमारे साथ रुक सकती हैं।,,आज रात हमारे साथ रुक सकती हैं।,aap_f,सकती|हैं
+PRS-43,core,PRES,prospective,statement,affirmative,,none,,You're about to leave.,tu_m,tu,M,तू निकलने वाला है।,,निकलने वाला है।,tu_m,वाला|है
+PRS-43,core,PRES,prospective,statement,affirmative,,none,,You're about to leave.,tu_f,tu,F,तू निकलने वाली है।,,निकलने वाली है।,tu_f,वाली|है
+PRS-43,core,PRES,prospective,statement,affirmative,,none,,You're about to leave.,tum_m,tum,M,तुम निकलने वाले हो।,,निकलने वाले हो।,tum_m,वाले|हो
+PRS-43,core,PRES,prospective,statement,affirmative,,none,,You're about to leave.,tum_f,tum,F,तुम निकलने वाली हो।,,निकलने वाली हो।,tum_f,वाली|हो
+PRS-43,core,PRES,prospective,statement,affirmative,,none,,You're about to leave.,aap_m,aap,M,आप निकलने वाले हैं।,,निकलने वाले हैं।,aap_m,वाले|हैं
+PRS-43,core,PRES,prospective,statement,affirmative,,none,,You're about to leave.,aap_f,aap,F,आप निकलने वाली हैं।,,निकलने वाली हैं।,aap_f,वाली|हैं
+PRS-44,core,PRES,prospective,question,affirmative,,none,,Are you about to do it?,tu_m,tu,M,क्या तू यह करने वाला है?,,क्या यह करने वाला है?,tu_m,वाला|है
+PRS-44,core,PRES,prospective,question,affirmative,,none,,Are you about to do it?,tu_f,tu,F,क्या तू यह करने वाली है?,,क्या यह करने वाली है?,tu_f,वाली|है
+PRS-44,core,PRES,prospective,question,affirmative,,none,,Are you about to do it?,tum_m,tum,M,क्या तुम यह करने वाले हो?,,क्या यह करने वाले हो?,tum_m,वाले|हो
+PRS-44,core,PRES,prospective,question,affirmative,,none,,Are you about to do it?,tum_f,tum,F,क्या तुम यह करने वाली हो?,,क्या यह करने वाली हो?,tum_f,वाली|हो
+PRS-44,core,PRES,prospective,question,affirmative,,none,,Are you about to do it?,aap_m,aap,M,क्या आप यह करने वाले हैं?,,क्या यह करने वाले हैं?,aap_m,वाले|हैं
+PRS-44,core,PRES,prospective,question,affirmative,,none,,Are you about to do it?,aap_f,aap,F,क्या आप यह करने वाली हैं?,,क्या यह करने वाली हैं?,aap_f,वाली|हैं
+PRS-45,core,PRES,prospective,question,affirmative,,none,,Are you going to tell him?,tu_m,tu,M,क्या तू उसे बताने वाला है?,,क्या उसे बताने वाला है?,tu_m,वाला|है
+PRS-45,core,PRES,prospective,question,affirmative,,none,,Are you going to tell him?,tu_f,tu,F,क्या तू उसे बताने वाली है?,,क्या उसे बताने वाली है?,tu_f,वाली|है
+PRS-45,core,PRES,prospective,question,affirmative,,none,,Are you going to tell him?,tum_m,tum,M,क्या तुम उसे बताने वाले हो?,,क्या उसे बताने वाले हो?,tum_m,वाले|हो
+PRS-45,core,PRES,prospective,question,affirmative,,none,,Are you going to tell him?,tum_f,tum,F,क्या तुम उसे बताने वाली हो?,,क्या उसे बताने वाली हो?,tum_f,वाली|हो
+PRS-45,core,PRES,prospective,question,affirmative,,none,,Are you going to tell him?,aap_m,aap,M,क्या आप उसे बताने वाले हैं?,,क्या उसे बताने वाले हैं?,aap_m,वाले|हैं
+PRS-45,core,PRES,prospective,question,affirmative,,none,,Are you going to tell him?,aap_f,aap,F,क्या आप उसे बताने वाली हैं?,,क्या उसे बताने वाली हैं?,aap_f,वाली|हैं
+PRS-46,core,PRES,prospective,question,affirmative,,none,distractor,When are you going to start your new job?,tu_m,tu,M,तू अपनी नई नौकरी कब शुरू करने वाला है?,,अपनी नई नौकरी कब शुरू करने वाला है?,tu_m,वाला|है
+PRS-46,core,PRES,prospective,question,affirmative,,none,distractor,When are you going to start your new job?,tu_f,tu,F,तू अपनी नई नौकरी कब शुरू करने वाली है?,,अपनी नई नौकरी कब शुरू करने वाली है?,tu_f,वाली|है
+PRS-46,core,PRES,prospective,question,affirmative,,none,distractor,When are you going to start your new job?,tum_m,tum,M,तुम अपनी नई नौकरी कब शुरू करने वाले हो?,,अपनी नई नौकरी कब शुरू करने वाले हो?,tum_m,वाले|हो
+PRS-46,core,PRES,prospective,question,affirmative,,none,distractor,When are you going to start your new job?,tum_f,tum,F,तुम अपनी नई नौकरी कब शुरू करने वाली हो?,,अपनी नई नौकरी कब शुरू करने वाली हो?,tum_f,वाली|हो
+PRS-46,core,PRES,prospective,question,affirmative,,none,distractor,When are you going to start your new job?,aap_m,aap,M,आप अपनी नई नौकरी कब शुरू करने वाले हैं?,,अपनी नई नौकरी कब शुरू करने वाले हैं?,aap_m,वाले|हैं
+PRS-46,core,PRES,prospective,question,affirmative,,none,distractor,When are you going to start your new job?,aap_f,aap,F,आप अपनी नई नौकरी कब शुरू करने वाली हैं?,,अपनी नई नौकरी कब शुरू करने वाली हैं?,aap_f,वाली|हैं
+H2-1F,h2_probe,FUT,future,question,affirmative,fr1,fem_stereotype,,Will you cook?,tu_m,tu,M,क्या तू खाना बनाएगा?,,क्या खाना बनाएगा?,tu_m,बनाएगा
+H2-1F,h2_probe,FUT,future,question,affirmative,fr1,fem_stereotype,,Will you cook?,tu_f,tu,F,क्या तू खाना बनाएगी?,,क्या खाना बनाएगी?,tu_f,बनाएगी
+H2-1F,h2_probe,FUT,future,question,affirmative,fr1,fem_stereotype,,Will you cook?,tum_m,tum,M,क्या तुम खाना बनाओगे?,,क्या खाना बनाओगे?,tum_m,बनाओगे
+H2-1F,h2_probe,FUT,future,question,affirmative,fr1,fem_stereotype,,Will you cook?,tum_f,tum,F,क्या तुम खाना बनाओगी?,,क्या खाना बनाओगी?,tum_f,बनाओगी
+H2-1F,h2_probe,FUT,future,question,affirmative,fr1,fem_stereotype,,Will you cook?,aap_m,aap,M,क्या आप खाना बनाएँगे?,,क्या खाना बनाएँगे?,aap_m,बनाएँगे
+H2-1F,h2_probe,FUT,future,question,affirmative,fr1,fem_stereotype,,Will you cook?,aap_f,aap,F,क्या आप खाना बनाएँगी?,,क्या खाना बनाएँगी?,aap_f,बनाएँगी
+H2-1M,h2_probe,FUT,future,question,affirmative,fr1,masc_stereotype,,Will you drive?,tu_m,tu,M,क्या तू गाड़ी चलाएगा?,,क्या गाड़ी चलाएगा?,tu_m,चलाएगा
+H2-1M,h2_probe,FUT,future,question,affirmative,fr1,masc_stereotype,,Will you drive?,tu_f,tu,F,क्या तू गाड़ी चलाएगी?,,क्या गाड़ी चलाएगी?,tu_f,चलाएगी
+H2-1M,h2_probe,FUT,future,question,affirmative,fr1,masc_stereotype,,Will you drive?,tum_m,tum,M,क्या तुम गाड़ी चलाओगे?,,क्या गाड़ी चलाओगे?,tum_m,चलाओगे
+H2-1M,h2_probe,FUT,future,question,affirmative,fr1,masc_stereotype,,Will you drive?,tum_f,tum,F,क्या तुम गाड़ी चलाओगी?,,क्या गाड़ी चलाओगी?,tum_f,चलाओगी
+H2-1M,h2_probe,FUT,future,question,affirmative,fr1,masc_stereotype,,Will you drive?,aap_m,aap,M,क्या आप गाड़ी चलाएँगे?,,क्या गाड़ी चलाएँगे?,aap_m,चलाएँगे
+H2-1M,h2_probe,FUT,future,question,affirmative,fr1,masc_stereotype,,Will you drive?,aap_f,aap,F,क्या आप गाड़ी चलाएँगी?,,क्या गाड़ी चलाएँगी?,aap_f,चलाएँगी
+H2-2F,h2_probe,PRES,present_progressive,question,affirmative,fr2,fem_stereotype,,Are you going to dance class today?,tu_m,tu,M,क्या तू आज डांस क्लास जा रहा है?,,क्या आज डांस क्लास जा रहा है?,tu_m,रहा|है
+H2-2F,h2_probe,PRES,present_progressive,question,affirmative,fr2,fem_stereotype,,Are you going to dance class today?,tu_f,tu,F,क्या तू आज डांस क्लास जा रही है?,,क्या आज डांस क्लास जा रही है?,tu_f,रही|है
+H2-2F,h2_probe,PRES,present_progressive,question,affirmative,fr2,fem_stereotype,,Are you going to dance class today?,tum_m,tum,M,क्या तुम आज डांस क्लास जा रहे हो?,,क्या आज डांस क्लास जा रहे हो?,tum_m,रहे|हो
+H2-2F,h2_probe,PRES,present_progressive,question,affirmative,fr2,fem_stereotype,,Are you going to dance class today?,tum_f,tum,F,क्या तुम आज डांस क्लास जा रही हो?,,क्या आज डांस क्लास जा रही हो?,tum_f,रही|हो
+H2-2F,h2_probe,PRES,present_progressive,question,affirmative,fr2,fem_stereotype,,Are you going to dance class today?,aap_m,aap,M,क्या आप आज डांस क्लास जा रहे हैं?,,क्या आज डांस क्लास जा रहे हैं?,aap_m,रहे|हैं
+H2-2F,h2_probe,PRES,present_progressive,question,affirmative,fr2,fem_stereotype,,Are you going to dance class today?,aap_f,aap,F,क्या आप आज डांस क्लास जा रही हैं?,,क्या आज डांस क्लास जा रही हैं?,aap_f,रही|हैं
+H2-2M,h2_probe,PRES,present_progressive,question,affirmative,fr2,masc_stereotype,,Are you going to the gym today?,tu_m,tu,M,क्या तू आज जिम जा रहा है?,,क्या आज जिम जा रहा है?,tu_m,रहा|है
+H2-2M,h2_probe,PRES,present_progressive,question,affirmative,fr2,masc_stereotype,,Are you going to the gym today?,tu_f,tu,F,क्या तू आज जिम जा रही है?,,क्या आज जिम जा रही है?,tu_f,रही|है
+H2-2M,h2_probe,PRES,present_progressive,question,affirmative,fr2,masc_stereotype,,Are you going to the gym today?,tum_m,tum,M,क्या तुम आज जिम जा रहे हो?,,क्या आज जिम जा रहे हो?,tum_m,रहे|हो
+H2-2M,h2_probe,PRES,present_progressive,question,affirmative,fr2,masc_stereotype,,Are you going to the gym today?,tum_f,tum,F,क्या तुम आज जिम जा रही हो?,,क्या आज जिम जा रही हो?,tum_f,रही|हो
+H2-2M,h2_probe,PRES,present_progressive,question,affirmative,fr2,masc_stereotype,,Are you going to the gym today?,aap_m,aap,M,क्या आप आज जिम जा रहे हैं?,,क्या आज जिम जा रहे हैं?,aap_m,रहे|हैं
+H2-2M,h2_probe,PRES,present_progressive,question,affirmative,fr2,masc_stereotype,,Are you going to the gym today?,aap_f,aap,F,क्या आप आज जिम जा रही हैं?,,क्या आज जिम जा रही हैं?,aap_f,रही|हैं
+H2-3F,h2_probe,PAST,past_progressive,question,affirmative,fr3,fem_stereotype,,Were you crying?,tu_m,tu,M,क्या तू रो रहा था?,,क्या रो रहा था?,tu_m,रहा|था
+H2-3F,h2_probe,PAST,past_progressive,question,affirmative,fr3,fem_stereotype,,Were you crying?,tu_f,tu,F,क्या तू रो रही थी?,,क्या रो रही थी?,tu_f|tum_f,रही|थी
+H2-3F,h2_probe,PAST,past_progressive,question,affirmative,fr3,fem_stereotype,,Were you crying?,tum_m,tum,M,क्या तुम रो रहे थे?,,क्या रो रहे थे?,tum_m|aap_m,रहे|थे
+H2-3F,h2_probe,PAST,past_progressive,question,affirmative,fr3,fem_stereotype,,Were you crying?,tum_f,tum,F,क्या तुम रो रही थी?,क्या तुम रो रही थीं?,क्या रो रही थी?,tu_f|tum_f,रही|थी
+H2-3F,h2_probe,PAST,past_progressive,question,affirmative,fr3,fem_stereotype,,Were you crying?,aap_m,aap,M,क्या आप रो रहे थे?,,क्या रो रहे थे?,tum_m|aap_m,रहे|थे
+H2-3F,h2_probe,PAST,past_progressive,question,affirmative,fr3,fem_stereotype,,Were you crying?,aap_f,aap,F,क्या आप रो रही थीं?,,क्या रो रही थीं?,tum_f|aap_f,रही|थीं
+H2-3M,h2_probe,PAST,past_progressive,question,affirmative,fr3,masc_stereotype,,Were you drinking?,tu_m,tu,M,क्या तू पी रहा था?,,क्या पी रहा था?,tu_m,रहा|था
+H2-3M,h2_probe,PAST,past_progressive,question,affirmative,fr3,masc_stereotype,,Were you drinking?,tu_f,tu,F,क्या तू पी रही थी?,,क्या पी रही थी?,tu_f|tum_f,रही|थी
+H2-3M,h2_probe,PAST,past_progressive,question,affirmative,fr3,masc_stereotype,,Were you drinking?,tum_m,tum,M,क्या तुम पी रहे थे?,,क्या पी रहे थे?,tum_m|aap_m,रहे|थे
+H2-3M,h2_probe,PAST,past_progressive,question,affirmative,fr3,masc_stereotype,,Were you drinking?,tum_f,tum,F,क्या तुम पी रही थी?,क्या तुम पी रही थीं?,क्या पी रही थी?,tu_f|tum_f,रही|थी
+H2-3M,h2_probe,PAST,past_progressive,question,affirmative,fr3,masc_stereotype,,Were you drinking?,aap_m,aap,M,क्या आप पी रहे थे?,,क्या पी रहे थे?,tum_m|aap_m,रहे|थे
+H2-3M,h2_probe,PAST,past_progressive,question,affirmative,fr3,masc_stereotype,,Were you drinking?,aap_f,aap,F,क्या आप पी रही थीं?,,क्या पी रही थीं?,tum_f|aap_f,रही|थीं
+H2-4F,h2_probe,PRES,present_habitual,question,affirmative,fr4,fem_stereotype,,Do you knit?,tu_m,tu,M,क्या तू बुनाई करता है?,,क्या बुनाई करता है?,tu_m,करता|है
+H2-4F,h2_probe,PRES,present_habitual,question,affirmative,fr4,fem_stereotype,,Do you knit?,tu_f,tu,F,क्या तू बुनाई करती है?,,क्या बुनाई करती है?,tu_f,करती|है
+H2-4F,h2_probe,PRES,present_habitual,question,affirmative,fr4,fem_stereotype,,Do you knit?,tum_m,tum,M,क्या तुम बुनाई करते हो?,,क्या बुनाई करते हो?,tum_m,करते|हो
+H2-4F,h2_probe,PRES,present_habitual,question,affirmative,fr4,fem_stereotype,,Do you knit?,tum_f,tum,F,क्या तुम बुनाई करती हो?,,क्या बुनाई करती हो?,tum_f,करती|हो
+H2-4F,h2_probe,PRES,present_habitual,question,affirmative,fr4,fem_stereotype,,Do you knit?,aap_m,aap,M,क्या आप बुनाई करते हैं?,,क्या बुनाई करते हैं?,aap_m,करते|हैं
+H2-4F,h2_probe,PRES,present_habitual,question,affirmative,fr4,fem_stereotype,,Do you knit?,aap_f,aap,F,क्या आप बुनाई करती हैं?,,क्या बुनाई करती हैं?,aap_f,करती|हैं
+H2-4M,h2_probe,PRES,present_habitual,question,affirmative,fr4,masc_stereotype,,Do you lift weights?,tu_m,tu,M,क्या तू वेट लिफ़्टिंग करता है?,,क्या वेट लिफ़्टिंग करता है?,tu_m,करता|है
+H2-4M,h2_probe,PRES,present_habitual,question,affirmative,fr4,masc_stereotype,,Do you lift weights?,tu_f,tu,F,क्या तू वेट लिफ़्टिंग करती है?,,क्या वेट लिफ़्टिंग करती है?,tu_f,करती|है
+H2-4M,h2_probe,PRES,present_habitual,question,affirmative,fr4,masc_stereotype,,Do you lift weights?,tum_m,tum,M,क्या तुम वेट लिफ़्टिंग करते हो?,,क्या वेट लिफ़्टिंग करते हो?,tum_m,करते|हो
+H2-4M,h2_probe,PRES,present_habitual,question,affirmative,fr4,masc_stereotype,,Do you lift weights?,tum_f,tum,F,क्या तुम वेट लिफ़्टिंग करती हो?,,क्या वेट लिफ़्टिंग करती हो?,tum_f,करती|हो
+H2-4M,h2_probe,PRES,present_habitual,question,affirmative,fr4,masc_stereotype,,Do you lift weights?,aap_m,aap,M,क्या आप वेट लिफ़्टिंग करते हैं?,,क्या वेट लिफ़्टिंग करते हैं?,aap_m,करते|हैं
+H2-4M,h2_probe,PRES,present_habitual,question,affirmative,fr4,masc_stereotype,,Do you lift weights?,aap_f,aap,F,क्या आप वेट लिफ़्टिंग करती हैं?,,क्या वेट लिफ़्टिंग करती हैं?,aap_f,करती|हैं
+H2-5F,h2_probe,PAST,past_perfect,question,affirmative,fr5,fem_stereotype,,Did you go to the beauty parlour?,tu_m,tu,M,क्या तू ब्यूटी पार्लर गया था?,,क्या ब्यूटी पार्लर गया था?,tu_m,गया|था
+H2-5F,h2_probe,PAST,past_perfect,question,affirmative,fr5,fem_stereotype,,Did you go to the beauty parlour?,tu_f,tu,F,क्या तू ब्यूटी पार्लर गई थी?,,क्या ब्यूटी पार्लर गई थी?,tu_f|tum_f,गई|थी
+H2-5F,h2_probe,PAST,past_perfect,question,affirmative,fr5,fem_stereotype,,Did you go to the beauty parlour?,tum_m,tum,M,क्या तुम ब्यूटी पार्लर गए थे?,,क्या ब्यूटी पार्लर गए थे?,tum_m|aap_m,गए|थे
+H2-5F,h2_probe,PAST,past_perfect,question,affirmative,fr5,fem_stereotype,,Did you go to the beauty parlour?,tum_f,tum,F,क्या तुम ब्यूटी पार्लर गई थी?,क्या तुम ब्यूटी पार्लर गई थीं?,क्या ब्यूटी पार्लर गई थी?,tu_f|tum_f,गई|थी
+H2-5F,h2_probe,PAST,past_perfect,question,affirmative,fr5,fem_stereotype,,Did you go to the beauty parlour?,aap_m,aap,M,क्या आप ब्यूटी पार्लर गए थे?,,क्या ब्यूटी पार्लर गए थे?,tum_m|aap_m,गए|थे
+H2-5F,h2_probe,PAST,past_perfect,question,affirmative,fr5,fem_stereotype,,Did you go to the beauty parlour?,aap_f,aap,F,क्या आप ब्यूटी पार्लर गई थीं?,,क्या ब्यूटी पार्लर गई थीं?,tum_f|aap_f,गई|थीं
+H2-5M,h2_probe,PAST,past_perfect,question,affirmative,fr5,masc_stereotype,,Did you go to the barber?,tu_m,tu,M,क्या तू नाई के पास गया था?,,क्या नाई के पास गया था?,tu_m,गया|था
+H2-5M,h2_probe,PAST,past_perfect,question,affirmative,fr5,masc_stereotype,,Did you go to the barber?,tu_f,tu,F,क्या तू नाई के पास गई थी?,,क्या नाई के पास गई थी?,tu_f|tum_f,गई|थी
+H2-5M,h2_probe,PAST,past_perfect,question,affirmative,fr5,masc_stereotype,,Did you go to the barber?,tum_m,tum,M,क्या तुम नाई के पास गए थे?,,क्या नाई के पास गए थे?,tum_m|aap_m,गए|थे
+H2-5M,h2_probe,PAST,past_perfect,question,affirmative,fr5,masc_stereotype,,Did you go to the barber?,tum_f,tum,F,क्या तुम नाई के पास गई थी?,क्या तुम नाई के पास गई थीं?,क्या नाई के पास गई थी?,tu_f|tum_f,गई|थी
+H2-5M,h2_probe,PAST,past_perfect,question,affirmative,fr5,masc_stereotype,,Did you go to the barber?,aap_m,aap,M,क्या आप नाई के पास गए थे?,,क्या नाई के पास गए थे?,tum_m|aap_m,गए|थे
+H2-5M,h2_probe,PAST,past_perfect,question,affirmative,fr5,masc_stereotype,,Did you go to the barber?,aap_f,aap,F,क्या आप नाई के पास गई थीं?,,क्या नाई के पास गई थीं?,tum_f|aap_f,गई|थीं
+H2-6F,h2_probe,FUT,future,question,affirmative,fr6,fem_stereotype,,Will you work as a nurse?,tu_m,tu,M,क्या तू नर्स का काम करेगा?,,क्या नर्स का काम करेगा?,tu_m,करेगा
+H2-6F,h2_probe,FUT,future,question,affirmative,fr6,fem_stereotype,,Will you work as a nurse?,tu_f,tu,F,क्या तू नर्स का काम करेगी?,,क्या नर्स का काम करेगी?,tu_f,करेगी
+H2-6F,h2_probe,FUT,future,question,affirmative,fr6,fem_stereotype,,Will you work as a nurse?,tum_m,tum,M,क्या तुम नर्स का काम करोगे?,,क्या नर्स का काम करोगे?,tum_m,करोगे
+H2-6F,h2_probe,FUT,future,question,affirmative,fr6,fem_stereotype,,Will you work as a nurse?,tum_f,tum,F,क्या तुम नर्स का काम करोगी?,,क्या नर्स का काम करोगी?,tum_f,करोगी
+H2-6F,h2_probe,FUT,future,question,affirmative,fr6,fem_stereotype,,Will you work as a nurse?,aap_m,aap,M,क्या आप नर्स का काम करेंगे?,,क्या नर्स का काम करेंगे?,aap_m,करेंगे
+H2-6F,h2_probe,FUT,future,question,affirmative,fr6,fem_stereotype,,Will you work as a nurse?,aap_f,aap,F,क्या आप नर्स का काम करेंगी?,,क्या नर्स का काम करेंगी?,aap_f,करेंगी
+H2-6M,h2_probe,FUT,future,question,affirmative,fr6,masc_stereotype,,Will you work as a mechanic?,tu_m,tu,M,क्या तू मैकेनिक का काम करेगा?,,क्या मैकेनिक का काम करेगा?,tu_m,करेगा
+H2-6M,h2_probe,FUT,future,question,affirmative,fr6,masc_stereotype,,Will you work as a mechanic?,tu_f,tu,F,क्या तू मैकेनिक का काम करेगी?,,क्या मैकेनिक का काम करेगी?,tu_f,करेगी
+H2-6M,h2_probe,FUT,future,question,affirmative,fr6,masc_stereotype,,Will you work as a mechanic?,tum_m,tum,M,क्या तुम मैकेनिक का काम करोगे?,,क्या मैकेनिक का काम करोगे?,tum_m,करोगे
+H2-6M,h2_probe,FUT,future,question,affirmative,fr6,masc_stereotype,,Will you work as a mechanic?,tum_f,tum,F,क्या तुम मैकेनिक का काम करोगी?,,क्या मैकेनिक का काम करोगी?,tum_f,करोगी
+H2-6M,h2_probe,FUT,future,question,affirmative,fr6,masc_stereotype,,Will you work as a mechanic?,aap_m,aap,M,क्या आप मैकेनिक का काम करेंगे?,,क्या मैकेनिक का काम करेंगे?,aap_m,करेंगे
+H2-6M,h2_probe,FUT,future,question,affirmative,fr6,masc_stereotype,,Will you work as a mechanic?,aap_f,aap,F,क्या आप मैकेनिक का काम करेंगी?,,क्या मैकेनिक का काम करेंगी?,aap_f,करेंगी

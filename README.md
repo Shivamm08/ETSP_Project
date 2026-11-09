@@ -13,7 +13,7 @@ the same time. The hardest cases are verbs where a single ending carries both at
 
 | folder | contents |
 |---|---|
-| [`dataset/`](dataset/) | The benchmark (v0): 62 English sentences, each with all six Hindi translations (3 registers × 2 genders), and the scripts that build and check it. See [`dataset/README.md`](dataset/README.md). |
+| [`dataset/`](dataset/) | The benchmark (v1): 150 English sentences, each with all six Hindi translations (3 registers × 2 genders), and the scripts that build and check it. See [`dataset/README.md`](dataset/README.md). |
 
 The extractor and the experiments get their own folders when work on them starts.
 
@@ -29,8 +29,8 @@ The benchmark is two UTF-8 CSV files:
 
 | file | one row per | use it for |
 |---|---|---|
-| [`dataset/benchmark_v0.csv`](dataset/benchmark_v0.csv) | English sentence (62), with its six Hindi translations in `tu_m` … `aap_f` | MT input: the `english` column, rows with `split` = `core` for the main experiments |
-| [`dataset/benchmark_v0_long.csv`](dataset/benchmark_v0_long.csv) | Hindi translation (372), labelled with `register` and `gender` | scoring MT outputs and testing the extractor |
+| [`dataset/benchmark_v1.csv`](dataset/benchmark_v1.csv) | English sentence (150), with its six Hindi translations in `tu_m` … `aap_f` | MT input: the `english` column, rows with `split` = `core` for the main experiments |
+| [`dataset/benchmark_v1_long.csv`](dataset/benchmark_v1_long.csv) | Hindi translation (900), labelled with `register` and `gender` | scoring MT outputs and testing the extractor |
 
 GitHub shows both files as tables, so they can be read in the browser. Don't open and save them in
 Excel, which can corrupt the Hindi text. The scripts need only Python 3.9 or newer.
@@ -39,7 +39,7 @@ Excel, which can corrupt the Hindi text. The scripts need only Python 3.9 or new
 
 **Core**
 
-1. **Benchmark** (Shivamm): 62 English sentences × 6 Hindi translations, to be extended to about 150.
+1. **Benchmark** (Shivamm): 150 English sentences × 6 Hindi translations.
 2. **Extractor** (Manan): reads register and gender off a Hindi MT output. Its accuracy is measured on
    hand-labelled MT outputs before it is used.
 3. **Default behaviour (H1):** translate the core sentences with several MT systems, without
