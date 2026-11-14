@@ -1,0 +1,151 @@
+id,split,profile,construction,frame_id,cue,english,system,model,hindi_output
+FUT-01,core,FUT,future,,none,When will you come back?,google-translate,nmt,आप कब लौटेंगे?
+FUT-02,core,FUT,future,,none,Where will you sleep?,google-translate,nmt,आप कहाँ सोएंगे?
+FUT-03,core,FUT,future,,none,Will you go by train?,google-translate,nmt,क्या आप ट्रेन से जाएंगे?
+FUT-04,core,FUT,future,,none,What will you do now?,google-translate,nmt,अब आप क्या करेंगे?
+FUT-05,core,FUT,future,,none,Where will you go?,google-translate,nmt,आप कहाँ जाएँगे?
+FUT-06,core,FUT,future,,none,You'll understand later.,google-translate,nmt,आपको बाद में समझ आ जाएगा।
+FUT-07,core,FUT,future,,none,You'll learn a lot.,google-translate,nmt,आपको बहुत कुछ सीखने को मिलेगा।
+FUT-08,core,FUT,future,,none,How long will you stay here?,google-translate,nmt,आप यहां कितने दिन रुकेंगे?
+FUT-09,core,FUT,future,,none,Will you be home tonight?,google-translate,nmt,क्या आप आज रात घर पर होंगे?
+FUT-10,core,FUT,future,,none,Will you help me?,google-translate,nmt,क्या आप मेरी मदद करेंगे?
+FUT-11,core,FUT,future,,none,What time will you leave?,google-translate,nmt,तुम किस वक्त जाओगे?
+FUT-12,core,FUT,future,,none,Won't you come with us?,google-translate,nmt,क्या आप हमारे साथ नहीं आएंगे?
+FUT-13,core,FUT,future,,none,You'll get tired.,google-translate,nmt,आप थक जाएंगे।
+FUT-14,core,FUT,future,,none,You won't win.,google-translate,nmt,तुम नहीं जीतोगे।
+FUT-15,core,FUT,future,fr1,neutral,Will you swim?,google-translate,nmt,क्या आप तैरेंगे?
+FUT-16,core,FUT,future,fr6,neutral,Will you work as a cashier?,google-translate,nmt,क्या आप कैशियर के रूप में काम करेंगे?
+FUT-17,core,FUT,future,,none,"If you leave now, you'll get there on time.",google-translate,nmt,अगर आप अभी निकलेंगे तो समय पर पहुंच जाएंगे।
+FUT-18,core,FUT,future,,none,You'll feel better in the morning.,google-translate,nmt,आपको सुबह बेहतर महसूस होगा।
+FUT-19,core,FUT,future,,none,Where will you stay when you go to Boston?,google-translate,nmt,आप बोस्टन जाते समय कहाँ ठहरेंगे?
+FUT-20,core,FUT,future,,none,You won't regret it.,google-translate,nmt,आपको इसका पछतावा नहीं होगा।
+FUT-21,core,FUT,future,,none,"You'll be home this evening, won't you?",google-translate,nmt,"आप आज शाम तक घर आ जाएंगे, है ना?"
+FUT-22,core,FUT,future,,none,How long will you wait?,google-translate,nmt,आप कब तक इंतजार करेंगे?
+FUT-23,core,FUT,future,,none,You won't be alone.,google-translate,nmt,आप अकेले नहीं होंगे।
+FUT-24,core,FUT,future,,none,You'll be fine.,google-translate,nmt,आप ठीक होगे।
+FUT-25,core,FUT,future,,none,How will you pay for this?,google-translate,nmt,आप इसका भुगतान कैसे करेंगे?
+FUT-26,core,FUT,future,,none,You'll never guess what happened.,google-translate,nmt,आपको कभी अंदाजा भी नहीं होगा कि क्या हुआ था।
+FUT-27,core,FUT,future,,none,Will you be able to come tomorrow?,google-translate,nmt,क्या आप कल आ सकेंगे?
+FUT-28,core,FUT,future,,none,"You won't be able to sleep outdoors, it's cold.",google-translate,nmt,"आप बाहर नहीं सो पाएंगे, बहुत ठंड है।"
+FUT-29,core,FUT,future,,none,When will you be able to finish that job?,google-translate,nmt,आप वह काम कब तक पूरा कर पाएंगे?
+FUT-30,core,FUT,future,,none,What will you do if he doesn't come?,google-translate,nmt,अगर वह नहीं आया तो तुम क्या करोगे?
+FUT-31,core,FUT,future,,none,You'll get there on time if you make the train.,google-translate,nmt,अगर आप ट्रेन पकड़ लेते हैं तो आप समय पर पहुंच जाएंगे।
+FUT-32,core,FUT,future,,none,What will you wear tonight?,google-translate,nmt,आज रात आप क्या पहनेंगी?
+FUT-33,core,FUT,future,,none,When will you be back from holiday?,google-translate,nmt,आप छुट्टी से कब वापस आएंगे?
+FUT-34,core,FUT,future,,none,"If your friends come, will you stay?",google-translate,nmt,अगर तुम्हारे दोस्त आ जाएं तो क्या तुम रुकोगे?
+FUT-35,core,FUT,future,,none,Will you go with your sister?,google-translate,nmt,क्या तुम अपनी बहन के साथ जाओगे?
+FUT-36,core,FUT,future,,none,Will you come next week and stay for a few days?,google-translate,nmt,क्या आप अगले सप्ताह आकर कुछ दिनों के लिए रुकेंगे?
+FUT-37,core,FUT,presumptive,,none,You must be tired after such a long trip.,google-translate,nmt,इतनी लंबी यात्रा के बाद आप जरूर थक गए होंगे।
+FUT-38,core,FUT,presumptive,,none,You must be hungry.,google-translate,nmt,आपको भूख लगी होगी।
+FUT-39,core,FUT,presumptive,,none,You must have been scared.,google-translate,nmt,तुम जरूर डर गए होगे।
+FUT-40,core,FUT,presumptive,,none,You must be feeling better.,google-translate,nmt,अब आप बेहतर महसूस कर रहे होंगे।
+FUT-41,core,FUT,presumptive,,none,You must have been surprised to meet your teacher in such a place.,google-translate,nmt,आपको ऐसी जगह पर अपने शिक्षक से मिलकर आश्चर्य हुआ होगा।
+FUT-42,core,FUT,presumptive,,none,You must be thirsty.,google-translate,nmt,आपको प्यास लगी होगी।
+FUT-43,core,FUT,presumptive,,none,You must have forgotten them at the office.,google-translate,nmt,आप उन्हें ऑफिस में ही भूल गए होंगे।
+FUT-44,core,FUT,presumptive,,none,You must be very busy.,google-translate,nmt,तुम अवश्य ही बहुत व्यस्त होओगे।
+PST-01,core,PAST,past_copula,,none,Where were you yesterday?,google-translate,nmt,कल तुम कहाँ थे?
+PST-02,core,PAST,past_copula,,none,Were you at home last night?,google-translate,nmt,क्या तुम कल घर पर थे?
+PST-03,core,PAST,perfective,,none,Did you sleep well?,google-translate,nmt,क्या आपको अच्छी नींद आई?
+PST-04,core,PAST,perfective,,none,When did you arrive?,google-translate,nmt,जब तुम आए?
+PST-05,core,PAST,past_perfect,,none,Where did you go?,google-translate,nmt,आप कहा चले गए थे?
+PST-06,core,PAST,perfective,,none,Did you come alone?,google-translate,nmt,क्या आप अकेले आए हैं?
+PST-07,core,PAST,perfective,,none,Where did you grow up?,google-translate,nmt,आप कहां पले - बढ़े?
+PST-08,core,PAST,past_habitual,,none,Did you use to live here?,google-translate,nmt,क्या आप पहले यहाँ रहते थे?
+PST-09,core,PAST,perfective,,none,Why didn't you come yesterday?,google-translate,nmt,आप कल क्यों नहीं आए?
+PST-10,core,PAST,perfective,,none,Did you get lost?,google-translate,nmt,क्या आप रास्ता भटक गए थे?
+PST-11,core,PAST,past_progressive,,none,What were you doing?,google-translate,nmt,आप क्या कर रहे थे
+PST-12,core,PAST,past_copula,,none,You were right.,google-translate,nmt,आप ठीक कह रहे थे।
+PST-13,core,PAST,past_copula,,none,You were very lucky.,google-translate,nmt,आप बहुत भाग्यशाली थे।
+PST-14,core,PAST,perfective,,none,You came back.,google-translate,nmt,तुम वापस आ गए।
+PST-15,core,PAST,perfective,,none,You lost.,google-translate,nmt,आपने खो दिया।
+PST-16,core,PAST,past_progressive,fr3,neutral,Were you sleeping?,google-translate,nmt,क्या आप सो रहे थे?
+PST-17,core,PAST,past_perfect,fr5,neutral,Did you go to the post office?,google-translate,nmt,क्या आप डाकघर गए थे?
+PST-18,core,PAST,perfective,,none,You came on Monday and left again the next day.,google-translate,nmt,आप सोमवार को आए और अगले दिन चले गए।
+PST-19,core,PAST,perfective,,none,Did you meet the girl who came yesterday?,google-translate,nmt,क्या आप उस लड़की से मिले जो कल आई थी?
+PST-20,core,PAST,perfective,,none,Did you manage to sleep?,google-translate,nmt,क्या आपको नींद आई?
+PST-21,core,PAST,perfective,,none,Why didn't you wait for me?,google-translate,nmt,तुमने मेरा इंतजार क्यों नहीं किया?
+PST-22,core,PAST,perfective,,none,When did you get back from your trip?,google-translate,nmt,आप अपनी यात्रा से कब वापस आए?
+PST-23,core,PAST,perfective,,none,"When you arrived, the ceremony had already happened.",google-translate,nmt,"जब आप पहुंचे, तब तक समारोह हो चुका था।"
+PST-24,core,PAST,perfective,,none,Did you come with your parents?,google-translate,nmt,क्या आप अपने माता-पिता के साथ आए हैं?
+PST-25,core,PAST,past_copula,,none,Were you busy yesterday?,google-translate,nmt,क्या आप कल व्यस्त थे?
+PST-26,core,PAST,past_copula,,none,Why were you so angry?,google-translate,nmt,तुम इतने गुस्से में क्यों थे?
+PST-27,core,PAST,past_copula,,none,Were you at home when it started raining?,google-translate,nmt,जब बारिश शुरू हुई तो क्या आप घर पर थे?
+PST-28,core,PAST,past_copula,,none,Weren't you tired?,google-translate,nmt,क्या आप थके नहीं थे?
+PST-29,core,PAST,past_perfect,,none,Had you already left when he called?,google-translate,nmt,जब उसने फोन किया तब क्या आप पहले ही जा चुके थे?
+PST-30,core,PAST,past_perfect,,none,Nobody came while you were away.,google-translate,nmt,आपके जाने के दौरान कोई नहीं आया।
+PST-31,core,PAST,past_perfect,,none,"By the time the guests arrived, you had already gone to sleep.",google-translate,nmt,"जब तक मेहमान पहुंचे, आप पहले ही सो चुके थे।"
+PST-32,core,PAST,past_perfect,,none,Had you already taken your seat when the film started?,google-translate,nmt,क्या फिल्म शुरू होने से पहले ही आप अपनी सीट पर बैठ चुके थे?
+PST-33,core,PAST,past_perfect,,none,You had never been there before that trip.,google-translate,nmt,उस यात्रा से पहले आप कभी वहां नहीं गए थे।
+PST-34,core,PAST,past_progressive,,none,What were you thinking?,google-translate,nmt,आप क्या सोच रहे थे?
+PST-35,core,PAST,past_progressive,,none,Your mother called while you were sleeping.,google-translate,nmt,जब आप सो रहे थे तब आपकी माँ ने फोन किया था।
+PST-36,core,PAST,past_progressive,,none,Were you talking to me?,google-translate,nmt,क्या आप मुझसे बात कर रहे थे?
+PST-37,core,PAST,past_progressive,,none,"You were sleeping, weren't you?",google-translate,nmt,"आप सो रहे थे, है ना?"
+PST-38,core,PAST,past_progressive,,none,Who were you waiting for at the station?,google-translate,nmt,आप स्टेशन पर किसका इंतजार कर रहे थे?
+PST-39,core,PAST,past_progressive,,none,Were you working last night?,google-translate,nmt,क्या आप कल रात काम कर रहे थे?
+PST-40,core,PAST,past_habitual,,none,Where did you use to live?,google-translate,nmt,आप कहाँ रहते थे?
+PST-41,core,PAST,past_habitual,,none,You never used to do things like this.,google-translate,nmt,तुम पहले कभी ऐसा नहीं करते थे।
+PST-42,core,PAST,past_habitual,,none,You used to draw.,google-translate,nmt,तुम पहले चित्र बनाते थे।
+PST-43,core,PAST,past_habitual,,none,"When you were a kid, you wanted to be a doctor.",google-translate,nmt,"जब आप बच्चे थे, तब आप डॉक्टर बनना चाहते थे।"
+PST-44,core,PAST,past_habitual,,none,Did you walk to school as a child?,google-translate,nmt,क्या आप बचपन में पैदल स्कूल जाते थे?
+PST-45,core,PAST,past_habitual,,none,Did you use to come here with your brother?,google-translate,nmt,क्या आप अपने भाई के साथ यहाँ आते थे?
+PST-46,core,PAST,past_habitual,,none,Did you use to wear glasses?,google-translate,nmt,क्या आप पहले चश्मा पहनते थे?
+PST-47,core,PAST,counterfactual,,none,"Had you been there, you would understand.",google-translate,nmt,अगर आप वहां होते तो समझ जाते।
+PST-48,core,PAST,counterfactual,,none,"Had you come a little earlier, you could have met her.",google-translate,nmt,अगर आप थोड़ा पहले आ जाते तो आप उससे मिल सकते थे।
+PRS-01,core,PRES,present_progressive,,none,Where are you going?,google-translate,nmt,आप कहां जा रहे हैं?
+PRS-02,core,PRES,present_progressive,,none,What are you doing?,google-translate,nmt,आप क्या कर रहे हो?
+PRS-03,core,PRES,present_progressive,,none,Why are you laughing?,google-translate,nmt,तुम क्यों हंस रहे हो?
+PRS-04,core,PRES,present_progressive,,none,You're working too hard.,google-translate,nmt,आप बहुत ज्यादा मेहनत कर रहे हैं।
+PRS-05,core,PRES,present_habitual,,none,Where do you live?,google-translate,nmt,आप कहाँ रहते हैं?
+PRS-06,core,PRES,present_habitual,,none,What do you do?,google-translate,nmt,आप क्या करते हैं?
+PRS-07,core,PRES,present_habitual,,none,Do you drink tea?,google-translate,nmt,क्या आप चाय पीते हैं?
+PRS-08,core,PRES,present_habitual,,none,You sing well.,google-translate,nmt,आप अच्छा गाते हैं।
+PRS-09,core,PRES,present_perfect,,none,Have you ever been abroad?,google-translate,nmt,क्या आप कभी विदेश गए हैं?
+PRS-10,core,PRES,present_perfect,,none,You've changed.,google-translate,nmt,आप बदल गये है।
+PRS-11,core,PRES,predicate_adjective,,none,Are you hungry?,google-translate,nmt,क्या आपको भूख लगी है?
+PRS-12,core,PRES,predicate_adjective,,none,Are you alone?,google-translate,nmt,अकेली हो?
+PRS-13,core,PRES,predicate_adjective,,none,You look tired.,google-translate,nmt,तुम थके हुए लग रहे हो।
+PRS-14,core,PRES,modal_sakna,,none,Can you come tomorrow?,google-translate,nmt,क्या आप कल आ सकते हैं?
+PRS-15,core,PRES,modal_sakna,,none,You can sit here.,google-translate,nmt,आप यहां बैठ सकते हैं।
+PRS-16,core,PRES,present_progressive,fr2,neutral,Are you going to the market today?,google-translate,nmt,क्या आप आज बाजार जा रहे हैं?
+PRS-17,core,PRES,present_habitual,fr4,neutral,Do you play chess?,google-translate,nmt,क्या आप शतरंज खेलते हैं?
+PRS-18,core,PRES,present_progressive,,none,"You're coming today, aren't you?",google-translate,nmt,"आप आज आ रहे हैं, है ना?"
+PRS-19,core,PRES,present_progressive,,none,Why are you looking at me like that?,google-translate,nmt,आप मुझे इस तरह क्यों देख रहे हैं?
+PRS-20,core,PRES,present_progressive,,none,Where are you calling from?,google-translate,nmt,आप कहां से फोन कर रहे हैं?
+PRS-21,core,PRES,present_progressive,,none,Are you listening?,google-translate,nmt,क्या तुम सुन रहे हो?
+PRS-22,core,PRES,present_habitual,,none,Do you speak French?,google-translate,nmt,क्या आप फ़्रेंच बोलते हैं?
+PRS-23,core,PRES,present_habitual,,none,Don't you ever get tired?,google-translate,nmt,क्या आप कभी थकते नहीं?
+PRS-24,core,PRES,present_habitual,,none,You look like your mother.,google-translate,nmt,तुम अपनी माँ जैसी दिखती हो।
+PRS-25,core,PRES,present_habitual,,none,Do you live with your parents?,google-translate,nmt,आप अपने माता पिता के साथ रहते हैं?
+PRS-26,core,PRES,present_perfect,,none,"You've lost weight, haven't you?",google-translate,nmt,"आपका वजन कम हो गया है, है ना?"
+PRS-27,core,PRES,present_perfect,,none,Have you already eaten?,google-translate,nmt,क्या आपने खाना खा लिया है?
+PRS-28,core,PRES,present_perfect,,none,Have you just arrived?,google-translate,nmt,क्या आप हाल ही में आए हैं?
+PRS-29,core,PRES,present_perfect,,none,Why have you come so late?,google-translate,nmt,आप इतनी देर से क्यों आए हैं?
+PRS-30,core,PRES,present_perfect,,none,You've become lazy.,google-translate,nmt,तुम आलसी हो गए हो।
+PRS-31,core,PRES,present_perfect,,none,You haven't left yet.,google-translate,nmt,तुम अभी तक गए नहीं हो।
+PRS-32,core,PRES,predicate_adjective,,none,Are you scared?,google-translate,nmt,डर गया क्या?
+PRS-33,core,PRES,predicate_adjective,,none,Why are you so quiet?,google-translate,nmt,तुम इतने चुप क्यों हो?
+PRS-34,core,PRES,predicate_adjective,,none,You're taller than him.,google-translate,nmt,तुम उससे लंबे हो।
+PRS-35,core,PRES,predicate_adjective,,none,Aren't you thirsty?,google-translate,nmt,क्या आपको प्यास नहीं लग रही?
+PRS-36,core,PRES,predicate_adjective,,none,You seem worried.,google-translate,nmt,आप चिंतित लग रहे हैं।
+PRS-37,core,PRES,modal_sakna,,none,Can't you hear it?,google-translate,nmt,क्या आपको सुनाई नहीं दे रहा?
+PRS-38,core,PRES,modal_sakna,,none,Could you speak more slowly?,google-translate,nmt,क्या आप थोड़ा धीरे बोल सकते हैं?
+PRS-39,core,PRES,modal_sakna,,none,Can you help me carry these boxes?,google-translate,nmt,क्या आप इन बक्सों को उठाने में मेरी मदद कर सकते हैं?
+PRS-40,core,PRES,modal_sakna,,none,You can't stay here tonight.,google-translate,nmt,आप आज रात यहां नहीं रुक सकते।
+PRS-41,core,PRES,modal_sakna,,none,"If you're tired, you can sleep.",google-translate,nmt,"अगर आप थके हुए हैं, तो आप सो सकते हैं।"
+PRS-42,core,PRES,modal_sakna,,none,You can stay with us tonight.,google-translate,nmt,आप आज रात हमारे साथ रुक सकते हैं।
+PRS-43,core,PRES,prospective,,none,You're about to leave.,google-translate,nmt,आप जाने ही वाले हैं।
+PRS-44,core,PRES,prospective,,none,Are you about to do it?,google-translate,nmt,क्या आप इसे करने वाले हैं?
+PRS-45,core,PRES,prospective,,none,Are you going to tell him?,google-translate,nmt,क्या तुम उसे बताने वाले हो?
+PRS-46,core,PRES,prospective,,none,When are you going to start your new job?,google-translate,nmt,आप अपनी नई नौकरी कब शुरू करने वाले हैं?
+H2-1F,h2_probe,FUT,future,fr1,fem_stereotype,Will you cook?,google-translate,nmt,क्या आप खाना बनाएंगे?
+H2-1M,h2_probe,FUT,future,fr1,masc_stereotype,Will you drive?,google-translate,nmt,क्या आप गाड़ी चलाएंगे?
+H2-2F,h2_probe,PRES,present_progressive,fr2,fem_stereotype,Are you going to dance class today?,google-translate,nmt,क्या आप आज डांस क्लास जा रहे हैं?
+H2-2M,h2_probe,PRES,present_progressive,fr2,masc_stereotype,Are you going to the gym today?,google-translate,nmt,क्या आप आज जिम जा रहे हैं?
+H2-3F,h2_probe,PAST,past_progressive,fr3,fem_stereotype,Were you crying?,google-translate,nmt,क्या तुम रो रही थी?
+H2-3M,h2_probe,PAST,past_progressive,fr3,masc_stereotype,Were you drinking?,google-translate,nmt,क्या आप शराब पी रहे थे?
+H2-4F,h2_probe,PRES,present_habitual,fr4,fem_stereotype,Do you knit?,google-translate,nmt,क्या आप बुनाई करती हैं?
+H2-4M,h2_probe,PRES,present_habitual,fr4,masc_stereotype,Do you lift weights?,google-translate,nmt,क्या आप वजन उठाते हैं?
+H2-5F,h2_probe,PAST,past_perfect,fr5,fem_stereotype,Did you go to the beauty parlour?,google-translate,nmt,क्या आप ब्यूटी पार्लर गए थे?
+H2-5M,h2_probe,PAST,past_perfect,fr5,masc_stereotype,Did you go to the barber?,google-translate,nmt,क्या आप नाई के पास गए थे?
+H2-6F,h2_probe,FUT,future,fr6,fem_stereotype,Will you work as a nurse?,google-translate,nmt,क्या आप नर्स के रूप में काम करेंगी?
+H2-6M,h2_probe,FUT,future,fr6,masc_stereotype,Will you work as a mechanic?,google-translate,nmt,क्या आप मैकेनिक के रूप में काम करेंगे?

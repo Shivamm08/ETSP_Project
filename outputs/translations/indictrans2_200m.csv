@@ -1,0 +1,151 @@
+id,split,profile,construction,frame_id,cue,english,system,model,hindi_output
+FUT-01,core,FUT,future,,none,When will you come back?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,तुम कब लौटोगे?
+FUT-02,core,FUT,future,,none,Where will you sleep?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप कहाँ सोएँगे?
+FUT-03,core,FUT,future,,none,Will you go by train?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप ट्रेन से जाएँगे?
+FUT-04,core,FUT,future,,none,What will you do now?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,अब आप क्या करेंगे?
+FUT-05,core,FUT,future,,none,Where will you go?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप कहाँ जाएँगे?
+FUT-06,core,FUT,future,,none,You'll understand later.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप बाद में समझेंगे।
+FUT-07,core,FUT,future,,none,You'll learn a lot.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप बहुत कुछ सीखेंगे।
+FUT-08,core,FUT,future,,none,How long will you stay here?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप यहाँ कब तक रहेंगे?
+FUT-09,core,FUT,future,,none,Will you be home tonight?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या तुम आज रात घर पहुँचोगे?
+FUT-10,core,FUT,future,,none,Will you help me?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप मेरी मदद करेंगे?
+FUT-11,core,FUT,future,,none,What time will you leave?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप कितने बजे जाएँगे?
+FUT-12,core,FUT,future,,none,Won't you come with us?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप हमारे साथ नहीं आएँगे?
+FUT-13,core,FUT,future,,none,You'll get tired.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप थक जाएँगे।
+FUT-14,core,FUT,future,,none,You won't win.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप नहीं जीतेंगे।
+FUT-15,core,FUT,future,fr1,neutral,Will you swim?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप तैरेंगे?
+FUT-16,core,FUT,future,fr6,neutral,Will you work as a cashier?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप कैशियर के रूप में काम करेंगे?
+FUT-17,core,FUT,future,,none,"If you leave now, you'll get there on time.",indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,"यदि आप अभी चले जाते हैं, तो आप समय पर वहाँ पहुँच जाएँगे।"
+FUT-18,core,FUT,future,,none,You'll feel better in the morning.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,सुबह आप बेहतर महसूस करेंगे।
+FUT-19,core,FUT,future,,none,Where will you stay when you go to Boston?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,जब आप बोस्टन जाएँगे तो आप कहाँ ठहरेंगे?
+FUT-20,core,FUT,future,,none,You won't regret it.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आपको इसका पछतावा नहीं होगा।
+FUT-21,core,FUT,future,,none,"You'll be home this evening, won't you?",indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,"तुम आज शाम घर पहुँचोगे, है ना?"
+FUT-22,core,FUT,future,,none,How long will you wait?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप कब तक इंतजार करेंगे?
+FUT-23,core,FUT,future,,none,You won't be alone.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप अकेले नहीं होंगे।
+FUT-24,core,FUT,future,,none,You'll be fine.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप ठीक हो जाएँगे।
+FUT-25,core,FUT,future,,none,How will you pay for this?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप इसके लिए भुगतान कैसे करेंगे?
+FUT-26,core,FUT,future,,none,You'll never guess what happened.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप कभी अनुमान नहीं लगा पाएंगे कि क्या हुआ।
+FUT-27,core,FUT,future,,none,Will you be able to come tomorrow?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप कल आ सकते हैं?
+FUT-28,core,FUT,future,,none,"You won't be able to sleep outdoors, it's cold.",indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,"आप बाहर नहीं सो पाएंगे, ठंड है।"
+FUT-29,core,FUT,future,,none,When will you be able to finish that job?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप उस काम को कब पूरा कर पाएंगे?
+FUT-30,core,FUT,future,,none,What will you do if he doesn't come?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,अगर वह नहीं आएगा तो आप क्या करेंगे?
+FUT-31,core,FUT,future,,none,You'll get there on time if you make the train.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,यदि आप ट्रेन बना लेते हैं तो आप समय पर वहाँ पहुँच जाएँगे।
+FUT-32,core,FUT,future,,none,What will you wear tonight?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आज रात आप क्या पहनेंगे?
+FUT-33,core,FUT,future,,none,When will you be back from holiday?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप छुट्टी से कब लौटेंगे?
+FUT-34,core,FUT,future,,none,"If your friends come, will you stay?",indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,"अगर आपके दोस्त आते हैं, तो क्या आप रहेंगे?"
+FUT-35,core,FUT,future,,none,Will you go with your sister?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप अपनी बहन के साथ जाएँगे?
+FUT-36,core,FUT,future,,none,Will you come next week and stay for a few days?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप अगले सप्ताह आकर कुछ दिन ठहरेंगे?
+FUT-37,core,FUT,presumptive,,none,You must be tired after such a long trip.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,इतनी लंबी यात्रा के बाद आप थक गए होंगे।
+FUT-38,core,FUT,presumptive,,none,You must be hungry.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आपको भूख लगी होगी।
+FUT-39,core,FUT,presumptive,,none,You must have been scared.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप डर गए होंगे।
+FUT-40,core,FUT,presumptive,,none,You must be feeling better.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप बेहतर महसूस कर रहे होंगे।
+FUT-41,core,FUT,presumptive,,none,You must have been surprised to meet your teacher in such a place.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,ऐसी जगह पर अपने शिक्षक से मिलकर आपको आश्चर्य हुआ होगा।
+FUT-42,core,FUT,presumptive,,none,You must be thirsty.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आपको प्यास लगी होगी।
+FUT-43,core,FUT,presumptive,,none,You must have forgotten them at the office.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप उन्हें कार्यालय में भूल गए होंगे।
+FUT-44,core,FUT,presumptive,,none,You must be very busy.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप बहुत व्यस्त होंगे।
+PST-01,core,PAST,past_copula,,none,Where were you yesterday?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,कल आप कहाँ थे?
+PST-02,core,PAST,past_copula,,none,Were you at home last night?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप कल रात घर पर थे?
+PST-03,core,PAST,perfective,,none,Did you sleep well?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आपको अच्छी नींद आई?
+PST-04,core,PAST,perfective,,none,When did you arrive?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप कब पहुँचे?
+PST-05,core,PAST,past_perfect,,none,Where did you go?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप कहाँ गए थे?
+PST-06,core,PAST,perfective,,none,Did you come alone?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप अकेले आए थे?
+PST-07,core,PAST,perfective,,none,Where did you grow up?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप कहाँ बड़े हुए?
+PST-08,core,PAST,past_habitual,,none,Did you use to live here?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप यहाँ रहते थे?
+PST-09,core,PAST,perfective,,none,Why didn't you come yesterday?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,तुम कल क्यों नहीं आए?
+PST-10,core,PAST,perfective,,none,Did you get lost?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप खो गए हैं?
+PST-11,core,PAST,past_progressive,,none,What were you doing?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप क्या कर रहे थे?
+PST-12,core,PAST,past_copula,,none,You were right.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप सही थे।
+PST-13,core,PAST,past_copula,,none,You were very lucky.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप बहुत भाग्यशाली थे।
+PST-14,core,PAST,perfective,,none,You came back.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप वापस आ गए।
+PST-15,core,PAST,perfective,,none,You lost.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप हार गए।
+PST-16,core,PAST,past_progressive,fr3,neutral,Were you sleeping?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप सो रहे थे?
+PST-17,core,PAST,past_perfect,fr5,neutral,Did you go to the post office?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप डाकघर गए थे?
+PST-18,core,PAST,perfective,,none,You came on Monday and left again the next day.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप सोमवार को आए और अगले दिन फिर से चले गए।
+PST-19,core,PAST,perfective,,none,Did you meet the girl who came yesterday?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप उस लड़की से मिले थे जो कल आई थी?
+PST-20,core,PAST,perfective,,none,Did you manage to sleep?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप सोने में कामयाब रहे?
+PST-21,core,PAST,perfective,,none,Why didn't you wait for me?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,तूने मेरा इंतजार क्यों नहीं किया?
+PST-22,core,PAST,perfective,,none,When did you get back from your trip?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप अपनी यात्रा से कब लौटे?
+PST-23,core,PAST,perfective,,none,"When you arrived, the ceremony had already happened.",indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,जब आप पहुंचे तो समारोह पहले ही हो चुका था।
+PST-24,core,PAST,perfective,,none,Did you come with your parents?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप अपने माता-पिता के साथ आए थे?
+PST-25,core,PAST,past_copula,,none,Were you busy yesterday?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप कल व्यस्त थे?
+PST-26,core,PAST,past_copula,,none,Why were you so angry?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप इतने गुस्से में क्यों थे?
+PST-27,core,PAST,past_copula,,none,Were you at home when it started raining?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,जब बारिश शुरू हुई तो क्या आप घर पर थे?
+PST-28,core,PAST,past_copula,,none,Weren't you tired?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप थके हुए नहीं थे?
+PST-29,core,PAST,past_perfect,,none,Had you already left when he called?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,जब उसने फोन किया तो क्या आप पहले ही जा चुके थे?
+PST-30,core,PAST,past_perfect,,none,Nobody came while you were away.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,जब आप दूर थे तब कोई नहीं आया था।
+PST-31,core,PAST,past_perfect,,none,"By the time the guests arrived, you had already gone to sleep.",indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,"जब तक मेहमान आए, तब तक आप सो चुके थे।"
+PST-32,core,PAST,past_perfect,,none,Had you already taken your seat when the film started?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,जब फिल्म शुरू हुई थी तो क्या आप पहले ही अपनी सीट ले चुके थे?
+PST-33,core,PAST,past_perfect,,none,You had never been there before that trip.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप उस यात्रा से पहले कभी वहाँ नहीं गए थे।
+PST-34,core,PAST,past_progressive,,none,What were you thinking?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप क्या सोच रहे थे?
+PST-35,core,PAST,past_progressive,,none,Your mother called while you were sleeping.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,जब आप सो रहे थे तब आपकी माँ ने फोन किया था।
+PST-36,core,PAST,past_progressive,,none,Were you talking to me?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप मुझसे बात कर रहे थे?
+PST-37,core,PAST,past_progressive,,none,"You were sleeping, weren't you?",indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,"आप सो रहे थे, है ना?"
+PST-38,core,PAST,past_progressive,,none,Who were you waiting for at the station?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,स्टेशन पर आप किसका इंतजार कर रहे थे?
+PST-39,core,PAST,past_progressive,,none,Were you working last night?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप कल रात काम कर रहे थे?
+PST-40,core,PAST,past_habitual,,none,Where did you use to live?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप कहाँ रहते थे?
+PST-41,core,PAST,past_habitual,,none,You never used to do things like this.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप इस तरह की चीज़ें कभी नहीं करते थे।
+PST-42,core,PAST,past_habitual,,none,You used to draw.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप चित्र बनाते थे।
+PST-43,core,PAST,past_habitual,,none,"When you were a kid, you wanted to be a doctor.",indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,"जब आप बच्चे थे, तो आप डॉक्टर बनना चाहते थे।"
+PST-44,core,PAST,past_habitual,,none,Did you walk to school as a child?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप बचपन में स्कूल जाते थे?
+PST-45,core,PAST,past_habitual,,none,Did you use to come here with your brother?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप यहाँ अपने भाई के साथ आते थे?
+PST-46,core,PAST,past_habitual,,none,Did you use to wear glasses?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप चश्मा पहनते थे?
+PST-47,core,PAST,counterfactual,,none,"Had you been there, you would understand.",indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,अगर आप वहाँ होते तो आप समझ जाते।
+PST-48,core,PAST,counterfactual,,none,"Had you come a little earlier, you could have met her.",indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,अगर आप थोड़ी पहले आते तो आप उनसे मिल सकते थे।
+PRS-01,core,PRES,present_progressive,,none,Where are you going?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप कहाँ जा रहे हैं?
+PRS-02,core,PRES,present_progressive,,none,What are you doing?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप क्या कर रहे हैं?
+PRS-03,core,PRES,present_progressive,,none,Why are you laughing?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,तुम क्यों हँस रहे हो?
+PRS-04,core,PRES,present_progressive,,none,You're working too hard.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप बहुत मेहनत कर रहे हैं।
+PRS-05,core,PRES,present_habitual,,none,Where do you live?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप कहाँ रहते हैं?
+PRS-06,core,PRES,present_habitual,,none,What do you do?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप क्या करते हैं?
+PRS-07,core,PRES,present_habitual,,none,Do you drink tea?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप चाय पीते हैं?
+PRS-08,core,PRES,present_habitual,,none,You sing well.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप अच्छा गाते हैं।
+PRS-09,core,PRES,present_perfect,,none,Have you ever been abroad?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप कभी विदेश गए हैं?
+PRS-10,core,PRES,present_perfect,,none,You've changed.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप बदल गए हैं।
+PRS-11,core,PRES,predicate_adjective,,none,Are you hungry?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आपको भूख लगी है?
+PRS-12,core,PRES,predicate_adjective,,none,Are you alone?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप अकेले हैं?
+PRS-13,core,PRES,predicate_adjective,,none,You look tired.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप थके हुए दिख रहे हैं।
+PRS-14,core,PRES,modal_sakna,,none,Can you come tomorrow?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या तुम कल आ सकते हो?
+PRS-15,core,PRES,modal_sakna,,none,You can sit here.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप यहाँ बैठ सकते हैं।
+PRS-16,core,PRES,present_progressive,fr2,neutral,Are you going to the market today?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप आज बाज़ार जा रहे हैं?
+PRS-17,core,PRES,present_habitual,fr4,neutral,Do you play chess?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप शतरंज खेलते हैं?
+PRS-18,core,PRES,present_progressive,,none,"You're coming today, aren't you?",indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,"तुम आज आ रहे हो, है ना?"
+PRS-19,core,PRES,present_progressive,,none,Why are you looking at me like that?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,तुम मुझे इस तरह क्यों देख रहे हो?
+PRS-20,core,PRES,present_progressive,,none,Where are you calling from?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप कहाँ से फ़ोन कर रहे हैं?
+PRS-21,core,PRES,present_progressive,,none,Are you listening?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप सुन रहे हैं?
+PRS-22,core,PRES,present_habitual,,none,Do you speak French?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप फ्रेंच बोलते हैं?
+PRS-23,core,PRES,present_habitual,,none,Don't you ever get tired?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप कभी थकते नहीं हैं?
+PRS-24,core,PRES,present_habitual,,none,You look like your mother.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप अपनी माँ की तरह दिखते हैं।
+PRS-25,core,PRES,present_habitual,,none,Do you live with your parents?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप अपने माता-पिता के साथ रहते हैं?
+PRS-26,core,PRES,present_perfect,,none,"You've lost weight, haven't you?",indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,"आपका वजन कम हो गया है, है ना?"
+PRS-27,core,PRES,present_perfect,,none,Have you already eaten?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आपने पहले ही खा लिया है?
+PRS-28,core,PRES,present_perfect,,none,Have you just arrived?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप अभी आए हैं?
+PRS-29,core,PRES,present_perfect,,none,Why have you come so late?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,तुम इतनी देर से क्यों आए हो?
+PRS-30,core,PRES,present_perfect,,none,You've become lazy.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप आलसी हो गए हैं।
+PRS-31,core,PRES,present_perfect,,none,You haven't left yet.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप अभी तक नहीं गए हैं।
+PRS-32,core,PRES,predicate_adjective,,none,Are you scared?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आपको डर लगता है?
+PRS-33,core,PRES,predicate_adjective,,none,Why are you so quiet?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,तुम इतने चुप क्यों हो?
+PRS-34,core,PRES,predicate_adjective,,none,You're taller than him.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,तुम उससे भी ऊँचे हो।
+PRS-35,core,PRES,predicate_adjective,,none,Aren't you thirsty?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आपको प्यास नहीं लगी है?
+PRS-36,core,PRES,predicate_adjective,,none,You seem worried.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप चिंतित प्रतीत होते हैं।
+PRS-37,core,PRES,modal_sakna,,none,Can't you hear it?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप इसे नहीं सुन सकते हैं?
+PRS-38,core,PRES,modal_sakna,,none,Could you speak more slowly?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप धीरे-धीरे बोल सकते हैं?
+PRS-39,core,PRES,modal_sakna,,none,Can you help me carry these boxes?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप इन डिब्बों को ले जाने में मेरी मदद कर सकते हैं?
+PRS-40,core,PRES,modal_sakna,,none,You can't stay here tonight.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,तुम आज रात यहाँ नहीं रह सकते।
+PRS-41,core,PRES,modal_sakna,,none,"If you're tired, you can sleep.",indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,"यदि आप थके हुए हैं, तो आप सो सकते हैं।"
+PRS-42,core,PRES,modal_sakna,,none,You can stay with us tonight.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप आज रात हमारे साथ रह सकते हैं।
+PRS-43,core,PRES,prospective,,none,You're about to leave.,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप जाने वाले हैं।
+PRS-44,core,PRES,prospective,,none,Are you about to do it?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप ऐसा करने वाले हैं?
+PRS-45,core,PRES,prospective,,none,Are you going to tell him?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप उसे बताएँगे?
+PRS-46,core,PRES,prospective,,none,When are you going to start your new job?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,आप अपना नया काम कब शुरू करने जा रहे हैं?
+H2-1F,h2_probe,FUT,future,fr1,fem_stereotype,Will you cook?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप खाना बनायेंगे?
+H2-1M,h2_probe,FUT,future,fr1,masc_stereotype,Will you drive?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप गाड़ी चलाएंगे?
+H2-2F,h2_probe,PRES,present_progressive,fr2,fem_stereotype,Are you going to dance class today?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप आज डांस क्लास में जा रहे हैं?
+H2-2M,h2_probe,PRES,present_progressive,fr2,masc_stereotype,Are you going to the gym today?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप आज जिम जा रहे हैं?
+H2-3F,h2_probe,PAST,past_progressive,fr3,fem_stereotype,Were you crying?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप रो रहे थे?
+H2-3M,h2_probe,PAST,past_progressive,fr3,masc_stereotype,Were you drinking?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप शराब पी रहे थे?
+H2-4F,h2_probe,PRES,present_habitual,fr4,fem_stereotype,Do you knit?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप बुनाई करते हैं?
+H2-4M,h2_probe,PRES,present_habitual,fr4,masc_stereotype,Do you lift weights?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप वजन उठाते हैं?
+H2-5F,h2_probe,PAST,past_perfect,fr5,fem_stereotype,Did you go to the beauty parlour?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप ब्यूटी पार्लर गए थे?
+H2-5M,h2_probe,PAST,past_perfect,fr5,masc_stereotype,Did you go to the barber?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप नाई के पास गए थे?
+H2-6F,h2_probe,FUT,future,fr6,fem_stereotype,Will you work as a nurse?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप नर्स के रूप में काम करेंगे?
+H2-6M,h2_probe,FUT,future,fr6,masc_stereotype,Will you work as a mechanic?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप एक मैकेनिक के रूप में काम करेंगे?
