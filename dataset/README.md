@@ -178,6 +178,8 @@ Every Tatoeba item keeps its sentence id in `source_id`.
 | `sources/tatoeba_candidate_pool.tsv` | The 38,658 filtered Tatoeba candidates (the v0 seed pool). |
 | `scripts/build_dataset.py` | Checks the CSV and generates the long CSV. |
 | `scripts/normalize.py` | `normalize_hindi()`: makes spelling variants identical before matching or scoring. |
+| `scripts/extractor.py` | `extract()`: reads the addressee's register and gender off a Hindi sentence such as an MT output (see [The extractor](#the-extractor)). |
+| `scripts/evaluate_extractor.py` | Measures the extractor: a development check on this benchmark, a hand-labelling sheet for MT outputs, and the held-out accuracy on those labels. |
 | `tests/` | Unit tests for the normaliser and for the checks in `build_dataset.py`. |
 | `scripts/select_sources.py` | Builds the candidate pool from a Tatoeba export. |
 | `scripts/cocoa_check.py` | Counts CoCoA-MT's register and gender coverage (see [Related data](#related-data)). |
@@ -256,6 +258,38 @@ python3 -m unittest discover -s tests             # test the normaliser and the 
 - **External test set.** CoCoA-MT's en-hi test split has 272 segments with masculine and feminine
   references for तुम / आप. In about 4 in 10 of them the feminine version changes the *speaker's*
   gender, so keep only those where it changes the addressee's (see the next section).
+
+### The extractor
+
+`scripts/extractor.py` reads register and gender without a reference, from the morphology of the
+sentence itself, so it works on any wording an MT system produces:
+
+```bash
+python3 scripts/extractor.py --explain "क्या उस लड़की से मिलीं जो कल आई थी?"
+# register=tum|aap  gender=F   (pro-drop: the nasal plural fits आप and the prescriptive तुम)
+python3 scripts/extractor.py --input mt.csv --column hindi    # adds pred_register, pred_gender
+```
+
+It outputs the labels described above: one register, a set of registers for a syncretic pro-drop
+form (`tum|aap`), `unmarked` or `mixed`, and a gender of `M`, `F`, `unmarked` or `mixed`. The
+module docstring explains the rules.
+
+**Measuring its accuracy.** The rules were written while looking at this benchmark, which it reads
+without error (900 references, 52 prescriptive alternatives, 900 pro-drop variants). That is a
+development check, not the accuracy to report. The reported number comes from MT outputs labelled
+by hand:
+
+```bash
+python3 scripts/evaluate_extractor.py --benchmark                       # development check
+python3 scripts/evaluate_extractor.py --make-sheet mt_outputs.csv       # -> validation/extractor_gold.csv
+#   fill in gold_register and gold_gender by hand, then:
+python3 scripts/evaluate_extractor.py --labelled validation/extractor_gold.csv
+```
+
+`mt_outputs.csv` needs the columns `id`, `system` and `hindi`. The sheet leaves out the extractor's
+predictions, so they cannot bias the annotator. `--labelled` reports register, gender and joint
+accuracy with 95% confidence intervals, by system and by profile, with confusion matrices and every
+error.
 
 ---
 
