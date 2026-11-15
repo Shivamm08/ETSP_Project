@@ -10,15 +10,19 @@ Three modes (run from the dataset/ folder):
      build the rules, so this number is an upper bound and not the accuracy to report.
 
   2. Make a sheet for hand-labelling MT outputs:
-         python scripts/evaluate_extractor.py --make-sheet mt_outputs.csv --out validation/extractor_gold.csv
-     The input needs columns `id` (benchmark item id), `system` and `hindi` (the MT output). The sheet
-     comes shuffled, with the English source next to each output and empty gold columns. The
-     extractor's predictions are left out so that they cannot bias the annotator.
+         python scripts/evaluate_extractor.py --make-sheet --out validation/extractor_gold.csv
+     With no argument it reads every CSV in ../outputs/translations/ (the machine translations);
+     you can also pass CSV files or folders: --make-sheet ../outputs/translations/nllb_600m.csv.
+     Each input needs columns `id` (benchmark item id), `system` and the MT output in `hindi_output`
+     (or `hindi`); `english` and `condition` (the LLM prompting condition) are carried over when
+     present. The sheet comes shuffled, with the English source next to each output and empty gold
+     columns. The extractor's predictions and the requested cell are left out so that they cannot
+     bias the annotator.
 
   3. The held-out accuracy, on hand-labelled MT outputs (the number to report):
          python scripts/evaluate_extractor.py --labelled validation/extractor_gold.csv
      Reports register, gender and joint accuracy with 95% confidence intervals, confusion matrices,
-     a breakdown by system and by profile, and every error.
+     a breakdown by system, by condition and by profile, and every error.
 
 Gold labels (columns gold_register, gold_gender) take the same values the extractor outputs:
 
@@ -45,6 +49,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from extractor import REGISTERS, extract, register_label  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
+TRANSLATIONS = ROOT.parent / "outputs" / "translations"
 GENDERS = ("M", "F", "unmarked", "mixed")
 
 
@@ -181,21 +186,45 @@ def run_benchmark(long_path: Path, limit: int) -> int:
 
 
 # --------------------------------------------------------------------------- mode 2: annotation sheet
-def make_sheet(mt_path: Path, out: Path, bench_path: Path, seed: int) -> int:
-    mt = load_csv(mt_path)
-    missing = {"id", "system", "hindi"} - set(mt[0] if mt else {})
-    if missing:
-        print(f"{mt_path} lacks column(s) {sorted(missing)}", file=sys.stderr)
+def load_mt(paths: list[Path]) -> list[dict[str, str]]:
+    """Read MT outputs from CSV files and/or folders of CSVs, with the output text under `hindi`."""
+    files: list[Path] = []
+    for p in paths:
+        files.extend(sorted(p.glob("*.csv")) if p.is_dir() else [p])
+    if not files:
+        raise ValueError(f"no CSV files in {', '.join(map(str, paths))}")
+    rows = []
+    for f in files:
+        data = load_csv(f)
+        cols = set(data[0]) if data else set()
+        text_col = "hindi_output" if "hindi_output" in cols else "hindi"
+        missing = {"id", "system", text_col} - cols
+        if missing:
+            raise ValueError(f"{f} lacks column(s) {sorted(missing)}")
+        for r in data:
+            rows.append({"id": r["id"], "system": r["system"], "condition": r.get("condition", ""),
+                         "english": r.get("english", ""), "hindi": r[text_col], "source": f.name})
+    return rows
+
+
+def make_sheet(mt_paths: list[Path], out: Path, bench_path: Path, seed: int) -> int:
+    try:
+        mt = load_mt(mt_paths)
+    except ValueError as e:
+        print(e, file=sys.stderr)
         return 1
     english = {r["id"]: r["english"] for r in load_csv(bench_path)}
     random.Random(seed).shuffle(mt)
     out.parent.mkdir(parents=True, exist_ok=True)
     with out.open("w", encoding="utf-8", newline="") as fh:
         w = csv.writer(fh)
-        w.writerow(["row", "id", "english", "hindi", "gold_register", "gold_gender", "comment", "system"])
+        w.writerow(["row", "id", "english", "hindi", "gold_register", "gold_gender", "comment", "system", "condition"])
         for i, r in enumerate(mt, 1):
-            w.writerow([i, r["id"], english.get(r["id"], ""), r["hindi"], "", "", "", r["system"]])
-    print(f"wrote {len(mt)} rows to {out}; fill in gold_register and gold_gender (see the docstring)")
+            w.writerow([i, r["id"], r["english"] or english.get(r["id"], ""), r["hindi"], "", "", "",
+                        r["system"], r["condition"]])
+    by_system = Counter(r["system"] for r in mt)
+    print(f"wrote {len(mt)} rows to {out} ({', '.join(f'{s}: {n}' for s, n in sorted(by_system.items()))}); "
+          f"fill in gold_register and gold_gender (see the docstring)")
     return 0
 
 
@@ -219,10 +248,10 @@ def run_labelled(path: Path, bench_path: Path, limit: int) -> int:
     predict(labelled)
 
     table({"all": labelled}, "held-out", ci=True)
-    for key, name in (("system", "by system"), ("profile", "by profile")):
+    for key, name in (("system", "by system"), ("condition", "by condition"), ("profile", "by profile")):
         groups: dict[str, list[dict]] = defaultdict(list)
         for r in labelled:
-            k = r.get(key) or profile.get(r.get("id", ""), "")
+            k = r.get(key) or (profile.get(r.get("id", ""), "") if key == "profile" else "")
             if k:
                 groups[k].append(r)
         if len(groups) > 1:
@@ -237,7 +266,8 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     mode = ap.add_mutually_exclusive_group(required=True)
     mode.add_argument("--benchmark", action="store_true", help="development check on the benchmark")
-    mode.add_argument("--make-sheet", type=Path, metavar="MT_CSV", help="make a hand-labelling sheet")
+    mode.add_argument("--make-sheet", type=Path, nargs="*", metavar="MT_CSV_OR_DIR",
+                      help=f"make a hand-labelling sheet from MT outputs (default: {TRANSLATIONS})")
     mode.add_argument("--labelled", type=Path, metavar="GOLD_CSV", help="score against hand labels")
     ap.add_argument("--out", type=Path, default=ROOT / "validation" / "extractor_gold.csv")
     ap.add_argument("--long", type=Path, default=ROOT / "benchmark_v1_long.csv")
@@ -250,11 +280,11 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.benchmark:
         return run_benchmark(args.long, args.errors)
-    if args.make_sheet:
+    if args.make_sheet is not None:
         if args.out.exists():
             print(f"{args.out} exists; not overwriting hand labels (pass another --out)", file=sys.stderr)
             return 1
-        return make_sheet(args.make_sheet, args.out, args.wide, args.seed)
+        return make_sheet(args.make_sheet or [TRANSLATIONS], args.out, args.wide, args.seed)
     return run_labelled(args.labelled, args.wide, args.errors)
 
 

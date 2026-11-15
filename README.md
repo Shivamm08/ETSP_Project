@@ -40,8 +40,10 @@ Excel, which can corrupt the Hindi text. The scripts need only Python 3.9 or new
 **Core**
 
 1. **Benchmark** (Shivamm): 150 English sentences × 6 Hindi translations.
-2. **Extractor** (Manan): reads register and gender off a Hindi MT output. Its accuracy is measured on
-   hand-labelled MT outputs before it is used.
+2. **Extractor** (Manan): reads register and gender off a Hindi MT output with rules: pronoun
+   detection, participle suffixes (गया / गए / गई / गईं), auxiliaries (है / हो / हैं), future endings
+   (-ेगा / -ोगे / -ेंगे) and the past copula (था / थे / थी / थीं), read only in the clause whose
+   subject is the addressee. Its accuracy is measured on hand-labelled MT outputs before it is used.
 3. **Default behaviour (H1):** translate the core sentences with several MT systems, without
    instructions, and report which register and gender each one picks.
 4. **Control (H3):** ask LLMs for a given register, a given gender, or both, and measure how often

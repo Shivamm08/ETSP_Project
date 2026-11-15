@@ -43,7 +43,8 @@ How it reads a sentence:
 Usage:
     python scripts/extractor.py "क्या आप कल आएँगी?"                    # one sentence
     python scripts/extractor.py --explain "तुम कहाँ गई थी?"            # show the evidence
-    python scripts/extractor.py --input mt.csv --column hindi --output mt_labelled.csv
+    python scripts/extractor.py --input ../outputs/translations/nllb_600m.csv --output nllb_labelled.csv
+                                                    # a CSV; reads column hindi, else hindi_output
 
 Out of scope: a plural "you" (आप लोग, तुम सब) is read like a singular one, and an invariant predicate
 adjective that ends in -ी or -ा is read as agreeing unless it is listed in INVARIANT (दुखी, शाकाहारी).
@@ -512,7 +513,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("sentence", nargs="*", help="Hindi sentence(s) to analyse")
     ap.add_argument("--explain", action="store_true", help="print the evidence behind each label")
     ap.add_argument("--input", type=Path, help="CSV file with one sentence per row")
-    ap.add_argument("--column", default="hindi", help="column of --input that holds the Hindi text")
+    ap.add_argument("--column", default="hindi",
+                    help="column of --input that holds the Hindi text (default hindi, falling back to hindi_output)")
     ap.add_argument("--output", type=Path, help="write --input with added columns pred_register, pred_gender")
     args = ap.parse_args(argv)
     if hasattr(sys.stdout, "reconfigure"):
@@ -522,7 +524,10 @@ def main(argv: list[str] | None = None) -> int:
         with args.input.open(encoding="utf-8", newline="") as fh:
             rows = list(csv.DictReader(fh))
         if rows and args.column not in rows[0]:
-            ap.error(f"column '{args.column}' not in {args.input}")
+            if args.column == "hindi" and "hindi_output" in rows[0]:   # outputs/translations/*.csv
+                args.column = "hindi_output"
+            else:
+                ap.error(f"column '{args.column}' not in {args.input}")
         for r in rows:
             ex = extract(r[args.column])
             r["pred_register"], r["pred_gender"] = ex.register, ex.gender

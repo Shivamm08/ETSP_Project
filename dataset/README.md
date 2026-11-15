@@ -267,8 +267,14 @@ sentence itself, so it works on any wording an MT system produces:
 ```bash
 python3 scripts/extractor.py --explain "क्या उस लड़की से मिलीं जो कल आई थी?"
 # register=tum|aap  gender=F   (pro-drop: the nasal plural fits आप and the prescriptive तुम)
-python3 scripts/extractor.py --input mt.csv --column hindi    # adds pred_register, pred_gender
+python3 scripts/extractor.py --input ../outputs/translations/nllb_600m.csv   # adds pred_register, pred_gender
 ```
+
+It is rule-based. Its cues are pronoun forms (तू / तुम / आप, तुम्हें, आपका …), participle and
+adjective suffixes (गया / गए / गई / गईं), present auxiliaries (है / हो / हैं), future endings
+(-ेगा / -ोगे / -ेंगे …) and the past copula (था / थे / थी / थीं). It reads them only in the clause whose
+subject is the addressee, so a relative clause's verb (जो कल आई थी) does not count. Future endings
+and the copula carry the gender in every FUT and PAST item of this benchmark.
 
 It outputs the labels described above: one register, a set of registers for a syncretic pro-drop
 form (`tum|aap`), `unmarked` or `mixed`, and a gender of `M`, `F`, `unmarked` or `mixed`. The
@@ -281,15 +287,16 @@ by hand:
 
 ```bash
 python3 scripts/evaluate_extractor.py --benchmark                       # development check
-python3 scripts/evaluate_extractor.py --make-sheet mt_outputs.csv       # -> validation/extractor_gold.csv
+python3 scripts/evaluate_extractor.py --make-sheet                      # -> validation/extractor_gold.csv
 #   fill in gold_register and gold_gender by hand, then:
 python3 scripts/evaluate_extractor.py --labelled validation/extractor_gold.csv
 ```
 
-`mt_outputs.csv` needs the columns `id`, `system` and `hindi`. The sheet leaves out the extractor's
-predictions, so they cannot bias the annotator. `--labelled` reports register, gender and joint
-accuracy with 95% confidence intervals, by system and by profile, with confusion matrices and every
-error.
+`--make-sheet` reads every CSV in `../outputs/translations/` unless you give it files or folders. Each
+needs the columns `id`, `system` and `hindi_output` (or `hindi`). The sheet leaves out the extractor's
+predictions and the requested cell, so they cannot bias the annotator. `--labelled` reports register,
+gender and joint accuracy with 95% confidence intervals, by system, by LLM condition and by profile,
+with confusion matrices and every error.
 
 ---
 
