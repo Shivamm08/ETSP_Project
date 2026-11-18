@@ -2117,3 +2117,78 @@ row,id,english,hindi,gold_register,gold_gender,comment,system,condition
 2116,PRS-07,Do you drink tea?,क्या तू चाय पीता है?,,,,gpt-oss-120b,register
 2117,FUT-09,Will you be home tonight?,क्या तुम आज रात घर पर रहोगे?,,,,gpt-oss-120b,both
 2118,PRS-01,Where are you going?,आप कहाँ जा रहे हैं?,,,,gpt-oss-120b,gender
+2119,PST-05,Where did you go?,तू कहाँ गया?,,,,gpt-oss-20b,both
+2120,FUT-19,Where will you stay when you go to Boston?,तू बास्टन जाने पर कहाँ रहेगा?,,,,gpt-oss-20b,both
+2121,FUT-19,Where will you stay when you go to Boston?,"जब तू बोस्टन जाएगी, तब कहाँ रहेगी?",,,,sarvam-105b,both
+2122,FUT-38,You must be hungry.,आप भूखे होंगे।,,,,sarvam-105b,both
+2123,PST-11,What were you doing?,तुम क्या कर रहे थे?,,,,sarvam-105b,both
+2124,PST-01,Where were you yesterday?,तू कल कहाँ था?,,,,qwen3.8-27b,both
+2125,H2-16F,Do you watch soap operas?,क्या आप सोप ओपेरा देखते हैं?,,,,sarvam-105b,none
+2126,PST-08,Did you use to live here?,क्या तू यहाँ रहती थी?,,,,sarvam-105b,both
+2127,FUT-14,You won't win.,तुम नहीं जीतोगे।,,,,sarvam-105b,both
+2128,FUT-39,You must have been scared.,आपको डर लग रहा होगा।,,,,gpt-oss-20b,both
+2129,PRS-33,Why are you so quiet?,तू इतना शांत क्यों है?,,,,gpt-oss-20b,both
+2130,H2-4M,Do you lift weights?,क्या आप वजन उठाते हैं?,,,,sarvam-105b,none
+2131,FUT-10,Will you help me?,क्या तू मेरी मदद करेगा?,,,,qwen3.8-27b,register
+2132,FUT-37,You must be tired after such a long trip.,इतनी लंबी यात्रा के बाद तुम थकी हुई होगी।,,,,qwen3.8-27b,both
+2133,PST-10,Did you get lost?,क्या आप खो गए?,,,,gpt-oss-20b,both
+2134,PRS-05,Where do you live?,तुम कहाँ रहते हो?,,,,gpt-oss-20b,both
+2135,PST-11,What were you doing?,आप क्या कर रही थीं?,,,,gpt-oss-20b,both
+2136,PST-39,Were you working last night?,क्या पिछली रात तू काम कर रही थी?,,,,sarvam-105b,both
+2137,H2-13N,Do you read novels?,क्या आप उपन्यास पढ़ते हैं?,,,,sarvam-105b,none
+2138,FUT-20,You won't regret it.,तुम्हें इसका पछतावा नहीं होगा।,,,,qwen3.8-27b,both
+2139,H2-20F,Did you go to the sewing class?,क्या आप सिलाई क्लास गए थे?,,,,sarvam-105b,none
+2140,PST-31,"By the time the guests arrived, you had already gone to sleep.","जब मेहमान पहुंचे, तब तू पहले ही सो चुकी थी।",,,,gpt-oss-20b,both
+2141,PST-32,Had you already taken your seat when the film started?,"जब फिल्म शुरू हुई, तब क्या आप अपनी सीट पर पहले से ही बैठ चुके थे?",,,,sarvam-105b,none
+2142,FUT-26,You'll never guess what happened.,तू कभी नहीं अंदाज़ा लगा पाएगा कि क्या हुआ।,,,,gpt-oss-20b,both
+2143,PST-26,Why were you so angry?,तू इतना क्यों गुस्सा था?,,,,gpt-oss-20b,both
+2144,PST-21,Why didn't you wait for me?,तुमने मेरा इंतज़ार क्यों नहीं किया?,,,,qwen3.8-27b,both
+2145,FUT-42,You must be thirsty.,आप प्यासे होंगे।,,,,sarvam-105b,both
+2146,PRS-02,What are you doing?,तू क्या कर रहा है?,,,,qwen3.8-27b,both
+2147,PRS-43,You're about to leave.,आप जाने वाले हैं।,,,,sarvam-105b,none
+2148,FUT-03,Will you go by train?,क्या तू ट्रेन से जाएगी?,,,,sarvam-105b,both
+2149,PST-39,Were you working last night?,क्या तुमने कल रात काम किया था?,,,,qwen3.8-27b,both
+2150,PST-18,You came on Monday and left again the next day.,तुम सोमवार को आए और अगले दिन फिर चले गए।,,,,qwen3.8-27b,both
+2151,PRS-30,You've become lazy.,तुम आलसी हो गई हो।,,,,qwen3.8-27b,both
+2152,FUT-09,Will you be home tonight?,क्या तू आज रात घर पर होगी?,,,,sarvam-105b,both
+2153,PRS-37,Can't you hear it?,क्या आप इसे नहीं सुन सकती?,,,,gpt-oss-20b,both
+2154,H2-4M,Do you lift weights?,क्या आप वजन उठाते हैं?,,,,gpt-oss-20b,none
+2155,PST-20,Did you manage to sleep?,क्या तुम सो पाए?,,,,gpt-oss-20b,both
+2156,PRS-37,Can't you hear it?,क्या तुम इसे सुन नहीं सकते?,,,,qwen3.8-27b,both
+2157,PST-43,"When you were a kid, you wanted to be a doctor.","जब तू बच्चा था, तो तू डॉक्टर बनना चाहता था।",,,,sarvam-105b,both
+2158,PST-05,Where did you go?,आप कहाँ गए?,,,,sarvam-105b,both
+2159,PRS-30,You've become lazy.,आप आलसी हो गए हैं।,,,,qwen3.8-27b,both
+2160,FUT-39,You must have been scared.,तुम डर गए होंगे।,,,,gpt-oss-20b,both
+2161,FUT-22,How long will you wait?,तू कितनी देर तक इंतज़ार करेगा?,,,,qwen3.8-27b,both
+2162,FUT-16,Will you work as a cashier?,क्या तू कैशियर के तौर पर काम करेगी?,,,,sarvam-105b,both
+2163,PST-32,Had you already taken your seat when the film started?,क्या फिल्म शुरू होने से पहले तुमने अपनी सीट पर बैठकर जगह ले ली थी?,,,,qwen3.8-27b,both
+2164,PRS-05,Where do you live?,तुम कहाँ रहती हो?,,,,qwen3.8-27b,both
+2165,PST-04,When did you arrive?,आप कब आए?,,,,sarvam-105b,both
+2166,PST-17,Did you go to the post office?,क्या तू पोस्ट ऑफिस गई थी?,,,,sarvam-105b,both
+2167,PST-39,Were you working last night?,क्या आप पिछली रात काम कर रही थीं?,,,,sarvam-105b,both
+2168,FUT-30,What will you do if he doesn't come?,अगर वह नहीं आता तो आप क्या करेंगे?,,,,gpt-oss-20b,none
+2169,FUT-20,You won't regret it.,तुम इसे पछताओगे नहीं।,,,,gpt-oss-20b,both
+2170,PRS-34,You're taller than him.,तू उससे लंबी है।,,,,qwen3.8-27b,both
+2171,PRS-10,You've changed.,आप बदल गए हैं।,,,,qwen3.8-27b,both
+2172,PST-26,Why were you so angry?,तुम इतने गुस्से में क्यों थे?,,,,sarvam-105b,both
+2173,PST-32,Had you already taken your seat when the film started?,क्या तुमने फिल्म शुरू होने पर ही अपनी सीट ले ली थी?,,,,gpt-oss-20b,both
+2174,PRS-31,You haven't left yet.,तू अभी तक नहीं गई है।,,,,gpt-oss-20b,both
+2175,PST-21,Why didn't you wait for me?,तुमने मुझसे क्यों इंतज़ार नहीं किया?,,,,gpt-oss-20b,both
+2176,PST-18,You came on Monday and left again the next day.,आप सोमवार को आए और अगले दिन फिर चले गए।,,,,gpt-oss-20b,none
+2177,FUT-23,You won't be alone.,तुम अकेली नहीं रहोगी।,,,,gpt-oss-20b,both
+2178,PRS-35,Aren't you thirsty?,क्या तुम प्यासे नहीं हो?,,,,qwen3.8-27b,both
+2179,PST-27,Were you at home when it started raining?,क्या बारिश शुरू होने के समय तुम घर पर थीं?,,,,qwen3.8-27b,both
+2180,FUT-36,Will you come next week and stay for a few days?,क्या तुम अगले हफ्ते आओगी और कुछ दिन रुकोगी?,,,,qwen3.8-27b,both
+2181,PST-19,Did you meet the girl who came yesterday?,क्या तुमने कल आई लड़की से मुलाकात की?,,,,gpt-oss-20b,both
+2182,FUT-26,You'll never guess what happened.,तू कभी नहीं अंदाज़ा लगा पाएगी कि क्या हुआ।,,,,gpt-oss-20b,both
+2183,PST-08,Did you use to live here?,क्या आप यहाँ पहले रहती थीं?,,,,gpt-oss-20b,both
+2184,PRS-08,You sing well.,तू अच्छा गाती है।,,,,qwen3.8-27b,both
+2185,FUT-03,Will you go by train?,क्या आप ट्रेन से जाएँगे?,,,,sarvam-105b,none
+2186,FUT-16,Will you work as a cashier?,क्या तुम कैशियर के रूप में काम करोगे?,,,,qwen3.8-27b,both
+2187,FUT-04,What will you do now?,आप अब क्या करेंगी?,,,,gpt-oss-20b,both
+2188,PST-01,Where were you yesterday?,कल तुम कहाँ थे?,,,,sarvam-105b,none
+2189,PRS-19,Why are you looking at me like that?,तू मुझे ऐसे क्यों देख रहा है?,,,,qwen3.8-27b,both
+2190,FUT-07,You'll learn a lot.,तुम्हें बहुत कुछ सीखने को मिलेगा।,,,,qwen3.8-27b,register
+2191,PRS-40,You can't stay here tonight.,आप आज रात यहाँ नहीं रह सकते।,,,,qwen3.8-27b,both
+2192,PST-21,Why didn't you wait for me?,आपने मेरा इंतज़ार क्यों नहीं किया?,,,,qwen3.8-27b,both
+2193,PST-28,Weren't you tired?,क्या आप थकी हुई नहीं थीं?,,,,sarvam-105b,both

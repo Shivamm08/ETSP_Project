@@ -19,6 +19,10 @@ Three modes (run from the dataset/ folder):
      columns. The extractor's predictions and the requested cell are left out so that they cannot
      bias the annotator.
 
+     Systems translated after the sheet was made get a random sample appended, so earlier rows keep
+     their numbers and labels:
+         python scripts/evaluate_extractor.py --add-sample gpt-oss-20b qwen3.8-27b sarvam-105b
+
   3. The held-out accuracy, on hand-labelled MT outputs (the number to report):
          python scripts/evaluate_extractor.py --labelled validation/extractor_gold.csv
      Reports register, gender and joint accuracy with 95% confidence intervals, confusion matrices,
@@ -228,6 +232,33 @@ def make_sheet(mt_paths: list[Path], out: Path, bench_path: Path, seed: int) -> 
     return 0
 
 
+def add_sample(sheet: Path, systems: list[str], per_system: int, mt_dir: Path, bench_path: Path, seed: int) -> int:
+    """Append a random sample of outputs from systems added after the sheet was made (rows keep their numbers,
+    so labels already given stay where they are)."""
+    rows = load_csv(sheet)
+    seen = {(r["system"], r["id"], r["hindi"]) for r in rows}
+    mt = [r for r in load_mt([mt_dir]) if r["system"] in systems and (r["system"], r["id"], r["hindi"]) not in seen]
+    rng = random.Random(seed)
+    sample = []
+    for s in systems:
+        pool = [r for r in mt if r["system"] == s]
+        if not pool:
+            print(f"no outputs for {s} in {mt_dir}", file=sys.stderr)
+            return 1
+        sample += rng.sample(pool, min(per_system, len(pool)))
+    rng.shuffle(sample)
+    english = {r["id"]: r["english"] for r in load_csv(bench_path)}
+    start = max(int(r["row"]) for r in rows) + 1
+    with sheet.open("a", encoding="utf-8", newline="") as fh:
+        w = csv.writer(fh, lineterminator="\n")
+        for i, r in enumerate(sample, start):
+            w.writerow([i, r["id"], r["english"] or english.get(r["id"], ""), r["hindi"], "", "", "",
+                        r["system"], r["condition"]])
+    print(f"appended rows {start}-{start + len(sample) - 1} to {sheet} "
+          f"({', '.join(f'{s}: {n}' for s, n in sorted(Counter(r['system'] for r in sample).items()))})")
+    return 0
+
+
 # --------------------------------------------------------------------------- mode 3: hand-labelled MT
 def run_labelled(path: Path, bench_path: Path, limit: int) -> int:
     rows = load_csv(path)
@@ -269,6 +300,9 @@ def main(argv: list[str] | None = None) -> int:
     mode.add_argument("--make-sheet", type=Path, nargs="*", metavar="MT_CSV_OR_DIR",
                       help=f"make a hand-labelling sheet from MT outputs (default: {TRANSLATIONS})")
     mode.add_argument("--labelled", type=Path, metavar="GOLD_CSV", help="score against hand labels")
+    mode.add_argument("--add-sample", nargs="+", metavar="SYSTEM",
+                      help="append a random sample of these systems' outputs to the sheet (--out)")
+    ap.add_argument("--per-system", type=int, default=25, help="outputs per system for --add-sample")
     ap.add_argument("--out", type=Path, default=ROOT / "validation" / "extractor_gold.csv")
     ap.add_argument("--long", type=Path, default=ROOT / "benchmark_v1_long.csv")
     ap.add_argument("--wide", type=Path, default=ROOT / "benchmark_v1.csv")
@@ -285,6 +319,8 @@ def main(argv: list[str] | None = None) -> int:
             print(f"{args.out} exists; not overwriting hand labels (pass another --out)", file=sys.stderr)
             return 1
         return make_sheet(args.make_sheet or [TRANSLATIONS], args.out, args.wide, args.seed)
+    if args.add_sample:
+        return add_sample(args.out, args.add_sample, args.per_system, TRANSLATIONS, args.wide, args.seed)
     return run_labelled(args.labelled, args.wide, args.errors)
 
 
