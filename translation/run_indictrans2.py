@@ -8,7 +8,7 @@ import torch
 from IndicTransToolkit.processor import IndicProcessor
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
-from config import PATHS, load_benchmark, pending, pick_device, write_outputs
+from config import PATHS, load_benchmark, load_env, pending, pick_device, write_outputs
 
 SYSTEM = "indictrans2"
 MODEL = "ai4bharat/indictrans2-en-indic-dist-200M"   # "en-indic" = English -> Indian languages
@@ -26,6 +26,7 @@ def main():
         print(f"Nothing to do: all {len(rows)} sentences are already in {OUTPUT_FILE}")
         return
 
+    load_env()   # HF_TOKEN in .env (if set) is used to download the model
     device = pick_device(torch)
     # IndicTrans2 ships its own model code on Hugging Face, hence trust_remote_code
     tokenizer = AutoTokenizer.from_pretrained(MODEL, trust_remote_code=True)

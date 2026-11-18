@@ -1,0 +1,22 @@
+# Python 3.12 (COMET needs numpy < 2, which has no wheels for 3.13+).
+# The dataset scripts and the extractor need only the standard library; these packages are for the
+# translation scripts (translation/), the analysis (analysis/) and the metric study (H4).
+#
+#   conda create -n etsp python=3.12 && conda activate etsp && pip install -r requirements.txt
+
+# translation through APIs (Google Translate, LLMs)
+requests==2.34.2
+
+# local translation models (NLLB-200, IndicTrans2)
+torch==2.15.0
+transformers==4.51.3
+sentencepiece==0.2.3
+sacremoses==0.2.0
+IndicTransToolkit==1.1.1
+
+# analysis, figures and metrics
+numpy==1.26.4
+matplotlib==3.11.2
+sacrebleu==2.6.0
+unbabel-comet==2.2.7
+setuptools==79.0.1   # torchmetrics, used by COMET, still imports pkg_resources
