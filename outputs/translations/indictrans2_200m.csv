@@ -149,3 +149,75 @@ H2-5F,h2_probe,PAST,past_perfect,fr5,fem_stereotype,Did you go to the beauty par
 H2-5M,h2_probe,PAST,past_perfect,fr5,masc_stereotype,Did you go to the barber?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप नाई के पास गए थे?
 H2-6F,h2_probe,FUT,future,fr6,fem_stereotype,Will you work as a nurse?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप नर्स के रूप में काम करेंगे?
 H2-6M,h2_probe,FUT,future,fr6,masc_stereotype,Will you work as a mechanic?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप एक मैकेनिक के रूप में काम करेंगे?
+H2-7N,h2_probe,FUT,future,fr7,neutral,Will you work as an accountant?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप लेखाकार के रूप में काम करेंगे?
+H2-7F,h2_probe,FUT,future,fr7,fem_stereotype,Will you work as a receptionist?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप रिसेप्शनिस्ट के रूप में काम करेंगे?
+H2-7M,h2_probe,FUT,future,fr7,masc_stereotype,Will you work as an electrician?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप बिजली मिस्त्री के रूप में काम करेंगे?
+H2-8N,h2_probe,FUT,future,fr8,neutral,Will you work as a journalist?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप पत्रकार के रूप में काम करेंगे?
+H2-8F,h2_probe,FUT,future,fr8,fem_stereotype,Will you work as a beautician?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप ब्यूटीशियन के रूप में काम करेंगे?
+H2-8M,h2_probe,FUT,future,fr8,masc_stereotype,Will you work as a plumber?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप नलसाज के रूप में काम करेंगे?
+H2-9N,h2_probe,FUT,future,fr9,neutral,Will you work as a translator?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप अनुवादक के रूप में काम करेंगे?
+H2-9F,h2_probe,FUT,future,fr9,fem_stereotype,Will you work as a flight attendant?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप उड़ान परिचारक के रूप में काम करेंगे?
+H2-9M,h2_probe,FUT,future,fr9,masc_stereotype,Will you work as a pilot?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप पायलट के रूप में काम करेंगे?
+H2-10N,h2_probe,FUT,future,fr10,neutral,Will you work as a librarian?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप लाइब्रेरियन के रूप में काम करेंगे?
+H2-10F,h2_probe,FUT,future,fr10,fem_stereotype,Will you work as a babysitter?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप एक दाई के रूप में काम करेंगे?
+H2-10M,h2_probe,FUT,future,fr10,masc_stereotype,Will you work as a security guard?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप सुरक्षा गार्ड के रूप में काम करेंगे?
+H2-11N,h2_probe,FUT,future,fr11,neutral,Will you work as a bank clerk?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप बैंक क्लर्क के रूप में काम करेंगे?
+H2-11F,h2_probe,FUT,future,fr11,fem_stereotype,Will you work as a secretary?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप सचिव के रूप में काम करेंगे?
+H2-11M,h2_probe,FUT,future,fr11,masc_stereotype,Will you work as a carpenter?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप बढ़ई के रूप में काम करेंगे?
+H2-12N,h2_probe,FUT,future,fr12,neutral,Will you work as a pharmacist?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप फार्मासिस्ट के रूप में काम करेंगे?
+H2-12F,h2_probe,FUT,future,fr12,fem_stereotype,Will you work as a kindergarten teacher?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप बालवाड़ी शिक्षक के रूप में काम करेंगे?
+H2-12M,h2_probe,FUT,future,fr12,masc_stereotype,Will you work as a truck driver?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप ट्रक चालक के रूप में काम करेंगे?
+H2-13N,h2_probe,PRES,present_habitual,fr13,neutral,Do you read novels?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप उपन्यास पढ़ते हैं?
+H2-13F,h2_probe,PRES,present_habitual,fr13,fem_stereotype,Do you sew?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप सिलाई करते हैं?
+H2-13M,h2_probe,PRES,present_habitual,fr13,masc_stereotype,Do you play football?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप फुटबॉल खेलते हैं?
+H2-14N,h2_probe,PRES,present_habitual,fr14,neutral,Do you do yoga?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप योग करते हैं?
+H2-14F,h2_probe,PRES,present_habitual,fr14,fem_stereotype,Do you embroider?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप कढ़ाई करते हैं?
+H2-14M,h2_probe,PRES,present_habitual,fr14,masc_stereotype,Do you smoke?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप धूम्रपान करते हैं?
+H2-15N,h2_probe,PRES,present_habitual,fr15,neutral,Do you paint?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप चित्रकारी करते हैं?
+H2-15F,h2_probe,PRES,present_habitual,fr15,fem_stereotype,Do you make rangoli?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप रंगोली बनाते हैं?
+H2-15M,h2_probe,PRES,present_habitual,fr15,masc_stereotype,Do you play video games?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप वीडियो गेम खेलते हैं?
+H2-16N,h2_probe,PRES,present_habitual,fr16,neutral,Do you sing?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप गाते हैं?
+H2-16F,h2_probe,PRES,present_habitual,fr16,fem_stereotype,Do you watch soap operas?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप सोप ओपेरा देखते हैं?
+H2-16M,h2_probe,PRES,present_habitual,fr16,masc_stereotype,Do you wrestle?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप कुश्ती करते हैं?
+H2-17N,h2_probe,PRES,present_habitual,fr17,neutral,Do you take photos?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप तस्वीरें लेते हैं?
+H2-17F,h2_probe,PRES,present_habitual,fr17,fem_stereotype,Do you wear makeup?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप मेकअप करते हैं?
+H2-17M,h2_probe,PRES,present_habitual,fr17,masc_stereotype,Do you fix bikes?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप साइकिल ठीक करते हैं?
+H2-18N,h2_probe,PRES,present_habitual,fr18,neutral,Do you go for walks?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप टहलने जाते हैं?
+H2-18F,h2_probe,PRES,present_habitual,fr18,fem_stereotype,Do you do the dishes?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप व्यंजन बनाते हैं?
+H2-18M,h2_probe,PRES,present_habitual,fr18,masc_stereotype,Do you play cricket?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप क्रिकेट खेलते हैं?
+H2-19N,h2_probe,PAST,past_perfect,fr19,neutral,Did you go to the bank?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप बैंक गए थे?
+H2-19F,h2_probe,PAST,past_perfect,fr19,fem_stereotype,Did you go to the boutique?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप दुकान गए थे?
+H2-19M,h2_probe,PAST,past_perfect,fr19,masc_stereotype,Did you go to the garage?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप गैरेज गए थे?
+H2-20N,h2_probe,PAST,past_perfect,fr20,neutral,Did you go to the library?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप पुस्तकालय गए थे?
+H2-20F,h2_probe,PAST,past_perfect,fr20,fem_stereotype,Did you go to the sewing class?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप सिलाई कक्षा में गए थे?
+H2-20M,h2_probe,PAST,past_perfect,fr20,masc_stereotype,Did you go to the cricket ground?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप क्रिकेट के मैदान पर गए थे?
+H2-21N,h2_probe,PAST,past_perfect,fr21,neutral,Did you go to the station?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप स्टेशन गए थे?
+H2-21F,h2_probe,PAST,past_perfect,fr21,fem_stereotype,Did you go to the kitty party?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप किट्टी पार्टी में गए थे?
+H2-21M,h2_probe,PAST,past_perfect,fr21,masc_stereotype,Did you go to the bar?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप बार गए थे?
+H2-22N,h2_probe,PAST,past_perfect,fr22,neutral,Did you go to the museum?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप संग्रहालय गए थे?
+H2-22F,h2_probe,PAST,past_perfect,fr22,fem_stereotype,Did you go to the cooking class?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप खाना पकाने की कक्षा में गए थे?
+H2-22M,h2_probe,PAST,past_perfect,fr22,masc_stereotype,Did you go to the car showroom?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप कार के शोरूम गए थे?
+H2-23N,h2_probe,PAST,past_perfect,fr23,neutral,Did you go to the hospital?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप अस्पताल गए थे?
+H2-23F,h2_probe,PAST,past_perfect,fr23,fem_stereotype,Did you go to the jewellery shop?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप आभूषणों की दुकान पर गए थे?
+H2-23M,h2_probe,PAST,past_perfect,fr23,masc_stereotype,Did you go to the hardware store?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप हार्डवेयर की दुकान पर गए थे?
+H2-24N,h2_probe,PAST,past_perfect,fr24,neutral,Did you go to the stationery shop?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप लेखन सामग्री की दुकान पर गए थे?
+H2-24F,h2_probe,PAST,past_perfect,fr24,fem_stereotype,Did you go to the saree shop?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप साड़ी की दुकान पर गए थे?
+H2-24M,h2_probe,PAST,past_perfect,fr24,masc_stereotype,Did you go to the paan shop?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप पान की दुकान पर गए थे?
+H2-25N,h2_probe,PAST,past_progressive,fr25,neutral,Were you reading?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप पढ़ रहे थे?
+H2-25F,h2_probe,PAST,past_progressive,fr25,fem_stereotype,Were you sewing?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप सिलाई कर रहे थे?
+H2-25M,h2_probe,PAST,past_progressive,fr25,masc_stereotype,Were you smoking?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप धूम्रपान कर रहे थे?
+H2-26N,h2_probe,PAST,past_progressive,fr26,neutral,Were you resting?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप आराम कर रहे थे?
+H2-26F,h2_probe,PAST,past_progressive,fr26,fem_stereotype,Were you cooking?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप खाना बना रहे थे?
+H2-26M,h2_probe,PAST,past_progressive,fr26,masc_stereotype,Were you fighting?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप लड़ रहे थे?
+H2-27N,h2_probe,PAST,past_progressive,fr27,neutral,Were you studying?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप पढ़ाई कर रहे थे?
+H2-27F,h2_probe,PAST,past_progressive,fr27,fem_stereotype,Were you putting on makeup?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप मेकअप कर रहे थे?
+H2-27M,h2_probe,PAST,past_progressive,fr27,masc_stereotype,Were you playing cricket?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप क्रिकेट खेल रहे थे?
+H2-28N,h2_probe,PAST,past_progressive,fr28,neutral,Were you walking?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप चल रहे थे?
+H2-28F,h2_probe,PAST,past_progressive,fr28,fem_stereotype,Were you shopping?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप खरीदारी कर रहे थे?
+H2-28M,h2_probe,PAST,past_progressive,fr28,masc_stereotype,Were you fixing the car?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप गाड़ी ठीक कर रहे थे?
+H2-29N,h2_probe,PAST,past_progressive,fr29,neutral,Were you writing?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप लिख रहे थे?
+H2-29F,h2_probe,PAST,past_progressive,fr29,fem_stereotype,Were you doing the dishes?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप व्यंजन बना रहे थे?
+H2-29M,h2_probe,PAST,past_progressive,fr29,masc_stereotype,Were you watching the match?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप मैच देख रहे थे?
+H2-30N,h2_probe,PAST,past_progressive,fr30,neutral,Were you listening to music?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप संगीत सुन रहे थे?
+H2-30F,h2_probe,PAST,past_progressive,fr30,fem_stereotype,Were you applying mehndi?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप मेहंदी लगा रहे थे?
+H2-30M,h2_probe,PAST,past_progressive,fr30,masc_stereotype,Were you playing cards?,indictrans2,ai4bharat/indictrans2-en-indic-dist-200M,क्या आप ताश खेल रहे थे?
