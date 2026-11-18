@@ -3,3 +3,8 @@ __pycache__/
 .DS_Store
 ~$*.xlsx
 *.numbers
+
+# API keys (copy .env.example to .env); never commit
+.env
+# temporary files from scripts/label_gold.py
+*.tmp

@@ -19,9 +19,9 @@ benchmark gives every English source sentence all six Hindi translations on the 
 
 Sources: 133 verbatim Tatoeba sentences, 2 adapted from Tatoeba, 15 authored.
 
-The Hindi references were drafted with an LLM (Claude), and every one is checked by the three
-authors, all native Hindi speakers. `scripts/build_dataset.py` also checks every cell automatically:
-pronoun, agreement endings, minimal pairs and spelling.
+Every Hindi reference is checked, and corrected where needed, by the three authors, all native
+Hindi speakers. `scripts/build_dataset.py` also checks every cell automatically: pronoun, agreement
+endings, minimal pairs and spelling.
 
 Version 0 (the first 62 items) is in the git history at commit `209fe84`. Version 1 keeps those items
 unchanged and adds 88.
