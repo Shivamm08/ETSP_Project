@@ -309,15 +309,49 @@ by hand:
 ```bash
 python3 scripts/evaluate_extractor.py --benchmark                       # development check
 python3 scripts/evaluate_extractor.py --make-sheet                      # -> validation/extractor_gold.csv
-python3 scripts/label_gold.py --rows 1-300                             # hand labels, one keypress each
+python3 scripts/evaluate_extractor.py --add-sample gpt-oss-20b qwen3.8-27b sarvam-105b   # later systems
+python3 scripts/label_gold.py                                           # hand labels, see below
 python3 scripts/evaluate_extractor.py --labelled validation/extractor_gold.csv
 ```
 
 `--make-sheet` reads every CSV in `../outputs/translations/` unless you give it files or folders. Each
 needs the columns `id`, `system` and `hindi_output` (or `hindi`). The sheet leaves out the extractor's
-predictions and the requested cell, so they cannot bias the annotator. `--labelled` reports register,
-gender and joint accuracy with 95% confidence intervals, by system, by LLM condition and by profile,
-with confusion matrices and every error.
+predictions and the requested cell, so they cannot bias the annotator. `--add-sample` appends a random
+sample of systems that were translated after the sheet was made, without renumbering earlier rows.
+`--labelled` reports register, gender and joint accuracy with 95% confidence intervals, by system, by LLM
+condition and by profile, with confusion matrices and every error.
+
+#### Labelling guide
+
+The evaluation sample is 375 rows of `validation/extractor_gold.csv`: rows 1–300, a random sample of the
+Google Translate, IndicTrans2, NLLB and GPT-OSS-120B outputs (the sheet is shuffled), and rows 2119–2193,
+25 random outputs from each of GPT-OSS-20B, Qwen3.8-27B and Sarvam-105B. `python3 scripts/label_gold.py`
+shows these rows one at a time, the English source and the Hindi output only, and asks for two keys:
+
+| register key | label | when | example |
+|---|---|---|---|
+| `1` / `2` / `3` | `tu` / `tum` / `aap` | the Hindi shows one register | तुम कहाँ गए थे? → `tum` |
+| `4` | `tu\|tum` | no pronoun, and the verb fits both | कहाँ गई थी? |
+| `5` | `tum\|aap` | no pronoun, and the verb fits both | कहाँ गए थे? |
+| `6` | `unmarked` | nothing in the sentence shows the register | धन्यवाद। |
+| `7` | `mixed` | the marks contradict each other | आप जा सकते हो। |
+
+| gender key | label | when | example |
+|---|---|---|---|
+| `m` / `f` | `M` / `F` | the addressee's agreement is masculine / feminine | गया / गई |
+| `u` | `unmarked` | the sentence avoids addressee agreement | तुम्हें भूख लगी है, तुमने खाना खाया |
+| `x` | `mixed` | the addressee's agreement has both genders | |
+
+Two rules decide the hard cases:
+
+- **Label what the Hindi itself marks, not what the English intended.** An ungrammatical output gets the
+  labels its forms show.
+- **Only the addressee's agreement counts.** In क्या तुम उस लड़की से मिले जो कल आई थी? the answer is
+  `tum`, `M`: आई थी belongs to the girl.
+
+`c` adds a comment to a row (for doubts), `b` goes back one row and `q` saves and quits. The sheet is saved
+after every row, and the next run continues where the last one stopped. Don't change the extractor's rules
+after seeing the labels; that would inflate the accuracy.
 
 ---
 
