@@ -4,7 +4,7 @@ Three modes (run from the dataset/ folder):
 
   1. Development check on the benchmark's own Hindi (no MT needed):
          python scripts/evaluate_extractor.py --benchmark
-     Scores the 900 references, the 150 prescriptive तुम · F alternatives and the 900 pro-drop
+     Scores the 900 references, the 52 prescriptive तुम · F alternatives and the 900 pro-drop
      variants. A pro-drop variant is scored against the set of cells it is compatible with:
      क्या ठीक से सोए? must come out as register tum|aap, gender M. These sentences were used to
      build the rules, so this number is an upper bound and not the accuracy to report.

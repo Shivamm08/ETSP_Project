@@ -117,6 +117,36 @@ class SpellingVariants(ExtractorCase):
         self.assertReads("आप किसका इंतज़ार कर रहे थें?", "aap", "M")
 
 
+class FoundOnMTOutputs(ExtractorCase):
+    """Constructions that real MT outputs use but the benchmark's references do not."""
+
+    def test_ho_in_a_compound_verb_is_not_the_auxiliary(self) -> None:
+        # हो गए = "became": हो is the verb stem here, not the तुम auxiliary हो.
+        self.assertReads("क्या तुम गुम हो गए?", "tum", "M")
+        self.assertReads("आप कितने बड़े हो गए!", "aap", "M")
+
+    def test_pronoun_before_pehle_is_still_the_subject(self) -> None:
+        # पहले / बाद can be postpositions, but after the pronoun they are adverbs ("already", "later").
+        self.assertReads("जब फिल्म शुरू हुई थी तो क्या आप पहले ही अपनी सीट ले चुके थे?", "aap", "M")
+        self.assertReads("क्या आप पहले कभी यहाँ आई हैं?", "aap", "F")
+
+    def test_perfective_kie_is_not_a_polite_imperative(self) -> None:
+        # किए / लिए / दिए end like बैठिए, but they are perfective participles.
+        self.assertReads("आप मेरे लिए इंतज़ार क्यों नहीं किए?", "aap", "M")
+        self.assertReads("तुम मेरे लिए इंतजार क्यों नहीं किए?", "tum", "M")
+
+    def test_final_tag_question_is_not_a_clause(self) -> None:
+        # The tag "है ना?" repeats the auxiliary; it says nothing about the addressee.
+        self.assertReads("आपका वजन कम हो गया है, है ना?", "aap", "unmarked")
+        self.assertReads("आपने वजन कम कर लिया है, है ना?", "aap", "unmarked")
+        self.assertReads("तुम थक गई हो, है ना?", "tum", "F")
+
+    def test_noun_subject_separated_from_its_verb_by_adverbs(self) -> None:
+        # In समारोह पहले ही हो चुका था the ceremony is the subject, not the addressee.
+        self.assertReads("जब तुम पहुँची, समारोह पहले ही हो चुका था।", "tum", "F")
+        self.assertReads("जब आप पहुँचे, तो समारोह पहले ही हो चुका था।", "aap", "M")
+
+
 class WholeBenchmark(unittest.TestCase):
     """Every reference, alternative and pro-drop variant of the benchmark (the development set)."""
 
