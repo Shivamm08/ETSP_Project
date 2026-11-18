@@ -11,20 +11,21 @@ Usage:
     python run_llm.py --model gpt-oss-120b --limit 2      # quick test
     python run_llm.py --model gpt-oss-120b                # everything, resumes where it stopped
     python run_llm.py --model sarvam-105b
-    python run_llm.py --model sarvam-105b --conditions none register
+    python run_llm.py --model llama-3.3-70b --conditions none both
 
-Needs GROQ_API_KEY (GPT-OSS) and SARVAM_API_KEY (Sarvam) in .env.
+Models: gpt-oss-120b, gpt-oss-20b, llama-3.3-70b (Groq) and sarvam-105b (Sarvam).
+Needs GROQ_API_KEY and SARVAM_API_KEY in .env. Groq's free plan allows about 1,000 requests a day
+per model, so run "none both" on one day and "register gender" on the next.
 """
 import argparse
 import csv
-import os
 import re
 import time
 
 import requests
 
 from config import (GENDER_INSTRUCTION, GENDER_WORDS, GENDERS, KEEP_COLUMNS, LLM_OUTPUT_FIELDS,
-                    PATHS, PROMPT, PRONOUNS, REGISTER_INSTRUCTION, REGISTERS, load_env)
+                    PATHS, PROMPT, PRONOUNS, REGISTER_INSTRUCTION, REGISTERS, api_key as read_key)
 
 # Model-specific settings. Both providers speak the same "chat completions" format,
 # so the rest of the script doesn't care which one it's talking to.
@@ -37,6 +38,22 @@ LLMS = {
         "requests_per_minute": 30,     # Groq free plan
         # it's a reasoning model; low keeps the hidden thinking short so we don't burn the daily token limit
         "extra": {"reasoning_effort": "low"},
+    },
+    # its smaller sibling (20B), to see what model size changes
+    "gpt-oss-20b": {
+        "url": "https://api.groq.com/openai/v1/chat/completions",
+        "model": "openai/gpt-oss-20b",
+        "key_env": "GROQ_API_KEY",
+        "requests_per_minute": 30,
+        "extra": {"reasoning_effort": "low"},
+    },
+    # Meta's open model, a different family and not a reasoning model (so no reasoning_effort)
+    "llama-3.3-70b": {
+        "url": "https://api.groq.com/openai/v1/chat/completions",
+        "model": "llama-3.3-70b-versatile",
+        "key_env": "GROQ_API_KEY",
+        "requests_per_minute": 30,
+        "extra": {},
     },
     # built for Indian languages; runs on Sarvam's free signup credits
     "sarvam-105b": {
@@ -128,8 +145,7 @@ def main():
     args = ap.parse_args()
 
     llm = LLMS[args.model]
-    load_env()
-    api_key = os.environ[llm["key_env"]]
+    api_key = read_key(llm["key_env"])
     output_file = PATHS["translations"] / f"llm_{args.model}.csv"
 
     with PATHS["benchmark"].open(encoding="utf-8", newline="") as f:
