@@ -3,6 +3,7 @@
 API keys do NOT go here: they go in .env (see .env.example), which is never pushed.
 
 """
+import csv
 import os
 from pathlib import Path
 
@@ -59,3 +60,51 @@ def load_env(path=PATHS["env_file"]):
             continue
         key, value = line.split("=", 1)
         os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
+
+
+def api_key(name):
+    """The key from .env (or the shell), with a clear message if it is missing."""
+    load_env()
+    key = os.environ.get(name, "").strip()
+    if not key:
+        raise SystemExit(f"{name} is missing: copy .env.example to .env and fill it in")
+    return key
+
+
+def load_benchmark():
+    """One row per English sentence."""
+    with PATHS["benchmark"].open(encoding="utf-8", newline="") as f:
+        return list(csv.DictReader(f))
+
+
+def pending(rows, output_file):
+    """Split the benchmark into sentences already in output_file and sentences still to translate,
+    so a rerun after the benchmark grows only translates the new ones."""
+    done = {}
+    if output_file.exists():
+        with output_file.open(encoding="utf-8", newline="") as f:
+            done = {r["id"]: r for r in csv.DictReader(f)}
+    return done, [r for r in rows if r["id"] not in done]
+
+
+def write_outputs(output_file, rows, done, new, system, model):
+    """One row per benchmark sentence, in benchmark order: earlier outputs unchanged, new ones added.
+    new maps an item id to its Hindi output."""
+    output_file.parent.mkdir(parents=True, exist_ok=True)
+    with output_file.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=OUTPUT_FIELDS)
+        writer.writeheader()
+        for r in rows:
+            if r["id"] in done:
+                writer.writerow(done[r["id"]])
+            elif r["id"] in new:
+                # copy id, profile, cue etc. from the benchmark so results can be grouped later
+                writer.writerow({**{k: r[k] for k in KEEP_COLUMNS}, "system": system, "model": model,
+                                 "hindi_output": new[r["id"]]})
+
+
+def pick_device(torch):
+    """A CUDA GPU (e.g. Colab), else the Mac's GPU, else the CPU (slower, but works)."""
+    if torch.cuda.is_available():
+        return "cuda"
+    return "mps" if torch.backends.mps.is_available() else "cpu"
