@@ -102,6 +102,9 @@ PRONOUN_FORM_TO_REGISTER = {
 SUBJECT_BLOCKING_POSTPOSITIONS = _words("ने को")
 GENITIVE_POSTPOSITIONS = _words("का की के")
 POSTPOSITIONS = _words("ने को का की के से में पर तक लिए लिये साथ बिना जैसा जैसे जैसी तरह बाद पहले पास")
+# Only these stop a pronoun from being the subject. After a pronoun, बाद / पहले / साथ ... are
+# adverbs: in आप पहले ही सीट ले चुके थे, आप is still the subject.
+DIRECT_POSTPOSITIONS = _words("ने को का की के से में पर तक")
 
 OTHER_SUBJECTS = _words("मैं हम कोई मैंने हमने उसने उन्होंने")
 # वह / वो / वे / यह are a subject unless a noun follows, which makes them a demonstrative (वह काम).
@@ -162,6 +165,8 @@ FUTURE_ENDINGS: list[tuple[str, frozenset[str], str]] = [
     ("ेगी", frozenset({"tu"}), "F"), ("एगी", frozenset({"tu"}), "F"),
 ]
 POLITE_IMPERATIVE = re.compile("(िए|इए|िएगा|इएगा|िये|इये)$")
+# Perfective participles that end like a polite imperative (बैठिए) but agree like गए: तुम ... क्यों नहीं किए?
+PERFECTIVE_IE = _words("किए किये लिए लिये दिए दिये पिए पिये जिए जिये सिए सिये")
 FAMILIAR_IMPERATIVE = re.compile("(ओ|ो)$")
 
 PUNCTUATION = "?।!,;:.\"'()"
@@ -304,7 +309,7 @@ def nominative_positions(clause: list[str]) -> list[int]:
             continue
         nxt = clause[i + 1] if i + 1 < len(clause) else ""
         prev = clause[i - 1] if i > 0 else ""
-        if nxt in POSTPOSITIONS or (t == NOMINATIVE["aap"] and prev == APNE):
+        if nxt in DIRECT_POSTPOSITIONS or (t == NOMINATIVE["aap"] and prev == APNE):
             continue
         out.append(i)
     return out
@@ -341,11 +346,13 @@ def read_clause(clause: list[str]) -> ClauseReading:
     if end == 0:
         return cr
 
-    # 1. the finite element: the rightmost finite form, else a final participle, else an imperative
-    anchor = next((i for i in range(end - 1, -1, -1) if is_finite(clause[i])), None)
+    # 1. the finite element: the rightmost finite form, else a final participle, else an imperative.
+    #    A हो right before a chain form is the stem of हो जाना (गुम हो गए), not the auxiliary.
+    anchor = next((i for i in range(end - 1, -1, -1) if is_finite(clause[i])
+                   and not (clause[i] in PRESENT_AUX and i + 1 < end and is_chain_form(clause[i + 1]))), None)
     if anchor is None:
         last = clause[end - 1]
-        if POLITE_IMPERATIVE.search(last) and last not in FUNCTION_WORDS:
+        if POLITE_IMPERATIVE.search(last) and last not in FUNCTION_WORDS and last not in PERFECTIVE_IE:
             cr.evidence.append(Evidence(last, frozenset({"aap"}), None, "polite imperative"))
             cr.has_anchor = cr.second_person_only = True
             return cr
@@ -419,9 +426,15 @@ def read_clause(clause: list[str]) -> ClauseReading:
                 cr.evidence.append(Evidence(clause[j], number_to_registers(g, n, False), g, "agreeing intensifier"))
                 break
 
+    # A bare noun before the verb is probably its subject, also with adverbs in between:
+    # in समारोह पहले ही हो चुका था the verb belongs to समारोह.
+    j = before
+    while j >= 0 and clause[j] in FUNCTION_WORDS and clause[j] not in DIRECT_POSTPOSITIONS \
+            and clause[j] not in CLAUSE_STARTERS and clause[j] not in NEGATION:
+        j -= 1
     cr.likely_other_subject = (
-        before >= 0 and clause[before] not in FUNCTION_WORDS and clause[before] not in NOMINATIVE_TO_REGISTER
-        and clause[before] not in PRONOUN_FORM_TO_REGISTER and not clause[before].endswith(("ने", "ना"))
+        j >= 0 and clause[j] not in FUNCTION_WORDS and clause[j] not in NOMINATIVE_TO_REGISTER
+        and clause[j] not in PRONOUN_FORM_TO_REGISTER and not clause[j].endswith(("ने", "ना"))
     )
     return cr
 
@@ -443,6 +456,12 @@ def extract(text: str) -> Extraction:
             evidence.append(f"clause [{label}]: addressee is the subject (overt pronoun)")
             continue
         if not cr.has_anchor:
+            continue
+        # A final tag (…, है ना?) only repeats the auxiliary; it says nothing about the addressee.
+        is_tag = (k == len(clauses) - 1 and k > 0 and len(c) <= 2 and c[0] in PRESENT_AUX
+                  and all(t in TRAILING_PARTICLES for t in c[1:]))
+        if is_tag:
+            evidence.append(f"clause [{label}]: skipped, tag question")
             continue
         if c[0] in RELATIVE_STARTERS and not cr.second_person_only:
             evidence.append(f"clause [{label}]: skipped, relative clause")
