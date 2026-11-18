@@ -2,8 +2,11 @@
 
 Run from the dataset/ folder:
 
-    python3 scripts/label_gold.py                  # rows 1-300 of the shuffled sheet
-    python3 scripts/label_gold.py --rows 1-100     # a different range
+    python3 scripts/label_gold.py                  # rows 1-300 and 2119-2193 (the default sample)
+    python3 scripts/label_gold.py --rows 1-100     # a different range; several: 1-100,2119-2193
+
+Rows 1-300 are a random sample of the first four systems' outputs (the sheet is shuffled); rows
+2119-2193 are 25 random outputs from each of the three LLMs added later.
 
 Each output is shown with its English source, never with the extractor's prediction, the system or
 the requested register and gender, so none of them can bias the label. Press one key for the register
@@ -66,14 +69,18 @@ def save(rows: list[dict[str, str]], fields: list[str], path: Path) -> None:
     os.replace(tmp, path)
 
 
-def parse_range(text: str) -> tuple[int, int]:
-    first, _, last = text.partition("-")
-    return int(first), int(last or first)
+def parse_ranges(text: str) -> list[tuple[int, int]]:
+    """'1-300,2119-2193' -> [(1, 300), (2119, 2193)]"""
+    out = []
+    for part in text.split(","):
+        first, _, last = part.strip().partition("-")
+        out.append((int(first), int(last or first)))
+    return out
 
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
-    ap.add_argument("--rows", default="1-300", help="range of the sheet's row numbers, e.g. 1-300")
+    ap.add_argument("--rows", default="1-300,2119-2193", help="row numbers of the sheet, e.g. 1-300,2119-2193")
     ap.add_argument("--sheet", type=Path, default=SHEET)
     args = ap.parse_args(argv)
 
@@ -81,13 +88,13 @@ def main(argv: list[str] | None = None) -> int:
         reader = csv.DictReader(fh)
         fields = list(reader.fieldnames or [])
         rows = list(reader)
-    first, last = parse_range(args.rows)
-    todo = [r for r in rows if first <= int(r["row"]) <= last]
+    ranges = parse_ranges(args.rows)
+    todo = [r for r in rows if any(a <= int(r["row"]) <= b for a, b in ranges)]
 
     def done(r: dict[str, str]) -> bool:
         return bool(r["gold_register"].strip() and r["gold_gender"].strip())
 
-    print(f"{BOLD}Rows {first}-{last}{RESET}: {sum(map(done, todo))} of {len(todo)} already labelled.")
+    print(f"{BOLD}Rows {args.rows}{RESET}: {sum(map(done, todo))} of {len(todo)} already labelled.")
     print(f"{DIM}Register {REGISTER_MENU}\nGender   {GENDER_MENU}\n{COMMANDS}{RESET}")
 
     i = 0
@@ -128,7 +135,7 @@ def main(argv: list[str] | None = None) -> int:
         i += 1
 
     save(rows, fields, args.sheet)
-    print(f"\nSaved. {sum(map(done, todo))} of {len(todo)} rows in {first}-{last} are labelled.")
+    print(f"\nSaved. {sum(map(done, todo))} of {len(todo)} rows ({args.rows}) are labelled.")
     return 0
 
 

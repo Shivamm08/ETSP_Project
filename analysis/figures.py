@@ -71,7 +71,7 @@ def fig_h1(rows: list[dict]) -> None:
         gen = Counter(r["gender"] for r in g)
         reg_shares.append([reg["tu"] / n, reg["tum"] / n, reg["aap"] / n, 1 - (reg["tu"] + reg["tum"] + reg["aap"]) / n])
         gen_shares.append([gen["M"] / n, gen["F"] / n, 1 - (gen["M"] + gen["F"]) / n])
-    fig, (a, b) = plt.subplots(1, 2, figsize=(7.0, 2.9), sharey=True, gridspec_kw={"wspace": 0.08})
+    fig, (a, b) = plt.subplots(1, 2, figsize=(7.0, 2.45), sharey=True, gridspec_kw={"wspace": 0.08})
     stacked_panel(a, names, reg_shares, ["tu", "tum", "aap", "other"], [BLUE, ORANGE, AQUA, GRAY], "Register")
     stacked_panel(b, names, gen_shares, ["masculine", "feminine", "no gender marked"], [VIOLET, YELLOW, GRAY], "Gender")
     for ax in (a, b):
