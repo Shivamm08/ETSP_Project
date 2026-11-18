@@ -1,4 +1,4 @@
-# Register × Gender benchmark for English→Hindi (v1)
+# Register × Gender benchmark for English→Hindi (v1.1)
 
 English leaves the addressee's **register** and **gender** unspecified; Hindi must mark both. This
 benchmark gives every English source sentence all six Hindi translations on the 3 × 2 grid:
@@ -13,18 +13,20 @@ benchmark gives every English source sentence all six Hindi translations on the 
 
 | | core | H2 probe | total |
 |---|---:|---:|---:|
-| English sources | 138 | 12 | 150 |
-| Hindi references (×6) | 828 | 72 | 900 |
-| Generated pro-drop variants | 828 | 72 | 900 |
+| English sources | 138 | 84 | 222 |
+| Hindi references (×6) | 828 | 504 | 1,332 |
+| Generated pro-drop variants | 828 | 504 | 1,332 |
 
-Sources: 133 verbatim Tatoeba sentences, 2 adapted from Tatoeba, 15 authored.
+Sources: 143 verbatim Tatoeba sentences, 2 adapted from Tatoeba, 77 authored (62 of them in the
+templated H2 frames of v1.1).
 
-The Hindi references were drafted with an LLM (Claude), and every one is checked by the three
-authors, all native Hindi speakers. `scripts/build_dataset.py` also checks every cell automatically:
-pronoun, agreement endings, minimal pairs and spelling.
+Every Hindi reference is checked, and corrected where needed, by the three authors, all native
+Hindi speakers. `scripts/build_dataset.py` also checks every cell automatically: pronoun, agreement
+endings, minimal pairs and spelling.
 
 Version 0 (the first 62 items) is in the git history at commit `209fe84`. Version 1 keeps those items
-unchanged and adds 88.
+unchanged and adds 88. Version 1.1 keeps all 150 unchanged and adds 72 items: 24 new H2 frames
+(fr7–fr30). The core is the same in v1 and v1.1, and the file keeps its name, `benchmark_v1.csv`.
 
 ---
 
@@ -81,9 +83,10 @@ are 2–13 words long (mean 5.4); 26 have 8 words or more.
 
 ### H2 probe: controlled lexical variation
 
-H2 asks whether defaults shift on cues that should not matter. It uses six frames, and each frame
-comes in three versions that differ only in a stereotyped activity, place or profession. The neutral
-version belongs to the core. The other two make up the probe.
+H2 asks whether defaults shift on cues that should not matter. It uses 30 frames, and each frame
+comes in three versions that differ only in a stereotyped activity, place or profession. In frames
+fr1–fr6 the neutral version belongs to the core and the other two make up the probe; frames fr7–fr30
+(v1.1) keep all three versions in the probe, so the core stays unchanged.
 
 | frame | profile | neutral (core) | fem-stereotyped | masc-stereotyped |
 |---|---|---|---|---|
@@ -93,6 +96,18 @@ version belongs to the core. The other two make up the probe.
 | fr4 | PRES | Do you play chess? | Do you knit? | Do you lift weights? |
 | fr5 | PAST | Did you go to the post office? | …to the beauty parlour? | …to the barber? |
 | fr6 | FUT | Will you work as a cashier? | …as a nurse? | …as a mechanic? |
+
+The 24 frames of v1.1 follow four templates, six frames each, one per agreement pattern:
+
+| frames | profile | template | neutral / fem-stereotyped / masc-stereotyped |
+|---|---|---|---|
+| fr7–fr12 | FUT | *Will you work as a …?* | accountant / receptionist / electrician; journalist / beautician / plumber; translator / flight attendant / pilot; librarian / babysitter / security guard; bank clerk / secretary / carpenter; pharmacist / kindergarten teacher / truck driver |
+| fr13–fr18 | PRES | *Do you …?* | read novels / sew / play football; do yoga / embroider / smoke; paint / make rangoli / play video games; sing / watch soap operas / wrestle; take photos / wear makeup / fix bikes; go for walks / do the dishes / play cricket |
+| fr19–fr24 | PAST | *Did you go to the …?* | bank / boutique / garage; library / sewing class / cricket ground; station / kitty party / bar; museum / cooking class / car showroom; hospital / jewellery shop / hardware store; stationery shop / saree shop / paan shop |
+| fr25–fr30 | PAST | *Were you …?* | reading / sewing / smoking; resting / cooking / fighting; studying / putting on makeup / playing cricket; walking / shopping / fixing the car; writing / doing the dishes / watching the match; listening to music / applying mehndi / playing cards |
+
+The templates avoid English words that state a gender (*actress*, *housewife*) and Hindi nouns that
+change with gender (लेखक / लेखिका), so the stereotype is the only cue.
 
 Every cell stays valid in every frame. A man can knit and a woman can go to a barber, so the English
 remains underspecified. To test H2, compare the default gender (and register) across the three versions
@@ -123,7 +138,8 @@ this route has made a real choice (neutralisation), and the extractor should lab
 
 ### Where the English sentences come from
 
-They all come from [Tatoeba](https://tatoeba.org) (CC-BY 2.0 FR), except for 15 authored items.
+They come from [Tatoeba](https://tatoeba.org) (CC-BY 2.0 FR), except for 77 authored items, 62 of
+which are the templated H2 frames of v1.1.
 
 1. **v0 (62 items).** `scripts/select_sources.py` filtered all 2,039,120 English sentences in the
    2026-10-19 export using the criteria above. That produced **38,658 candidates**, sorted into
@@ -135,6 +151,9 @@ They all come from [Tatoeba](https://tatoeba.org) (CC-BY 2.0 FR), except for 15 
    targeted searches of the full English export of 2026-11-09 for the constructions and features above.
    76 are verbatim Tatoeba sentences; 12 were authored, mostly to get a third person whose agreement
    differs from the addressee's.
+3. **v1.1 (72 added items, 2026-11-18).** The 24 H2 frames fr7–fr30, written from the four templates
+   above. Each English sentence was looked up on Tatoeba: the 10 that exist word for word keep their
+   id, and the other 62 are authored.
 
 Every Tatoeba item keeps its sentence id in `source_id`.
 
@@ -174,13 +193,15 @@ Every Tatoeba item keeps its sentence id in `source_id`.
 |---|---|
 | `benchmark_v1.csv` | **Source of truth.** One row per English source with six Hindi cells. Edit this file and nothing else. |
 | `benchmark_v1_long.csv` | Generated. One row per (item, cell), with pro-drop form, compatible cells and agreement tokens. |
-| `validation/validation_sheet.xlsx` | Shivamm's validation sheet: a verdict for each of the 900 Hindi cells and a source check for each English sentence. Bold marks the words that change across an item's six versions. |
+| `validation/validation_sheet.xlsx` | Shivamm's validation sheet: a verdict for each of the 1,332 Hindi cells and a source check for each English sentence. Bold marks the words that change across an item's six versions. |
 | `sources/tatoeba_candidate_pool.tsv` | The 38,658 filtered Tatoeba candidates (the v0 seed pool). |
 | `scripts/build_dataset.py` | Checks the CSV and generates the long CSV. |
 | `scripts/normalize.py` | `normalize_hindi()`: makes spelling variants identical before matching or scoring. |
 | `scripts/extractor.py` | `extract()`: reads the addressee's register and gender off a Hindi sentence such as an MT output (see [The extractor](#the-extractor)). |
 | `scripts/evaluate_extractor.py` | Measures the extractor: a development check on this benchmark, a hand-labelling sheet for MT outputs, and the held-out accuracy on those labels. |
-| `tests/` | Unit tests for the normaliser and for the checks in `build_dataset.py`. |
+| `scripts/label_gold.py` | A keyboard tool for hand-labelling the MT outputs in `validation/extractor_gold.csv` (it never shows the extractor's prediction or the system). |
+| `validation/extractor_gold.csv` | The MT outputs in random order, with the hand labels `gold_register` and `gold_gender`. |
+| `tests/` | Unit tests for the normaliser, the checks in `build_dataset.py`, and the extractor and its evaluation. |
 | `scripts/select_sources.py` | Builds the candidate pool from a Tatoeba export. |
 | `scripts/cocoa_check.py` | Counts CoCoA-MT's register and gender coverage (see [Related data](#related-data)). |
 
@@ -223,7 +244,7 @@ The long file repeats the item columns up to `english` (including `tags`) and ad
 
 ```bash
 python3 scripts/build_dataset.py                  # check the data + regenerate the long CSV
-python3 -m unittest discover -s tests             # test the normaliser and the checks
+python3 -m unittest discover -s tests             # test the normaliser, the checks and the extractor
 ```
 
 ---
@@ -231,8 +252,8 @@ python3 -m unittest discover -s tests             # test the normaliser and the 
 ## Notes for the extractor
 
 - **Free gold labels.**
-  - 900 sentences with an overt pronoun.
-  - 900 pro-drop variants, each with `prodrop_compatible_cells`.
+  - 1,332 sentences with an overt pronoun.
+  - 1,332 pro-drop variants, each with `prodrop_compatible_cells`.
   - Score the pro-drop tier against that **set**. For a syncretic form such as *क्या ठीक से सोए?*
     (तुम·M or आप·M), the right output is "masculine, register ambiguous between तुम and आप". Guessing
     one register is wrong.
@@ -281,14 +302,14 @@ form (`tum|aap`), `unmarked` or `mixed`, and a gender of `M`, `F`, `unmarked` or
 module docstring explains the rules.
 
 **Measuring its accuracy.** The rules were written while looking at this benchmark, which it reads
-without error (900 references, 52 prescriptive alternatives, 900 pro-drop variants). That is a
+without error (1,332 references, 88 prescriptive alternatives, 1,332 pro-drop variants). That is a
 development check, not the accuracy to report. The reported number comes from MT outputs labelled
 by hand:
 
 ```bash
 python3 scripts/evaluate_extractor.py --benchmark                       # development check
 python3 scripts/evaluate_extractor.py --make-sheet                      # -> validation/extractor_gold.csv
-#   fill in gold_register and gold_gender by hand, then:
+python3 scripts/label_gold.py --rows 1-300                             # hand labels, one keypress each
 python3 scripts/evaluate_extractor.py --labelled validation/extractor_gold.csv
 ```
 

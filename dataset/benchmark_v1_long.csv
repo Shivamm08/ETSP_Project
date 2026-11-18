@@ -899,3 +899,435 @@ H2-6M,h2_probe,FUT,future,question,affirmative,fr6,masc_stereotype,,Will you wor
 H2-6M,h2_probe,FUT,future,question,affirmative,fr6,masc_stereotype,,Will you work as a mechanic?,tum_f,tum,F,क्या तुम मैकेनिक का काम करोगी?,,क्या मैकेनिक का काम करोगी?,tum_f,करोगी
 H2-6M,h2_probe,FUT,future,question,affirmative,fr6,masc_stereotype,,Will you work as a mechanic?,aap_m,aap,M,क्या आप मैकेनिक का काम करेंगे?,,क्या मैकेनिक का काम करेंगे?,aap_m,करेंगे
 H2-6M,h2_probe,FUT,future,question,affirmative,fr6,masc_stereotype,,Will you work as a mechanic?,aap_f,aap,F,क्या आप मैकेनिक का काम करेंगी?,,क्या मैकेनिक का काम करेंगी?,aap_f,करेंगी
+H2-7N,h2_probe,FUT,future,question,affirmative,fr7,neutral,,Will you work as an accountant?,tu_m,tu,M,क्या तू अकाउंटेंट का काम करेगा?,,क्या अकाउंटेंट का काम करेगा?,tu_m,करेगा
+H2-7N,h2_probe,FUT,future,question,affirmative,fr7,neutral,,Will you work as an accountant?,tu_f,tu,F,क्या तू अकाउंटेंट का काम करेगी?,,क्या अकाउंटेंट का काम करेगी?,tu_f,करेगी
+H2-7N,h2_probe,FUT,future,question,affirmative,fr7,neutral,,Will you work as an accountant?,tum_m,tum,M,क्या तुम अकाउंटेंट का काम करोगे?,,क्या अकाउंटेंट का काम करोगे?,tum_m,करोगे
+H2-7N,h2_probe,FUT,future,question,affirmative,fr7,neutral,,Will you work as an accountant?,tum_f,tum,F,क्या तुम अकाउंटेंट का काम करोगी?,,क्या अकाउंटेंट का काम करोगी?,tum_f,करोगी
+H2-7N,h2_probe,FUT,future,question,affirmative,fr7,neutral,,Will you work as an accountant?,aap_m,aap,M,क्या आप अकाउंटेंट का काम करेंगे?,,क्या अकाउंटेंट का काम करेंगे?,aap_m,करेंगे
+H2-7N,h2_probe,FUT,future,question,affirmative,fr7,neutral,,Will you work as an accountant?,aap_f,aap,F,क्या आप अकाउंटेंट का काम करेंगी?,,क्या अकाउंटेंट का काम करेंगी?,aap_f,करेंगी
+H2-7F,h2_probe,FUT,future,question,affirmative,fr7,fem_stereotype,,Will you work as a receptionist?,tu_m,tu,M,क्या तू रिसेप्शनिस्ट का काम करेगा?,,क्या रिसेप्शनिस्ट का काम करेगा?,tu_m,करेगा
+H2-7F,h2_probe,FUT,future,question,affirmative,fr7,fem_stereotype,,Will you work as a receptionist?,tu_f,tu,F,क्या तू रिसेप्शनिस्ट का काम करेगी?,,क्या रिसेप्शनिस्ट का काम करेगी?,tu_f,करेगी
+H2-7F,h2_probe,FUT,future,question,affirmative,fr7,fem_stereotype,,Will you work as a receptionist?,tum_m,tum,M,क्या तुम रिसेप्शनिस्ट का काम करोगे?,,क्या रिसेप्शनिस्ट का काम करोगे?,tum_m,करोगे
+H2-7F,h2_probe,FUT,future,question,affirmative,fr7,fem_stereotype,,Will you work as a receptionist?,tum_f,tum,F,क्या तुम रिसेप्शनिस्ट का काम करोगी?,,क्या रिसेप्शनिस्ट का काम करोगी?,tum_f,करोगी
+H2-7F,h2_probe,FUT,future,question,affirmative,fr7,fem_stereotype,,Will you work as a receptionist?,aap_m,aap,M,क्या आप रिसेप्शनिस्ट का काम करेंगे?,,क्या रिसेप्शनिस्ट का काम करेंगे?,aap_m,करेंगे
+H2-7F,h2_probe,FUT,future,question,affirmative,fr7,fem_stereotype,,Will you work as a receptionist?,aap_f,aap,F,क्या आप रिसेप्शनिस्ट का काम करेंगी?,,क्या रिसेप्शनिस्ट का काम करेंगी?,aap_f,करेंगी
+H2-7M,h2_probe,FUT,future,question,affirmative,fr7,masc_stereotype,,Will you work as an electrician?,tu_m,tu,M,क्या तू इलेक्ट्रीशियन का काम करेगा?,,क्या इलेक्ट्रीशियन का काम करेगा?,tu_m,करेगा
+H2-7M,h2_probe,FUT,future,question,affirmative,fr7,masc_stereotype,,Will you work as an electrician?,tu_f,tu,F,क्या तू इलेक्ट्रीशियन का काम करेगी?,,क्या इलेक्ट्रीशियन का काम करेगी?,tu_f,करेगी
+H2-7M,h2_probe,FUT,future,question,affirmative,fr7,masc_stereotype,,Will you work as an electrician?,tum_m,tum,M,क्या तुम इलेक्ट्रीशियन का काम करोगे?,,क्या इलेक्ट्रीशियन का काम करोगे?,tum_m,करोगे
+H2-7M,h2_probe,FUT,future,question,affirmative,fr7,masc_stereotype,,Will you work as an electrician?,tum_f,tum,F,क्या तुम इलेक्ट्रीशियन का काम करोगी?,,क्या इलेक्ट्रीशियन का काम करोगी?,tum_f,करोगी
+H2-7M,h2_probe,FUT,future,question,affirmative,fr7,masc_stereotype,,Will you work as an electrician?,aap_m,aap,M,क्या आप इलेक्ट्रीशियन का काम करेंगे?,,क्या इलेक्ट्रीशियन का काम करेंगे?,aap_m,करेंगे
+H2-7M,h2_probe,FUT,future,question,affirmative,fr7,masc_stereotype,,Will you work as an electrician?,aap_f,aap,F,क्या आप इलेक्ट्रीशियन का काम करेंगी?,,क्या इलेक्ट्रीशियन का काम करेंगी?,aap_f,करेंगी
+H2-8N,h2_probe,FUT,future,question,affirmative,fr8,neutral,,Will you work as a journalist?,tu_m,tu,M,क्या तू पत्रकार का काम करेगा?,,क्या पत्रकार का काम करेगा?,tu_m,करेगा
+H2-8N,h2_probe,FUT,future,question,affirmative,fr8,neutral,,Will you work as a journalist?,tu_f,tu,F,क्या तू पत्रकार का काम करेगी?,,क्या पत्रकार का काम करेगी?,tu_f,करेगी
+H2-8N,h2_probe,FUT,future,question,affirmative,fr8,neutral,,Will you work as a journalist?,tum_m,tum,M,क्या तुम पत्रकार का काम करोगे?,,क्या पत्रकार का काम करोगे?,tum_m,करोगे
+H2-8N,h2_probe,FUT,future,question,affirmative,fr8,neutral,,Will you work as a journalist?,tum_f,tum,F,क्या तुम पत्रकार का काम करोगी?,,क्या पत्रकार का काम करोगी?,tum_f,करोगी
+H2-8N,h2_probe,FUT,future,question,affirmative,fr8,neutral,,Will you work as a journalist?,aap_m,aap,M,क्या आप पत्रकार का काम करेंगे?,,क्या पत्रकार का काम करेंगे?,aap_m,करेंगे
+H2-8N,h2_probe,FUT,future,question,affirmative,fr8,neutral,,Will you work as a journalist?,aap_f,aap,F,क्या आप पत्रकार का काम करेंगी?,,क्या पत्रकार का काम करेंगी?,aap_f,करेंगी
+H2-8F,h2_probe,FUT,future,question,affirmative,fr8,fem_stereotype,,Will you work as a beautician?,tu_m,tu,M,क्या तू ब्यूटीशियन का काम करेगा?,,क्या ब्यूटीशियन का काम करेगा?,tu_m,करेगा
+H2-8F,h2_probe,FUT,future,question,affirmative,fr8,fem_stereotype,,Will you work as a beautician?,tu_f,tu,F,क्या तू ब्यूटीशियन का काम करेगी?,,क्या ब्यूटीशियन का काम करेगी?,tu_f,करेगी
+H2-8F,h2_probe,FUT,future,question,affirmative,fr8,fem_stereotype,,Will you work as a beautician?,tum_m,tum,M,क्या तुम ब्यूटीशियन का काम करोगे?,,क्या ब्यूटीशियन का काम करोगे?,tum_m,करोगे
+H2-8F,h2_probe,FUT,future,question,affirmative,fr8,fem_stereotype,,Will you work as a beautician?,tum_f,tum,F,क्या तुम ब्यूटीशियन का काम करोगी?,,क्या ब्यूटीशियन का काम करोगी?,tum_f,करोगी
+H2-8F,h2_probe,FUT,future,question,affirmative,fr8,fem_stereotype,,Will you work as a beautician?,aap_m,aap,M,क्या आप ब्यूटीशियन का काम करेंगे?,,क्या ब्यूटीशियन का काम करेंगे?,aap_m,करेंगे
+H2-8F,h2_probe,FUT,future,question,affirmative,fr8,fem_stereotype,,Will you work as a beautician?,aap_f,aap,F,क्या आप ब्यूटीशियन का काम करेंगी?,,क्या ब्यूटीशियन का काम करेंगी?,aap_f,करेंगी
+H2-8M,h2_probe,FUT,future,question,affirmative,fr8,masc_stereotype,,Will you work as a plumber?,tu_m,tu,M,क्या तू प्लंबर का काम करेगा?,,क्या प्लंबर का काम करेगा?,tu_m,करेगा
+H2-8M,h2_probe,FUT,future,question,affirmative,fr8,masc_stereotype,,Will you work as a plumber?,tu_f,tu,F,क्या तू प्लंबर का काम करेगी?,,क्या प्लंबर का काम करेगी?,tu_f,करेगी
+H2-8M,h2_probe,FUT,future,question,affirmative,fr8,masc_stereotype,,Will you work as a plumber?,tum_m,tum,M,क्या तुम प्लंबर का काम करोगे?,,क्या प्लंबर का काम करोगे?,tum_m,करोगे
+H2-8M,h2_probe,FUT,future,question,affirmative,fr8,masc_stereotype,,Will you work as a plumber?,tum_f,tum,F,क्या तुम प्लंबर का काम करोगी?,,क्या प्लंबर का काम करोगी?,tum_f,करोगी
+H2-8M,h2_probe,FUT,future,question,affirmative,fr8,masc_stereotype,,Will you work as a plumber?,aap_m,aap,M,क्या आप प्लंबर का काम करेंगे?,,क्या प्लंबर का काम करेंगे?,aap_m,करेंगे
+H2-8M,h2_probe,FUT,future,question,affirmative,fr8,masc_stereotype,,Will you work as a plumber?,aap_f,aap,F,क्या आप प्लंबर का काम करेंगी?,,क्या प्लंबर का काम करेंगी?,aap_f,करेंगी
+H2-9N,h2_probe,FUT,future,question,affirmative,fr9,neutral,,Will you work as a translator?,tu_m,tu,M,क्या तू ट्रांसलेटर का काम करेगा?,,क्या ट्रांसलेटर का काम करेगा?,tu_m,करेगा
+H2-9N,h2_probe,FUT,future,question,affirmative,fr9,neutral,,Will you work as a translator?,tu_f,tu,F,क्या तू ट्रांसलेटर का काम करेगी?,,क्या ट्रांसलेटर का काम करेगी?,tu_f,करेगी
+H2-9N,h2_probe,FUT,future,question,affirmative,fr9,neutral,,Will you work as a translator?,tum_m,tum,M,क्या तुम ट्रांसलेटर का काम करोगे?,,क्या ट्रांसलेटर का काम करोगे?,tum_m,करोगे
+H2-9N,h2_probe,FUT,future,question,affirmative,fr9,neutral,,Will you work as a translator?,tum_f,tum,F,क्या तुम ट्रांसलेटर का काम करोगी?,,क्या ट्रांसलेटर का काम करोगी?,tum_f,करोगी
+H2-9N,h2_probe,FUT,future,question,affirmative,fr9,neutral,,Will you work as a translator?,aap_m,aap,M,क्या आप ट्रांसलेटर का काम करेंगे?,,क्या ट्रांसलेटर का काम करेंगे?,aap_m,करेंगे
+H2-9N,h2_probe,FUT,future,question,affirmative,fr9,neutral,,Will you work as a translator?,aap_f,aap,F,क्या आप ट्रांसलेटर का काम करेंगी?,,क्या ट्रांसलेटर का काम करेंगी?,aap_f,करेंगी
+H2-9F,h2_probe,FUT,future,question,affirmative,fr9,fem_stereotype,,Will you work as a flight attendant?,tu_m,tu,M,क्या तू फ़्लाइट अटेंडेंट का काम करेगा?,,क्या फ़्लाइट अटेंडेंट का काम करेगा?,tu_m,करेगा
+H2-9F,h2_probe,FUT,future,question,affirmative,fr9,fem_stereotype,,Will you work as a flight attendant?,tu_f,tu,F,क्या तू फ़्लाइट अटेंडेंट का काम करेगी?,,क्या फ़्लाइट अटेंडेंट का काम करेगी?,tu_f,करेगी
+H2-9F,h2_probe,FUT,future,question,affirmative,fr9,fem_stereotype,,Will you work as a flight attendant?,tum_m,tum,M,क्या तुम फ़्लाइट अटेंडेंट का काम करोगे?,,क्या फ़्लाइट अटेंडेंट का काम करोगे?,tum_m,करोगे
+H2-9F,h2_probe,FUT,future,question,affirmative,fr9,fem_stereotype,,Will you work as a flight attendant?,tum_f,tum,F,क्या तुम फ़्लाइट अटेंडेंट का काम करोगी?,,क्या फ़्लाइट अटेंडेंट का काम करोगी?,tum_f,करोगी
+H2-9F,h2_probe,FUT,future,question,affirmative,fr9,fem_stereotype,,Will you work as a flight attendant?,aap_m,aap,M,क्या आप फ़्लाइट अटेंडेंट का काम करेंगे?,,क्या फ़्लाइट अटेंडेंट का काम करेंगे?,aap_m,करेंगे
+H2-9F,h2_probe,FUT,future,question,affirmative,fr9,fem_stereotype,,Will you work as a flight attendant?,aap_f,aap,F,क्या आप फ़्लाइट अटेंडेंट का काम करेंगी?,,क्या फ़्लाइट अटेंडेंट का काम करेंगी?,aap_f,करेंगी
+H2-9M,h2_probe,FUT,future,question,affirmative,fr9,masc_stereotype,,Will you work as a pilot?,tu_m,tu,M,क्या तू पायलट का काम करेगा?,,क्या पायलट का काम करेगा?,tu_m,करेगा
+H2-9M,h2_probe,FUT,future,question,affirmative,fr9,masc_stereotype,,Will you work as a pilot?,tu_f,tu,F,क्या तू पायलट का काम करेगी?,,क्या पायलट का काम करेगी?,tu_f,करेगी
+H2-9M,h2_probe,FUT,future,question,affirmative,fr9,masc_stereotype,,Will you work as a pilot?,tum_m,tum,M,क्या तुम पायलट का काम करोगे?,,क्या पायलट का काम करोगे?,tum_m,करोगे
+H2-9M,h2_probe,FUT,future,question,affirmative,fr9,masc_stereotype,,Will you work as a pilot?,tum_f,tum,F,क्या तुम पायलट का काम करोगी?,,क्या पायलट का काम करोगी?,tum_f,करोगी
+H2-9M,h2_probe,FUT,future,question,affirmative,fr9,masc_stereotype,,Will you work as a pilot?,aap_m,aap,M,क्या आप पायलट का काम करेंगे?,,क्या पायलट का काम करेंगे?,aap_m,करेंगे
+H2-9M,h2_probe,FUT,future,question,affirmative,fr9,masc_stereotype,,Will you work as a pilot?,aap_f,aap,F,क्या आप पायलट का काम करेंगी?,,क्या पायलट का काम करेंगी?,aap_f,करेंगी
+H2-10N,h2_probe,FUT,future,question,affirmative,fr10,neutral,,Will you work as a librarian?,tu_m,tu,M,क्या तू लाइब्रेरियन का काम करेगा?,,क्या लाइब्रेरियन का काम करेगा?,tu_m,करेगा
+H2-10N,h2_probe,FUT,future,question,affirmative,fr10,neutral,,Will you work as a librarian?,tu_f,tu,F,क्या तू लाइब्रेरियन का काम करेगी?,,क्या लाइब्रेरियन का काम करेगी?,tu_f,करेगी
+H2-10N,h2_probe,FUT,future,question,affirmative,fr10,neutral,,Will you work as a librarian?,tum_m,tum,M,क्या तुम लाइब्रेरियन का काम करोगे?,,क्या लाइब्रेरियन का काम करोगे?,tum_m,करोगे
+H2-10N,h2_probe,FUT,future,question,affirmative,fr10,neutral,,Will you work as a librarian?,tum_f,tum,F,क्या तुम लाइब्रेरियन का काम करोगी?,,क्या लाइब्रेरियन का काम करोगी?,tum_f,करोगी
+H2-10N,h2_probe,FUT,future,question,affirmative,fr10,neutral,,Will you work as a librarian?,aap_m,aap,M,क्या आप लाइब्रेरियन का काम करेंगे?,,क्या लाइब्रेरियन का काम करेंगे?,aap_m,करेंगे
+H2-10N,h2_probe,FUT,future,question,affirmative,fr10,neutral,,Will you work as a librarian?,aap_f,aap,F,क्या आप लाइब्रेरियन का काम करेंगी?,,क्या लाइब्रेरियन का काम करेंगी?,aap_f,करेंगी
+H2-10F,h2_probe,FUT,future,question,affirmative,fr10,fem_stereotype,,Will you work as a babysitter?,tu_m,tu,M,क्या तू बेबीसिटर का काम करेगा?,,क्या बेबीसिटर का काम करेगा?,tu_m,करेगा
+H2-10F,h2_probe,FUT,future,question,affirmative,fr10,fem_stereotype,,Will you work as a babysitter?,tu_f,tu,F,क्या तू बेबीसिटर का काम करेगी?,,क्या बेबीसिटर का काम करेगी?,tu_f,करेगी
+H2-10F,h2_probe,FUT,future,question,affirmative,fr10,fem_stereotype,,Will you work as a babysitter?,tum_m,tum,M,क्या तुम बेबीसिटर का काम करोगे?,,क्या बेबीसिटर का काम करोगे?,tum_m,करोगे
+H2-10F,h2_probe,FUT,future,question,affirmative,fr10,fem_stereotype,,Will you work as a babysitter?,tum_f,tum,F,क्या तुम बेबीसिटर का काम करोगी?,,क्या बेबीसिटर का काम करोगी?,tum_f,करोगी
+H2-10F,h2_probe,FUT,future,question,affirmative,fr10,fem_stereotype,,Will you work as a babysitter?,aap_m,aap,M,क्या आप बेबीसिटर का काम करेंगे?,,क्या बेबीसिटर का काम करेंगे?,aap_m,करेंगे
+H2-10F,h2_probe,FUT,future,question,affirmative,fr10,fem_stereotype,,Will you work as a babysitter?,aap_f,aap,F,क्या आप बेबीसिटर का काम करेंगी?,,क्या बेबीसिटर का काम करेंगी?,aap_f,करेंगी
+H2-10M,h2_probe,FUT,future,question,affirmative,fr10,masc_stereotype,,Will you work as a security guard?,tu_m,tu,M,क्या तू सिक्योरिटी गार्ड का काम करेगा?,,क्या सिक्योरिटी गार्ड का काम करेगा?,tu_m,करेगा
+H2-10M,h2_probe,FUT,future,question,affirmative,fr10,masc_stereotype,,Will you work as a security guard?,tu_f,tu,F,क्या तू सिक्योरिटी गार्ड का काम करेगी?,,क्या सिक्योरिटी गार्ड का काम करेगी?,tu_f,करेगी
+H2-10M,h2_probe,FUT,future,question,affirmative,fr10,masc_stereotype,,Will you work as a security guard?,tum_m,tum,M,क्या तुम सिक्योरिटी गार्ड का काम करोगे?,,क्या सिक्योरिटी गार्ड का काम करोगे?,tum_m,करोगे
+H2-10M,h2_probe,FUT,future,question,affirmative,fr10,masc_stereotype,,Will you work as a security guard?,tum_f,tum,F,क्या तुम सिक्योरिटी गार्ड का काम करोगी?,,क्या सिक्योरिटी गार्ड का काम करोगी?,tum_f,करोगी
+H2-10M,h2_probe,FUT,future,question,affirmative,fr10,masc_stereotype,,Will you work as a security guard?,aap_m,aap,M,क्या आप सिक्योरिटी गार्ड का काम करेंगे?,,क्या सिक्योरिटी गार्ड का काम करेंगे?,aap_m,करेंगे
+H2-10M,h2_probe,FUT,future,question,affirmative,fr10,masc_stereotype,,Will you work as a security guard?,aap_f,aap,F,क्या आप सिक्योरिटी गार्ड का काम करेंगी?,,क्या सिक्योरिटी गार्ड का काम करेंगी?,aap_f,करेंगी
+H2-11N,h2_probe,FUT,future,question,affirmative,fr11,neutral,,Will you work as a bank clerk?,tu_m,tu,M,क्या तू बैंक क्लर्क का काम करेगा?,,क्या बैंक क्लर्क का काम करेगा?,tu_m,करेगा
+H2-11N,h2_probe,FUT,future,question,affirmative,fr11,neutral,,Will you work as a bank clerk?,tu_f,tu,F,क्या तू बैंक क्लर्क का काम करेगी?,,क्या बैंक क्लर्क का काम करेगी?,tu_f,करेगी
+H2-11N,h2_probe,FUT,future,question,affirmative,fr11,neutral,,Will you work as a bank clerk?,tum_m,tum,M,क्या तुम बैंक क्लर्क का काम करोगे?,,क्या बैंक क्लर्क का काम करोगे?,tum_m,करोगे
+H2-11N,h2_probe,FUT,future,question,affirmative,fr11,neutral,,Will you work as a bank clerk?,tum_f,tum,F,क्या तुम बैंक क्लर्क का काम करोगी?,,क्या बैंक क्लर्क का काम करोगी?,tum_f,करोगी
+H2-11N,h2_probe,FUT,future,question,affirmative,fr11,neutral,,Will you work as a bank clerk?,aap_m,aap,M,क्या आप बैंक क्लर्क का काम करेंगे?,,क्या बैंक क्लर्क का काम करेंगे?,aap_m,करेंगे
+H2-11N,h2_probe,FUT,future,question,affirmative,fr11,neutral,,Will you work as a bank clerk?,aap_f,aap,F,क्या आप बैंक क्लर्क का काम करेंगी?,,क्या बैंक क्लर्क का काम करेंगी?,aap_f,करेंगी
+H2-11F,h2_probe,FUT,future,question,affirmative,fr11,fem_stereotype,,Will you work as a secretary?,tu_m,tu,M,क्या तू सेक्रेटरी का काम करेगा?,,क्या सेक्रेटरी का काम करेगा?,tu_m,करेगा
+H2-11F,h2_probe,FUT,future,question,affirmative,fr11,fem_stereotype,,Will you work as a secretary?,tu_f,tu,F,क्या तू सेक्रेटरी का काम करेगी?,,क्या सेक्रेटरी का काम करेगी?,tu_f,करेगी
+H2-11F,h2_probe,FUT,future,question,affirmative,fr11,fem_stereotype,,Will you work as a secretary?,tum_m,tum,M,क्या तुम सेक्रेटरी का काम करोगे?,,क्या सेक्रेटरी का काम करोगे?,tum_m,करोगे
+H2-11F,h2_probe,FUT,future,question,affirmative,fr11,fem_stereotype,,Will you work as a secretary?,tum_f,tum,F,क्या तुम सेक्रेटरी का काम करोगी?,,क्या सेक्रेटरी का काम करोगी?,tum_f,करोगी
+H2-11F,h2_probe,FUT,future,question,affirmative,fr11,fem_stereotype,,Will you work as a secretary?,aap_m,aap,M,क्या आप सेक्रेटरी का काम करेंगे?,,क्या सेक्रेटरी का काम करेंगे?,aap_m,करेंगे
+H2-11F,h2_probe,FUT,future,question,affirmative,fr11,fem_stereotype,,Will you work as a secretary?,aap_f,aap,F,क्या आप सेक्रेटरी का काम करेंगी?,,क्या सेक्रेटरी का काम करेंगी?,aap_f,करेंगी
+H2-11M,h2_probe,FUT,future,question,affirmative,fr11,masc_stereotype,,Will you work as a carpenter?,tu_m,tu,M,क्या तू बढ़ई का काम करेगा?,,क्या बढ़ई का काम करेगा?,tu_m,करेगा
+H2-11M,h2_probe,FUT,future,question,affirmative,fr11,masc_stereotype,,Will you work as a carpenter?,tu_f,tu,F,क्या तू बढ़ई का काम करेगी?,,क्या बढ़ई का काम करेगी?,tu_f,करेगी
+H2-11M,h2_probe,FUT,future,question,affirmative,fr11,masc_stereotype,,Will you work as a carpenter?,tum_m,tum,M,क्या तुम बढ़ई का काम करोगे?,,क्या बढ़ई का काम करोगे?,tum_m,करोगे
+H2-11M,h2_probe,FUT,future,question,affirmative,fr11,masc_stereotype,,Will you work as a carpenter?,tum_f,tum,F,क्या तुम बढ़ई का काम करोगी?,,क्या बढ़ई का काम करोगी?,tum_f,करोगी
+H2-11M,h2_probe,FUT,future,question,affirmative,fr11,masc_stereotype,,Will you work as a carpenter?,aap_m,aap,M,क्या आप बढ़ई का काम करेंगे?,,क्या बढ़ई का काम करेंगे?,aap_m,करेंगे
+H2-11M,h2_probe,FUT,future,question,affirmative,fr11,masc_stereotype,,Will you work as a carpenter?,aap_f,aap,F,क्या आप बढ़ई का काम करेंगी?,,क्या बढ़ई का काम करेंगी?,aap_f,करेंगी
+H2-12N,h2_probe,FUT,future,question,affirmative,fr12,neutral,,Will you work as a pharmacist?,tu_m,tu,M,क्या तू फ़ार्मासिस्ट का काम करेगा?,,क्या फ़ार्मासिस्ट का काम करेगा?,tu_m,करेगा
+H2-12N,h2_probe,FUT,future,question,affirmative,fr12,neutral,,Will you work as a pharmacist?,tu_f,tu,F,क्या तू फ़ार्मासिस्ट का काम करेगी?,,क्या फ़ार्मासिस्ट का काम करेगी?,tu_f,करेगी
+H2-12N,h2_probe,FUT,future,question,affirmative,fr12,neutral,,Will you work as a pharmacist?,tum_m,tum,M,क्या तुम फ़ार्मासिस्ट का काम करोगे?,,क्या फ़ार्मासिस्ट का काम करोगे?,tum_m,करोगे
+H2-12N,h2_probe,FUT,future,question,affirmative,fr12,neutral,,Will you work as a pharmacist?,tum_f,tum,F,क्या तुम फ़ार्मासिस्ट का काम करोगी?,,क्या फ़ार्मासिस्ट का काम करोगी?,tum_f,करोगी
+H2-12N,h2_probe,FUT,future,question,affirmative,fr12,neutral,,Will you work as a pharmacist?,aap_m,aap,M,क्या आप फ़ार्मासिस्ट का काम करेंगे?,,क्या फ़ार्मासिस्ट का काम करेंगे?,aap_m,करेंगे
+H2-12N,h2_probe,FUT,future,question,affirmative,fr12,neutral,,Will you work as a pharmacist?,aap_f,aap,F,क्या आप फ़ार्मासिस्ट का काम करेंगी?,,क्या फ़ार्मासिस्ट का काम करेंगी?,aap_f,करेंगी
+H2-12F,h2_probe,FUT,future,question,affirmative,fr12,fem_stereotype,,Will you work as a kindergarten teacher?,tu_m,tu,M,क्या तू नर्सरी टीचर का काम करेगा?,,क्या नर्सरी टीचर का काम करेगा?,tu_m,करेगा
+H2-12F,h2_probe,FUT,future,question,affirmative,fr12,fem_stereotype,,Will you work as a kindergarten teacher?,tu_f,tu,F,क्या तू नर्सरी टीचर का काम करेगी?,,क्या नर्सरी टीचर का काम करेगी?,tu_f,करेगी
+H2-12F,h2_probe,FUT,future,question,affirmative,fr12,fem_stereotype,,Will you work as a kindergarten teacher?,tum_m,tum,M,क्या तुम नर्सरी टीचर का काम करोगे?,,क्या नर्सरी टीचर का काम करोगे?,tum_m,करोगे
+H2-12F,h2_probe,FUT,future,question,affirmative,fr12,fem_stereotype,,Will you work as a kindergarten teacher?,tum_f,tum,F,क्या तुम नर्सरी टीचर का काम करोगी?,,क्या नर्सरी टीचर का काम करोगी?,tum_f,करोगी
+H2-12F,h2_probe,FUT,future,question,affirmative,fr12,fem_stereotype,,Will you work as a kindergarten teacher?,aap_m,aap,M,क्या आप नर्सरी टीचर का काम करेंगे?,,क्या नर्सरी टीचर का काम करेंगे?,aap_m,करेंगे
+H2-12F,h2_probe,FUT,future,question,affirmative,fr12,fem_stereotype,,Will you work as a kindergarten teacher?,aap_f,aap,F,क्या आप नर्सरी टीचर का काम करेंगी?,,क्या नर्सरी टीचर का काम करेंगी?,aap_f,करेंगी
+H2-12M,h2_probe,FUT,future,question,affirmative,fr12,masc_stereotype,,Will you work as a truck driver?,tu_m,tu,M,क्या तू ट्रक ड्राइवर का काम करेगा?,,क्या ट्रक ड्राइवर का काम करेगा?,tu_m,करेगा
+H2-12M,h2_probe,FUT,future,question,affirmative,fr12,masc_stereotype,,Will you work as a truck driver?,tu_f,tu,F,क्या तू ट्रक ड्राइवर का काम करेगी?,,क्या ट्रक ड्राइवर का काम करेगी?,tu_f,करेगी
+H2-12M,h2_probe,FUT,future,question,affirmative,fr12,masc_stereotype,,Will you work as a truck driver?,tum_m,tum,M,क्या तुम ट्रक ड्राइवर का काम करोगे?,,क्या ट्रक ड्राइवर का काम करोगे?,tum_m,करोगे
+H2-12M,h2_probe,FUT,future,question,affirmative,fr12,masc_stereotype,,Will you work as a truck driver?,tum_f,tum,F,क्या तुम ट्रक ड्राइवर का काम करोगी?,,क्या ट्रक ड्राइवर का काम करोगी?,tum_f,करोगी
+H2-12M,h2_probe,FUT,future,question,affirmative,fr12,masc_stereotype,,Will you work as a truck driver?,aap_m,aap,M,क्या आप ट्रक ड्राइवर का काम करेंगे?,,क्या ट्रक ड्राइवर का काम करेंगे?,aap_m,करेंगे
+H2-12M,h2_probe,FUT,future,question,affirmative,fr12,masc_stereotype,,Will you work as a truck driver?,aap_f,aap,F,क्या आप ट्रक ड्राइवर का काम करेंगी?,,क्या ट्रक ड्राइवर का काम करेंगी?,aap_f,करेंगी
+H2-13N,h2_probe,PRES,present_habitual,question,affirmative,fr13,neutral,,Do you read novels?,tu_m,tu,M,क्या तू उपन्यास पढ़ता है?,,क्या उपन्यास पढ़ता है?,tu_m,पढ़ता|है
+H2-13N,h2_probe,PRES,present_habitual,question,affirmative,fr13,neutral,,Do you read novels?,tu_f,tu,F,क्या तू उपन्यास पढ़ती है?,,क्या उपन्यास पढ़ती है?,tu_f,पढ़ती|है
+H2-13N,h2_probe,PRES,present_habitual,question,affirmative,fr13,neutral,,Do you read novels?,tum_m,tum,M,क्या तुम उपन्यास पढ़ते हो?,,क्या उपन्यास पढ़ते हो?,tum_m,पढ़ते|हो
+H2-13N,h2_probe,PRES,present_habitual,question,affirmative,fr13,neutral,,Do you read novels?,tum_f,tum,F,क्या तुम उपन्यास पढ़ती हो?,,क्या उपन्यास पढ़ती हो?,tum_f,पढ़ती|हो
+H2-13N,h2_probe,PRES,present_habitual,question,affirmative,fr13,neutral,,Do you read novels?,aap_m,aap,M,क्या आप उपन्यास पढ़ते हैं?,,क्या उपन्यास पढ़ते हैं?,aap_m,पढ़ते|हैं
+H2-13N,h2_probe,PRES,present_habitual,question,affirmative,fr13,neutral,,Do you read novels?,aap_f,aap,F,क्या आप उपन्यास पढ़ती हैं?,,क्या उपन्यास पढ़ती हैं?,aap_f,पढ़ती|हैं
+H2-13F,h2_probe,PRES,present_habitual,question,affirmative,fr13,fem_stereotype,,Do you sew?,tu_m,tu,M,क्या तू सिलाई करता है?,,क्या सिलाई करता है?,tu_m,करता|है
+H2-13F,h2_probe,PRES,present_habitual,question,affirmative,fr13,fem_stereotype,,Do you sew?,tu_f,tu,F,क्या तू सिलाई करती है?,,क्या सिलाई करती है?,tu_f,करती|है
+H2-13F,h2_probe,PRES,present_habitual,question,affirmative,fr13,fem_stereotype,,Do you sew?,tum_m,tum,M,क्या तुम सिलाई करते हो?,,क्या सिलाई करते हो?,tum_m,करते|हो
+H2-13F,h2_probe,PRES,present_habitual,question,affirmative,fr13,fem_stereotype,,Do you sew?,tum_f,tum,F,क्या तुम सिलाई करती हो?,,क्या सिलाई करती हो?,tum_f,करती|हो
+H2-13F,h2_probe,PRES,present_habitual,question,affirmative,fr13,fem_stereotype,,Do you sew?,aap_m,aap,M,क्या आप सिलाई करते हैं?,,क्या सिलाई करते हैं?,aap_m,करते|हैं
+H2-13F,h2_probe,PRES,present_habitual,question,affirmative,fr13,fem_stereotype,,Do you sew?,aap_f,aap,F,क्या आप सिलाई करती हैं?,,क्या सिलाई करती हैं?,aap_f,करती|हैं
+H2-13M,h2_probe,PRES,present_habitual,question,affirmative,fr13,masc_stereotype,,Do you play football?,tu_m,tu,M,क्या तू फ़ुटबॉल खेलता है?,,क्या फ़ुटबॉल खेलता है?,tu_m,खेलता|है
+H2-13M,h2_probe,PRES,present_habitual,question,affirmative,fr13,masc_stereotype,,Do you play football?,tu_f,tu,F,क्या तू फ़ुटबॉल खेलती है?,,क्या फ़ुटबॉल खेलती है?,tu_f,खेलती|है
+H2-13M,h2_probe,PRES,present_habitual,question,affirmative,fr13,masc_stereotype,,Do you play football?,tum_m,tum,M,क्या तुम फ़ुटबॉल खेलते हो?,,क्या फ़ुटबॉल खेलते हो?,tum_m,खेलते|हो
+H2-13M,h2_probe,PRES,present_habitual,question,affirmative,fr13,masc_stereotype,,Do you play football?,tum_f,tum,F,क्या तुम फ़ुटबॉल खेलती हो?,,क्या फ़ुटबॉल खेलती हो?,tum_f,खेलती|हो
+H2-13M,h2_probe,PRES,present_habitual,question,affirmative,fr13,masc_stereotype,,Do you play football?,aap_m,aap,M,क्या आप फ़ुटबॉल खेलते हैं?,,क्या फ़ुटबॉल खेलते हैं?,aap_m,खेलते|हैं
+H2-13M,h2_probe,PRES,present_habitual,question,affirmative,fr13,masc_stereotype,,Do you play football?,aap_f,aap,F,क्या आप फ़ुटबॉल खेलती हैं?,,क्या फ़ुटबॉल खेलती हैं?,aap_f,खेलती|हैं
+H2-14N,h2_probe,PRES,present_habitual,question,affirmative,fr14,neutral,,Do you do yoga?,tu_m,tu,M,क्या तू योग करता है?,,क्या योग करता है?,tu_m,करता|है
+H2-14N,h2_probe,PRES,present_habitual,question,affirmative,fr14,neutral,,Do you do yoga?,tu_f,tu,F,क्या तू योग करती है?,,क्या योग करती है?,tu_f,करती|है
+H2-14N,h2_probe,PRES,present_habitual,question,affirmative,fr14,neutral,,Do you do yoga?,tum_m,tum,M,क्या तुम योग करते हो?,,क्या योग करते हो?,tum_m,करते|हो
+H2-14N,h2_probe,PRES,present_habitual,question,affirmative,fr14,neutral,,Do you do yoga?,tum_f,tum,F,क्या तुम योग करती हो?,,क्या योग करती हो?,tum_f,करती|हो
+H2-14N,h2_probe,PRES,present_habitual,question,affirmative,fr14,neutral,,Do you do yoga?,aap_m,aap,M,क्या आप योग करते हैं?,,क्या योग करते हैं?,aap_m,करते|हैं
+H2-14N,h2_probe,PRES,present_habitual,question,affirmative,fr14,neutral,,Do you do yoga?,aap_f,aap,F,क्या आप योग करती हैं?,,क्या योग करती हैं?,aap_f,करती|हैं
+H2-14F,h2_probe,PRES,present_habitual,question,affirmative,fr14,fem_stereotype,,Do you embroider?,tu_m,tu,M,क्या तू कढ़ाई करता है?,,क्या कढ़ाई करता है?,tu_m,करता|है
+H2-14F,h2_probe,PRES,present_habitual,question,affirmative,fr14,fem_stereotype,,Do you embroider?,tu_f,tu,F,क्या तू कढ़ाई करती है?,,क्या कढ़ाई करती है?,tu_f,करती|है
+H2-14F,h2_probe,PRES,present_habitual,question,affirmative,fr14,fem_stereotype,,Do you embroider?,tum_m,tum,M,क्या तुम कढ़ाई करते हो?,,क्या कढ़ाई करते हो?,tum_m,करते|हो
+H2-14F,h2_probe,PRES,present_habitual,question,affirmative,fr14,fem_stereotype,,Do you embroider?,tum_f,tum,F,क्या तुम कढ़ाई करती हो?,,क्या कढ़ाई करती हो?,tum_f,करती|हो
+H2-14F,h2_probe,PRES,present_habitual,question,affirmative,fr14,fem_stereotype,,Do you embroider?,aap_m,aap,M,क्या आप कढ़ाई करते हैं?,,क्या कढ़ाई करते हैं?,aap_m,करते|हैं
+H2-14F,h2_probe,PRES,present_habitual,question,affirmative,fr14,fem_stereotype,,Do you embroider?,aap_f,aap,F,क्या आप कढ़ाई करती हैं?,,क्या कढ़ाई करती हैं?,aap_f,करती|हैं
+H2-14M,h2_probe,PRES,present_habitual,question,affirmative,fr14,masc_stereotype,,Do you smoke?,tu_m,tu,M,क्या तू सिगरेट पीता है?,,क्या सिगरेट पीता है?,tu_m,पीता|है
+H2-14M,h2_probe,PRES,present_habitual,question,affirmative,fr14,masc_stereotype,,Do you smoke?,tu_f,tu,F,क्या तू सिगरेट पीती है?,,क्या सिगरेट पीती है?,tu_f,पीती|है
+H2-14M,h2_probe,PRES,present_habitual,question,affirmative,fr14,masc_stereotype,,Do you smoke?,tum_m,tum,M,क्या तुम सिगरेट पीते हो?,,क्या सिगरेट पीते हो?,tum_m,पीते|हो
+H2-14M,h2_probe,PRES,present_habitual,question,affirmative,fr14,masc_stereotype,,Do you smoke?,tum_f,tum,F,क्या तुम सिगरेट पीती हो?,,क्या सिगरेट पीती हो?,tum_f,पीती|हो
+H2-14M,h2_probe,PRES,present_habitual,question,affirmative,fr14,masc_stereotype,,Do you smoke?,aap_m,aap,M,क्या आप सिगरेट पीते हैं?,,क्या सिगरेट पीते हैं?,aap_m,पीते|हैं
+H2-14M,h2_probe,PRES,present_habitual,question,affirmative,fr14,masc_stereotype,,Do you smoke?,aap_f,aap,F,क्या आप सिगरेट पीती हैं?,,क्या सिगरेट पीती हैं?,aap_f,पीती|हैं
+H2-15N,h2_probe,PRES,present_habitual,question,affirmative,fr15,neutral,,Do you paint?,tu_m,tu,M,क्या तू पेंटिंग करता है?,,क्या पेंटिंग करता है?,tu_m,करता|है
+H2-15N,h2_probe,PRES,present_habitual,question,affirmative,fr15,neutral,,Do you paint?,tu_f,tu,F,क्या तू पेंटिंग करती है?,,क्या पेंटिंग करती है?,tu_f,करती|है
+H2-15N,h2_probe,PRES,present_habitual,question,affirmative,fr15,neutral,,Do you paint?,tum_m,tum,M,क्या तुम पेंटिंग करते हो?,,क्या पेंटिंग करते हो?,tum_m,करते|हो
+H2-15N,h2_probe,PRES,present_habitual,question,affirmative,fr15,neutral,,Do you paint?,tum_f,tum,F,क्या तुम पेंटिंग करती हो?,,क्या पेंटिंग करती हो?,tum_f,करती|हो
+H2-15N,h2_probe,PRES,present_habitual,question,affirmative,fr15,neutral,,Do you paint?,aap_m,aap,M,क्या आप पेंटिंग करते हैं?,,क्या पेंटिंग करते हैं?,aap_m,करते|हैं
+H2-15N,h2_probe,PRES,present_habitual,question,affirmative,fr15,neutral,,Do you paint?,aap_f,aap,F,क्या आप पेंटिंग करती हैं?,,क्या पेंटिंग करती हैं?,aap_f,करती|हैं
+H2-15F,h2_probe,PRES,present_habitual,question,affirmative,fr15,fem_stereotype,,Do you make rangoli?,tu_m,tu,M,क्या तू रंगोली बनाता है?,,क्या रंगोली बनाता है?,tu_m,बनाता|है
+H2-15F,h2_probe,PRES,present_habitual,question,affirmative,fr15,fem_stereotype,,Do you make rangoli?,tu_f,tu,F,क्या तू रंगोली बनाती है?,,क्या रंगोली बनाती है?,tu_f,बनाती|है
+H2-15F,h2_probe,PRES,present_habitual,question,affirmative,fr15,fem_stereotype,,Do you make rangoli?,tum_m,tum,M,क्या तुम रंगोली बनाते हो?,,क्या रंगोली बनाते हो?,tum_m,बनाते|हो
+H2-15F,h2_probe,PRES,present_habitual,question,affirmative,fr15,fem_stereotype,,Do you make rangoli?,tum_f,tum,F,क्या तुम रंगोली बनाती हो?,,क्या रंगोली बनाती हो?,tum_f,बनाती|हो
+H2-15F,h2_probe,PRES,present_habitual,question,affirmative,fr15,fem_stereotype,,Do you make rangoli?,aap_m,aap,M,क्या आप रंगोली बनाते हैं?,,क्या रंगोली बनाते हैं?,aap_m,बनाते|हैं
+H2-15F,h2_probe,PRES,present_habitual,question,affirmative,fr15,fem_stereotype,,Do you make rangoli?,aap_f,aap,F,क्या आप रंगोली बनाती हैं?,,क्या रंगोली बनाती हैं?,aap_f,बनाती|हैं
+H2-15M,h2_probe,PRES,present_habitual,question,affirmative,fr15,masc_stereotype,,Do you play video games?,tu_m,tu,M,क्या तू वीडियो गेम खेलता है?,,क्या वीडियो गेम खेलता है?,tu_m,खेलता|है
+H2-15M,h2_probe,PRES,present_habitual,question,affirmative,fr15,masc_stereotype,,Do you play video games?,tu_f,tu,F,क्या तू वीडियो गेम खेलती है?,,क्या वीडियो गेम खेलती है?,tu_f,खेलती|है
+H2-15M,h2_probe,PRES,present_habitual,question,affirmative,fr15,masc_stereotype,,Do you play video games?,tum_m,tum,M,क्या तुम वीडियो गेम खेलते हो?,,क्या वीडियो गेम खेलते हो?,tum_m,खेलते|हो
+H2-15M,h2_probe,PRES,present_habitual,question,affirmative,fr15,masc_stereotype,,Do you play video games?,tum_f,tum,F,क्या तुम वीडियो गेम खेलती हो?,,क्या वीडियो गेम खेलती हो?,tum_f,खेलती|हो
+H2-15M,h2_probe,PRES,present_habitual,question,affirmative,fr15,masc_stereotype,,Do you play video games?,aap_m,aap,M,क्या आप वीडियो गेम खेलते हैं?,,क्या वीडियो गेम खेलते हैं?,aap_m,खेलते|हैं
+H2-15M,h2_probe,PRES,present_habitual,question,affirmative,fr15,masc_stereotype,,Do you play video games?,aap_f,aap,F,क्या आप वीडियो गेम खेलती हैं?,,क्या वीडियो गेम खेलती हैं?,aap_f,खेलती|हैं
+H2-16N,h2_probe,PRES,present_habitual,question,affirmative,fr16,neutral,,Do you sing?,tu_m,tu,M,क्या तू गाना गाता है?,,क्या गाना गाता है?,tu_m,गाता|है
+H2-16N,h2_probe,PRES,present_habitual,question,affirmative,fr16,neutral,,Do you sing?,tu_f,tu,F,क्या तू गाना गाती है?,,क्या गाना गाती है?,tu_f,गाती|है
+H2-16N,h2_probe,PRES,present_habitual,question,affirmative,fr16,neutral,,Do you sing?,tum_m,tum,M,क्या तुम गाना गाते हो?,,क्या गाना गाते हो?,tum_m,गाते|हो
+H2-16N,h2_probe,PRES,present_habitual,question,affirmative,fr16,neutral,,Do you sing?,tum_f,tum,F,क्या तुम गाना गाती हो?,,क्या गाना गाती हो?,tum_f,गाती|हो
+H2-16N,h2_probe,PRES,present_habitual,question,affirmative,fr16,neutral,,Do you sing?,aap_m,aap,M,क्या आप गाना गाते हैं?,,क्या गाना गाते हैं?,aap_m,गाते|हैं
+H2-16N,h2_probe,PRES,present_habitual,question,affirmative,fr16,neutral,,Do you sing?,aap_f,aap,F,क्या आप गाना गाती हैं?,,क्या गाना गाती हैं?,aap_f,गाती|हैं
+H2-16F,h2_probe,PRES,present_habitual,question,affirmative,fr16,fem_stereotype,,Do you watch soap operas?,tu_m,tu,M,क्या तू टीवी सीरियल देखता है?,,क्या टीवी सीरियल देखता है?,tu_m,देखता|है
+H2-16F,h2_probe,PRES,present_habitual,question,affirmative,fr16,fem_stereotype,,Do you watch soap operas?,tu_f,tu,F,क्या तू टीवी सीरियल देखती है?,,क्या टीवी सीरियल देखती है?,tu_f,देखती|है
+H2-16F,h2_probe,PRES,present_habitual,question,affirmative,fr16,fem_stereotype,,Do you watch soap operas?,tum_m,tum,M,क्या तुम टीवी सीरियल देखते हो?,,क्या टीवी सीरियल देखते हो?,tum_m,देखते|हो
+H2-16F,h2_probe,PRES,present_habitual,question,affirmative,fr16,fem_stereotype,,Do you watch soap operas?,tum_f,tum,F,क्या तुम टीवी सीरियल देखती हो?,,क्या टीवी सीरियल देखती हो?,tum_f,देखती|हो
+H2-16F,h2_probe,PRES,present_habitual,question,affirmative,fr16,fem_stereotype,,Do you watch soap operas?,aap_m,aap,M,क्या आप टीवी सीरियल देखते हैं?,,क्या टीवी सीरियल देखते हैं?,aap_m,देखते|हैं
+H2-16F,h2_probe,PRES,present_habitual,question,affirmative,fr16,fem_stereotype,,Do you watch soap operas?,aap_f,aap,F,क्या आप टीवी सीरियल देखती हैं?,,क्या टीवी सीरियल देखती हैं?,aap_f,देखती|हैं
+H2-16M,h2_probe,PRES,present_habitual,question,affirmative,fr16,masc_stereotype,,Do you wrestle?,tu_m,tu,M,क्या तू कुश्ती लड़ता है?,,क्या कुश्ती लड़ता है?,tu_m,लड़ता|है
+H2-16M,h2_probe,PRES,present_habitual,question,affirmative,fr16,masc_stereotype,,Do you wrestle?,tu_f,tu,F,क्या तू कुश्ती लड़ती है?,,क्या कुश्ती लड़ती है?,tu_f,लड़ती|है
+H2-16M,h2_probe,PRES,present_habitual,question,affirmative,fr16,masc_stereotype,,Do you wrestle?,tum_m,tum,M,क्या तुम कुश्ती लड़ते हो?,,क्या कुश्ती लड़ते हो?,tum_m,लड़ते|हो
+H2-16M,h2_probe,PRES,present_habitual,question,affirmative,fr16,masc_stereotype,,Do you wrestle?,tum_f,tum,F,क्या तुम कुश्ती लड़ती हो?,,क्या कुश्ती लड़ती हो?,tum_f,लड़ती|हो
+H2-16M,h2_probe,PRES,present_habitual,question,affirmative,fr16,masc_stereotype,,Do you wrestle?,aap_m,aap,M,क्या आप कुश्ती लड़ते हैं?,,क्या कुश्ती लड़ते हैं?,aap_m,लड़ते|हैं
+H2-16M,h2_probe,PRES,present_habitual,question,affirmative,fr16,masc_stereotype,,Do you wrestle?,aap_f,aap,F,क्या आप कुश्ती लड़ती हैं?,,क्या कुश्ती लड़ती हैं?,aap_f,लड़ती|हैं
+H2-17N,h2_probe,PRES,present_habitual,question,affirmative,fr17,neutral,,Do you take photos?,tu_m,tu,M,क्या तू फ़ोटो खींचता है?,,क्या फ़ोटो खींचता है?,tu_m,खींचता|है
+H2-17N,h2_probe,PRES,present_habitual,question,affirmative,fr17,neutral,,Do you take photos?,tu_f,tu,F,क्या तू फ़ोटो खींचती है?,,क्या फ़ोटो खींचती है?,tu_f,खींचती|है
+H2-17N,h2_probe,PRES,present_habitual,question,affirmative,fr17,neutral,,Do you take photos?,tum_m,tum,M,क्या तुम फ़ोटो खींचते हो?,,क्या फ़ोटो खींचते हो?,tum_m,खींचते|हो
+H2-17N,h2_probe,PRES,present_habitual,question,affirmative,fr17,neutral,,Do you take photos?,tum_f,tum,F,क्या तुम फ़ोटो खींचती हो?,,क्या फ़ोटो खींचती हो?,tum_f,खींचती|हो
+H2-17N,h2_probe,PRES,present_habitual,question,affirmative,fr17,neutral,,Do you take photos?,aap_m,aap,M,क्या आप फ़ोटो खींचते हैं?,,क्या फ़ोटो खींचते हैं?,aap_m,खींचते|हैं
+H2-17N,h2_probe,PRES,present_habitual,question,affirmative,fr17,neutral,,Do you take photos?,aap_f,aap,F,क्या आप फ़ोटो खींचती हैं?,,क्या फ़ोटो खींचती हैं?,aap_f,खींचती|हैं
+H2-17F,h2_probe,PRES,present_habitual,question,affirmative,fr17,fem_stereotype,,Do you wear makeup?,tu_m,tu,M,क्या तू मेकअप करता है?,,क्या मेकअप करता है?,tu_m,करता|है
+H2-17F,h2_probe,PRES,present_habitual,question,affirmative,fr17,fem_stereotype,,Do you wear makeup?,tu_f,tu,F,क्या तू मेकअप करती है?,,क्या मेकअप करती है?,tu_f,करती|है
+H2-17F,h2_probe,PRES,present_habitual,question,affirmative,fr17,fem_stereotype,,Do you wear makeup?,tum_m,tum,M,क्या तुम मेकअप करते हो?,,क्या मेकअप करते हो?,tum_m,करते|हो
+H2-17F,h2_probe,PRES,present_habitual,question,affirmative,fr17,fem_stereotype,,Do you wear makeup?,tum_f,tum,F,क्या तुम मेकअप करती हो?,,क्या मेकअप करती हो?,tum_f,करती|हो
+H2-17F,h2_probe,PRES,present_habitual,question,affirmative,fr17,fem_stereotype,,Do you wear makeup?,aap_m,aap,M,क्या आप मेकअप करते हैं?,,क्या मेकअप करते हैं?,aap_m,करते|हैं
+H2-17F,h2_probe,PRES,present_habitual,question,affirmative,fr17,fem_stereotype,,Do you wear makeup?,aap_f,aap,F,क्या आप मेकअप करती हैं?,,क्या मेकअप करती हैं?,aap_f,करती|हैं
+H2-17M,h2_probe,PRES,present_habitual,question,affirmative,fr17,masc_stereotype,,Do you fix bikes?,tu_m,tu,M,क्या तू बाइक ठीक करता है?,,क्या बाइक ठीक करता है?,tu_m,करता|है
+H2-17M,h2_probe,PRES,present_habitual,question,affirmative,fr17,masc_stereotype,,Do you fix bikes?,tu_f,tu,F,क्या तू बाइक ठीक करती है?,,क्या बाइक ठीक करती है?,tu_f,करती|है
+H2-17M,h2_probe,PRES,present_habitual,question,affirmative,fr17,masc_stereotype,,Do you fix bikes?,tum_m,tum,M,क्या तुम बाइक ठीक करते हो?,,क्या बाइक ठीक करते हो?,tum_m,करते|हो
+H2-17M,h2_probe,PRES,present_habitual,question,affirmative,fr17,masc_stereotype,,Do you fix bikes?,tum_f,tum,F,क्या तुम बाइक ठीक करती हो?,,क्या बाइक ठीक करती हो?,tum_f,करती|हो
+H2-17M,h2_probe,PRES,present_habitual,question,affirmative,fr17,masc_stereotype,,Do you fix bikes?,aap_m,aap,M,क्या आप बाइक ठीक करते हैं?,,क्या बाइक ठीक करते हैं?,aap_m,करते|हैं
+H2-17M,h2_probe,PRES,present_habitual,question,affirmative,fr17,masc_stereotype,,Do you fix bikes?,aap_f,aap,F,क्या आप बाइक ठीक करती हैं?,,क्या बाइक ठीक करती हैं?,aap_f,करती|हैं
+H2-18N,h2_probe,PRES,present_habitual,question,affirmative,fr18,neutral,,Do you go for walks?,tu_m,tu,M,क्या तू सैर पर जाता है?,,क्या सैर पर जाता है?,tu_m,जाता|है
+H2-18N,h2_probe,PRES,present_habitual,question,affirmative,fr18,neutral,,Do you go for walks?,tu_f,tu,F,क्या तू सैर पर जाती है?,,क्या सैर पर जाती है?,tu_f,जाती|है
+H2-18N,h2_probe,PRES,present_habitual,question,affirmative,fr18,neutral,,Do you go for walks?,tum_m,tum,M,क्या तुम सैर पर जाते हो?,,क्या सैर पर जाते हो?,tum_m,जाते|हो
+H2-18N,h2_probe,PRES,present_habitual,question,affirmative,fr18,neutral,,Do you go for walks?,tum_f,tum,F,क्या तुम सैर पर जाती हो?,,क्या सैर पर जाती हो?,tum_f,जाती|हो
+H2-18N,h2_probe,PRES,present_habitual,question,affirmative,fr18,neutral,,Do you go for walks?,aap_m,aap,M,क्या आप सैर पर जाते हैं?,,क्या सैर पर जाते हैं?,aap_m,जाते|हैं
+H2-18N,h2_probe,PRES,present_habitual,question,affirmative,fr18,neutral,,Do you go for walks?,aap_f,aap,F,क्या आप सैर पर जाती हैं?,,क्या सैर पर जाती हैं?,aap_f,जाती|हैं
+H2-18F,h2_probe,PRES,present_habitual,question,affirmative,fr18,fem_stereotype,,Do you do the dishes?,tu_m,tu,M,क्या तू बर्तन धोता है?,,क्या बर्तन धोता है?,tu_m,धोता|है
+H2-18F,h2_probe,PRES,present_habitual,question,affirmative,fr18,fem_stereotype,,Do you do the dishes?,tu_f,tu,F,क्या तू बर्तन धोती है?,,क्या बर्तन धोती है?,tu_f,धोती|है
+H2-18F,h2_probe,PRES,present_habitual,question,affirmative,fr18,fem_stereotype,,Do you do the dishes?,tum_m,tum,M,क्या तुम बर्तन धोते हो?,,क्या बर्तन धोते हो?,tum_m,धोते|हो
+H2-18F,h2_probe,PRES,present_habitual,question,affirmative,fr18,fem_stereotype,,Do you do the dishes?,tum_f,tum,F,क्या तुम बर्तन धोती हो?,,क्या बर्तन धोती हो?,tum_f,धोती|हो
+H2-18F,h2_probe,PRES,present_habitual,question,affirmative,fr18,fem_stereotype,,Do you do the dishes?,aap_m,aap,M,क्या आप बर्तन धोते हैं?,,क्या बर्तन धोते हैं?,aap_m,धोते|हैं
+H2-18F,h2_probe,PRES,present_habitual,question,affirmative,fr18,fem_stereotype,,Do you do the dishes?,aap_f,aap,F,क्या आप बर्तन धोती हैं?,,क्या बर्तन धोती हैं?,aap_f,धोती|हैं
+H2-18M,h2_probe,PRES,present_habitual,question,affirmative,fr18,masc_stereotype,,Do you play cricket?,tu_m,tu,M,क्या तू क्रिकेट खेलता है?,,क्या क्रिकेट खेलता है?,tu_m,खेलता|है
+H2-18M,h2_probe,PRES,present_habitual,question,affirmative,fr18,masc_stereotype,,Do you play cricket?,tu_f,tu,F,क्या तू क्रिकेट खेलती है?,,क्या क्रिकेट खेलती है?,tu_f,खेलती|है
+H2-18M,h2_probe,PRES,present_habitual,question,affirmative,fr18,masc_stereotype,,Do you play cricket?,tum_m,tum,M,क्या तुम क्रिकेट खेलते हो?,,क्या क्रिकेट खेलते हो?,tum_m,खेलते|हो
+H2-18M,h2_probe,PRES,present_habitual,question,affirmative,fr18,masc_stereotype,,Do you play cricket?,tum_f,tum,F,क्या तुम क्रिकेट खेलती हो?,,क्या क्रिकेट खेलती हो?,tum_f,खेलती|हो
+H2-18M,h2_probe,PRES,present_habitual,question,affirmative,fr18,masc_stereotype,,Do you play cricket?,aap_m,aap,M,क्या आप क्रिकेट खेलते हैं?,,क्या क्रिकेट खेलते हैं?,aap_m,खेलते|हैं
+H2-18M,h2_probe,PRES,present_habitual,question,affirmative,fr18,masc_stereotype,,Do you play cricket?,aap_f,aap,F,क्या आप क्रिकेट खेलती हैं?,,क्या क्रिकेट खेलती हैं?,aap_f,खेलती|हैं
+H2-19N,h2_probe,PAST,past_perfect,question,affirmative,fr19,neutral,,Did you go to the bank?,tu_m,tu,M,क्या तू बैंक गया था?,,क्या बैंक गया था?,tu_m,गया|था
+H2-19N,h2_probe,PAST,past_perfect,question,affirmative,fr19,neutral,,Did you go to the bank?,tu_f,tu,F,क्या तू बैंक गई थी?,,क्या बैंक गई थी?,tu_f|tum_f,गई|थी
+H2-19N,h2_probe,PAST,past_perfect,question,affirmative,fr19,neutral,,Did you go to the bank?,tum_m,tum,M,क्या तुम बैंक गए थे?,,क्या बैंक गए थे?,tum_m|aap_m,गए|थे
+H2-19N,h2_probe,PAST,past_perfect,question,affirmative,fr19,neutral,,Did you go to the bank?,tum_f,tum,F,क्या तुम बैंक गई थी?,क्या तुम बैंक गई थीं?,क्या बैंक गई थी?,tu_f|tum_f,गई|थी
+H2-19N,h2_probe,PAST,past_perfect,question,affirmative,fr19,neutral,,Did you go to the bank?,aap_m,aap,M,क्या आप बैंक गए थे?,,क्या बैंक गए थे?,tum_m|aap_m,गए|थे
+H2-19N,h2_probe,PAST,past_perfect,question,affirmative,fr19,neutral,,Did you go to the bank?,aap_f,aap,F,क्या आप बैंक गई थीं?,,क्या बैंक गई थीं?,tum_f|aap_f,गई|थीं
+H2-19F,h2_probe,PAST,past_perfect,question,affirmative,fr19,fem_stereotype,,Did you go to the boutique?,tu_m,tu,M,क्या तू बुटीक गया था?,,क्या बुटीक गया था?,tu_m,गया|था
+H2-19F,h2_probe,PAST,past_perfect,question,affirmative,fr19,fem_stereotype,,Did you go to the boutique?,tu_f,tu,F,क्या तू बुटीक गई थी?,,क्या बुटीक गई थी?,tu_f|tum_f,गई|थी
+H2-19F,h2_probe,PAST,past_perfect,question,affirmative,fr19,fem_stereotype,,Did you go to the boutique?,tum_m,tum,M,क्या तुम बुटीक गए थे?,,क्या बुटीक गए थे?,tum_m|aap_m,गए|थे
+H2-19F,h2_probe,PAST,past_perfect,question,affirmative,fr19,fem_stereotype,,Did you go to the boutique?,tum_f,tum,F,क्या तुम बुटीक गई थी?,क्या तुम बुटीक गई थीं?,क्या बुटीक गई थी?,tu_f|tum_f,गई|थी
+H2-19F,h2_probe,PAST,past_perfect,question,affirmative,fr19,fem_stereotype,,Did you go to the boutique?,aap_m,aap,M,क्या आप बुटीक गए थे?,,क्या बुटीक गए थे?,tum_m|aap_m,गए|थे
+H2-19F,h2_probe,PAST,past_perfect,question,affirmative,fr19,fem_stereotype,,Did you go to the boutique?,aap_f,aap,F,क्या आप बुटीक गई थीं?,,क्या बुटीक गई थीं?,tum_f|aap_f,गई|थीं
+H2-19M,h2_probe,PAST,past_perfect,question,affirmative,fr19,masc_stereotype,,Did you go to the garage?,tu_m,tu,M,क्या तू गैराज गया था?,,क्या गैराज गया था?,tu_m,गया|था
+H2-19M,h2_probe,PAST,past_perfect,question,affirmative,fr19,masc_stereotype,,Did you go to the garage?,tu_f,tu,F,क्या तू गैराज गई थी?,,क्या गैराज गई थी?,tu_f|tum_f,गई|थी
+H2-19M,h2_probe,PAST,past_perfect,question,affirmative,fr19,masc_stereotype,,Did you go to the garage?,tum_m,tum,M,क्या तुम गैराज गए थे?,,क्या गैराज गए थे?,tum_m|aap_m,गए|थे
+H2-19M,h2_probe,PAST,past_perfect,question,affirmative,fr19,masc_stereotype,,Did you go to the garage?,tum_f,tum,F,क्या तुम गैराज गई थी?,क्या तुम गैराज गई थीं?,क्या गैराज गई थी?,tu_f|tum_f,गई|थी
+H2-19M,h2_probe,PAST,past_perfect,question,affirmative,fr19,masc_stereotype,,Did you go to the garage?,aap_m,aap,M,क्या आप गैराज गए थे?,,क्या गैराज गए थे?,tum_m|aap_m,गए|थे
+H2-19M,h2_probe,PAST,past_perfect,question,affirmative,fr19,masc_stereotype,,Did you go to the garage?,aap_f,aap,F,क्या आप गैराज गई थीं?,,क्या गैराज गई थीं?,tum_f|aap_f,गई|थीं
+H2-20N,h2_probe,PAST,past_perfect,question,affirmative,fr20,neutral,,Did you go to the library?,tu_m,tu,M,क्या तू लाइब्रेरी गया था?,,क्या लाइब्रेरी गया था?,tu_m,गया|था
+H2-20N,h2_probe,PAST,past_perfect,question,affirmative,fr20,neutral,,Did you go to the library?,tu_f,tu,F,क्या तू लाइब्रेरी गई थी?,,क्या लाइब्रेरी गई थी?,tu_f|tum_f,गई|थी
+H2-20N,h2_probe,PAST,past_perfect,question,affirmative,fr20,neutral,,Did you go to the library?,tum_m,tum,M,क्या तुम लाइब्रेरी गए थे?,,क्या लाइब्रेरी गए थे?,tum_m|aap_m,गए|थे
+H2-20N,h2_probe,PAST,past_perfect,question,affirmative,fr20,neutral,,Did you go to the library?,tum_f,tum,F,क्या तुम लाइब्रेरी गई थी?,क्या तुम लाइब्रेरी गई थीं?,क्या लाइब्रेरी गई थी?,tu_f|tum_f,गई|थी
+H2-20N,h2_probe,PAST,past_perfect,question,affirmative,fr20,neutral,,Did you go to the library?,aap_m,aap,M,क्या आप लाइब्रेरी गए थे?,,क्या लाइब्रेरी गए थे?,tum_m|aap_m,गए|थे
+H2-20N,h2_probe,PAST,past_perfect,question,affirmative,fr20,neutral,,Did you go to the library?,aap_f,aap,F,क्या आप लाइब्रेरी गई थीं?,,क्या लाइब्रेरी गई थीं?,tum_f|aap_f,गई|थीं
+H2-20F,h2_probe,PAST,past_perfect,question,affirmative,fr20,fem_stereotype,,Did you go to the sewing class?,tu_m,tu,M,क्या तू सिलाई क्लास गया था?,,क्या सिलाई क्लास गया था?,tu_m,गया|था
+H2-20F,h2_probe,PAST,past_perfect,question,affirmative,fr20,fem_stereotype,,Did you go to the sewing class?,tu_f,tu,F,क्या तू सिलाई क्लास गई थी?,,क्या सिलाई क्लास गई थी?,tu_f|tum_f,गई|थी
+H2-20F,h2_probe,PAST,past_perfect,question,affirmative,fr20,fem_stereotype,,Did you go to the sewing class?,tum_m,tum,M,क्या तुम सिलाई क्लास गए थे?,,क्या सिलाई क्लास गए थे?,tum_m|aap_m,गए|थे
+H2-20F,h2_probe,PAST,past_perfect,question,affirmative,fr20,fem_stereotype,,Did you go to the sewing class?,tum_f,tum,F,क्या तुम सिलाई क्लास गई थी?,क्या तुम सिलाई क्लास गई थीं?,क्या सिलाई क्लास गई थी?,tu_f|tum_f,गई|थी
+H2-20F,h2_probe,PAST,past_perfect,question,affirmative,fr20,fem_stereotype,,Did you go to the sewing class?,aap_m,aap,M,क्या आप सिलाई क्लास गए थे?,,क्या सिलाई क्लास गए थे?,tum_m|aap_m,गए|थे
+H2-20F,h2_probe,PAST,past_perfect,question,affirmative,fr20,fem_stereotype,,Did you go to the sewing class?,aap_f,aap,F,क्या आप सिलाई क्लास गई थीं?,,क्या सिलाई क्लास गई थीं?,tum_f|aap_f,गई|थीं
+H2-20M,h2_probe,PAST,past_perfect,question,affirmative,fr20,masc_stereotype,,Did you go to the cricket ground?,tu_m,tu,M,क्या तू क्रिकेट ग्राउंड गया था?,,क्या क्रिकेट ग्राउंड गया था?,tu_m,गया|था
+H2-20M,h2_probe,PAST,past_perfect,question,affirmative,fr20,masc_stereotype,,Did you go to the cricket ground?,tu_f,tu,F,क्या तू क्रिकेट ग्राउंड गई थी?,,क्या क्रिकेट ग्राउंड गई थी?,tu_f|tum_f,गई|थी
+H2-20M,h2_probe,PAST,past_perfect,question,affirmative,fr20,masc_stereotype,,Did you go to the cricket ground?,tum_m,tum,M,क्या तुम क्रिकेट ग्राउंड गए थे?,,क्या क्रिकेट ग्राउंड गए थे?,tum_m|aap_m,गए|थे
+H2-20M,h2_probe,PAST,past_perfect,question,affirmative,fr20,masc_stereotype,,Did you go to the cricket ground?,tum_f,tum,F,क्या तुम क्रिकेट ग्राउंड गई थी?,क्या तुम क्रिकेट ग्राउंड गई थीं?,क्या क्रिकेट ग्राउंड गई थी?,tu_f|tum_f,गई|थी
+H2-20M,h2_probe,PAST,past_perfect,question,affirmative,fr20,masc_stereotype,,Did you go to the cricket ground?,aap_m,aap,M,क्या आप क्रिकेट ग्राउंड गए थे?,,क्या क्रिकेट ग्राउंड गए थे?,tum_m|aap_m,गए|थे
+H2-20M,h2_probe,PAST,past_perfect,question,affirmative,fr20,masc_stereotype,,Did you go to the cricket ground?,aap_f,aap,F,क्या आप क्रिकेट ग्राउंड गई थीं?,,क्या क्रिकेट ग्राउंड गई थीं?,tum_f|aap_f,गई|थीं
+H2-21N,h2_probe,PAST,past_perfect,question,affirmative,fr21,neutral,,Did you go to the station?,tu_m,tu,M,क्या तू स्टेशन गया था?,,क्या स्टेशन गया था?,tu_m,गया|था
+H2-21N,h2_probe,PAST,past_perfect,question,affirmative,fr21,neutral,,Did you go to the station?,tu_f,tu,F,क्या तू स्टेशन गई थी?,,क्या स्टेशन गई थी?,tu_f|tum_f,गई|थी
+H2-21N,h2_probe,PAST,past_perfect,question,affirmative,fr21,neutral,,Did you go to the station?,tum_m,tum,M,क्या तुम स्टेशन गए थे?,,क्या स्टेशन गए थे?,tum_m|aap_m,गए|थे
+H2-21N,h2_probe,PAST,past_perfect,question,affirmative,fr21,neutral,,Did you go to the station?,tum_f,tum,F,क्या तुम स्टेशन गई थी?,क्या तुम स्टेशन गई थीं?,क्या स्टेशन गई थी?,tu_f|tum_f,गई|थी
+H2-21N,h2_probe,PAST,past_perfect,question,affirmative,fr21,neutral,,Did you go to the station?,aap_m,aap,M,क्या आप स्टेशन गए थे?,,क्या स्टेशन गए थे?,tum_m|aap_m,गए|थे
+H2-21N,h2_probe,PAST,past_perfect,question,affirmative,fr21,neutral,,Did you go to the station?,aap_f,aap,F,क्या आप स्टेशन गई थीं?,,क्या स्टेशन गई थीं?,tum_f|aap_f,गई|थीं
+H2-21F,h2_probe,PAST,past_perfect,question,affirmative,fr21,fem_stereotype,,Did you go to the kitty party?,tu_m,tu,M,क्या तू किटी पार्टी में गया था?,,क्या किटी पार्टी में गया था?,tu_m,गया|था
+H2-21F,h2_probe,PAST,past_perfect,question,affirmative,fr21,fem_stereotype,,Did you go to the kitty party?,tu_f,tu,F,क्या तू किटी पार्टी में गई थी?,,क्या किटी पार्टी में गई थी?,tu_f|tum_f,गई|थी
+H2-21F,h2_probe,PAST,past_perfect,question,affirmative,fr21,fem_stereotype,,Did you go to the kitty party?,tum_m,tum,M,क्या तुम किटी पार्टी में गए थे?,,क्या किटी पार्टी में गए थे?,tum_m|aap_m,गए|थे
+H2-21F,h2_probe,PAST,past_perfect,question,affirmative,fr21,fem_stereotype,,Did you go to the kitty party?,tum_f,tum,F,क्या तुम किटी पार्टी में गई थी?,क्या तुम किटी पार्टी में गई थीं?,क्या किटी पार्टी में गई थी?,tu_f|tum_f,गई|थी
+H2-21F,h2_probe,PAST,past_perfect,question,affirmative,fr21,fem_stereotype,,Did you go to the kitty party?,aap_m,aap,M,क्या आप किटी पार्टी में गए थे?,,क्या किटी पार्टी में गए थे?,tum_m|aap_m,गए|थे
+H2-21F,h2_probe,PAST,past_perfect,question,affirmative,fr21,fem_stereotype,,Did you go to the kitty party?,aap_f,aap,F,क्या आप किटी पार्टी में गई थीं?,,क्या किटी पार्टी में गई थीं?,tum_f|aap_f,गई|थीं
+H2-21M,h2_probe,PAST,past_perfect,question,affirmative,fr21,masc_stereotype,,Did you go to the bar?,tu_m,tu,M,क्या तू बार गया था?,,क्या बार गया था?,tu_m,गया|था
+H2-21M,h2_probe,PAST,past_perfect,question,affirmative,fr21,masc_stereotype,,Did you go to the bar?,tu_f,tu,F,क्या तू बार गई थी?,,क्या बार गई थी?,tu_f|tum_f,गई|थी
+H2-21M,h2_probe,PAST,past_perfect,question,affirmative,fr21,masc_stereotype,,Did you go to the bar?,tum_m,tum,M,क्या तुम बार गए थे?,,क्या बार गए थे?,tum_m|aap_m,गए|थे
+H2-21M,h2_probe,PAST,past_perfect,question,affirmative,fr21,masc_stereotype,,Did you go to the bar?,tum_f,tum,F,क्या तुम बार गई थी?,क्या तुम बार गई थीं?,क्या बार गई थी?,tu_f|tum_f,गई|थी
+H2-21M,h2_probe,PAST,past_perfect,question,affirmative,fr21,masc_stereotype,,Did you go to the bar?,aap_m,aap,M,क्या आप बार गए थे?,,क्या बार गए थे?,tum_m|aap_m,गए|थे
+H2-21M,h2_probe,PAST,past_perfect,question,affirmative,fr21,masc_stereotype,,Did you go to the bar?,aap_f,aap,F,क्या आप बार गई थीं?,,क्या बार गई थीं?,tum_f|aap_f,गई|थीं
+H2-22N,h2_probe,PAST,past_perfect,question,affirmative,fr22,neutral,,Did you go to the museum?,tu_m,tu,M,क्या तू म्यूज़ियम गया था?,,क्या म्यूज़ियम गया था?,tu_m,गया|था
+H2-22N,h2_probe,PAST,past_perfect,question,affirmative,fr22,neutral,,Did you go to the museum?,tu_f,tu,F,क्या तू म्यूज़ियम गई थी?,,क्या म्यूज़ियम गई थी?,tu_f|tum_f,गई|थी
+H2-22N,h2_probe,PAST,past_perfect,question,affirmative,fr22,neutral,,Did you go to the museum?,tum_m,tum,M,क्या तुम म्यूज़ियम गए थे?,,क्या म्यूज़ियम गए थे?,tum_m|aap_m,गए|थे
+H2-22N,h2_probe,PAST,past_perfect,question,affirmative,fr22,neutral,,Did you go to the museum?,tum_f,tum,F,क्या तुम म्यूज़ियम गई थी?,क्या तुम म्यूज़ियम गई थीं?,क्या म्यूज़ियम गई थी?,tu_f|tum_f,गई|थी
+H2-22N,h2_probe,PAST,past_perfect,question,affirmative,fr22,neutral,,Did you go to the museum?,aap_m,aap,M,क्या आप म्यूज़ियम गए थे?,,क्या म्यूज़ियम गए थे?,tum_m|aap_m,गए|थे
+H2-22N,h2_probe,PAST,past_perfect,question,affirmative,fr22,neutral,,Did you go to the museum?,aap_f,aap,F,क्या आप म्यूज़ियम गई थीं?,,क्या म्यूज़ियम गई थीं?,tum_f|aap_f,गई|थीं
+H2-22F,h2_probe,PAST,past_perfect,question,affirmative,fr22,fem_stereotype,,Did you go to the cooking class?,tu_m,tu,M,क्या तू कुकिंग क्लास गया था?,,क्या कुकिंग क्लास गया था?,tu_m,गया|था
+H2-22F,h2_probe,PAST,past_perfect,question,affirmative,fr22,fem_stereotype,,Did you go to the cooking class?,tu_f,tu,F,क्या तू कुकिंग क्लास गई थी?,,क्या कुकिंग क्लास गई थी?,tu_f|tum_f,गई|थी
+H2-22F,h2_probe,PAST,past_perfect,question,affirmative,fr22,fem_stereotype,,Did you go to the cooking class?,tum_m,tum,M,क्या तुम कुकिंग क्लास गए थे?,,क्या कुकिंग क्लास गए थे?,tum_m|aap_m,गए|थे
+H2-22F,h2_probe,PAST,past_perfect,question,affirmative,fr22,fem_stereotype,,Did you go to the cooking class?,tum_f,tum,F,क्या तुम कुकिंग क्लास गई थी?,क्या तुम कुकिंग क्लास गई थीं?,क्या कुकिंग क्लास गई थी?,tu_f|tum_f,गई|थी
+H2-22F,h2_probe,PAST,past_perfect,question,affirmative,fr22,fem_stereotype,,Did you go to the cooking class?,aap_m,aap,M,क्या आप कुकिंग क्लास गए थे?,,क्या कुकिंग क्लास गए थे?,tum_m|aap_m,गए|थे
+H2-22F,h2_probe,PAST,past_perfect,question,affirmative,fr22,fem_stereotype,,Did you go to the cooking class?,aap_f,aap,F,क्या आप कुकिंग क्लास गई थीं?,,क्या कुकिंग क्लास गई थीं?,tum_f|aap_f,गई|थीं
+H2-22M,h2_probe,PAST,past_perfect,question,affirmative,fr22,masc_stereotype,,Did you go to the car showroom?,tu_m,tu,M,क्या तू कार शोरूम गया था?,,क्या कार शोरूम गया था?,tu_m,गया|था
+H2-22M,h2_probe,PAST,past_perfect,question,affirmative,fr22,masc_stereotype,,Did you go to the car showroom?,tu_f,tu,F,क्या तू कार शोरूम गई थी?,,क्या कार शोरूम गई थी?,tu_f|tum_f,गई|थी
+H2-22M,h2_probe,PAST,past_perfect,question,affirmative,fr22,masc_stereotype,,Did you go to the car showroom?,tum_m,tum,M,क्या तुम कार शोरूम गए थे?,,क्या कार शोरूम गए थे?,tum_m|aap_m,गए|थे
+H2-22M,h2_probe,PAST,past_perfect,question,affirmative,fr22,masc_stereotype,,Did you go to the car showroom?,tum_f,tum,F,क्या तुम कार शोरूम गई थी?,क्या तुम कार शोरूम गई थीं?,क्या कार शोरूम गई थी?,tu_f|tum_f,गई|थी
+H2-22M,h2_probe,PAST,past_perfect,question,affirmative,fr22,masc_stereotype,,Did you go to the car showroom?,aap_m,aap,M,क्या आप कार शोरूम गए थे?,,क्या कार शोरूम गए थे?,tum_m|aap_m,गए|थे
+H2-22M,h2_probe,PAST,past_perfect,question,affirmative,fr22,masc_stereotype,,Did you go to the car showroom?,aap_f,aap,F,क्या आप कार शोरूम गई थीं?,,क्या कार शोरूम गई थीं?,tum_f|aap_f,गई|थीं
+H2-23N,h2_probe,PAST,past_perfect,question,affirmative,fr23,neutral,,Did you go to the hospital?,tu_m,tu,M,क्या तू अस्पताल गया था?,,क्या अस्पताल गया था?,tu_m,गया|था
+H2-23N,h2_probe,PAST,past_perfect,question,affirmative,fr23,neutral,,Did you go to the hospital?,tu_f,tu,F,क्या तू अस्पताल गई थी?,,क्या अस्पताल गई थी?,tu_f|tum_f,गई|थी
+H2-23N,h2_probe,PAST,past_perfect,question,affirmative,fr23,neutral,,Did you go to the hospital?,tum_m,tum,M,क्या तुम अस्पताल गए थे?,,क्या अस्पताल गए थे?,tum_m|aap_m,गए|थे
+H2-23N,h2_probe,PAST,past_perfect,question,affirmative,fr23,neutral,,Did you go to the hospital?,tum_f,tum,F,क्या तुम अस्पताल गई थी?,क्या तुम अस्पताल गई थीं?,क्या अस्पताल गई थी?,tu_f|tum_f,गई|थी
+H2-23N,h2_probe,PAST,past_perfect,question,affirmative,fr23,neutral,,Did you go to the hospital?,aap_m,aap,M,क्या आप अस्पताल गए थे?,,क्या अस्पताल गए थे?,tum_m|aap_m,गए|थे
+H2-23N,h2_probe,PAST,past_perfect,question,affirmative,fr23,neutral,,Did you go to the hospital?,aap_f,aap,F,क्या आप अस्पताल गई थीं?,,क्या अस्पताल गई थीं?,tum_f|aap_f,गई|थीं
+H2-23F,h2_probe,PAST,past_perfect,question,affirmative,fr23,fem_stereotype,,Did you go to the jewellery shop?,tu_m,tu,M,क्या तू ज्वेलरी शॉप गया था?,,क्या ज्वेलरी शॉप गया था?,tu_m,गया|था
+H2-23F,h2_probe,PAST,past_perfect,question,affirmative,fr23,fem_stereotype,,Did you go to the jewellery shop?,tu_f,tu,F,क्या तू ज्वेलरी शॉप गई थी?,,क्या ज्वेलरी शॉप गई थी?,tu_f|tum_f,गई|थी
+H2-23F,h2_probe,PAST,past_perfect,question,affirmative,fr23,fem_stereotype,,Did you go to the jewellery shop?,tum_m,tum,M,क्या तुम ज्वेलरी शॉप गए थे?,,क्या ज्वेलरी शॉप गए थे?,tum_m|aap_m,गए|थे
+H2-23F,h2_probe,PAST,past_perfect,question,affirmative,fr23,fem_stereotype,,Did you go to the jewellery shop?,tum_f,tum,F,क्या तुम ज्वेलरी शॉप गई थी?,क्या तुम ज्वेलरी शॉप गई थीं?,क्या ज्वेलरी शॉप गई थी?,tu_f|tum_f,गई|थी
+H2-23F,h2_probe,PAST,past_perfect,question,affirmative,fr23,fem_stereotype,,Did you go to the jewellery shop?,aap_m,aap,M,क्या आप ज्वेलरी शॉप गए थे?,,क्या ज्वेलरी शॉप गए थे?,tum_m|aap_m,गए|थे
+H2-23F,h2_probe,PAST,past_perfect,question,affirmative,fr23,fem_stereotype,,Did you go to the jewellery shop?,aap_f,aap,F,क्या आप ज्वेलरी शॉप गई थीं?,,क्या ज्वेलरी शॉप गई थीं?,tum_f|aap_f,गई|थीं
+H2-23M,h2_probe,PAST,past_perfect,question,affirmative,fr23,masc_stereotype,,Did you go to the hardware store?,tu_m,tu,M,क्या तू हार्डवेयर स्टोर गया था?,,क्या हार्डवेयर स्टोर गया था?,tu_m,गया|था
+H2-23M,h2_probe,PAST,past_perfect,question,affirmative,fr23,masc_stereotype,,Did you go to the hardware store?,tu_f,tu,F,क्या तू हार्डवेयर स्टोर गई थी?,,क्या हार्डवेयर स्टोर गई थी?,tu_f|tum_f,गई|थी
+H2-23M,h2_probe,PAST,past_perfect,question,affirmative,fr23,masc_stereotype,,Did you go to the hardware store?,tum_m,tum,M,क्या तुम हार्डवेयर स्टोर गए थे?,,क्या हार्डवेयर स्टोर गए थे?,tum_m|aap_m,गए|थे
+H2-23M,h2_probe,PAST,past_perfect,question,affirmative,fr23,masc_stereotype,,Did you go to the hardware store?,tum_f,tum,F,क्या तुम हार्डवेयर स्टोर गई थी?,क्या तुम हार्डवेयर स्टोर गई थीं?,क्या हार्डवेयर स्टोर गई थी?,tu_f|tum_f,गई|थी
+H2-23M,h2_probe,PAST,past_perfect,question,affirmative,fr23,masc_stereotype,,Did you go to the hardware store?,aap_m,aap,M,क्या आप हार्डवेयर स्टोर गए थे?,,क्या हार्डवेयर स्टोर गए थे?,tum_m|aap_m,गए|थे
+H2-23M,h2_probe,PAST,past_perfect,question,affirmative,fr23,masc_stereotype,,Did you go to the hardware store?,aap_f,aap,F,क्या आप हार्डवेयर स्टोर गई थीं?,,क्या हार्डवेयर स्टोर गई थीं?,tum_f|aap_f,गई|थीं
+H2-24N,h2_probe,PAST,past_perfect,question,affirmative,fr24,neutral,,Did you go to the stationery shop?,tu_m,tu,M,क्या तू स्टेशनरी की दुकान पर गया था?,,क्या स्टेशनरी की दुकान पर गया था?,tu_m,गया|था
+H2-24N,h2_probe,PAST,past_perfect,question,affirmative,fr24,neutral,,Did you go to the stationery shop?,tu_f,tu,F,क्या तू स्टेशनरी की दुकान पर गई थी?,,क्या स्टेशनरी की दुकान पर गई थी?,tu_f|tum_f,गई|थी
+H2-24N,h2_probe,PAST,past_perfect,question,affirmative,fr24,neutral,,Did you go to the stationery shop?,tum_m,tum,M,क्या तुम स्टेशनरी की दुकान पर गए थे?,,क्या स्टेशनरी की दुकान पर गए थे?,tum_m|aap_m,गए|थे
+H2-24N,h2_probe,PAST,past_perfect,question,affirmative,fr24,neutral,,Did you go to the stationery shop?,tum_f,tum,F,क्या तुम स्टेशनरी की दुकान पर गई थी?,क्या तुम स्टेशनरी की दुकान पर गई थीं?,क्या स्टेशनरी की दुकान पर गई थी?,tu_f|tum_f,गई|थी
+H2-24N,h2_probe,PAST,past_perfect,question,affirmative,fr24,neutral,,Did you go to the stationery shop?,aap_m,aap,M,क्या आप स्टेशनरी की दुकान पर गए थे?,,क्या स्टेशनरी की दुकान पर गए थे?,tum_m|aap_m,गए|थे
+H2-24N,h2_probe,PAST,past_perfect,question,affirmative,fr24,neutral,,Did you go to the stationery shop?,aap_f,aap,F,क्या आप स्टेशनरी की दुकान पर गई थीं?,,क्या स्टेशनरी की दुकान पर गई थीं?,tum_f|aap_f,गई|थीं
+H2-24F,h2_probe,PAST,past_perfect,question,affirmative,fr24,fem_stereotype,,Did you go to the saree shop?,tu_m,tu,M,क्या तू साड़ी की दुकान पर गया था?,,क्या साड़ी की दुकान पर गया था?,tu_m,गया|था
+H2-24F,h2_probe,PAST,past_perfect,question,affirmative,fr24,fem_stereotype,,Did you go to the saree shop?,tu_f,tu,F,क्या तू साड़ी की दुकान पर गई थी?,,क्या साड़ी की दुकान पर गई थी?,tu_f|tum_f,गई|थी
+H2-24F,h2_probe,PAST,past_perfect,question,affirmative,fr24,fem_stereotype,,Did you go to the saree shop?,tum_m,tum,M,क्या तुम साड़ी की दुकान पर गए थे?,,क्या साड़ी की दुकान पर गए थे?,tum_m|aap_m,गए|थे
+H2-24F,h2_probe,PAST,past_perfect,question,affirmative,fr24,fem_stereotype,,Did you go to the saree shop?,tum_f,tum,F,क्या तुम साड़ी की दुकान पर गई थी?,क्या तुम साड़ी की दुकान पर गई थीं?,क्या साड़ी की दुकान पर गई थी?,tu_f|tum_f,गई|थी
+H2-24F,h2_probe,PAST,past_perfect,question,affirmative,fr24,fem_stereotype,,Did you go to the saree shop?,aap_m,aap,M,क्या आप साड़ी की दुकान पर गए थे?,,क्या साड़ी की दुकान पर गए थे?,tum_m|aap_m,गए|थे
+H2-24F,h2_probe,PAST,past_perfect,question,affirmative,fr24,fem_stereotype,,Did you go to the saree shop?,aap_f,aap,F,क्या आप साड़ी की दुकान पर गई थीं?,,क्या साड़ी की दुकान पर गई थीं?,tum_f|aap_f,गई|थीं
+H2-24M,h2_probe,PAST,past_perfect,question,affirmative,fr24,masc_stereotype,,Did you go to the paan shop?,tu_m,tu,M,क्या तू पान की दुकान पर गया था?,,क्या पान की दुकान पर गया था?,tu_m,गया|था
+H2-24M,h2_probe,PAST,past_perfect,question,affirmative,fr24,masc_stereotype,,Did you go to the paan shop?,tu_f,tu,F,क्या तू पान की दुकान पर गई थी?,,क्या पान की दुकान पर गई थी?,tu_f|tum_f,गई|थी
+H2-24M,h2_probe,PAST,past_perfect,question,affirmative,fr24,masc_stereotype,,Did you go to the paan shop?,tum_m,tum,M,क्या तुम पान की दुकान पर गए थे?,,क्या पान की दुकान पर गए थे?,tum_m|aap_m,गए|थे
+H2-24M,h2_probe,PAST,past_perfect,question,affirmative,fr24,masc_stereotype,,Did you go to the paan shop?,tum_f,tum,F,क्या तुम पान की दुकान पर गई थी?,क्या तुम पान की दुकान पर गई थीं?,क्या पान की दुकान पर गई थी?,tu_f|tum_f,गई|थी
+H2-24M,h2_probe,PAST,past_perfect,question,affirmative,fr24,masc_stereotype,,Did you go to the paan shop?,aap_m,aap,M,क्या आप पान की दुकान पर गए थे?,,क्या पान की दुकान पर गए थे?,tum_m|aap_m,गए|थे
+H2-24M,h2_probe,PAST,past_perfect,question,affirmative,fr24,masc_stereotype,,Did you go to the paan shop?,aap_f,aap,F,क्या आप पान की दुकान पर गई थीं?,,क्या पान की दुकान पर गई थीं?,tum_f|aap_f,गई|थीं
+H2-25N,h2_probe,PAST,past_progressive,question,affirmative,fr25,neutral,,Were you reading?,tu_m,tu,M,क्या तू पढ़ रहा था?,,क्या पढ़ रहा था?,tu_m,रहा|था
+H2-25N,h2_probe,PAST,past_progressive,question,affirmative,fr25,neutral,,Were you reading?,tu_f,tu,F,क्या तू पढ़ रही थी?,,क्या पढ़ रही थी?,tu_f|tum_f,रही|थी
+H2-25N,h2_probe,PAST,past_progressive,question,affirmative,fr25,neutral,,Were you reading?,tum_m,tum,M,क्या तुम पढ़ रहे थे?,,क्या पढ़ रहे थे?,tum_m|aap_m,रहे|थे
+H2-25N,h2_probe,PAST,past_progressive,question,affirmative,fr25,neutral,,Were you reading?,tum_f,tum,F,क्या तुम पढ़ रही थी?,क्या तुम पढ़ रही थीं?,क्या पढ़ रही थी?,tu_f|tum_f,रही|थी
+H2-25N,h2_probe,PAST,past_progressive,question,affirmative,fr25,neutral,,Were you reading?,aap_m,aap,M,क्या आप पढ़ रहे थे?,,क्या पढ़ रहे थे?,tum_m|aap_m,रहे|थे
+H2-25N,h2_probe,PAST,past_progressive,question,affirmative,fr25,neutral,,Were you reading?,aap_f,aap,F,क्या आप पढ़ रही थीं?,,क्या पढ़ रही थीं?,tum_f|aap_f,रही|थीं
+H2-25F,h2_probe,PAST,past_progressive,question,affirmative,fr25,fem_stereotype,,Were you sewing?,tu_m,tu,M,क्या तू सिलाई कर रहा था?,,क्या सिलाई कर रहा था?,tu_m,रहा|था
+H2-25F,h2_probe,PAST,past_progressive,question,affirmative,fr25,fem_stereotype,,Were you sewing?,tu_f,tu,F,क्या तू सिलाई कर रही थी?,,क्या सिलाई कर रही थी?,tu_f|tum_f,रही|थी
+H2-25F,h2_probe,PAST,past_progressive,question,affirmative,fr25,fem_stereotype,,Were you sewing?,tum_m,tum,M,क्या तुम सिलाई कर रहे थे?,,क्या सिलाई कर रहे थे?,tum_m|aap_m,रहे|थे
+H2-25F,h2_probe,PAST,past_progressive,question,affirmative,fr25,fem_stereotype,,Were you sewing?,tum_f,tum,F,क्या तुम सिलाई कर रही थी?,क्या तुम सिलाई कर रही थीं?,क्या सिलाई कर रही थी?,tu_f|tum_f,रही|थी
+H2-25F,h2_probe,PAST,past_progressive,question,affirmative,fr25,fem_stereotype,,Were you sewing?,aap_m,aap,M,क्या आप सिलाई कर रहे थे?,,क्या सिलाई कर रहे थे?,tum_m|aap_m,रहे|थे
+H2-25F,h2_probe,PAST,past_progressive,question,affirmative,fr25,fem_stereotype,,Were you sewing?,aap_f,aap,F,क्या आप सिलाई कर रही थीं?,,क्या सिलाई कर रही थीं?,tum_f|aap_f,रही|थीं
+H2-25M,h2_probe,PAST,past_progressive,question,affirmative,fr25,masc_stereotype,,Were you smoking?,tu_m,tu,M,क्या तू सिगरेट पी रहा था?,,क्या सिगरेट पी रहा था?,tu_m,रहा|था
+H2-25M,h2_probe,PAST,past_progressive,question,affirmative,fr25,masc_stereotype,,Were you smoking?,tu_f,tu,F,क्या तू सिगरेट पी रही थी?,,क्या सिगरेट पी रही थी?,tu_f|tum_f,रही|थी
+H2-25M,h2_probe,PAST,past_progressive,question,affirmative,fr25,masc_stereotype,,Were you smoking?,tum_m,tum,M,क्या तुम सिगरेट पी रहे थे?,,क्या सिगरेट पी रहे थे?,tum_m|aap_m,रहे|थे
+H2-25M,h2_probe,PAST,past_progressive,question,affirmative,fr25,masc_stereotype,,Were you smoking?,tum_f,tum,F,क्या तुम सिगरेट पी रही थी?,क्या तुम सिगरेट पी रही थीं?,क्या सिगरेट पी रही थी?,tu_f|tum_f,रही|थी
+H2-25M,h2_probe,PAST,past_progressive,question,affirmative,fr25,masc_stereotype,,Were you smoking?,aap_m,aap,M,क्या आप सिगरेट पी रहे थे?,,क्या सिगरेट पी रहे थे?,tum_m|aap_m,रहे|थे
+H2-25M,h2_probe,PAST,past_progressive,question,affirmative,fr25,masc_stereotype,,Were you smoking?,aap_f,aap,F,क्या आप सिगरेट पी रही थीं?,,क्या सिगरेट पी रही थीं?,tum_f|aap_f,रही|थीं
+H2-26N,h2_probe,PAST,past_progressive,question,affirmative,fr26,neutral,,Were you resting?,tu_m,tu,M,क्या तू आराम कर रहा था?,,क्या आराम कर रहा था?,tu_m,रहा|था
+H2-26N,h2_probe,PAST,past_progressive,question,affirmative,fr26,neutral,,Were you resting?,tu_f,tu,F,क्या तू आराम कर रही थी?,,क्या आराम कर रही थी?,tu_f|tum_f,रही|थी
+H2-26N,h2_probe,PAST,past_progressive,question,affirmative,fr26,neutral,,Were you resting?,tum_m,tum,M,क्या तुम आराम कर रहे थे?,,क्या आराम कर रहे थे?,tum_m|aap_m,रहे|थे
+H2-26N,h2_probe,PAST,past_progressive,question,affirmative,fr26,neutral,,Were you resting?,tum_f,tum,F,क्या तुम आराम कर रही थी?,क्या तुम आराम कर रही थीं?,क्या आराम कर रही थी?,tu_f|tum_f,रही|थी
+H2-26N,h2_probe,PAST,past_progressive,question,affirmative,fr26,neutral,,Were you resting?,aap_m,aap,M,क्या आप आराम कर रहे थे?,,क्या आराम कर रहे थे?,tum_m|aap_m,रहे|थे
+H2-26N,h2_probe,PAST,past_progressive,question,affirmative,fr26,neutral,,Were you resting?,aap_f,aap,F,क्या आप आराम कर रही थीं?,,क्या आराम कर रही थीं?,tum_f|aap_f,रही|थीं
+H2-26F,h2_probe,PAST,past_progressive,question,affirmative,fr26,fem_stereotype,,Were you cooking?,tu_m,tu,M,क्या तू खाना बना रहा था?,,क्या खाना बना रहा था?,tu_m,रहा|था
+H2-26F,h2_probe,PAST,past_progressive,question,affirmative,fr26,fem_stereotype,,Were you cooking?,tu_f,tu,F,क्या तू खाना बना रही थी?,,क्या खाना बना रही थी?,tu_f|tum_f,रही|थी
+H2-26F,h2_probe,PAST,past_progressive,question,affirmative,fr26,fem_stereotype,,Were you cooking?,tum_m,tum,M,क्या तुम खाना बना रहे थे?,,क्या खाना बना रहे थे?,tum_m|aap_m,रहे|थे
+H2-26F,h2_probe,PAST,past_progressive,question,affirmative,fr26,fem_stereotype,,Were you cooking?,tum_f,tum,F,क्या तुम खाना बना रही थी?,क्या तुम खाना बना रही थीं?,क्या खाना बना रही थी?,tu_f|tum_f,रही|थी
+H2-26F,h2_probe,PAST,past_progressive,question,affirmative,fr26,fem_stereotype,,Were you cooking?,aap_m,aap,M,क्या आप खाना बना रहे थे?,,क्या खाना बना रहे थे?,tum_m|aap_m,रहे|थे
+H2-26F,h2_probe,PAST,past_progressive,question,affirmative,fr26,fem_stereotype,,Were you cooking?,aap_f,aap,F,क्या आप खाना बना रही थीं?,,क्या खाना बना रही थीं?,tum_f|aap_f,रही|थीं
+H2-26M,h2_probe,PAST,past_progressive,question,affirmative,fr26,masc_stereotype,,Were you fighting?,tu_m,tu,M,क्या तू लड़ रहा था?,,क्या लड़ रहा था?,tu_m,रहा|था
+H2-26M,h2_probe,PAST,past_progressive,question,affirmative,fr26,masc_stereotype,,Were you fighting?,tu_f,tu,F,क्या तू लड़ रही थी?,,क्या लड़ रही थी?,tu_f|tum_f,रही|थी
+H2-26M,h2_probe,PAST,past_progressive,question,affirmative,fr26,masc_stereotype,,Were you fighting?,tum_m,tum,M,क्या तुम लड़ रहे थे?,,क्या लड़ रहे थे?,tum_m|aap_m,रहे|थे
+H2-26M,h2_probe,PAST,past_progressive,question,affirmative,fr26,masc_stereotype,,Were you fighting?,tum_f,tum,F,क्या तुम लड़ रही थी?,क्या तुम लड़ रही थीं?,क्या लड़ रही थी?,tu_f|tum_f,रही|थी
+H2-26M,h2_probe,PAST,past_progressive,question,affirmative,fr26,masc_stereotype,,Were you fighting?,aap_m,aap,M,क्या आप लड़ रहे थे?,,क्या लड़ रहे थे?,tum_m|aap_m,रहे|थे
+H2-26M,h2_probe,PAST,past_progressive,question,affirmative,fr26,masc_stereotype,,Were you fighting?,aap_f,aap,F,क्या आप लड़ रही थीं?,,क्या लड़ रही थीं?,tum_f|aap_f,रही|थीं
+H2-27N,h2_probe,PAST,past_progressive,question,affirmative,fr27,neutral,,Were you studying?,tu_m,tu,M,क्या तू पढ़ाई कर रहा था?,,क्या पढ़ाई कर रहा था?,tu_m,रहा|था
+H2-27N,h2_probe,PAST,past_progressive,question,affirmative,fr27,neutral,,Were you studying?,tu_f,tu,F,क्या तू पढ़ाई कर रही थी?,,क्या पढ़ाई कर रही थी?,tu_f|tum_f,रही|थी
+H2-27N,h2_probe,PAST,past_progressive,question,affirmative,fr27,neutral,,Were you studying?,tum_m,tum,M,क्या तुम पढ़ाई कर रहे थे?,,क्या पढ़ाई कर रहे थे?,tum_m|aap_m,रहे|थे
+H2-27N,h2_probe,PAST,past_progressive,question,affirmative,fr27,neutral,,Were you studying?,tum_f,tum,F,क्या तुम पढ़ाई कर रही थी?,क्या तुम पढ़ाई कर रही थीं?,क्या पढ़ाई कर रही थी?,tu_f|tum_f,रही|थी
+H2-27N,h2_probe,PAST,past_progressive,question,affirmative,fr27,neutral,,Were you studying?,aap_m,aap,M,क्या आप पढ़ाई कर रहे थे?,,क्या पढ़ाई कर रहे थे?,tum_m|aap_m,रहे|थे
+H2-27N,h2_probe,PAST,past_progressive,question,affirmative,fr27,neutral,,Were you studying?,aap_f,aap,F,क्या आप पढ़ाई कर रही थीं?,,क्या पढ़ाई कर रही थीं?,tum_f|aap_f,रही|थीं
+H2-27F,h2_probe,PAST,past_progressive,question,affirmative,fr27,fem_stereotype,,Were you putting on makeup?,tu_m,tu,M,क्या तू मेकअप कर रहा था?,,क्या मेकअप कर रहा था?,tu_m,रहा|था
+H2-27F,h2_probe,PAST,past_progressive,question,affirmative,fr27,fem_stereotype,,Were you putting on makeup?,tu_f,tu,F,क्या तू मेकअप कर रही थी?,,क्या मेकअप कर रही थी?,tu_f|tum_f,रही|थी
+H2-27F,h2_probe,PAST,past_progressive,question,affirmative,fr27,fem_stereotype,,Were you putting on makeup?,tum_m,tum,M,क्या तुम मेकअप कर रहे थे?,,क्या मेकअप कर रहे थे?,tum_m|aap_m,रहे|थे
+H2-27F,h2_probe,PAST,past_progressive,question,affirmative,fr27,fem_stereotype,,Were you putting on makeup?,tum_f,tum,F,क्या तुम मेकअप कर रही थी?,क्या तुम मेकअप कर रही थीं?,क्या मेकअप कर रही थी?,tu_f|tum_f,रही|थी
+H2-27F,h2_probe,PAST,past_progressive,question,affirmative,fr27,fem_stereotype,,Were you putting on makeup?,aap_m,aap,M,क्या आप मेकअप कर रहे थे?,,क्या मेकअप कर रहे थे?,tum_m|aap_m,रहे|थे
+H2-27F,h2_probe,PAST,past_progressive,question,affirmative,fr27,fem_stereotype,,Were you putting on makeup?,aap_f,aap,F,क्या आप मेकअप कर रही थीं?,,क्या मेकअप कर रही थीं?,tum_f|aap_f,रही|थीं
+H2-27M,h2_probe,PAST,past_progressive,question,affirmative,fr27,masc_stereotype,,Were you playing cricket?,tu_m,tu,M,क्या तू क्रिकेट खेल रहा था?,,क्या क्रिकेट खेल रहा था?,tu_m,रहा|था
+H2-27M,h2_probe,PAST,past_progressive,question,affirmative,fr27,masc_stereotype,,Were you playing cricket?,tu_f,tu,F,क्या तू क्रिकेट खेल रही थी?,,क्या क्रिकेट खेल रही थी?,tu_f|tum_f,रही|थी
+H2-27M,h2_probe,PAST,past_progressive,question,affirmative,fr27,masc_stereotype,,Were you playing cricket?,tum_m,tum,M,क्या तुम क्रिकेट खेल रहे थे?,,क्या क्रिकेट खेल रहे थे?,tum_m|aap_m,रहे|थे
+H2-27M,h2_probe,PAST,past_progressive,question,affirmative,fr27,masc_stereotype,,Were you playing cricket?,tum_f,tum,F,क्या तुम क्रिकेट खेल रही थी?,क्या तुम क्रिकेट खेल रही थीं?,क्या क्रिकेट खेल रही थी?,tu_f|tum_f,रही|थी
+H2-27M,h2_probe,PAST,past_progressive,question,affirmative,fr27,masc_stereotype,,Were you playing cricket?,aap_m,aap,M,क्या आप क्रिकेट खेल रहे थे?,,क्या क्रिकेट खेल रहे थे?,tum_m|aap_m,रहे|थे
+H2-27M,h2_probe,PAST,past_progressive,question,affirmative,fr27,masc_stereotype,,Were you playing cricket?,aap_f,aap,F,क्या आप क्रिकेट खेल रही थीं?,,क्या क्रिकेट खेल रही थीं?,tum_f|aap_f,रही|थीं
+H2-28N,h2_probe,PAST,past_progressive,question,affirmative,fr28,neutral,,Were you walking?,tu_m,tu,M,क्या तू टहल रहा था?,,क्या टहल रहा था?,tu_m,रहा|था
+H2-28N,h2_probe,PAST,past_progressive,question,affirmative,fr28,neutral,,Were you walking?,tu_f,tu,F,क्या तू टहल रही थी?,,क्या टहल रही थी?,tu_f|tum_f,रही|थी
+H2-28N,h2_probe,PAST,past_progressive,question,affirmative,fr28,neutral,,Were you walking?,tum_m,tum,M,क्या तुम टहल रहे थे?,,क्या टहल रहे थे?,tum_m|aap_m,रहे|थे
+H2-28N,h2_probe,PAST,past_progressive,question,affirmative,fr28,neutral,,Were you walking?,tum_f,tum,F,क्या तुम टहल रही थी?,क्या तुम टहल रही थीं?,क्या टहल रही थी?,tu_f|tum_f,रही|थी
+H2-28N,h2_probe,PAST,past_progressive,question,affirmative,fr28,neutral,,Were you walking?,aap_m,aap,M,क्या आप टहल रहे थे?,,क्या टहल रहे थे?,tum_m|aap_m,रहे|थे
+H2-28N,h2_probe,PAST,past_progressive,question,affirmative,fr28,neutral,,Were you walking?,aap_f,aap,F,क्या आप टहल रही थीं?,,क्या टहल रही थीं?,tum_f|aap_f,रही|थीं
+H2-28F,h2_probe,PAST,past_progressive,question,affirmative,fr28,fem_stereotype,,Were you shopping?,tu_m,tu,M,क्या तू शॉपिंग कर रहा था?,,क्या शॉपिंग कर रहा था?,tu_m,रहा|था
+H2-28F,h2_probe,PAST,past_progressive,question,affirmative,fr28,fem_stereotype,,Were you shopping?,tu_f,tu,F,क्या तू शॉपिंग कर रही थी?,,क्या शॉपिंग कर रही थी?,tu_f|tum_f,रही|थी
+H2-28F,h2_probe,PAST,past_progressive,question,affirmative,fr28,fem_stereotype,,Were you shopping?,tum_m,tum,M,क्या तुम शॉपिंग कर रहे थे?,,क्या शॉपिंग कर रहे थे?,tum_m|aap_m,रहे|थे
+H2-28F,h2_probe,PAST,past_progressive,question,affirmative,fr28,fem_stereotype,,Were you shopping?,tum_f,tum,F,क्या तुम शॉपिंग कर रही थी?,क्या तुम शॉपिंग कर रही थीं?,क्या शॉपिंग कर रही थी?,tu_f|tum_f,रही|थी
+H2-28F,h2_probe,PAST,past_progressive,question,affirmative,fr28,fem_stereotype,,Were you shopping?,aap_m,aap,M,क्या आप शॉपिंग कर रहे थे?,,क्या शॉपिंग कर रहे थे?,tum_m|aap_m,रहे|थे
+H2-28F,h2_probe,PAST,past_progressive,question,affirmative,fr28,fem_stereotype,,Were you shopping?,aap_f,aap,F,क्या आप शॉपिंग कर रही थीं?,,क्या शॉपिंग कर रही थीं?,tum_f|aap_f,रही|थीं
+H2-28M,h2_probe,PAST,past_progressive,question,affirmative,fr28,masc_stereotype,,Were you fixing the car?,tu_m,tu,M,क्या तू गाड़ी ठीक कर रहा था?,,क्या गाड़ी ठीक कर रहा था?,tu_m,रहा|था
+H2-28M,h2_probe,PAST,past_progressive,question,affirmative,fr28,masc_stereotype,,Were you fixing the car?,tu_f,tu,F,क्या तू गाड़ी ठीक कर रही थी?,,क्या गाड़ी ठीक कर रही थी?,tu_f|tum_f,रही|थी
+H2-28M,h2_probe,PAST,past_progressive,question,affirmative,fr28,masc_stereotype,,Were you fixing the car?,tum_m,tum,M,क्या तुम गाड़ी ठीक कर रहे थे?,,क्या गाड़ी ठीक कर रहे थे?,tum_m|aap_m,रहे|थे
+H2-28M,h2_probe,PAST,past_progressive,question,affirmative,fr28,masc_stereotype,,Were you fixing the car?,tum_f,tum,F,क्या तुम गाड़ी ठीक कर रही थी?,क्या तुम गाड़ी ठीक कर रही थीं?,क्या गाड़ी ठीक कर रही थी?,tu_f|tum_f,रही|थी
+H2-28M,h2_probe,PAST,past_progressive,question,affirmative,fr28,masc_stereotype,,Were you fixing the car?,aap_m,aap,M,क्या आप गाड़ी ठीक कर रहे थे?,,क्या गाड़ी ठीक कर रहे थे?,tum_m|aap_m,रहे|थे
+H2-28M,h2_probe,PAST,past_progressive,question,affirmative,fr28,masc_stereotype,,Were you fixing the car?,aap_f,aap,F,क्या आप गाड़ी ठीक कर रही थीं?,,क्या गाड़ी ठीक कर रही थीं?,tum_f|aap_f,रही|थीं
+H2-29N,h2_probe,PAST,past_progressive,question,affirmative,fr29,neutral,,Were you writing?,tu_m,tu,M,क्या तू लिख रहा था?,,क्या लिख रहा था?,tu_m,रहा|था
+H2-29N,h2_probe,PAST,past_progressive,question,affirmative,fr29,neutral,,Were you writing?,tu_f,tu,F,क्या तू लिख रही थी?,,क्या लिख रही थी?,tu_f|tum_f,रही|थी
+H2-29N,h2_probe,PAST,past_progressive,question,affirmative,fr29,neutral,,Were you writing?,tum_m,tum,M,क्या तुम लिख रहे थे?,,क्या लिख रहे थे?,tum_m|aap_m,रहे|थे
+H2-29N,h2_probe,PAST,past_progressive,question,affirmative,fr29,neutral,,Were you writing?,tum_f,tum,F,क्या तुम लिख रही थी?,क्या तुम लिख रही थीं?,क्या लिख रही थी?,tu_f|tum_f,रही|थी
+H2-29N,h2_probe,PAST,past_progressive,question,affirmative,fr29,neutral,,Were you writing?,aap_m,aap,M,क्या आप लिख रहे थे?,,क्या लिख रहे थे?,tum_m|aap_m,रहे|थे
+H2-29N,h2_probe,PAST,past_progressive,question,affirmative,fr29,neutral,,Were you writing?,aap_f,aap,F,क्या आप लिख रही थीं?,,क्या लिख रही थीं?,tum_f|aap_f,रही|थीं
+H2-29F,h2_probe,PAST,past_progressive,question,affirmative,fr29,fem_stereotype,,Were you doing the dishes?,tu_m,tu,M,क्या तू बर्तन धो रहा था?,,क्या बर्तन धो रहा था?,tu_m,रहा|था
+H2-29F,h2_probe,PAST,past_progressive,question,affirmative,fr29,fem_stereotype,,Were you doing the dishes?,tu_f,tu,F,क्या तू बर्तन धो रही थी?,,क्या बर्तन धो रही थी?,tu_f|tum_f,रही|थी
+H2-29F,h2_probe,PAST,past_progressive,question,affirmative,fr29,fem_stereotype,,Were you doing the dishes?,tum_m,tum,M,क्या तुम बर्तन धो रहे थे?,,क्या बर्तन धो रहे थे?,tum_m|aap_m,रहे|थे
+H2-29F,h2_probe,PAST,past_progressive,question,affirmative,fr29,fem_stereotype,,Were you doing the dishes?,tum_f,tum,F,क्या तुम बर्तन धो रही थी?,क्या तुम बर्तन धो रही थीं?,क्या बर्तन धो रही थी?,tu_f|tum_f,रही|थी
+H2-29F,h2_probe,PAST,past_progressive,question,affirmative,fr29,fem_stereotype,,Were you doing the dishes?,aap_m,aap,M,क्या आप बर्तन धो रहे थे?,,क्या बर्तन धो रहे थे?,tum_m|aap_m,रहे|थे
+H2-29F,h2_probe,PAST,past_progressive,question,affirmative,fr29,fem_stereotype,,Were you doing the dishes?,aap_f,aap,F,क्या आप बर्तन धो रही थीं?,,क्या बर्तन धो रही थीं?,tum_f|aap_f,रही|थीं
+H2-29M,h2_probe,PAST,past_progressive,question,affirmative,fr29,masc_stereotype,,Were you watching the match?,tu_m,tu,M,क्या तू मैच देख रहा था?,,क्या मैच देख रहा था?,tu_m,रहा|था
+H2-29M,h2_probe,PAST,past_progressive,question,affirmative,fr29,masc_stereotype,,Were you watching the match?,tu_f,tu,F,क्या तू मैच देख रही थी?,,क्या मैच देख रही थी?,tu_f|tum_f,रही|थी
+H2-29M,h2_probe,PAST,past_progressive,question,affirmative,fr29,masc_stereotype,,Were you watching the match?,tum_m,tum,M,क्या तुम मैच देख रहे थे?,,क्या मैच देख रहे थे?,tum_m|aap_m,रहे|थे
+H2-29M,h2_probe,PAST,past_progressive,question,affirmative,fr29,masc_stereotype,,Were you watching the match?,tum_f,tum,F,क्या तुम मैच देख रही थी?,क्या तुम मैच देख रही थीं?,क्या मैच देख रही थी?,tu_f|tum_f,रही|थी
+H2-29M,h2_probe,PAST,past_progressive,question,affirmative,fr29,masc_stereotype,,Were you watching the match?,aap_m,aap,M,क्या आप मैच देख रहे थे?,,क्या मैच देख रहे थे?,tum_m|aap_m,रहे|थे
+H2-29M,h2_probe,PAST,past_progressive,question,affirmative,fr29,masc_stereotype,,Were you watching the match?,aap_f,aap,F,क्या आप मैच देख रही थीं?,,क्या मैच देख रही थीं?,tum_f|aap_f,रही|थीं
+H2-30N,h2_probe,PAST,past_progressive,question,affirmative,fr30,neutral,,Were you listening to music?,tu_m,tu,M,क्या तू गाने सुन रहा था?,,क्या गाने सुन रहा था?,tu_m,रहा|था
+H2-30N,h2_probe,PAST,past_progressive,question,affirmative,fr30,neutral,,Were you listening to music?,tu_f,tu,F,क्या तू गाने सुन रही थी?,,क्या गाने सुन रही थी?,tu_f|tum_f,रही|थी
+H2-30N,h2_probe,PAST,past_progressive,question,affirmative,fr30,neutral,,Were you listening to music?,tum_m,tum,M,क्या तुम गाने सुन रहे थे?,,क्या गाने सुन रहे थे?,tum_m|aap_m,रहे|थे
+H2-30N,h2_probe,PAST,past_progressive,question,affirmative,fr30,neutral,,Were you listening to music?,tum_f,tum,F,क्या तुम गाने सुन रही थी?,क्या तुम गाने सुन रही थीं?,क्या गाने सुन रही थी?,tu_f|tum_f,रही|थी
+H2-30N,h2_probe,PAST,past_progressive,question,affirmative,fr30,neutral,,Were you listening to music?,aap_m,aap,M,क्या आप गाने सुन रहे थे?,,क्या गाने सुन रहे थे?,tum_m|aap_m,रहे|थे
+H2-30N,h2_probe,PAST,past_progressive,question,affirmative,fr30,neutral,,Were you listening to music?,aap_f,aap,F,क्या आप गाने सुन रही थीं?,,क्या गाने सुन रही थीं?,tum_f|aap_f,रही|थीं
+H2-30F,h2_probe,PAST,past_progressive,question,affirmative,fr30,fem_stereotype,,Were you applying mehndi?,tu_m,tu,M,क्या तू मेहंदी लगा रहा था?,,क्या मेहंदी लगा रहा था?,tu_m,रहा|था
+H2-30F,h2_probe,PAST,past_progressive,question,affirmative,fr30,fem_stereotype,,Were you applying mehndi?,tu_f,tu,F,क्या तू मेहंदी लगा रही थी?,,क्या मेहंदी लगा रही थी?,tu_f|tum_f,रही|थी
+H2-30F,h2_probe,PAST,past_progressive,question,affirmative,fr30,fem_stereotype,,Were you applying mehndi?,tum_m,tum,M,क्या तुम मेहंदी लगा रहे थे?,,क्या मेहंदी लगा रहे थे?,tum_m|aap_m,रहे|थे
+H2-30F,h2_probe,PAST,past_progressive,question,affirmative,fr30,fem_stereotype,,Were you applying mehndi?,tum_f,tum,F,क्या तुम मेहंदी लगा रही थी?,क्या तुम मेहंदी लगा रही थीं?,क्या मेहंदी लगा रही थी?,tu_f|tum_f,रही|थी
+H2-30F,h2_probe,PAST,past_progressive,question,affirmative,fr30,fem_stereotype,,Were you applying mehndi?,aap_m,aap,M,क्या आप मेहंदी लगा रहे थे?,,क्या मेहंदी लगा रहे थे?,tum_m|aap_m,रहे|थे
+H2-30F,h2_probe,PAST,past_progressive,question,affirmative,fr30,fem_stereotype,,Were you applying mehndi?,aap_f,aap,F,क्या आप मेहंदी लगा रही थीं?,,क्या मेहंदी लगा रही थीं?,tum_f|aap_f,रही|थीं
+H2-30M,h2_probe,PAST,past_progressive,question,affirmative,fr30,masc_stereotype,,Were you playing cards?,tu_m,tu,M,क्या तू ताश खेल रहा था?,,क्या ताश खेल रहा था?,tu_m,रहा|था
+H2-30M,h2_probe,PAST,past_progressive,question,affirmative,fr30,masc_stereotype,,Were you playing cards?,tu_f,tu,F,क्या तू ताश खेल रही थी?,,क्या ताश खेल रही थी?,tu_f|tum_f,रही|थी
+H2-30M,h2_probe,PAST,past_progressive,question,affirmative,fr30,masc_stereotype,,Were you playing cards?,tum_m,tum,M,क्या तुम ताश खेल रहे थे?,,क्या ताश खेल रहे थे?,tum_m|aap_m,रहे|थे
+H2-30M,h2_probe,PAST,past_progressive,question,affirmative,fr30,masc_stereotype,,Were you playing cards?,tum_f,tum,F,क्या तुम ताश खेल रही थी?,क्या तुम ताश खेल रही थीं?,क्या ताश खेल रही थी?,tu_f|tum_f,रही|थी
+H2-30M,h2_probe,PAST,past_progressive,question,affirmative,fr30,masc_stereotype,,Were you playing cards?,aap_m,aap,M,क्या आप ताश खेल रहे थे?,,क्या ताश खेल रहे थे?,tum_m|aap_m,रहे|थे
+H2-30M,h2_probe,PAST,past_progressive,question,affirmative,fr30,masc_stereotype,,Were you playing cards?,aap_f,aap,F,क्या आप ताश खेल रही थीं?,,क्या ताश खेल रही थीं?,tum_f|aap_f,रही|थीं
