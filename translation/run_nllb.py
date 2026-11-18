@@ -6,7 +6,7 @@ Sentences already in the output file are kept, so a rerun only translates new on
 import torch
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
-from config import PATHS, load_benchmark, pending, pick_device, write_outputs
+from config import PATHS, load_benchmark, load_env, pending, pick_device, write_outputs
 
 SYSTEM = "nllb-200"
 MODEL = "facebook/nllb-200-distilled-600M"
@@ -24,6 +24,7 @@ def main():
         print(f"Nothing to do: all {len(rows)} sentences are already in {OUTPUT_FILE}")
         return
 
+    load_env()   # HF_TOKEN in .env (if set) is used to download the model
     device = pick_device(torch)
     tokenizer = AutoTokenizer.from_pretrained(MODEL, src_lang=SOURCE_LANG)
     model = AutoModelForSeq2SeqLM.from_pretrained(MODEL).to(device)

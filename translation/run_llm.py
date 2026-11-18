@@ -11,11 +11,12 @@ Usage:
     python run_llm.py --model gpt-oss-120b --limit 2      # quick test
     python run_llm.py --model gpt-oss-120b                # everything, resumes where it stopped
     python run_llm.py --model sarvam-105b
-    python run_llm.py --model llama-3.3-70b --conditions none both
+    python run_llm.py --model qwen3.8-27b --conditions none both register gender
 
-Models: gpt-oss-120b, gpt-oss-20b, llama-3.3-70b (Groq) and sarvam-105b (Sarvam).
-Needs GROQ_API_KEY and SARVAM_API_KEY in .env. Groq's free plan allows about 1,000 requests a day
-per model, so run "none both" on one day and "register gender" on the next.
+Models: gpt-oss-120b, gpt-oss-20b, qwen3.8-27b (Groq) and sarvam-105b (Sarvam).
+Needs GROQ_API_KEY and SARVAM_API_KEY in .env. Groq's free plan allows 1,000 requests a day per
+model and refills them gradually, so a full run (1,668 requests) takes about a day; when the limit
+is hit, the script waits for the refill and carries on.
 """
 import argparse
 import csv
@@ -47,13 +48,13 @@ LLMS = {
         "requests_per_minute": 30,
         "extra": {"reasoning_effort": "low"},
     },
-    # Meta's open model, a different family and not a reasoning model (so no reasoning_effort)
-    "llama-3.3-70b": {
+    # Alibaba's Qwen, a different model family; thinking switched off, it answers directly
+    "qwen3.8-27b": {
         "url": "https://api.groq.com/openai/v1/chat/completions",
-        "model": "llama-3.3-70b-versatile",
+        "model": "qwen/qwen3.8-27b",
         "key_env": "GROQ_API_KEY",
         "requests_per_minute": 30,
-        "extra": {},
+        "extra": {"reasoning_effort": "none"},
     },
     # built for Indian languages; runs on Sarvam's free signup credits
     "sarvam-105b": {
