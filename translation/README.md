@@ -63,7 +63,11 @@ with `reasoning_effort: low`. The script keeps the first line of the reply that 
 stores the full reply in `raw_output`.
 
 Groq's free plan allows 1,000 requests a day per model and refills them gradually; a full run of one model
-(1,668 requests for the 150 v1 items) takes about a day, and the script waits whenever the limit is reached.
+(1,740 requests for the 222 v1.1 items) takes about a day, and the script waits whenever the limit is reached.
+
+Every LLM file is complete except Sarvam-105B, which returned an empty answer for 2 of its 1,740 requests
+even after repeated retries (PST-45 asked for a woman; PST-48 asked for तुम and a woman). Rerunning
+`run_llm.py --model sarvam-105b` tries them again.
 
 ## Output columns
 
