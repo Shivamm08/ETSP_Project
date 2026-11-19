@@ -321,6 +321,13 @@ sample of systems that were translated after the sheet was made, without renumbe
 `--labelled` reports register, gender and joint accuracy with 95% confidence intervals, by system, by LLM
 condition and by profile, with confusion matrices and every error.
 
+**Held-out accuracy.** On 375 hand-labelled MT outputs from all seven systems (rows 1–300 and 2119–2193;
+79 of them labelled a second time, blind: every disagreement with the extractor plus 30 random controls,
+on which the two annotators agreed fully) the extractor reads the register correctly in 98.9% (95% CI
+97.3–99.6), the gender in 98.9% (97.3–99.6) and both in 98.4% (96.6–99.3). Four of its six errors are on
+ungrammatical outputs (आप … किया without ने); two are real gaps (जब आप बच्चा थे, where the noun is read
+as an agreeing adjective, and an ergative subject split across two clauses).
+
 #### Labelling guide
 
 The evaluation sample is 375 rows of `validation/extractor_gold.csv`: rows 1–300, a random sample of the
@@ -352,6 +359,11 @@ Two rules decide the hard cases:
 `c` adds a comment to a row (for doubts), `b` goes back one row and `q` saves and quits. The sheet is saved
 after every row, and the next run continues where the last one stopped. Don't change the extractor's rules
 after seeing the labels; that would inflate the accuracy.
+
+**Second, blind labels.** `python3 scripts/label_gold.py --second --rows …` labels the given rows again,
+into `gold2_register` and `gold2_gender`, without showing the first labels or the extractor's prediction.
+Where a row has a second label, `--labelled` uses it and also reports the accuracy against the first labels
+alone, so both numbers stay visible.
 
 ---
 

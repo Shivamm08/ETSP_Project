@@ -4,6 +4,7 @@ Run from the dataset/ folder:
 
     python3 scripts/label_gold.py                  # rows 1-300 and 2119-2193 (the default sample)
     python3 scripts/label_gold.py --rows 1-100     # a different range; several: 1-100,2119-2193
+    python3 scripts/label_gold.py --second --rows 3,16,23   # blind second labels (gold2_*) for some rows
 
 Rows 1-300 are a random sample of the first four systems' outputs (the sheet is shuffled); rows
 2119-2193 are 25 random outputs from each of the three LLMs added later.
@@ -82,17 +83,26 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--rows", default="1-300,2119-2193", help="row numbers of the sheet, e.g. 1-300,2119-2193")
     ap.add_argument("--sheet", type=Path, default=SHEET)
+    ap.add_argument("--second", action="store_true",
+                    help="a second, blind annotation: fills gold2_register / gold2_gender, never shows the first labels")
     args = ap.parse_args(argv)
 
     with args.sheet.open(encoding="utf-8", newline="") as fh:
         reader = csv.DictReader(fh)
         fields = list(reader.fieldnames or [])
         rows = list(reader)
+    reg_col, gen_col, com_col = (("gold2_register", "gold2_gender", "comment2") if args.second
+                                 else ("gold_register", "gold_gender", "comment"))
+    for col in (reg_col, gen_col, com_col):
+        if col not in fields:   # first use of --second: add the columns
+            fields.append(col)
+            for r in rows:
+                r[col] = ""
     ranges = parse_ranges(args.rows)
     todo = [r for r in rows if any(a <= int(r["row"]) <= b for a, b in ranges)]
 
     def done(r: dict[str, str]) -> bool:
-        return bool(r["gold_register"].strip() and r["gold_gender"].strip())
+        return bool(r[reg_col].strip() and r[gen_col].strip())
 
     print(f"{BOLD}Rows {args.rows}{RESET}: {sum(map(done, todo))} of {len(todo)} already labelled.")
     print(f"{DIM}Register {REGISTER_MENU}\nGender   {GENDER_MENU}\n{COMMANDS}{RESET}")
@@ -115,13 +125,13 @@ def main(argv: list[str] | None = None) -> int:
         if key == "b":   # reopen the previous row in the range
             if i > 0:
                 i -= 1
-                todo[i]["gold_register"] = todo[i]["gold_gender"] = ""
+                todo[i][reg_col] = todo[i][gen_col] = ""
             continue
         if key == "s":
             i += 1
             continue
         if key == "c":
-            r["comment"] = input("  comment: ").strip()
+            r[com_col] = input("  comment: ").strip()
             continue
         register = REGISTER_KEYS[key]
 
@@ -130,7 +140,7 @@ def main(argv: list[str] | None = None) -> int:
             key = read_key("  one of m, f, u, x or q. gender?")
         if key == "q":
             break
-        r["gold_register"], r["gold_gender"] = register, GENDER_KEYS[key]
+        r[reg_col], r[gen_col] = register, GENDER_KEYS[key]
         save(rows, fields, args.sheet)
         i += 1
 
