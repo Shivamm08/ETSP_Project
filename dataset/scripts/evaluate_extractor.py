@@ -263,21 +263,30 @@ def add_sample(sheet: Path, systems: list[str], per_system: int, mt_dir: Path, b
 def run_labelled(path: Path, bench_path: Path, limit: int) -> int:
     rows = load_csv(path)
     profile = {r["id"]: r["profile"] for r in load_csv(bench_path)}
-    labelled = []
+    labelled, first_only = [], []
     for i, r in enumerate(rows, 2):
         try:
             gr, gg = canonical_register(r.get("gold_register", "")), canonical_gender(r.get("gold_gender", ""))
+            gr2, gg2 = canonical_register(r.get("gold2_register", "")), canonical_gender(r.get("gold2_gender", ""))
         except ValueError as e:
             print(f"{path.name} line {i}: {e}", file=sys.stderr)
             return 1
         if gr and gg:
-            labelled.append({**r, "gold_register": gr, "gold_gender": gg})
+            first_only.append({**r, "gold_register": gr, "gold_gender": gg})
+            # a second, blind label (label_gold.py --second) replaces the first one for that row
+            final = (gr2, gg2) if gr2 and gg2 else (gr, gg)
+            labelled.append({**r, "gold_register": final[0], "gold_gender": final[1], "relabelled": bool(gr2 and gg2)})
     if not labelled:
         print(f"no labelled rows in {path}", file=sys.stderr)
         return 1
-    print(f"{len(labelled)} of {len(rows)} rows labelled in {path.name}")
+    n_second = sum(r["relabelled"] for r in labelled)
+    print(f"{len(labelled)} of {len(rows)} rows labelled in {path.name}"
+          + (f"; {n_second} of them relabelled blind by a second annotator, whose label is used" if n_second else ""))
     predict(labelled)
+    predict(first_only)
 
+    if n_second:
+        table({"first labels": first_only, "final labels": labelled}, "held-out", ci=True)
     table({"all": labelled}, "held-out", ci=True)
     for key, name in (("system", "by system"), ("condition", "by condition"), ("profile", "by profile")):
         groups: dict[str, list[dict]] = defaultdict(list)
