@@ -14,7 +14,7 @@ OUTPUT_FILE = PATHS["translations"] / "google_translate.csv"
 API_URL = "https://translation.googleapis.com/language/translate/v2"
 
 
-def main():
+def main() -> None:
     rows = load_benchmark()
     done, todo = pending(rows, OUTPUT_FILE)
     if not todo:

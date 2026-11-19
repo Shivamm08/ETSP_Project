@@ -1,0 +1,8 @@
+# Linting: ruff check .   (ruff is not needed to run anything; it only checks the code)
+line-length = 120
+target-version = "py39"
+
+[lint]
+select = ["E", "F", "W", "B", "UP"]
+ignore = ["E402"]   # the scripts put their own folder on sys.path before importing sibling modules
+

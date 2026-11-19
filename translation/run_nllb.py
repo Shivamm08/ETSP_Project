@@ -17,7 +17,7 @@ NUM_BEAMS = 5
 OUTPUT_FILE = PATHS["translations"] / "nllb_600m.csv"
 
 
-def main():
+def main() -> None:
     rows = load_benchmark()
     done, todo = pending(rows, OUTPUT_FILE)
     if not todo:

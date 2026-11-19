@@ -19,7 +19,7 @@ NUM_BEAMS = 5              # tries 5 candidate translations, keeps the best
 OUTPUT_FILE = PATHS["translations"] / "indictrans2_200m.csv"
 
 
-def main():
+def main() -> None:
     rows = load_benchmark()
     done, todo = pending(rows, OUTPUT_FILE)
     if not todo:

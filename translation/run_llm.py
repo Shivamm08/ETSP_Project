@@ -18,6 +18,8 @@ Needs GROQ_API_KEY and SARVAM_API_KEY in .env. Groq's free plan allows 1,000 req
 model and refills them gradually, so a full run (1,668 requests) takes about a day; when the limit
 is hit, the script waits for the refill and carries on.
 """
+from __future__ import annotations
+
 import argparse
 import csv
 import re
@@ -72,7 +74,10 @@ CONDITIONS = ["none", "register", "gender", "both"]
 DEVANAGARI = re.compile(r"[ऀ-ॿ]")
 
 
-def build_jobs(rows, conditions):
+Job = tuple[dict[str, str], str, str, str]   # (benchmark row, condition, register, gender)
+
+
+def build_jobs(rows: list[dict[str, str]], conditions: list[str]) -> list[Job]:
     """Every (sentence, condition, register, gender) combination we want to ask for."""
     jobs = []
     for cond in conditions:
@@ -91,7 +96,7 @@ def build_jobs(rows, conditions):
     return jobs
 
 
-def make_prompt(english, register, gender):
+def make_prompt(english: str, register: str, gender: str) -> str:
     instructions = ""
     if register:
         instructions += REGISTER_INSTRUCTION.format(pronoun=PRONOUNS[register])
@@ -100,20 +105,20 @@ def make_prompt(english, register, gender):
     return PROMPT.format(instructions=instructions, english=english)
 
 
-def clean(raw):
+def clean(raw: str) -> str:
     """Keep just the Hindi sentence: first line with Devanagari in it, minus labels and quotes."""
-    lines = [l.strip() for l in raw.splitlines() if DEVANAGARI.search(l)]
+    lines = [line.strip() for line in raw.splitlines() if DEVANAGARI.search(line)]
     if not lines:
         return raw.strip()
     line = re.sub(r"^(translation|hindi|अनुवाद)\s*[:：]\s*", "", lines[0], flags=re.I)
     return line.strip().strip('"“”\'*').strip()
 
 
-def ask(llm, api_key, prompt):
+def ask(llm: dict, api_key: str, prompt: str) -> str:
     """One request. Waits and retries on short rate limits, stops on daily ones."""
     body = {"model": llm["model"], "messages": [{"role": "user", "content": prompt}],
             "temperature": 0, **llm["extra"]}
-    for attempt in range(5):
+    for _ in range(5):
         headers = {"Authorization": f"Bearer {api_key}"}
         if "key_header" in llm:   # some providers want the key under their own header name
             headers[llm["key_header"]] = api_key
@@ -138,7 +143,7 @@ def ask(llm, api_key, prompt):
     return ""   # still empty after 5 tries: main() leaves it out, so the next run asks again
 
 
-def main():
+def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", required=True, choices=LLMS)
     ap.add_argument("--conditions", nargs="+", default=CONDITIONS, choices=CONDITIONS)
