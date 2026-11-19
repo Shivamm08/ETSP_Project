@@ -3,9 +3,14 @@
 API keys do NOT go here: they go in .env (see .env.example), which is never pushed.
 
 """
+from __future__ import annotations
+
 import csv
 import os
 from pathlib import Path
+from typing import Any
+
+Row = dict[str, str]   # one CSV row
 
 ROOT = Path(__file__).resolve().parents[1]   # config.py is in translation/, so go one folder up to ETSP_Project/
 
@@ -15,9 +20,6 @@ PATHS = {
     "translations": ROOT / "outputs" / "translations",             # one CSV per system goes here
     "env_file": ROOT / ".env",
 }
-
-# Which sentences to translate
-DEFAULT_SPLIT = "all"          # "all" (150), "core" (138) or "h2_probe" (12)
 
 # Output format
 # Benchmark columns copied into every output row, so results can be grouped later
@@ -49,7 +51,7 @@ GENDER_INSTRUCTION = " The person you are talking to is {gender_word}."
 
 
 # Helpers
-def load_env(path=PATHS["env_file"]):
+def load_env(path: Path = PATHS["env_file"]) -> None:
     """Read KEY=value lines from .env into the environment (no extra package needed).
     Variables already set in the shell take priority."""
     if not path.exists():
@@ -62,7 +64,7 @@ def load_env(path=PATHS["env_file"]):
         os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
 
 
-def api_key(name):
+def api_key(name: str) -> str:
     """The key from .env (or the shell), with a clear message if it is missing."""
     load_env()
     key = os.environ.get(name, "").strip()
@@ -71,13 +73,13 @@ def api_key(name):
     return key
 
 
-def load_benchmark():
+def load_benchmark() -> list[Row]:
     """One row per English sentence."""
     with PATHS["benchmark"].open(encoding="utf-8", newline="") as f:
         return list(csv.DictReader(f))
 
 
-def pending(rows, output_file):
+def pending(rows: list[Row], output_file: Path) -> tuple[dict[str, Row], list[Row]]:
     """Split the benchmark into sentences already in output_file and sentences still to translate,
     so a rerun after the benchmark grows only translates the new ones."""
     done = {}
@@ -87,7 +89,8 @@ def pending(rows, output_file):
     return done, [r for r in rows if r["id"] not in done]
 
 
-def write_outputs(output_file, rows, done, new, system, model):
+def write_outputs(output_file: Path, rows: list[Row], done: dict[str, Row], new: dict[str, str],
+                  system: str, model: str) -> None:
     """One row per benchmark sentence, in benchmark order: earlier outputs unchanged, new ones added.
     new maps an item id to its Hindi output."""
     output_file.parent.mkdir(parents=True, exist_ok=True)
@@ -103,7 +106,7 @@ def write_outputs(output_file, rows, done, new, system, model):
                                  "hindi_output": new[r["id"]]})
 
 
-def pick_device(torch):
+def pick_device(torch: Any) -> str:
     """A CUDA GPU (e.g. Colab), else the Mac's GPU, else the CPU (slower, but works)."""
     if torch.cuda.is_available():
         return "cuda"

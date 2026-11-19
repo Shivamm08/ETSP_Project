@@ -9,7 +9,6 @@ from __future__ import annotations
 import csv
 import math
 import sys
-from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -70,7 +69,8 @@ def human_baseline() -> list[dict[str, str]]:
     for r in pool:
         if r["existing_hindi"].strip():
             ex = extract(r["existing_hindi"].split(" | ")[0])
-            out.append({"system": "tatoeba-human", "profile": r["bucket"], "register": ex.register, "gender": ex.gender})
+            out.append({"system": "tatoeba-human", "profile": r["bucket"],
+                        "register": ex.register, "gender": ex.gender})
     return out
 
 
@@ -129,9 +129,6 @@ def auc(pos: list[float], neg: list[float]) -> float:
     wins = sum((p > q) + 0.5 * (p == q) for p in pos for q in neg)
     return wins / (len(pos) * len(neg))
 
-
-def counts(rows: list[dict[str, str]], key: str) -> Counter:
-    return Counter(r[key] for r in rows)
 
 
 def md_table(header: list[str], rows: list[list[str]]) -> str:

@@ -15,7 +15,8 @@ import matplotlib.pyplot as plt  # noqa: E402
 from common import LLMS, RESULTS, SYSTEMS, human_baseline, register_group, wilson  # noqa: E402
 
 BLUE, ORANGE, AQUA, YELLOW, VIOLET = "#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#6250d6"
-GRAY, INK, INK2, MUTED, GRID, AXIS, SURFACE = "#c3c2b7", "#0b0b0b", "#52514e", "#898781", "#e1e0d9", "#c3c2b7", "#ffffff"
+GRAY, INK, INK2, MUTED = "#c3c2b7", "#0b0b0b", "#52514e", "#898781"
+GRID, AXIS, SURFACE = "#e1e0d9", "#c3c2b7", "#ffffff"
 
 plt.rcParams.update({
     "font.family": "sans-serif", "font.sans-serif": ["Helvetica", "Arial", "DejaVu Sans"], "font.size": 8.5,
@@ -36,7 +37,7 @@ def save(fig, name: str) -> None:
 
 def stacked_panel(ax, names, shares, labels, colours, title):
     """100% stacked horizontal bars with a white gap between segments and direct labels on big segments."""
-    for i, name in enumerate(names):
+    for i in range(len(names)):
         left = 0.0
         for share_, colour in zip(shares[i], colours):
             if share_ > 0:
@@ -69,7 +70,8 @@ def fig_h1(rows: list[dict]) -> None:
         n = len(g)
         reg = Counter(register_group(r["register"]) for r in g)
         gen = Counter(r["gender"] for r in g)
-        reg_shares.append([reg["tu"] / n, reg["tum"] / n, reg["aap"] / n, 1 - (reg["tu"] + reg["tum"] + reg["aap"]) / n])
+        known = reg["tu"] + reg["tum"] + reg["aap"]
+        reg_shares.append([reg["tu"] / n, reg["tum"] / n, reg["aap"] / n, 1 - known / n])
         gen_shares.append([gen["M"] / n, gen["F"] / n, 1 - (gen["M"] + gen["F"]) / n])
     fig, (a, b) = plt.subplots(1, 2, figsize=(7.0, 2.45), sharey=True, gridspec_kw={"wspace": 0.08})
     stacked_panel(a, names, reg_shares, ["tu", "tum", "aap", "other"], [BLUE, ORANGE, AQUA, GRAY], "Register")
@@ -132,7 +134,7 @@ def fig_h3(rows: list[dict]) -> None:
                 stats[(title, s, cond)] = (k / n, *wilson(k, n))
     xmin = max(0.0, min(v[1] for v in stats.values()) - 0.03)
     fig, axes = plt.subplots(1, 2, figsize=(7.0, 0.5 * len(present) + 1.0), sharey=True, gridspec_kw={"wspace": 0.1})
-    for ax, (title, alone, ok) in zip(axes, tests):
+    for ax, (title, alone, _) in zip(axes, tests):
         for i, s in enumerate(present):
             for offset, cond, colour, label in ((-0.14, alone, BLUE, "asked alone"),
                                                 (0.14, "both", ORANGE, "asked together with the other attribute")):

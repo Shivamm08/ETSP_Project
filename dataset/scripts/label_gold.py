@@ -81,10 +81,12 @@ def parse_ranges(text: str) -> list[tuple[int, int]]:
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
-    ap.add_argument("--rows", default="1-300,2119-2193", help="row numbers of the sheet, e.g. 1-300,2119-2193")
+    ap.add_argument("--rows", default="1-300,2119-2193",
+                    help="row numbers of the sheet, e.g. 1-300,2119-2193")
     ap.add_argument("--sheet", type=Path, default=SHEET)
     ap.add_argument("--second", action="store_true",
-                    help="a second, blind annotation: fills gold2_register / gold2_gender, never shows the first labels")
+                    help="a second, blind annotation into gold2_register / gold2_gender "
+                         "(the first labels are never shown)")
     args = ap.parse_args(argv)
 
     with args.sheet.open(encoding="utf-8", newline="") as fh:

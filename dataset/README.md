@@ -199,8 +199,8 @@ Every Tatoeba item keeps its sentence id in `source_id`.
 | `scripts/normalize.py` | `normalize_hindi()`: makes spelling variants identical before matching or scoring. |
 | `scripts/extractor.py` | `extract()`: reads the addressee's register and gender off a Hindi sentence such as an MT output (see [The extractor](#the-extractor)). |
 | `scripts/evaluate_extractor.py` | Measures the extractor: a development check on this benchmark, a hand-labelling sheet for MT outputs, and the held-out accuracy on those labels. |
-| `scripts/label_gold.py` | A keyboard tool for hand-labelling the MT outputs in `validation/extractor_gold.csv` (it never shows the extractor's prediction or the system). |
-| `validation/extractor_gold.csv` | The MT outputs in random order, with the hand labels `gold_register` and `gold_gender`. |
+| `scripts/label_gold.py` | A keyboard tool for hand-labelling the MT outputs in `validation/extractor_gold.csv` (it never shows the extractor's prediction or the system); `--second` adds a blind second label. |
+| `validation/extractor_gold.csv` | The MT outputs in random order, with the hand labels `gold_register` and `gold_gender` (375 rows) and the blind second labels `gold2_register` and `gold2_gender` (79 rows). |
 | `tests/` | Unit tests for the normaliser, the checks in `build_dataset.py`, and the extractor and its evaluation. |
 | `scripts/select_sources.py` | Builds the candidate pool from a Tatoeba export. |
 | `scripts/cocoa_check.py` | Counts CoCoA-MT's register and gender coverage (see [Related data](#related-data)). |

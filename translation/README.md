@@ -69,6 +69,14 @@ Every LLM file is complete except Sarvam-105B, which returned an empty answer fo
 even after repeated retries (PST-45 asked for a woman; PST-48 asked for तुम and a woman). Rerunning
 `run_llm.py --model sarvam-105b` tries them again.
 
+## Tests
+
+```bash
+python -m unittest discover -s translation/tests   # from the repository root; no API key needed
+```
+
+They cover the jobs per condition, the prompt, the cleaning of replies, resuming, and reading `.env`.
+
 ## Output columns
 
 `id`, `split`, `profile`, `construction`, `frame_id`, `cue`, `english` (copied from the benchmark),
