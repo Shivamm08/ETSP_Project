@@ -217,6 +217,20 @@ def h3(rows: list[dict], report: list[str], csv_rows: list[dict]) -> None:
                               pct(n - reg["tu"] - reg["tum"] - reg["aap"], n)])
     report += ["### H3 spill-over: the register an LLM picks when only a gender is requested", md_table(header, table), ""]
 
+    header = ["LLM", "तुम for 'a man'", "तुम for 'a woman'", "difference [95% CI]"]
+    table = []
+    for s in present:
+        m = [r for r in by[(s, "gender")] if r["requested_gender"] == "M"]
+        f = [r for r in by[(s, "gender")] if r["requested_gender"] == "F"]
+        if m and f:
+            km, kf = sum(r["register"] == "tum" for r in m), sum(r["register"] == "tum" for r in f)
+            d = newcombe(km, len(m), kf, len(f))
+            table.append([SYSTEMS[s], f"{km}/{len(m)} ({pct(km, len(m))})", f"{kf}/{len(f)} ({pct(kf, len(f))})",
+                          f"{100 * d[0]:+.1f} [{100 * d[1]:+.1f}, {100 * d[2]:+.1f}]"])
+    report += ["### H3 spill-over: is a man addressed less formally than a woman?",
+               "Share of the familiar तुम when only the addressee's gender is given (Newcombe 95% interval for the difference).",
+               md_table(header, table), ""]
+
 
 def main() -> int:
     items = benchmark()
